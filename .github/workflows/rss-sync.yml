@@ -1,14 +1,12 @@
-name: RSS Feed Sync
+name: RSS Event Sync
 
 on:
-  # Run manually or on schedule
   workflow_dispatch:
-  # Uncomment for daily runs
-  # schedule:
-  #   - cron: '0 0 * * *'  # Daily at midnight UTC
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
 
 jobs:
-  sync-rss:
+  sync-events:
     runs-on: ubuntu-latest
     
     steps:
@@ -20,103 +18,236 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
+      - name: Fetch and parse RSS feeds
         run: |
-          npm install axios jsdom
-
-      - name: Fetch and parse RSS/Atom feeds
-        run: |
-          node << 'EOF'
+          node << 'EOFJS'
           const axios = require('axios');
-          const { JSDOM } = require('jsdom');
           const fs = require('fs');
+          const path = require('path');
           
-          // Feed URL provided by user
           const RSS_URL = 'https://9ty9.co.za/event/feed/';
-          const NEWS_URL = 'https://9ty9.co.za/event/feed/';
-          const SECRET_KEY = process.env.RSS_SECRET_KEY || '';  // No secret required
           
-          // Function to parse RSS/Atom feed
-          function parseFeed(url) {
-            return axios.get(url, {
-              headers: {
-                'User-Agent': 'KBF-Website-Sync/1.0'
-              }
-            })
-              .then(response => {
-                const dom = new JSDOM(response.data);
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(dom.window.document.documentElement.outerHTML, 'application/xml');
-                
-                // Try Atom format first, then RSS
-                const entries = doc.querySelectorAll('entry') || doc.querySelectorAll('item');
-                const articles = [];
-                
-                entries.forEach(item => {
-                  articles.push({
-                    title: item.querySelector('title')?.textContent || item.querySelector('title')?.textContent || '',
-                    link: item.querySelector('link')?.getAttribute('href') || item.querySelector('link')?.textContent || '',
-                    pubDate: item.querySelector('published')?.textContent || item.querySelector('updated')?.textContent || item.querySelector('pubDate')?.textContent || '',
-                    content: item.querySelector('content')?.textContent || item.querySelector('summary')?.textContent || item.querySelector('description')?.textContent || ''
-                  });
-                });
-                
-                return articles;
+          // Fetch RSS feed
+          axios.get(RSS_URL, {
+            headers: {
+              'User-Agent': 'KBF-Website-Sync/1.0'
+            }
+          })
+          .then(response => {
+            // Parse RSS XML
+            const xml = response.data;
+            const items = [];
+            const itemMatches = xml.match(/<item>([\s\S]*?)<\/item>/g) || [];
+            
+            itemMatches.forEach(itemXml => {
+              const title = (itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) || itemXml.match(/<title>(.*?)<\/title>/))?.[1] || 'Untitled';
+              const link = (itemXml.match(/<link>(.*?)<\/link>/))?.[1] || '';
+              const guid = (itemXml.match(/<guid>(.*?)<\/guid>/))?.[1] || link;
+              const pubDate = (itemXml.match(/<pubDate>(.*?)<\/pubDate>/))?.[1] || '';
+              const description = (itemXml.match(/<description><!\[CDATA\[(.*?)\]\]><\/description>/s) || itemXml.match(/<description>(.*?)<\/description>/s))?.[1] || '';
+              
+              // Extract image from description
+              const imgMatch = description.match(/<img src='([^']+)'/);
+              const image = imgMatch ? imgMatch[1] : null;
+              
+              // Clean description (remove HTML)
+              const cleanDesc = description.replace(/<[^>]+>/g, '').trim();
+              
+              // Parse date
+              const date = new Date(pubDate);
+              const dateStr = date.toISOString().split('T')[0];
+              const day = date.toLocaleDateString('en-ZA', { day: '2-digit' });
+              const month = date.toLocaleDateString('en-ZA', { month: 'short' }).toUpperCase();
+              
+              items.push({
+                title: title.trim(),
+                link,
+                guid,
+                pubDate,
+                date,
+                dateStr,
+                day,
+                month,
+                description: cleanDesc.substring(0, 200),
+                image
               });
-          }
-          
-          // Fetch feeds
-          Promise.all([
-            parseFeed(RSS_URL),
-            parseFeed(NEWS_URL)
-          ])
-          .then(([events, news]) => {
-            // Save events
-            const output = {
+            });
+            
+            console.log(`Found ${items.length} events`);
+            
+            // Save events.json for JavaScript
+            fs.writeFileSync('events.json', JSON.stringify({
               lastUpdated: new Date().toISOString(),
               source: RSS_URL,
-              events
-            };
-            fs.writeFileSync('events.json', JSON.stringify(output, null, 2));
-            console.log(`✓ Saved ${events.length} events`);
+              count: items.length,
+              events: items.slice(0, 20) // Keep latest 20
+            }, null, 2));
             
-            // Save news
-            const newsOutput = {
-              lastUpdated: new Date().toISOString(),
-              source: NEWS_URL,
-              articles: news
-            };
-            fs.writeFileSync('news.json', JSON.stringify(newsOutput, null, 2));
-            console.log(`✓ Saved ${news.length} news articles`);
+            // Create events directory
+            const eventsDir = '_events';
+            if (!fs.existsSync(eventsDir)) {
+              fs.mkdirSync(eventsDir);
+            }
+            
+            // Generate SEO-friendly event pages
+            items.slice(0, 20).forEach((event, index) => {
+              const slug = event.guid.split('/').pop().replace(/\/$/, '') || `event-${index}`;
+              const eventPage = `---
+layout: event
+title: "${event.title.replace(/"/g, '\\"')}"
+date: ${event.dateStr}
+image: ${event.image || ''}
+location: "${extractLocation(event.description)}"
+permalink: /events/${slug}/
+---
+
+## ${event.title}
+
+**Date:** ${event.date.toLocaleDateString('en-ZA', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
+
+${event.description}
+
+**Link:** [More Information](${event.link})
+
+---
+
+*Events powered by [9ty9.co.za](https://9ty9.co.za)*
+`;
+              
+              // Simple HTML version
+              const eventHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${event.title} | KBF Events</title>
+  <meta name="description" content="${event.description.substring(0, 160)}">
+  <meta property="og:title" content="${event.title}">
+  <meta property="og:description" content="${event.description.substring(0, 200)}">
+  ${event.image ? `<meta property="og:image" content="${event.image}">` : ''}
+  <meta property="og:type" content="event">
+  <link rel="canonical" href="${event.link}">
+  <link rel="stylesheet" href="/css/event.css">
+</head>
+<body>
+  <header class="event-header">
+    <h1>${event.title}</h1>
+    <p class="event-date">${event.date.toLocaleDateString('en-ZA', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>
+  </header>
+  
+  <main class="event-content">
+    <p>${event.description}</p>
+    ${event.image ? `<img src="${event.image}" alt="${event.title}">` : ''}
+    <a href="${event.link}" class="btn" target="_blank">More Information</a>
+    <a href="/events/" class="btn btn-secondary">← Back to Events</a>
+  </main>
+  
+  <footer>
+    <p>Events powered by <a href="https://9ty9.co.za">9ty9.co.za</a></p>
+  </footer>
+</body>
+</html>`;
+              
+              fs.writeFileSync(path.join(eventsDir, `${slug}.html`), eventHtml);
+            });
+            
+            // Generate events index page
+            const indexHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | Kouga Business Forum</title>
+  <meta name="description" content="Discover events happening in and around Jeffreys Bay, St Francis Bay, and the greater Kouga Region. Community events, markets, sports, music, and more.">
+  <meta property="og:title" content="Events | Kouga Business Forum">
+  <meta property="og:description" content="Discover community events in the Kouga Region">
+  <link rel="canonical" href="/events/">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/events.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo-container">
+        <div class="logo-icon"><span class="logo-icon-text">KBF</span></div>
+        <div><span class="logo-text">Kouga Business Forum</span></div>
+      </div>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/directory.html">Directory</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>Community Events</h1>
+    <p>Discover what's happening in Jeffreys Bay, St Francis Bay & the Kouga Region</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="last-updated">Last updated: ${new Date().toLocaleString('en-ZA')}</p>
+      <div class="events-grid">
+${items.slice(0, 20).map((event, i) => {
+  const slug = event.guid.split('/').pop().replace(/\/$/, '') || `event-${i}`;
+  return `        <div class="event-card">
+          ${event.image ? `<img src="${event.image}" alt="${event.title.replace(/"/g, '&quot;')}" loading="lazy">` : ''}
+          <div class="event-info">
+            <span class="event-date-badge">${event.day}<br>${event.month}</span>
+            <h3>${event.title}</h3>
+            <p>${event.description.substring(0, 100)}...</p>
+            <a href="/_events/${slug}.html" class="btn btn-primary">View Details</a>
+          </div>
+        </div>`;
+}).join('\n')}
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Kouga Business Forum. Events powered by <a href="https://9ty9.co.za">9ty9.co.za</a></p>
+    </div>
+  </footer>
+</body>
+</html>`;
+            
+            fs.writeFileSync('events.html', indexHtml);
+            
+            console.log(`✓ Generated events.html + ${Math.min(items.length, 20)} event pages`);
+            console.log(`✓ Saved events.json`);
+            
           })
           .catch(error => {
-            console.error('Error fetching feeds:', error.message);
+            console.error('Error:', error.message);
             process.exit(1);
           });
-          EOF
+          
+          function extractLocation(desc) {
+            const match = desc.match(/at\s+([^0-9]+?)\s+in\s+/);
+            return match ? match[1].trim() : 'Kouga Region';
+          }
+EOFJS
 
       - name: Commit changes
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add events.json news.json
+          git add -A
           
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Sync RSS/Atom feeds: Update events and news data"
+            git commit -m "chore: Sync community events from 9ty9.co.za"
             git push
           fi
 
-      - name: Output file sizes
+      - name: Display results
         run: |
-          if [ -f events.json ]; then
-            echo "Events file:"
-            ls -lh events.json
-          fi
-          if [ -f news.json ]; then
-            echo "News file:"
-            ls -lh news.json
-          else
-            echo "⚠️  Files not created - check logs above"
-          fi
+          echo "=== Generated Files ==="
+          ls -lh events.html events.json 2>/dev/null || true
+          echo ""
+          echo "=== Event Pages ==="
+          ls -lh _events/ 2>/dev/null | head -10 || true

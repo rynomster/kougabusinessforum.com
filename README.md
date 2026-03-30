@@ -21,12 +21,14 @@ A lightweight, fast, and fully responsive website built with pure HTML5, CSS3, a
 ```
 kouga-business-forum/
 ├── index.html              # Main homepage
+├── about.html              # About Us page
+├── contact.html            # Contact page
+├── directory.html          # Business Directory page
 ├── css/
 │   ├── style.css          # Main styles
 │   └── logo.css           # CSS-based logo styles
 ├── js/
 │   └── main.js           # Interactive functionality
-├── directory.html        # Business Directory page
 ├── images/               # All images and photos
 │   ├── KBF-LOGO.png
 │   ├── Vice-chair-Lieb-Swiegers.jpg
@@ -106,6 +108,8 @@ The RSS feed sync is handled by GitHub Actions (`.github/workflows/rss-sync.yml`
 - **Gallery** - 6-image grid with overlays
 - **Directory** - 6 category cards
 - **Events** - 3 event cards with date badges
+- **About Us** - Mission, history, impact stats, committee overview
+- **Contact** - Contact form, information cards, map placeholder, office hours
 - **Join** - Membership form
 - **Footer** - 4-column layout with regions
 
