@@ -4,34 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Events | Kouga Business Forum</title>
-  <meta name="description" content="Discover events in Jeffreys Bay, St Francis Bay & the Kouga Region. Community events, markets, sports, music, and more.">
-  <link rel="canonical" href="/events.html">
+  <meta name="description" content="Discover events in Jeffreys Bay, St Francis Bay & the Kouga Region.">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/events.css">
 </head>
 <body>
+  <!-- Header -->
   <header class="header">
     <div class="container">
       <div class="logo-container">
-        <div class="logo-icon"><span class="logo-icon-text">KBF</span></div>
-        <div><span class="logo-text">Kouga Business Forum</span></div>
+        <div class="logo-icon">
+          <span class="logo-icon-text">KBF</span>
+        </div>
+        <div>
+          <span class="logo-text">Kouga Business Forum</span>
+        </div>
       </div>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <nav class="nav">
         <a href="index.html">Home</a>
+        <a href="about.html">About</a>
         <a href="directory.html">Directory</a>
         <a href="events.html">Events</a>
-        <a href="about.html">About</a>
         <a href="contact.html" class="btn btn-primary">Contact</a>
       </nav>
     </div>
   </header>
+
+  <!-- Hero Section -->
   <section class="page-hero">
     <h1>Community Events</h1>
     <p>Discover what's happening in Jeffreys Bay, St Francis Bay & the Kouga Region</p>
   </section>
+
+  <!-- Events Section -->
   <section class="section">
     <div class="container">
-      <p class="last-updated">Last updated: 2026/03/30, 18:28:29</p>
+      <p class="last-updated">Last updated: 2026-03-30T18:28:29.471Z</p>
       <div class="events-grid">
         <div class="event-card">
           <img src="images/events/JJ-31April2026.jpg" alt="JJ Pieterse at  The Backyard Beer Garden in Jeffreys Bay" loading="lazy">
@@ -486,10 +500,14 @@
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <p>&copy; 2026 Kouga Business Forum. Events powered by <a href="https://9ty9.co.za">9ty9.co.za</a></p>
     </div>
   </footer>
+  
+  <script src="js/main.js"></script>
 </body>
 </html>
