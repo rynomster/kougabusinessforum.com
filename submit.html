@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Your Business | Kouga Business Forum</title>
+  <meta name="description" content="Submit your business to the Kouga Business Forum directory.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo-container">
+        <div class="logo-icon">
+          <span class="logo-icon-text">KBF</span>
+        </div>
+        <div>
+          <span class="logo-text">Kouga Business Forum</span>
+        </div>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="directory.html">Directory</a>
+        <a href="submit.html">Submit</a>
+        <a href="membership.html">Membership</a>
+        <a href="kbevents.html">KBF Events</a>
+        <a href="events.html">Community</a>
+        <a href="contact.html" class="btn btn-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>Add Your Business</h1>
+    <p>List your business in the Kouga Business Forum directory</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="form-container" style="max-width: 700px; margin: 0 auto;">
+        
+        <form action="mailto:office@kougabusinessforum.com?subject=New Business Listing Submission" method="post" enctype="text/plain">
+          
+          <div class="form-group">
+            <label for="business-name">Business Name *</label>
+            <input type="text" id="business-name" name="Business Name" required placeholder="Your business name">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-person">Contact Person</label>
+              <input type="text" id="contact-person" name="Contact Person" placeholder="Full name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="Email" required placeholder="your@email.com">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="Phone" placeholder="082 123 4567">
+            </div>
+
+            <div class="form-group">
+              <label for="website">Website</label>
+              <input type="url" id="website" name="Website" placeholder="https://yourwebsite.co.za">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="category">Business Category *</label>
+              <select id="category" name="Category" required>
+                <option value="">Select a category</option>
+                <option value="Construction">Construction & Building</option>
+                <option value="Retail">Retail & Shopping</option>
+                <option value="Agriculture">Agriculture & Farming</option>
+                <option value="Tourism">Tourism & Hospitality</option>
+                <option value="Professional">Professional Services</option>
+                <option value="Services">Services & Trade</option>
+                <option value="Automotive">Automotive</option>
+                <option value="Health">Health & Wellness</option>
+                <option value="Education">Education & Training</option>
+                <option value="Finance">Finance & Insurance</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="location">Location *</label>
+              <select id="location" name="Location" required>
+                <option value="">Select a location</option>
+                <option value="Jeffreys Bay">Jeffreys Bay</option>
+                <option value="Humansdorp">Humansdorp</option>
+                <option value="St Francis Bay">St Francis Bay</option>
+                <option value="Hankey">Hankey</option>
+                <option value="Patensie">Patensie</option>
+                <option value="Loerie">Loerie</option>
+                <option value="Thornhill">Thornhill</option>
+                <option value="Aston Bay">Aston Bay</option>
+                <option value="Other">Other Kouga Region</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="description">Business Description</label>
+            <textarea id="description" name="Description" rows="4" placeholder="Tell us about your business..."></textarea>
+          </div>
+
+          <div class="form-group" style="background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius-md); margin-bottom: 1.5rem;">
+            <label style="display: flex; align-items: center; gap: 0.75rem; cursor: pointer;">
+              <input type="checkbox" id="member-status" name="Paid KBF Member" value="Yes" style="width: 20px; height: 20px;">
+              <span>
+                <strong>I am a paid KBF Member for 2026</strong><br>
+                <small style="color: var(--text-muted);">Paid members get verified badge and full contact details visible</small>
+              </span>
+            </label>
+          </div>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <button type="submit" class="btn btn-primary btn-lg" style="flex: 1;">
+              Submit Business Listing
+            </button>
+            <a href="directory.html" class="btn btn-secondary btn-lg" style="flex: 1; text-align: center;">
+              Cancel
+            </a>
+          </div>
+
+        </form>
+
+        <div style="margin-top: 2rem; padding: 1.5rem; background: var(--bg-light); border-radius: var(--radius-md);">
+          <h3 style="margin-bottom: 0.5rem;">📋 What happens next?</h3>
+          <ol style="color: var(--text-muted); padding-left: 1.5rem; line-height: 1.8;">
+            <li>Submit your business details using the form</li>
+            <li>Our team will review your submission</li>
+            <li>You'll receive confirmation within 48 hours</li>
+            <li>Your business will be listed in the directory</li>
+          </ol>
+          <p style="margin-top: 1rem; color: var(--text-muted);">
+            <strong>Want full benefits?</strong> 
+            <a href="membership.html" style="color: var(--accent-cyan);">Become a KBF member</a> for verified badge and priority listing!
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Kouga Business Forum. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
