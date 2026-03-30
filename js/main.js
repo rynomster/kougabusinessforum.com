@@ -1,105 +1,50 @@
-// Kouga Business Forum - Main JavaScript
+// KBF Website - Main JavaScript
 
-// Sample directory data (will be loaded from JSON file)
-const sampleMembers = [
-  { name: "Jeffreys Bay Builders", category: "construction", location: "jeffreys-bay", logo: "🏗️" },
-  { name: "Coastal Retail Solutions", category: "retail", location: "jeffreys-bay", logo: "🛒" },
-  { name: "Ocean View Tourism", category: "tourism", location: "jeffreys-bay", logo: "🏖️" },
-  { name: "Humansdorp Services", category: "services", location: "humansdorp", logo: "💼" },
-  { name: "Patensie Agriculture Ltd", category: "agriculture", location: "patensie", logo: "🌾" },
-  { name: "St. Francis Hospitality", category: "tourism", location: "st-francis", logo: "🍽️" },
-  { name: "Hankey Construction", category: "construction", location: "hankey", logo: "🏠" },
-  { name: "Loerie Retail Co", category: "retail", location: "loerie", logo: "🎁" }
-];
+// Configuration
+const RSS_FEED_URL = 'https://9ty9.co.za/event/feed/';
 
-// Initialize on DOM load
+// DOM Ready
 document.addEventListener('DOMContentLoaded', function() {
-  initializeDirectory();
-  initializeSmoothScroll();
-  initializeForm();
+  initializeNavigation();
+  initializeForms();
   loadEvents();
   loadNews();
 });
 
-// Directory functionality
-function initializeDirectory() {
-  const grid = document.getElementById('directory-grid');
-  if (!grid) return;
-
-  // Load sample data
-  loadMembers(sampleMembers);
-
-  // Add filter event listeners
-  document.getElementById('category-filter').addEventListener('change', filterMembers);
-  document.getElementById('location-filter').addEventListener('change', filterMembers);
-}
-
-function loadMembers(members) {
-  grid.innerHTML = '';
-  members.forEach(member => {
-    const card = createMemberCard(member);
-    grid.appendChild(card);
-  });
-}
-
-function createMemberCard(member) {
-  const card = document.createElement('div');
-  card.className = 'directory-item';
-  card.innerHTML = `
-    <div style="padding: 1.5rem; text-align: center;">
-      <div style="font-size: 3rem; margin-bottom: 0.5rem;">${member.logo}</div>
-      <h3 style="color: var(--primary-blue); margin-bottom: 0.5rem;">${member.name}</h3>
-      <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 0.5rem;">
-        <span style="background: var(--sand-light); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.8rem;">${member.category}</span>
-        <span style="margin-left: 0.5rem; background: var(--sand-light); padding: 0.2rem 0.5rem; border-radius: 3px; font-size: 0.8rem;">${member.location}</span>
-      </div>
-      <button class="btn-primary" style="width: 100%; cursor: pointer;">View Details</button>
-    </div>
-  `;
-  return card;
-}
-
-function filterMembers() {
-  const category = document.getElementById('category-filter').value;
-  const location = document.getElementById('location-filter').value;
+// Navigation - Smooth Scrolling
+function initializeNavigation() {
+  const navLinks = document.querySelectorAll('.nav a[href^="#"], .hero a[href^="#"]');
   
-  let filtered = sampleMembers;
-  
-  if (category) {
-    filtered = filtered.filter(m => m.category === category);
-  }
-  if (location) {
-    filtered = filtered.filter(m => m.location === location);
-  }
-  
-  loadMembers(filtered);
-}
-
-// Smooth scroll
-function initializeSmoothScroll() {
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
       e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      
+      if (targetElement) {
+        const headerOffset = 80;
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
         });
       }
     });
   });
 }
 
-// Form handling
-function initializeForm() {
-  const form = document.querySelector('.join-form');
-  if (form) {
-    form.addEventListener('submit', function(e) {
+// Forms
+function initializeForms() {
+  // Join Form
+  const joinForm = document.querySelector('.join-form');
+  if (joinForm) {
+    joinForm.addEventListener('submit', function(e) {
       e.preventDefault();
       
       // Gather form data
-      const formData = new FormData(form);
+      const formData = new FormData(this);
       const data = {};
       formData.forEach((value, key) => {
         data[key] = value;
@@ -109,86 +54,218 @@ function initializeForm() {
       alert(`Thank you for your interest in joining KBF!\n\nYour application has been submitted. We will contact you at ${data.email} shortly.`);
       
       // Reset form
-      form.reset();
+      this.reset();
     });
   }
 }
 
-// Load and display events from JSON
-function loadEvents() {
-  fetch('events.json')
-    .then(response => response.json())
-    .then(data => {
-      if (data.events && data.events.length > 0) {
-        displayEvents(data.events);
-      }
-    })
-    .catch(error => {
-      console.log('Using demo events:', error.message);
-      // Use demo content
-    });
+// Load and display events from RSS feed
+async function loadEvents() {
+  try {
+    const response = await fetch(RSS_FEED_URL);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const feedData = await response.text();
+    const events = parseAtomFeed(feedData);
+    
+    if (events && events.length > 0) {
+      displayEvents(events);
+    } else {
+      displayPlaceholder('events-container', 'No events found. Check back later or add some demo events.');
+    }
+  } catch (error) {
+    console.log('Using demo events:', error.message);
+    displayPlaceholder('events-container', 'Events sync temporarily unavailable. Using demo events.');
+    
+    // Show demo events
+    displayDemoEvents();
+  }
 }
 
-// Load and display news from JSON
-function loadNews() {
-  fetch('news.json')
-    .then(response => response.json())
-    .then(data => {
-      if (data.articles && data.articles.length > 0) {
-        displayNews(data.articles);
-      }
-    })
-    .catch(error => {
-      console.log('Using demo news:', error.message);
-      // Use demo content
-    });
+// Load and display news from RSS feed
+async function loadNews() {
+  try {
+    const response = await fetch(RSS_FEED_URL);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const feedData = await response.text();
+    const articles = parseAtomFeed(feedData);
+    
+    if (articles && articles.length > 0) {
+      displayNews(articles);
+    } else {
+      displayPlaceholder('news-container', 'No news found. Check back later.');
+    }
+  } catch (error) {
+    console.log('Using demo news:', error.message);
+    displayPlaceholder('news-container', 'News sync temporarily unavailable. Using demo content.');
+    
+    // Show demo news
+    displayDemoNews();
+  }
 }
 
+// Parse Atom feed format
+function parseAtomFeed(feedData) {
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(feedData, 'text/xml');
+  
+  const items = doc.querySelectorAll('entry');
+  const results = [];
+  
+  items.forEach(item => {
+    results.push({
+      title: item.querySelector('title')?.textContent || 'Untitled',
+      link: item.querySelector('link')?.getAttribute('href') || '#',
+      pubDate: item.querySelector('published')?.textContent || item.querySelector('updated')?.textContent || '',
+      content: item.querySelector('content')?.textContent || item.querySelector('summary')?.textContent || ''
+    });
+  });
+  
+  return results;
+}
+
+// Display events
 function displayEvents(events) {
-  const grid = document.getElementById('directory-grid');
-  if (!grid) return;
+  const container = document.getElementById('events-container');
+  if (!container) return;
   
-  // Check if we have actual events or just placeholders
-  const demoEvent = grid.querySelector('.demo-event');
-  if (demoEvent) {
-    demoEvent.remove();
-  }
+  // Remove placeholder if exists
+  container.querySelectorAll('.placeholder').forEach(el => el.remove());
   
-  events.slice(0, 6).forEach(event => { // Show max 6 events
+  events.slice(0, 6).forEach(event => {
     const eventCard = document.createElement('div');
-    eventCard.className = 'directory-item';
+    eventCard.className = 'event-item';
     eventCard.innerHTML = `
-      <div style="padding: 1.5rem;">
-        <h4 style="color: var(--primary-blue); margin-bottom: 0.5rem;">${event.title || 'New Event'}</h4>
-        <p style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 0.5rem;">${event.description?.substring(0, 100) || 'Upcoming event'}...</p>
-        <a href="${event.link}" target="_blank" style="display: inline-block; background: var(--primary-blue); color: white; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">View Details</a>
+      <div class="event-details">
+        <h4 style="color: var(--primary-blue); margin-bottom: 0.5rem;">${event.title}</h4>
+        <p style="color: var(--text-secondary); font-size: var(--font-size-small);">${event.content?.substring(0, 120) || 'Upcoming event'}...</p>
+      </div>
+      <div class="event-date">
+        <div class="day">??</div>
+        <div class="month">??</div>
       </div>
     `;
-    grid.appendChild(eventCard);
+    container.appendChild(eventCard);
   });
 }
 
+// Display news
 function displayNews(articles) {
-  const grid = document.getElementById('news-grid');
-  if (!grid) return;
+  const container = document.getElementById('news-container');
+  if (!container) return;
+  
+  // Remove placeholder if exists
+  container.querySelectorAll('.placeholder').forEach(el => el.remove());
   
   articles.slice(0, 6).forEach(article => {
     const newsCard = document.createElement('div');
-    newsCard.className = 'directory-item';
+    newsCard.className = 'news-item';
     newsCard.innerHTML = `
-      <div style="padding: 1.5rem;">
-        <h4 style="color: var(--primary-blue); margin-bottom: 0.5rem;">${article.title || 'Latest News'}</h4>
-        <p style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 0.5rem;">${article.content?.substring(0, 120) || 'Recent update from KBF'}...</p>
-        <a href="${article.link}" target="_blank" style="display: inline-block; background: var(--secondary-blue); color: white; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; font-size: 0.9rem;">Read More</a>
+      <div class="news-content">
+        <h4 style="color: var(--primary-blue); margin-bottom: 0.75rem;">${article.title}</h4>
+        <p style="color: var(--text-secondary); font-size: var(--font-size-small); margin-bottom: 1rem; line-height: 1.6;">${article.content?.substring(0, 150) || 'Recent update'}...</p>
+        <a href="${article.link}" class="news-link" target="_blank" rel="noopener">Read More →</a>
       </div>
     `;
-    grid.appendChild(newsCard);
+    container.appendChild(newsCard);
   });
 }
 
-// Future enhancements:
-// - Load members from external JSON file
-// - Add member detail modal
-// - Implement RSS feed parsing
-// - Add member search functionality
-// - Enable member profile management
+// Display placeholder with message
+function displayPlaceholder(containerId, message) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  
+  container.innerHTML = `
+    <div class="directory-placeholder" style="text-align: center; padding: 3rem 2rem;">
+      <p style="color: var(--text-light); font-size: var(--font-size-body);">${message}</p>
+    </div>
+  `;
+}
+
+// Demo events (fallback)
+function displayDemoEvents() {
+  const container = document.getElementById('events-container');
+  if (!container) return;
+  
+  const demoEvents = [
+    {
+      title: '🤝 Monthly Networking Breakfast',
+      date: '15 MAR',
+      description: 'Join us for a networking session with local business leaders. Light breakfast provided.'
+    },
+    {
+      title: '📚 Business Workshop: Digital Transformation',
+      date: '22 MAR',
+      description: 'Learn how to leverage digital tools to grow your business in the modern economy.'
+    },
+    {
+      title: '🌊 Coastal Clean-Up Day',
+      date: '05 APR',
+      description: 'Community event - Help keep our beautiful coastlines clean and beautiful.'
+    }
+  ];
+  
+  demoEvents.forEach(event => {
+    const eventCard = document.createElement('div');
+    eventCard.className = 'event-item';
+    eventCard.innerHTML = `
+      <div class="event-details">
+        <h4 style="color: var(--primary-blue); margin-bottom: 0.5rem;">${event.title}</h4>
+        <p style="color: var(--text-secondary); font-size: var(--font-size-small);">${event.description}</p>
+      </div>
+      <div class="event-date">
+        <div class="day">??</div>
+        <div class="month">??</div>
+      </div>
+    `;
+    container.appendChild(eventCard);
+  });
+}
+
+// Demo news (fallback)
+function displayDemoNews() {
+  const container = document.getElementById('news-container');
+  if (!container) return;
+  
+  const demoNews = [
+    {
+      title: '📋 AGM 2026 Minutes Available',
+      description: 'The Annual General Meeting minutes from our 2026 AGM are now available for download.'
+    },
+    {
+      title: '🎉 PACA Report Released',
+      description: 'Our latest PACA report is now available, detailing our financial performance for the past year.'
+    },
+    {
+      title: '🤝 New Partnership Announced',
+      description: 'Exciting news! KBF has announced a strategic partnership to bring more business development resources.'
+    }
+  ];
+  
+  demoNews.forEach(news => {
+    const newsCard = document.createElement('div');
+    newsCard.className = 'news-item';
+    newsCard.innerHTML = `
+      <div class="news-content">
+        <h4 style="color: var(--primary-blue); margin-bottom: 0.75rem;">${news.title}</h4>
+        <p style="color: var(--text-secondary); font-size: var(--font-size-small); margin-bottom: 1rem; line-height: 1.6;">${news.description}</p>
+        <a href="#" class="news-link">Read More →</a>
+      </div>
+    `;
+    container.appendChild(newsCard);
+  });
+}
+
+// Utility: Console logging for debugging
+if (typeof console !== 'undefined') {
+  console.log('KBF Website initialized');
+  console.log('RSS Feed URL:', RSS_FEED_URL);
+}

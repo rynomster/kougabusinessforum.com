@@ -24,38 +24,40 @@ jobs:
         run: |
           npm install axios jsdom
 
-      - name: Fetch and parse RSS feeds
+      - name: Fetch and parse RSS/Atom feeds
         run: |
           node << 'EOF'
           const axios = require('axios');
           const { JSDOM } = require('jsdom');
           const fs = require('fs');
           
-          const RSS_URL = 'https://kougabusinessforum.com/rss';
-          const NEWS_URL = 'https://kougabusinessforum.com/chairmans-updates/';
-          const SECRET_KEY = process.env.RSS_SECRET_KEY;
+          // Feed URL provided by user
+          const RSS_URL = 'https://9ty9.co.za/event/feed/';
+          const NEWS_URL = 'https://9ty9.co.za/event/feed/';
+          const SECRET_KEY = process.env.RSS_SECRET_KEY || '';  // No secret required
           
-          // Function to parse RSS feed
-          function parseRSS(url) {
+          // Function to parse RSS/Atom feed
+          function parseFeed(url) {
             return axios.get(url, {
               headers: {
-                'Authorization': `Bearer ${SECRET_KEY}`
+                'User-Agent': 'KBF-Website-Sync/1.0'
               }
             })
               .then(response => {
                 const dom = new JSDOM(response.data);
                 const parser = new DOMParser();
-                const doc = parser.parseFromString(dom.window.document.documentElement.outerHTML, 'text/html');
+                const doc = parser.parseFromString(dom.window.document.documentElement.outerHTML, 'application/xml');
                 
-                const items = doc.querySelectorAll('item');
+                // Try Atom format first, then RSS
+                const entries = doc.querySelectorAll('entry') || doc.querySelectorAll('item');
                 const articles = [];
                 
-                items.forEach(item => {
+                entries.forEach(item => {
                   articles.push({
-                    title: item.querySelector('title')?.textContent || '',
-                    link: item.querySelector('link')?.textContent || '',
-                    pubDate: item.querySelector('pubDate')?.textContent || '',
-                    content: item.querySelector('description')?.textContent || ''
+                    title: item.querySelector('title')?.textContent || item.querySelector('title')?.textContent || '',
+                    link: item.querySelector('link')?.getAttribute('href') || item.querySelector('link')?.textContent || '',
+                    pubDate: item.querySelector('published')?.textContent || item.querySelector('updated')?.textContent || item.querySelector('pubDate')?.textContent || '',
+                    content: item.querySelector('content')?.textContent || item.querySelector('summary')?.textContent || item.querySelector('description')?.textContent || ''
                   });
                 });
                 
@@ -63,10 +65,10 @@ jobs:
               });
           }
           
-          // Fetch RSS feeds
+          // Fetch feeds
           Promise.all([
-            parseRSS(RSS_URL),
-            parseRSS(NEWS_URL)
+            parseFeed(RSS_URL),
+            parseFeed(NEWS_URL)
           ])
           .then(([events, news]) => {
             // Save events
@@ -88,7 +90,7 @@ jobs:
             console.log(`✓ Saved ${news.length} news articles`);
           })
           .catch(error => {
-            console.error('Error fetching RSS feeds:', error.message);
+            console.error('Error fetching feeds:', error.message);
             process.exit(1);
           });
           EOF
@@ -102,7 +104,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Sync RSS feeds: Update events and news data"
+            git commit -m "Sync RSS/Atom feeds: Update events and news data"
             git push
           fi
 
