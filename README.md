@@ -26,6 +26,7 @@ kouga-business-forum/
 │   └── logo.css           # CSS-based logo styles
 ├── js/
 │   └── main.js           # Interactive functionality
+├── directory.html        # Business Directory page
 ├── images/               # All images and photos
 │   ├── KBF-LOGO.png
 │   ├── Vice-chair-Lieb-Swiegers.jpg
@@ -98,6 +99,7 @@ The RSS feed sync is handled by GitHub Actions (`.github/workflows/rss-sync.yml`
 ## 📱 Sections
 
 - **Hero** - Gradient background, headline, CTA buttons
+- **Directory** - Business listing with search & category filters
 - **Quick Access** - 4-icon grid navigation
 - **Features** - 6 benefit cards with numbered indicators
 - **Committee** - Photo grid with roles
@@ -159,3 +161,19 @@ Open source - MIT License
 Built with ❤️ for the Kouga Business Community
 
 **Last Updated:** 2026-03-30
+
+## 📂 Business Directory Page
+
+The **Business Directory** page (`directory.html`) allows users to browse and filter member businesses by:
+
+- **Search**: Real-time filtering by business name, description, or keyword
+- **Categories**: Construction, Retail, Tourism, Agriculture, Services, Professional
+- **Locations**: Jeffreys Bay, Humansdorp, St. Francis Bay, Hankey, Patensie, Loerie, Thornhill
+
+Features:
+- 12 sample businesses across all categories and locations
+- Responsive grid layout matching existing design system
+- Empty state when no results match
+- Pure HTML/CSS/JavaScript - no dependencies
+
+---
