@@ -1,0 +1,11 @@
+# KBF Website Robots.txt
+# https://new.kougabusinessforum.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://new.kougabusinessforum.com/sitemap.xml
+
+# Block generated content folder
+Disallow: /_events/
