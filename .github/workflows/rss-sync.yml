@@ -1,8 +1,9 @@
 name: RSS Event Sync
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'  # Every 6 hours
+    - cron: '0 */6 * * *'
 
 jobs:
   sync-events:
@@ -55,22 +56,20 @@ jobs:
               });
             });
             
-            // Save events.json
             fs.writeFileSync('events.json', JSON.stringify({
               lastUpdated: new Date().toISOString(),
               source: RSS_URL,
               count: items.length,
-              events: items.slice(0, 20)
+              events: items.slice(0, 50)
             }, null, 2));
             
-            // Generate events.html
             const eventsHtml = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Events | Kouga Business Forum</title>
-  <meta name="description" content="Discover events in Jeffreys Bay, St Francis Bay & the Kouga Region. Community events, markets, sports, music, and more.">
+  <meta name="description" content="Discover events in Jeffreys Bay, St Francis Bay & the Kouga Region.">
   <link rel="canonical" href="/events.html">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/events.css">
@@ -99,7 +98,7 @@ jobs:
     <div class="container">
       <p class="last-updated">Last updated: ${new Date().toLocaleString('en-ZA')}</p>
       <div class="events-grid">
-${items.slice(0, 20).map((event, i) => {
+${items.slice(0, 50).map((event, i) => {
   const slug = event.guid.split('/').pop().replace(/\/$/, '') || `event-${i}`;
   return `        <div class="event-card">
           ${event.image ? `<img src="${event.image}" alt="${event.title.replace(/"/g, '&quot;')}" loading="lazy">` : ''}
@@ -123,7 +122,7 @@ ${items.slice(0, 20).map((event, i) => {
 </html>`;
             
             fs.writeFileSync('events.html', eventsHtml);
-            console.log(`✓ Synced ${items.length} events`);
+            console.log(`✓ Synced ${items.length} events (showing first 50)`);
           })
           .catch(err => {
             console.error('Error:', err.message);
