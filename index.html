@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kouga Business Forum - Connecting Kouga Businesses, Building Opportunities Together">
+  <title>Kouga Business Forum | Saam maak ons 'n verskil</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <h1>KBF</h1>
+        <span class="tagline">Kouga Business Forum</span>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#directory">Directory</a>
+        <a href="#events">Events</a>
+        <a href="#news">News</a>
+        <a href="#join" class="btn-primary">Join Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Connecting Kouga Businesses,<br>Building Opportunities Together</h2>
+        <p>Join the voice of business in Jeffreys Bay, Humansdorp, St. Francis Bay, Hankey, Patensie, Loerie, and Thornhill.</p>
+        <div class="hero-cta">
+          <a href="#join" class="btn-primary btn-lg">Join the Forum</a>
+          <a href="#directory" class="btn-secondary btn-lg">View Directory</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Us</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>KBF is a non-profit organisation that strives to be the voice of business in the Kouga Region. We are focussed on ensuring the development of initiatives at municipal level to anticipate and find solutions to issues that affect our members.</p>
+            <p>Our mission is to exploit business opportunities in services, property, tourism, and agriculture to the benefit of our members.</p>
+          </div>
+          <div class="committee-preview">
+            <h3>Current Committee</h3>
+            <ul>
+              <li><strong>Chairman:</strong> Lieb Swiegers</li>
+              <li><strong>Vice-Chair & Treasurer:</strong> Johannes Barnard</li>
+              <li><strong>Executive Member:</strong> Dries du Preez</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="directory" class="section">
+      <div class="container">
+        <h2>Business Directory</h2>
+        <p class="section-intro">Explore our directory of member businesses across the Kouga region.</p>
+        <div class="directory-filters">
+          <select id="category-filter">
+            <option value="">All Categories</option>
+            <option value="construction">Construction</option>
+            <option value="retail">Retail</option>
+            <option value="tourism">Tourism</option>
+            <option value="services">Services</option>
+            <option value="agriculture">Agriculture</option>
+          </select>
+          <select id="location-filter">
+            <option value="">All Locations</option>
+            <option value="jeffreys-bay">Jeffreys Bay</option>
+            <option value="humansdorp">Humansdorp</option>
+            <option value="st-francis">St. Francis Bay</option>
+            <option value="hankey">Hankey</option>
+            <option value="patensie">Patensie</option>
+          </select>
+        </div>
+        <div id="directory-grid" class="directory-grid">
+          <!-- Directory items will be loaded dynamically -->
+          <div class="directory-placeholder">
+            <p>Member businesses will appear here after you add them to the directory.</p>
+          </div>
+          
+          <!-- Demo: Events from RSS feed (loaded via GitHub Actions) -->
+          <div class="directory-item demo-event" style="margin-top: 2rem;">
+            <div style="padding: 1.5rem;">
+              <h4 style="color: var(--primary-blue);">📅 Events Calendar</h4>
+              <p style="color: var(--text-light); font-size: 0.9rem;">Events will be automatically synced from the KBF RSS feed via GitHub Actions.</p>
+              <div style="margin-top: 1rem;">
+                <span style="display: inline-block; background: var(--green); color: white; padding: 0.3rem 0.8rem; border-radius: 3px; font-size: 0.8rem; margin: 0.2rem;">Networking Events</span>
+                <span style="display: inline-block; background: var(--primary-blue); color: white; padding: 0.3rem 0.8rem; border-radius: 3px; font-size: 0.8rem; margin: 0.2rem;">Workshops</span>
+                <span style="display: inline-block; background: var(--secondary-blue); color: white; padding: 0.3rem 0.8rem; border-radius: 3px; font-size: 0.8rem; margin: 0.2rem;">Community Projects</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Demo: News from RSS feed (loaded via GitHub Actions) -->
+          <div class="directory-item demo-event" style="margin-top: 2rem;">
+            <div style="padding: 1.5rem;">
+              <h4 style="color: var(--primary-blue);">📰 News Feed</h4>
+              <p style="color: var(--text-light); font-size: 0.9rem;">News articles will be automatically synced from the KBF RSS feed via GitHub Actions.</p>
+              <div style="margin-top: 1rem;">
+                <span style="display: inline-block; background: var(--primary-blue); color: white; padding: 0.3rem 0.8rem; border-radius: 3px; font-size: 0.8rem; margin: 0.2rem;">Chairman's Updates</span>
+                <span style="display: inline-block; background: var(--secondary-blue); color: white; padding: 0.3rem 0.8rem; border-radius: 3px; font-size: 0.8rem; margin: 0.2rem;">AGM Minutes</span>
+                <span style="display: inline-block; background: var(--green); color: white; padding: 0.3rem 0.8rem; border-radius: 3px; font-size: 0.8rem; margin: 0.2rem;">PACA Reports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section">
+      <div class="container">
+        <h2>Events Calendar</h2>
+        <div class="events-placeholder">
+          <p>Upcoming events will be loaded here from our RSS feed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="section">
+      <div class="container">
+        <h2>News & Updates</h2>
+        <div id="news-grid" class="directory-grid">
+          <div class="directory-placeholder">
+            <p>Latest news from the Kouga Business Forum will appear here.</p>
+          </div>
+          
+          <!-- Demo: News from RSS feed (loaded via GitHub Actions) -->
+          <div class="directory-item demo-event" style="margin-top: 2rem;">
+            <div style="padding: 1.5rem;">
+              <h4 style="color: var(--primary-blue);">📰 News Feed</h4>
+              <p style="color: var(--text-light); font-size: 0.9rem;">News articles will be automatically synced from the KBF RSS feed via GitHub Actions.</p>
+              <div style="margin-top: 1rem;">
+                <span style="display: inline-block; background: var(--primary-blue); color: white; padding: 0.3rem 0.8rem; border-radius: 3px; font-size: 0.8rem; margin: 0.2rem;">Chairman's Updates</span>
+                <span style="display: inline-block; background: var(--secondary-blue); color: white; padding: 0.3rem 0.8rem; border-radius: 3px; font-size: 0.8rem; margin: 0.2rem;">AGM Minutes</span>
+                <span style="display: inline-block; background: var(--green); color: white; padding: 0.3rem 0.8rem; border-radius: 3px; font-size: 0.8rem; margin: 0.2rem;">PACA Reports</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="join" class="join-section">
+    <div class="container">
+      <h2>Join the Forum</h2>
+      <div class="join-content">
+        <div class="benefits">
+          <h3>Membership Benefits</h3>
+          <ul>
+            <li>🤝 Networking opportunities with local businesses</li>
+            <li>📢 A channel to disseminate information to your business</li>
+            <li>📍 One-stop shop for reliable business information</li>
+            <li>🔍 Showcase your business to a wider audience</li>
+            <li>📅 Access to interactive website and member directory</li>
+          </ul>
+        </div>
+        <form class="join-form">
+          <h3>Join Today</h3>
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email Address" required>
+          <input type="text" placeholder="Business Name">
+          <select required>
+            <option value="">Membership Type *</option>
+            <option value="individual">Individual Member</option>
+            <option value="business">Business Member</option>
+            <option value="sponsor">Sponsor Member</option>
+          </select>
+          <textarea placeholder="Message (optional)" rows="4"></textarea>
+          <button type="submit" class="btn-primary btn-lg">Submit Application</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h4>Kouga Business Forum</h4>
+          <p>The voice of business in the Kouga Region.</p>
+          <p><strong>Address:</strong> Jeffreys Bay, South Africa</p>
+          <p><strong>Phone:</strong> 084 681 3702</p>
+          <p><strong>Email:</strong> office@kougabusinessforum.com</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#about">About</a>
+          <a href="#directory">Directory</a>
+          <a href="#events">Events</a>
+          <a href="#join">Join</a>
+        </div>
+        <div class="footer-committee">
+          <h4>Meet the Committee</h4>
+          <p>Chair: Lieb Swiegers | Vice-Chair: Johannes Barnard | Executive: Dries du Preez</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Kouga Business Forum. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
