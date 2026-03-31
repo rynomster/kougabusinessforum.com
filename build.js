@@ -7,10 +7,8 @@ const fs = require('fs');
 const path = require('path');
 
 const templatesDir = path.join(__dirname, 'templates');
-
-// Read templates and strip trailing newlines to prevent extra commits
-const header = fs.readFileSync(path.join(templatesDir, 'header.html'), 'utf8').replace(/\n+$/, '');
-const footer = fs.readFileSync(path.join(templatesDir, 'footer.html'), 'utf8').replace(/\n+$/, '');
+const header = fs.readFileSync(path.join(templatesDir, 'header.html'), 'utf8').trim();
+const footer = fs.readFileSync(path.join(templatesDir, 'footer.html'), 'utf8').trim();
 
 const files = fs.readdirSync(__dirname).filter(f => f.endsWith('.html') && !f.includes('shared-'));
 
