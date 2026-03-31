@@ -1357,3 +1357,85 @@ textarea {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
+/* FAQ Section */
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: var(--spacing-md);
+}
+
+.faq-question {
+  color: var(--accent-cyan);
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Directory Call to Action */
+.directory-cta {
+  margin-top: var(--spacing-lg);
+  padding: 3rem;
+  background: var(--bg-light);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  border: 2px dashed rgba(6, 200, 255, 0.3);
+}
+
+.directory-cta h3 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.directory-cta p {
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto var(--spacing-md);
+}
+
+/* Badge Styles */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.badge-verified {
+  background: linear-gradient(135deg, #06c8ff, #0e7996);
+  color: white;
+}
+
+.badge-basic {
+  background: #e0e0e0;
+  color: #666;
+}
+
+.business-card.verified {
+  border-left: 4px solid #06c8ff;
+}
+
+.member-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: linear-gradient(135deg, #06c8ff, #0e7996);
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.member-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(6, 200, 255, 0.4);
+}
