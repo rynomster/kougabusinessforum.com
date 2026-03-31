@@ -1,7 +1,7 @@
 // KBF Website - Modern Redesign JavaScript
 
 // Configuration
-const RSS_FEED_URL = 'https://9ty9.co.za/event/feed/';
+const RSS_FEED_URL = 'https://kougabusinessforum.com/feed/';
 
 // DOM Ready
 document.addEventListener('DOMContentLoaded', function() {
