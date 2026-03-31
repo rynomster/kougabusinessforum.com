@@ -293,7 +293,7 @@ git push origin main
 
 ## Last Updated
 
-**2026-03-31 21:56 UTC** - Sprint 5 complete, all sprints finished
+**2026-03-31 22:05 UTC** - Updated membership pricing to R200 one-time + R100/month
 
 **Maintained by:** Jock (Main Agent)
 

@@ -10,7 +10,7 @@
 | T2 | Design System | ✅ Complete | CSS centralized |
 | T3 | Committee Section | ✅ Complete | 10 members with photos |
 | T4 | Community Events | ✅ Complete | 50 events, auto-sync |
-| T5 | Membership Page | ✅ Complete | R1,200/year, R100/month |
+| T5 | Membership Page | ✅ Complete | R200 annual + R100/month |
 | T6 | SEO Basics | ✅ Complete | sitemap, robots, meta |
 | T7 | Mobile Responsive | ✅ Complete | Hamburger menu |
 | T8 | Login Removal | ✅ Complete | No backend needed |

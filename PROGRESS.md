@@ -1,6 +1,6 @@
 # 📊 KBF Website - Project Progress
 
-**Last Updated:** 2026-03-31 21:56 UTC
+**Last Updated:** 2026-03-31 22:05 UTC
 **Status:** Phase 3 Active - Post-Launch Maintenance
 
 ---
@@ -14,7 +14,7 @@
 - [x] **Contact** (`contact.html`) - Contact form and information
 - [x] **Events Page** (`events.html`) - Community events from 9ty9.co.za (50 events)
 - [x] **KBF Events** (`kbevents.html`) - Placeholder for KBF official events
-- [x] **Membership** (`membership.html`) - 2026 pricing (R1,200/year or R100/month)
+- [x] **Membership** (`membership.html`) - 2026 pricing (R200 annual + R100/month)
 - [x] **404 Page** (`404.html`) - Custom error page
 
 ### Design & Styling
@@ -161,8 +161,7 @@ kbf-web-2026/
 - **Phone:** 063 902 1597 (mobile)
 
 ### Membership Pricing
-- **Annual:** R1,200/year
-- **Monthly:** R100/month (via PayFast)
+- **Annual:** R200 one-time + R100/month (via PayFast)
 - **Complimentary:** Free for NGOs, schools, churches
 
 ---
