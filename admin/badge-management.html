@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Badge Management | KBF Admin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .admin-header { background: #1a1a2e; padding: 2rem; text-align: center; }
+    .admin-header h1 { color: white; margin: 0; }
+    .admin-header p { color: #888; }
+    .admin-controls { max-width: 800px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+    .admin-controls h2 { color: #1a1a2e; margin-bottom: 1.5rem; font-size: 1.25rem; }
+    .admin-input-group { display: flex; gap: 0.75rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .admin-input-group input, .admin-input-group select { flex: 1; min-width: 150px; padding: 0.75rem 1rem; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; }
+    .admin-input-group input:focus, .admin-input-group select:focus { outline: none; border-color: var(--accent-cyan); }
+    .admin-btn { padding: 0.75rem 1.5rem; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem; font-weight: 600; transition: all 0.2s; }
+    .admin-btn-primary { background: var(--accent-cyan); color: white; }
+    .admin-btn-primary:hover { background: #05a8d6; }
+    .admin-btn-secondary { background: #f0f0f0; color: #333; }
+    .admin-btn-secondary:hover { background: #e0e0e0; }
+    .admin-status-section { max-width: 800px; margin: 2rem auto; }
+    .admin-status-table { width: 100%; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+    .admin-status-table th { background: #f8f8f8; padding: 1rem; text-align: left; font-weight: 600; color: #333; }
+    .admin-status-table td { padding: 1rem; border-top: 1px solid #eee; }
+    .status-badge { display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.35rem 0.75rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; }
+    .status-verified { background: rgba(6, 200, 255, 0.15); color: #06c8ff; }
+    .status-pending { background: rgba(255, 193, 7, 0.15); color: #ffc107; }
+    .status-expired { background: rgba(220, 53, 69, 0.15); color: #dc3545; }
+    .status-basic { background: rgba(204, 204, 204, 0.15); color: #999; }
+    .admin-actions { display: flex; gap: 0.5rem; }
+    .admin-actions select { padding: 0.4rem 0.6rem; border: 1px solid #e0e0e0; border-radius: 6px; font-size: 0.85rem; }
+    @media (max-width: 768px) { .admin-input-group { flex-direction: column; } .admin-actions { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <header class="admin-header">
+    <h1>Badge Management</h1>
+    <p>Update member verification status for the 2026 membership year</p>
+  </header>
+
+  <section class="admin-controls">
+    <h2>📥 Add New Verification</h2>
+    <form id="badgeForm">
+      <div class="admin-input-group">
+        <input type="text" id="businessName" placeholder="Business Name" required>
+        <input type="email" id="businessEmail" placeholder="Business Email" required>
+        <input type="text" id="businessPhone" placeholder="Phone Number">
+      </div>
+      <div class="admin-input-group">
+        <select id="membershipType">
+          <option value="annual">Annual Membership</option>
+          <option value="monthly">Monthly Membership</option>
+        </select>
+        <input type="date" id="membershipStart" required>
+        <input type="date" id="membershipEnd" required>
+      </div>
+      <div class="admin-input-group">
+        <input type="text" id="paymentReference" placeholder="Payment Reference / Transaction ID">
+        <input type="text" id="notes" placeholder="Additional notes (optional)">
+      </div>
+      <button type="submit" class="admin-btn admin-btn-primary">Add Verification</button>
+    </form>
+  </section>
+
+  <section class="admin-status-section">
+    <h2>📊 Current Badge Status</h2>
+    <table class="admin-status-table">
+      <thead>
+        <tr>
+          <th>Business</th>
+          <th>Membership</th>
+          <th>Period</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="statusTableBody">
+        <tr>
+          <td><strong>Jeffreys Bay Builders</strong><br><small>🏗️ Construction</small></td>
+          <td>Annual</td>
+          <td>2026</td>
+          <td><span class="status-badge status-verified">🔵 Verified</span></td>
+          <td><select><option>Current</option><option>Remove Verification</option></select></td>
+        </tr>
+        <tr>
+          <td><strong>Humansdorp Gift Shop</strong><br><small>🛍️ Retail</small></td>
+          <td>Annual</td>
+          <td>2026</td>
+          <td><span class="status-badge status-verified">🔵 Verified</span></td>
+          <td><select><option>Current</option><option>Remove Verification</option></select></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Kouga Business Forum Admin Panel &copy; 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    const badgeData = {
+      verified: [
+        { id: 1, name: 'Jeffreys Bay Builders', email: 'info@jebb.co.za', phone: '0437123456', type: 'annual', start: '2026-01-01', end: '2026-12-31', payment: 'PAY-2026-001' }
+      ],
+      pending: [],
+      expired: []
+    };
+
+    document.getElementById('badgeForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const newVerification = {
+        id: Date.now(),
+        name: document.getElementById('businessName').value,
+        email: document.getElementById('businessEmail').value,
+        phone: document.getElementById('businessPhone').value,
+        type: document.getElementById('membershipType').value,
+        start: document.getElementById('membershipStart').value,
+        end: document.getElementById('membershipEnd').value,
+        payment: document.getElementById('paymentReference').value,
+        notes: document.getElementById('notes').value
+      };
+
+      badgeData.pending.push(newVerification);
+      
+      // Simulate saving (in production, this would be an API call)
+      alert(`Verification added to pending queue!\n\n${newVerification.name} has been flagged for badge verification once payment is confirmed.`);
+      
+      // Reset form
+      this.reset();
+    });
+
+    function renderStatusTable() {
+      const tbody = document.getElementById('statusTableBody');
+      tbody.innerHTML = '';
+
+      // Add verified members
+      for (const v of badgeData.verified) {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td><strong>${v.name}</strong><br><small>${v.email}</small></td>
+          <td>${v.type}</td>
+          <td>${v.start} - ${v.end}</td>
+          <td><span class="status-badge status-verified">🔵 Verified</span></td>
+          <td><select><option>Current</option><option>Remove Verification</option></select></td>
+        `;
+        tbody.appendChild(row);
+      }
+
+      // Add pending verifications
+      if (badgeData.pending.length > 0) {
+        const pendingRow = document.createElement('tr');
+        pendingRow.innerHTML = `
+          <td colspan="5" style="text-align: center; padding: 1.5rem; background: #fffbe6;">
+            <strong>${badgeData.pending.length} pending verification(s)</strong><br>
+            <small>Verify payments and apply badges manually or via batch upload</small>
+          </td>
+        `;
+        tbody.appendChild(pendingRow);
+      }
+    }
+
+    renderStatusTable();
+  </script>
+</body>
+</html>

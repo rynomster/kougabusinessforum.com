@@ -1,0 +1,11 @@
+{
+  "badge_sync": {
+    "version": "1.0",
+    "methods": {
+      "manual": "Admin panel with email verification",
+      "email_parse": "Auto-parse PayFast receipts",
+      "api": "Future: Direct API integration"
+    },
+    "current_method": "manual"
+  }
+}
