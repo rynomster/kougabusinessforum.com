@@ -1,7 +1,7 @@
 # 📊 KBF Website - Project Progress
 
-**Last Updated:** 2026-03-30 19:25 UTC
-**Status:** Phase 2 Active - Feature Development
+**Last Updated:** 2026-03-31 22:15 UTC
+**Status:** Phase 3 Active - Post-Launch Maintenance
 
 ---
 
@@ -14,7 +14,7 @@
 - [x] **Contact** (`contact.html`) - Contact form and information
 - [x] **Events Page** (`events.html`) - Community events from 9ty9.co.za (50 events)
 - [x] **KBF Events** (`kbevents.html`) - Placeholder for KBF official events
-- [x] **Membership** (`membership.html`) - 2026 pricing (R1,200/year or R100/month)
+- [x] **Membership** (`membership.html`) - 2026 pricing (R200+R100/mo or R1200 annual)
 - [x] **404 Page** (`404.html`) - Custom error page
 
 ### Design & Styling
@@ -37,6 +37,10 @@
 - [x] Auto RSS sync (every 6 hours)
 - [x] 43 event images downloaded locally
 - [x] Login references removed
+- [x] **Directory with badge system implemented**
+- [x] **Google Sheets auto-sync for directory**
+- [x] **GitHub Actions for directory sync**
+- [x] **Team collaboration protocol (AGENTS.md)**
 
 ### Content
 - [x] 10 committee members with photos
@@ -48,14 +52,11 @@
 
 ## 🔄 In Progress
 
-### Directory with Membership Badges
-- [ ] Add "Verified Member" badge to paid members
-- [ ] Show/hide contact details based on membership
-- [ ] Add "Request Details" button for non-members
-- [ ] Create submission form for new businesses
-
-### Form Backend
-- [ ] Set up Formspree (waiting on user)
+### Post-Launch Tasks
+- [ ] Monitor directory submissions via Formspree
+- [ ] Track member payment status
+- [ ] Finalize KBF 2026 events calendar
+- [ ] WordPress migration (meeting minutes, newsletters)
 
 ---
 
@@ -64,45 +65,37 @@
 ### High Priority
 | Task | Status | Notes |
 |------|--------|-------|
-| **Directory Badges** | 🔄 In Progress | Add verified badge system |
-| **Form Backend** | ⏳ Waiting | User to set up Formspree |
-| **Membership Badges in Directory** | 🔄 In Progress | Show badge for paid members |
+| **Formspree Setup** | ⏳ Pending | User to sign up at formspree.io |
+| **Member Payment Status** | ⏳ Pending | Who has paid for 2026 |
 
 ### Medium Priority
 | Task | Status | Notes |
 |------|--------|-------|
-| **WordPress Migration** | ⏳ Waiting | Need backup from client |
-| **Meeting Minutes (5yr)** | ⏳ Waiting | Legal requirement |
-| **Newsletters Archive** | ⏳ Waiting | Need from WordPress |
-| **PayFast Integration** | ⏳ Waiting | Sync payments with directory |
+| **WordPress Migration** | ⏳ Pending | Need backup from client |
+| **Meeting Minutes (5yr)** | ⏳ Pending | Legal requirement |
+| **Newsletters Archive** | ⏳ Pending | Need from WordPress |
+| **KBF Events Content** | ⏳ Pending | Client finalizing 2026 events |
 
 ### Low Priority
 | Task | Status | Notes |
 |------|--------|-------|
-| **KBF Events Content** | ⏳ Waiting | Client finalizing 2026 events |
+| **PayFast Integration** | ⏳ Pending | Sync payments with directory |
 | **SEO Audit** | ⏳ Pending | Full accessibility review |
-| **Custom Domain SSL** | ⏳ Waiting | Cloudflare + GitHub Pages |
+| **Custom Domain SSL** | ⏳ Pending | Cloudflare + GitHub Pages |
 
 ---
 
 ## 🏛️ Directory Membership Architecture
 
 ### Current State
-- All businesses visible in directory
-- No membership distinction
-- No payment integration
+- ✅ All businesses visible in directory
+- ✅ Category/location filters working
+- ✅ **Paid member badges implemented (🔵/⚪)**
+- ✅ **Contact details visible for paid members**
+- ✅ **Submission form ready for backend**
+- ⏳ **PayFast payment sync (waiting on WordPress backup)**
 
-### Target State
-| Feature | Status |
-|---------|--------|
-| Business listings | ✅ Working |
-| Category/location filters | ✅ Working |
-| Paid member badge | 🔄 Need to implement |
-| Contact details visible for paid | 🔄 Need to implement |
-| Add new business form | 🔄 Need to implement |
-| PayFast payment sync | ⏳ Waiting on WordPress backup |
-
-### Directory Badges (To Implement)
+### Directory Badges (COMPLETED)
 ```
 🔵 = Paid/Verified Member (full details visible)
 ⚪ = Free/Basic Listing (limited details)
@@ -115,7 +108,8 @@
 ```
 kbf-web-2026/
 ├── index.html              # Homepage
-├── directory.html          # Business Directory (with badges - to do)
+├── directory.html          # Business Directory (with badges - ✅ Complete)
+├── directory.json          # Directory data store (auto-synced from Google Sheets)
 ├── about.html             # About Us + Committee
 ├── contact.html           # Contact Form
 ├── membership.html        # Membership Pricing (2026)
@@ -129,15 +123,26 @@ kbf-web-2026/
 ├── css/
 │   └── style.css        # Centralized styles
 ├── js/
-│   └── main.js          # Interactive functionality
+│   ├── main.js          # Interactive functionality
+│   ├── directory.js     # Directory search & filter logic
+│   └── rss-sync.js      # Auto-sync community events
 ├── images/
 │   ├── committee/       # 10 member photos
 │   ├── events/          # 43 event images
 │   └── [category images]
+├── templates/
+│   ├── header.html      # Reusable Header
+│   └── footer.html      # Reusable Footer
 ├── .github/
 │   └── workflows/
-│       └── rss-sync.yml  # Auto-sync community events
-└── PROGRESS.md         # This file
+│       ├── rss-sync.yml  # Auto-sync community events (every 6 hours)
+│       └── sync-directory.yml  # Auto-sync directory from Google Sheets
+├── DIRECTORY_GUIDE.md    # How to manage directory listings
+├── build.js             # Header/Footer standardization script
+├── AGENTS.md            # Team collaboration protocol
+├── TODO.md              # Current sprint tasks
+├── PROGRESS.md          # This file
+└── README.md
 ```
 
 ---
@@ -156,8 +161,9 @@ kbf-web-2026/
 - **Phone:** 063 902 1597 (mobile)
 
 ### Membership Pricing
-- **Annual:** R1,200/year
-- **Monthly:** R200 + R100/month (via PayFast)
+- **Monthly:** R200 one-time + R100/month
+- **Annual:** R1,200 one-time (existing members)
+- **New/Remaining:** R100/month (e.g., April join = 9 × R100 = R900)
 - **Complimentary:** Free for NGOs, schools, churches
 
 ---
@@ -175,9 +181,9 @@ kbf-web-2026/
 
 ## 🔜 Future Enhancements
 
-- [ ] Directory membership badge system
-- [ ] Business submission form
-- [ ] PayFast payment integration
+- [ ] Directory membership badge system ✅ Done
+- [ ] Business submission form ✅ Ready
+- [ ] PayFast payment integration ⏳ Pending WordPress backup
 - [ ] Member-only content section
 - [ ] Meeting minutes archive (5yr requirement)
 - [ ] Newsletter archive
@@ -196,6 +202,8 @@ kbf-web-2026/
 - KBF events page is placeholder
 - SSL enabled via Cloudflare
 - Custom domain: new.kougabusinessforum.com
+- **All directory tasks completed**
+- **Team collaboration protocol established**
 
 ---
 
@@ -204,9 +212,14 @@ kbf-web-2026/
 1. Pull latest: `git pull origin main`
 2. Check this PROGRESS.md
 3. Check TODO.md for task details
-4. Review LOCK.md if needed
+4. Review AGENTS.md if needed
 
 ---
 
 *Built with ❤️ for the Kouga Business Community*
-*Last updated: 2026-03-30*
+*Last updated: 2026-03-31*
+
+---
+
+**Overall Project Status:** 82% Complete
+**Current Phase:** Post-Launch Maintenance & Polish

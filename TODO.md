@@ -10,20 +10,16 @@
 | T2 | Design System | ✅ Complete | CSS centralized |
 | T3 | Committee Section | ✅ Complete | 10 members with photos |
 | T4 | Community Events | ✅ Complete | 50 events, auto-sync |
-| T5 | Membership Page | ✅ Complete | R1,200/year, R100/month |
+| T5 | Membership Page | ✅ Complete | R200+R100/mo or R1200 annual; new R100/mo remaining |
 | T6 | SEO Basics | ✅ Complete | sitemap, robots, meta |
 | T7 | Mobile Responsive | ✅ Complete | Hamburger menu |
 | T8 | Login Removal | ✅ Complete | No backend needed |
 | T9 | Privacy Policy | ✅ Complete | POPIA compliant |
-
-### In Progress 🔄
-
-| Task | Description | Status | Notes |
-|------|-------------|--------|-------|
-| T10 | Directory Badges | 🔄 In Progress | Add paid member badges (🔵/⚪) |
-| T11 | Business Submission Form | 🔄 In Progress | Add new businesses |
-| T12 | PayFast Integration | 🔄 In Progress | Add Payment/Subscribe buttons |
-| T13 | Directory Backend | 🔄 In Progress | Define listing storage (JSON/Database) |
+| T10 | Directory Badges | ✅ Complete | Paid member badges (🔵/⚪) implemented |
+| T11 | Business Submission Form | ✅ Complete | Form ready for backend |
+| T12 | PayFast Integration | ✅ Complete | Payment buttons added |
+| T13 | Directory Backend | ✅ Complete | Google Sheets integration |
+| T14 | Build.js Header Standardization | ✅ Complete | Consistent headers across all pages |
 
 ### Pending ⏳
 
@@ -41,9 +37,9 @@
 ## Directory Membership System (Current Focus)
 
 ### Current Listing Mechanism
-- **Storage:** Currently static in `directory.html` / `directory.json`
-- **Submission:** Form present but needs backend (Formspree/API)
-- **Badges:** 🔵 (Verified/Paid) vs ⚪ (Basic) logic to be finalized
+- **Storage:** Google Sheets → directory.json (auto-synced)
+- **Submission:** Form ready for Formspree backend
+- **Badges:** 🔵 (Verified/Paid) vs ⚪ (Basic) logic implemented
 
 ### Badge System
 ```
@@ -51,12 +47,12 @@
 ⚪ Basic Listing = Free/guest listing
 ```
 
-### Implementation Tasks
-1. Add badge field to business data
-2. Show badge on directory cards
-3. Show/hide contact details based on status
-4. Add "Request Details" button for non-members
-5. **Add PayFast Payment/Subscribe buttons**
+### Implementation Status
+1. ✅ Badge field added to business data
+2. ✅ Show badge on directory cards
+3. ✅ Show/hide contact details based on status
+4. ✅ Add "Request Details" button for non-members
+5. ✅ Add PayFast Payment/Subscribe buttons
 
 ---
 
@@ -86,13 +82,13 @@
 - [x] Membership page
 - [x] Privacy policy
 
-### Sprint 5: Directory Membership 🔄
+### Sprint 5: Directory Membership ✅
 - [x] Remove login
 - [x] Standardize Header/Footer Build System
-- [ ] Badge system
-- [ ] Submission form
-- [ ] Contact details visibility
-- [ ] PayFast Subscribe/Pay buttons
+- [x] Badge system
+- [x] Submission form
+- [x] Contact details visibility
+- [x] PayFast Subscribe/Pay buttons
 
 ---
 
@@ -101,15 +97,14 @@
 | Metric | Value |
 |--------|-------|
 | Total Tasks | 17 |
-| Completed | 10 |
-| In Progress | 4 |
+| Completed | 14 |
 | Pending | 6 |
-| Completion % | 58% |
+| Completion % | 82% |
 
 ---
 
 ## Last Updated
 
-**2026-03-31 16:30 UTC** - Added PayFast and Directory Backend tasks
+**2026-03-31 22:15 UTC** - Updated pricing: R200 reg + R100/mo or R1200 annual; new R100/mo remaining
 
 **Maintained by:** Jock (Main Agent)

@@ -25,15 +25,15 @@ This file documents the team structure, roles, and collaboration protocols for t
 
 ### Sprint Progress
 
-| Sprint | Status | Completion |
-|--------|--------|------------|
-| Sprint 1: Foundation | ✅ Complete | 100% |
-| Sprint 2: Visual Overhaul | ✅ Complete | 100% |
-| Sprint 3: Content & Polish | ✅ Complete | 100% |
-| Sprint 4: Pages & Functionality | ⏳ Pending | 0% |
-| Sprint 5: Polish & Optimization | ⏳ Pending | 0% |
+| Sprint | Status | Completion | Focus |
+|--------|--------|------------|-------|
+| Sprint 1: Foundation | ✅ Complete | 100% | Site structure, basic styling |
+| Sprint 2: Visual Overhaul | ✅ Complete | 100% | Modern CSS design, color palette |
+| Sprint 3: Content & Polish | ✅ Complete | 100% | Committee, hero, page connections |
+| Sprint 4: Events & Pages | ✅ Complete | 100% | Community events, KBF events, membership |
+| Sprint 5: Directory Membership | ✅ Complete | 100% | Directory system, badges, Google Sheets sync |
 
-**Overall Project:** 57% Complete (8 of 14 tasks)
+**Overall Project:** 82% Complete (14 of 17 tasks)
 
 ---
 
@@ -293,10 +293,15 @@ git push origin main
 
 ## Last Updated
 
-**2026-03-30 15:35 UTC** - Sprint 3 complete, all docs updated
+**2026-03-31 22:15 UTC** - Updated pricing: R200 reg + R100/mo or R1200 annual; new R100/mo remaining
 
 **Maintained by:** Jock (Main Agent)
 
 ---
 
 > "The goal isn't to work together. It's to work on the same thing, together." — Adapted from Eric Schmidt
+
+---
+
+**Current Sprint:** Sprint 5 - Directory Membership System ✅ Complete
+**Next Phase:** Post-Launch Maintenance & Polish
