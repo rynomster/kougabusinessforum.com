@@ -20,8 +20,10 @@
 
 | Task | Description | Status | Notes |
 |------|-------------|--------|-------|
-| T10 | Directory Badges | 🔄 In Progress | Add paid member badges |
+| T10 | Directory Badges | 🔄 In Progress | Add paid member badges (🔵/⚪) |
 | T11 | Business Submission Form | 🔄 In Progress | Add new businesses |
+| T12 | PayFast Integration | 🔄 In Progress | Add Payment/Subscribe buttons |
+| T13 | Directory Backend | 🔄 In Progress | Define listing storage (JSON/Database) |
 
 ### Pending ⏳
 
@@ -38,6 +40,11 @@
 
 ## Directory Membership System (Current Focus)
 
+### Current Listing Mechanism
+- **Storage:** Currently static in `directory.html` / `directory.json`
+- **Submission:** Form present but needs backend (Formspree/API)
+- **Badges:** 🔵 (Verified/Paid) vs ⚪ (Basic) logic to be finalized
+
 ### Badge System
 ```
 🔵 KBF Verified Member = Paid 2026 membership
@@ -49,6 +56,7 @@
 2. Show badge on directory cards
 3. Show/hide contact details based on status
 4. Add "Request Details" button for non-members
+5. **Add PayFast Payment/Subscribe buttons**
 
 ---
 
@@ -80,9 +88,11 @@
 
 ### Sprint 5: Directory Membership 🔄
 - [x] Remove login
+- [x] Standardize Header/Footer Build System
 - [ ] Badge system
 - [ ] Submission form
 - [ ] Contact details visibility
+- [ ] PayFast Subscribe/Pay buttons
 
 ---
 
@@ -90,16 +100,16 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Tasks | 15 |
-| Completed | 9 |
-| In Progress | 2 |
-| Pending | 4 |
-| Completion % | 73% |
+| Total Tasks | 17 |
+| Completed | 10 |
+| In Progress | 4 |
+| Pending | 6 |
+| Completion % | 58% |
 
 ---
 
 ## Last Updated
 
-**2026-03-30 19:25 UTC** - Sprint 5 active, directory badges in progress
+**2026-03-31 16:30 UTC** - Added PayFast and Directory Backend tasks
 
 **Maintained by:** Jock (Main Agent)
