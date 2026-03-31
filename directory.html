@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Browse Kouga Business Forum member businesses. Find local businesses in Jeffreys Bay, Humansdorp, St. Francis Bay, Hankey, and more.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <titleBusiness Directory | Kouga Business Forum</title>
+  <title>Business Directory | Kouga Business Forum</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
@@ -94,9 +94,8 @@
 </style>
 </head>
 <body>
+  <header class="header">
   <!-- shared-header.html -->
-<!-- shared-header.html -->
-<header class="header">
   <div class="container">
     <div class="logo-container">
       <div class="logo-icon"><span class="logo-icon-text">KBF</span></div>
@@ -110,13 +109,15 @@
       <a href="kbevents.html">KBF Events</a>
       <a href="events.html">Community</a>
       <a href="about.html">About</a>
-      <a href="membership.html">Membership</a>
       <a href="directory.html">Directory</a>
+      <a href="contact.html">Contact</a>
       <a href="submit.html">Submit</a>
-      <a href="contact.html" class="btn btn-primary">Join Now</a>
+      <a href="membership.html" class="btn btn-primary">Join Now</a>
     </nav>
   </div>
 </header>
+
+
 
 
 
@@ -309,9 +310,8 @@
       </div>
     </div>
   </section>
+  <footer class="footer">
   <!-- shared-footer.html -->
-<!-- shared-footer.html -->
-<footer class="footer">
   <div class="container">
     <div class="footer-content">
       <div class="footer-section">
@@ -349,6 +349,8 @@
     </div>
   </div>
 </footer>
+
+
 
 
   <script>
@@ -464,9 +466,23 @@
     });
 
     // Initialize
-    let categoryFilter = 'all';
-    let locationFilter = 'all';
-    renderBusinesses(businesses);
+    const urlParams = new URLSearchParams(window.location.search);
+    let categoryFilter = urlParams.get('category') || 'all';
+    let locationFilter = urlParams.get('location') || 'all';
+
+    // Update active filter button states
+    if (categoryFilter !== 'all') {
+      document.querySelectorAll('[data-filter]').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === categoryFilter);
+      });
+    }
+    if (locationFilter !== 'all') {
+      document.querySelectorAll('[data-location]').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.location === locationFilter);
+      });
+    }
+
+    renderBusinesses(filterBusinesses('', categoryFilter, locationFilter));
   </script>
 </body>
 </html>
