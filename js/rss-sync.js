@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const RSS_URL = 'https://9ty9.co.za/event/feed/';
+const RSS_URL = 'https://9ty9.co.za/event/feed';
 const IMAGES_DIR = 'images/events';
 
 async function syncEvents() {
@@ -35,6 +35,16 @@ async function syncEvents() {
 
     console.log(`RSS fetch HTTP status: ${httpCode}, content length: ${xml.length}`);
 
+    // Fail on HTTP errors
+    if (httpCode === '403' || httpCode === '429') {
+      console.error(`ERROR: Cloudflare blocked request (HTTP ${httpCode}). IP may not be allowlisted for GitHub Actions runners.`);
+      process.exit(1);
+    }
+
+    if (httpCode !== '200') {
+      throw new Error(`RSS feed returned HTTP ${httpCode}`);
+    }
+
     if (!xml || xml.trim() === '') {
       throw new Error(`Empty response from RSS feed (HTTP ${httpCode})`);
     }
@@ -42,6 +52,7 @@ async function syncEvents() {
     if (!xml.includes('<item>')) {
       console.log('Response does not contain <item> tags. First 500 chars:');
       console.log(xml.substring(0, 500));
+      throw new Error('RSS feed did not return valid XML with events');
     }
     const items = [];
     const itemMatches = xml.match(/<item>([\s\S]*?)<\/item>/g) || [];
@@ -106,6 +117,11 @@ async function syncEvents() {
     }
 
     console.log(`✓ Total events kept: ${items.length}`);
+
+    if (items.length === 0) {
+      console.error('ERROR: No events found in RSS feed. Aborting to avoid data loss.');
+      process.exit(1);
+    }
 
     // Save events.json
     fs.writeFileSync('events.json', JSON.stringify({
