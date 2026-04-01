@@ -152,12 +152,53 @@ async function handleRequest(req) {
     case '/api/admin/webhook':
       return handleAdminWebhook(method, body, req);
 
+    case '/api/rss':
+    case '/rss':
+      return handleRssProxy(method);
+
     default:
       // Handle path-based submission lookup
       if (path.startsWith('/api/submissions/')) {
         return handleSubmissionStatus(method, body, url);
       }
       return errorResponse('Not found', 404);
+  }
+}
+
+// Handle RSS proxy - fetches from 9ty9.co.za to bypass Cloudflare
+async function handleRssProxy(method) {
+  if (method !== 'GET') {
+    return errorResponse('Method not allowed', 405);
+  }
+
+  const RSS_URL = 'https://9ty9.co.za/event/feed';
+
+  log(`🔄 Proxying RSS from ${RSS_URL}`);
+
+  try {
+    const response = await fetch(RSS_URL, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+        'Referer': 'https://9ty9.co.za/'
+      }
+    });
+
+    const xml = await response.text();
+
+    log(`📡 RSS proxy: ${response.status}, ${xml.length} bytes`);
+
+    return new Response(xml, {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/rss+xml; charset=UTF-8',
+        'Access-Control-Allow-Origin': '*',
+        'Cache-Control': 'public, max-age=300' // Cache for 5 minutes
+      }
+    });
+  } catch (error) {
+    log(`❌ RSS proxy error: ${error.message}`);
+    return errorResponse('Failed to fetch RSS feed', 502);
   }
 }
 

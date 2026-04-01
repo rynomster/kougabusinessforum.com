@@ -9,30 +9,28 @@ compatibility_date = "2024-01-01"
 # KBF_WEBSITE = "https://new.kougabusinessforum.com"
 
 # Routes for Cloudflare Pages/Workers integration
-# These routes map to the kbf-web-2026 directory
+# Method restrictions are handled in worker code
 
 [[routes]]
 zone_name = "kougabusinessforum.com"
 pattern = "api/membership"
-methods = ["POST"]
 
 [[routes]]
 zone_name = "kougabusinessforum.com"
 pattern = "api/directory"
-methods = ["POST"]
 
 [[routes]]
 zone_name = "kougabusinessforum.com"
-pattern = "api/submissions/:submissionId"
-methods = ["GET"]
+pattern = "api/submissions/*"
 
 [[routes]]
 zone_name = "kougabusinessforum.com"
 pattern = "api/admin/webhook"
-methods = ["POST"]
 
-# Optional: Admin dashboard route (future)
-# [[routes]]
-# zone_name = "kougabusinessforum.com"
-# pattern = "kbf-web-2026/admin"
-# methods = ["GET", "POST", "PUT", "DELETE"]
+[[routes]]
+zone_name = "kougabusinessforum.com"
+pattern = "api/rss"
+
+[[routes]]
+zone_name = "kougabusinessforum.com"
+pattern = "rss"
