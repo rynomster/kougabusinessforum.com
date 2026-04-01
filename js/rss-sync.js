@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const RSS_URL = 'https://new.kougabusinessforum.com/api/rss';
+const RSS_URL = 'https://9ty9.co.za/event/feed';
 const IMAGES_DIR = 'images/events';
 
 async function syncEvents() {
