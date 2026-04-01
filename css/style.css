@@ -12,6 +12,7 @@
   --accent-light: #ff6b6b;
   --secondary: #533483;
   --text-dark: #1a1a2e;
+  --text-main: #1a1a2e;
   --text-light: #eaeaea;
   --text-muted: #a0a0a0;
   --bg-light: #f8f9fa;
@@ -103,6 +104,7 @@ h1 {
 
 h2 {
   font-size: clamp(2rem, 4vw, 2.5rem);
+  color: var(--text-main);
 }
 
 h3 {
