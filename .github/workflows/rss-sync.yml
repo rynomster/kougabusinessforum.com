@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Fetch and sync events
-        run: node js/rss-sync.js
+        run: node rss-sync.js
 
       - name: Commit changes
         run: |
