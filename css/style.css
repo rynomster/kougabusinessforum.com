@@ -35,30 +35,7 @@
   --spacing-lg: 4rem;
   --spacing-xl: 6rem;
   
-  /* Spacing */
-  --spacing-xs: 0.5rem;
-  --spacing-sm: 1rem;
-  --spacing-md: 2rem;
-  --spacing-lg: 4rem;
-  --spacing-xl: 6rem;
-  
-  /* Border Radius */
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
-  --radius-full: 9999px;
-  
-  /* Shadows */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
-  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.16);
-  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.2);
-  --shadow-hover: 0 12px 24px rgba(233, 69, 96, 0.2);
-  
-  /* Transitions */
-  --transition-fast: 0.2s ease;
-  --transition-normal: 0.3s ease;
-  --transition-slow: 0.4s ease;
+
 }
 
 /* Reset & Base */
@@ -149,13 +126,13 @@ p {
 .btn-primary {
   background: var(--accent-cyan);
   color: white;
-  box-shadow: 0 4px 15px rgba(233, 69, 96, 0.3);
+  box-shadow: 0 4px 15px rgba(6, 200, 255, 0.3);
 }
 
 .btn-primary:hover {
-  background: var(--accent-light);
+  background: var(--accent-teal);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(233, 69, 96, 0.4);
+  box-shadow: 0 6px 20px rgba(6, 200, 255, 0.4);
 }
 
 .btn-secondary {

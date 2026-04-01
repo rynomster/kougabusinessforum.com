@@ -393,30 +393,79 @@
       container.style.display = 'block';
       emptyState.style.display = 'none';
 
-      let html = '<div class="grid">';
-      for (const b of data) {
-        const verifiedBadge = b.verified ? '<span class="badge badge-verified">🔵 KBF Verified</span>' : '<span class="badge badge-basic">⚪ Basic</span>';
-        const cardClass = b.verified ? 'business-card verified' : 'business-card';
+      // Clear and rebuild using safe DOM methods
+      const grid = document.createElement('div');
+      grid.className = 'grid';
 
-        html += '<article class="' + cardClass + '" data-category="' + b.category + '" data-location="' + b.location + '">';
-        html += '<div class="business-header">' +
-          '<div class="business-icon">' + b.icon + '</div>' +
-          '<div class="business-name">' +
-          '<h3>' + b.name + '</h3>' +
-          verifiedBadge + ' ' +
-          '<span class="business-category">' + categoryNames[b.category] + '</span>' +
-          '</div>' +
-          '</div>' +
-          '<div class="business-location"><span>📍</span> ' + getDisplayName(b.location) + '</div>' +
-          '<p class="business-description">' + b.description + '</p>' +
-          '<div class="business-contact">' +
-          '<a href="tel:+270' + b.contact + '" class="contact-item">📞 0' + b.contact + '</a>' +
-          '<a href="mailto:' + b.email + '" class="contact-item">✉️ ' + b.email + '</a>' +
-          '</div>' +
-          '</article>';
+      for (const b of data) {
+        const article = document.createElement('article');
+        article.className = b.verified ? 'business-card verified' : 'business-card';
+        article.dataset.category = b.category;
+        article.dataset.location = b.location;
+
+        const header = document.createElement('div');
+        header.className = 'business-header';
+
+        const icon = document.createElement('div');
+        icon.className = 'business-icon';
+        icon.textContent = b.icon;
+
+        const nameDiv = document.createElement('div');
+        nameDiv.className = 'business-name';
+
+        const h3 = document.createElement('h3');
+        h3.textContent = b.name;
+
+        const badge = document.createElement('span');
+        badge.className = b.verified ? 'badge badge-verified' : 'badge badge-basic';
+        badge.textContent = b.verified ? '🔵 KBF Verified' : '⚪ Basic';
+
+        const category = document.createElement('span');
+        category.className = 'business-category';
+        category.textContent = categoryNames[b.category];
+
+        nameDiv.appendChild(h3);
+        nameDiv.appendChild(badge);
+        nameDiv.appendChild(category);
+        header.appendChild(icon);
+        header.appendChild(nameDiv);
+
+        const location = document.createElement('div');
+        location.className = 'business-location';
+        const locationIcon = document.createElement('span');
+        locationIcon.textContent = '📍';
+        location.appendChild(locationIcon);
+        location.appendChild(document.createTextNode(' ' + getDisplayName(b.location)));
+
+        const desc = document.createElement('p');
+        desc.className = 'business-description';
+        desc.textContent = b.description;
+
+        const contact = document.createElement('div');
+        contact.className = 'business-contact';
+
+        const phone = document.createElement('a');
+        phone.href = 'tel:+270' + b.contact;
+        phone.className = 'contact-item';
+        phone.textContent = '📞 0' + b.contact;
+
+        const email = document.createElement('a');
+        email.href = 'mailto:' + b.email;
+        email.className = 'contact-item';
+        email.textContent = '✉️ ' + b.email;
+
+        contact.appendChild(phone);
+        contact.appendChild(email);
+
+        article.appendChild(header);
+        article.appendChild(location);
+        article.appendChild(desc);
+        article.appendChild(contact);
+        grid.appendChild(article);
       }
-      html += '</div>';
-      container.innerHTML = html;
+
+      container.innerHTML = '';
+      container.appendChild(grid);
       countEl.textContent = 'Showing ' + data.length + (data.length === 1 ? ' business' : ' businesses');
     }
 

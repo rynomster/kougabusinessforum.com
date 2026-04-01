@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit to KBF Directory</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+    
+    .header {
+      background: linear-gradient(135deg, #06c8ff 0%, #0e7996 100%);
+      color: white;
+      padding: 40px 30px;
+      text-align: center;
+    }
+    
+    .header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    
+    .header p {
+      opacity: 0.9;
+      font-size: 1.1rem;
+    }
+    
+    .form-section {
+      padding: 30px;
+    }
+    
+    .form-section h2 {
+      color: #1a1a2e;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #06c8ff;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      color: #1a1a2e;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    .form-group label .required {
+      color: #e53e3e;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #06c8ff;
+      box-shadow: 0 0 0 3px rgba(6, 200, 255, 0.1);
+    }
+    
+    .form-group textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+    
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    
+    .address-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, #06c8ff 0%, #0e7996 100%);
+      color: white;
+      border: none;
+      padding: 16px 32px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(6, 200, 255, 0.3);
+    }
+    
+    .btn-primary:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+    
+    .info-box {
+      background: #f0f9ff;
+      border-left: 4px solid #06c8ff;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+    }
+    
+    .info-box h4 {
+      color: #06c8ff;
+      margin-bottom: 8px;
+    }
+    
+    .info-box p {
+      color: #4a5568;
+      line-height: 1.6;
+    }
+    
+    .badge-examples {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    
+    .badge-example {
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    
+    .badge-paid {
+      background: #dbeafe;
+      color: #1e40af;
+    }
+    
+    .badge-basic {
+      background: #f3f4f6;
+      color: #6b7280;
+    }
+    
+    .form-footer {
+      padding: 20px 30px;
+      background: #f7fafc;
+      border-top: 1px solid #e2e8f0;
+    }
+    
+    .form-footer p {
+      color: #718096;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+    
+    .form-footer .btn-submit {
+      background: linear-gradient(135deg, #06c8ff 0%, #0e7996 100%);
+      color: white;
+      border: none;
+      padding: 14px 32px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .success-message {
+      display: none;
+      text-align: center;
+      padding: 40px;
+      background: #d1fae5;
+      color: #065f46;
+      border-radius: 8px;
+      margin: 20px;
+    }
+    
+    .success-message.show {
+      display: block;
+    }
+    
+    .error-message {
+      display: none;
+      background: #fee2e2;
+      color: #991b1b;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin: 20px;
+    }
+    
+    .error-message.show {
+      display: block;
+    }
+    
+    .image-upload {
+      border: 2px dashed #e2e8f0;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+    
+    .image-upload:hover {
+      border-color: #06c8ff;
+    }
+    
+    .image-upload input {
+      display: none;
+    }
+    
+    .image-preview {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    
+    .image-preview img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #e2e8f0;
+    }
+    
+    .image-url-input {
+      display: flex;
+      gap: 10px;
+    }
+    
+    .image-url-input input {
+      flex: 1;
+    }
+    
+    .image-url-input button {
+      padding: 0 20px;
+    }
+    
+    @media (max-width: 600px) {
+      .row {
+        grid-template-columns: 1fr;
+      }
+      
+      .address-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🏢 Business Directory Submission</h1>
+      <p>List your business in the Kouga Business Forum directory</p>
+    </div>
+    
+    <div class="form-section">
+      <div class="info-box">
+        <h4>📋 What You'll Get</h4>
+        <p>Your business will be featured prominently in our directory with search and filter capabilities. Paid members (🔵) get full visibility with all contact details shown.</p>
+        
+        <div style="margin-top: 10px;">
+          <strong>Badge Types:</strong>
+          <div class="badge-examples">
+            <span class="badge-example badge-paid">🔵 Paid Member</span>
+            <span class="badge-example badge-basic">⚪ Basic Listing</span>
+          </div>
+        </div>
+      </div>
+      
+      <form id="directoryForm">
+        <h2>Business Information</h2>
+        
+        <div class="form-group">
+          <label>Business Name <span class="required">*</span></label>
+          <input type="text" name="businessName" required placeholder="ABC Business">
+        </div>
+        
+        <div class="form-group">
+          <label>Business Owner/Contact Person <span class="required">*</span></label>
+          <input type="text" name="ownerName" required placeholder="Owner Name">
+        </div>
+        
+        <div class="row">
+          <div class="form-group">
+            <label>Owner Phone <span class="required">*</span></label>
+            <input type="tel" name="ownerPhone" required placeholder="063 123 4567">
+          </div>
+          
+          <div class="form-group">
+            <label>Owner Email <span class="required">*</span></label>
+            <input type="email" name="ownerEmail" required placeholder="owner@example.com">
+          </div>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Business Details</h2>
+        
+        <div class="form-group">
+          <label>Website <span class="required">*</span></label>
+          <input type="url" name="website" required placeholder="https://example.com">
+        </div>
+        
+        <div class="row">
+          <div class="form-group">
+            <label>Business Category <span class="required">*</span></label>
+            <select name="businessCategory" required>
+              <option value="">Select category...</option>
+              <option value="retail">Retail</option>
+              <option value="service">Service Provider</option>
+              <option value="manufacturing">Manufacturing</option>
+              <option value="consulting">Consulting</option>
+              <option value="construction">Construction</option>
+              <option value="agriculture">Agriculture</option>
+              <option value="hospitality">Hospitality</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="education">Education</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label>Sub-Category</label>
+            <select name="subCategory">
+              <option value="">Select sub-category...</option>
+              <option value="restaurants">Restaurants</option>
+              <option value="cafes">Cafes</option>
+              <option value="clothing">Clothing</option>
+              <option value="electronics">Electronics</option>
+              <option value="plumbing">Plumbing</option>
+              <option value="electrical">Electrical</option>
+              <option value="marketing">Marketing</option>
+              <option value="accounting">Accounting</option>
+              <option value="legal">Legal</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Operating Hours</h2>
+        
+        <div class="row">
+          <div class="form-group">
+            <label>Monday</label>
+            <input type="text" name="hours_monday" placeholder="08:00-17:00">
+          </div>
+          
+          <div class="form-group">
+            <label>Tuesday</label>
+            <input type="text" name="hours_tuesday" placeholder="08:00-17:00">
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="form-group">
+            <label>Wednesday</label>
+            <input type="text" name="hours_wednesday" placeholder="08:00-17:00">
+          </div>
+          
+          <div class="form-group">
+            <label>Thursday</label>
+            <input type="text" name="hours_thursday" placeholder="08:00-17:00">
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="form-group">
+            <label>Friday</label>
+            <input type="text" name="hours_friday" placeholder="08:00-17:00">
+          </div>
+          
+          <div class="form-group">
+            <label>Saturday</label>
+            <input type="text" name="hours_saturday" placeholder="09:00-13:00">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label>Sunday</label>
+          <input type="text" name="hours_sunday" placeholder="Closed">
+        </div>
+        
+        <h2 style="margin-top: 30px;">Address</h2>
+        
+        <div class="address-grid">
+          <div class="form-group">
+            <label>Street Address <span class="required">*</span></label>
+            <input type="text" name="street" required>
+          </div>
+          
+          <div class="form-group">
+            <label>Town <span class="required">*</span></label>
+            <input type="text" name="town" required>
+          </div>
+          
+          <div class="form-group">
+            <label>Region <span class="required">*</span></label>
+            <select name="region" required>
+              <option value="">Select region...</option>
+              <option value="Jeffreys Bay">Jeffreys Bay</option>
+              <option value="Humansdorp">Humansdorp</option>
+              <option value="St. Francis Bay">St. Francis Bay</option>
+              <option value="Hankey">Hankey</option>
+              <option value="Patensie">Patensie</option>
+              <option value="Loerie">Loerie</option>
+              <option value="Thornhill">Thornhill</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label>Postal Code</label>
+            <input type="text" name="postalCode" placeholder="5210">
+          </div>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Business Description</h2>
+        
+        <div class="form-group">
+          <label>Description <span class="required">*</span></label>
+          <textarea name="description" required placeholder="Brief description of your business..."></textarea>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Images (Optional)</h2>
+        
+        <div class="form-group">
+          <label>Upload Images</label>
+          <div class="image-upload" onclick="document.getElementById('imageUpload').click()">
+            <p>Click to upload or drag and drop images</p>
+            <p style="font-size: 0.9rem; color: #666;">Max 2 images, 5MB each</p>
+            <input type="file" id="imageUpload" multiple accept="image/*" onchange="handleImageUpload(this)"/>
+          </div>
+          <div class="image-preview" id="imagePreview"></div>
+        </div>
+        
+        <div class="form-group">
+          <label>Image URLs (Alternative)</label>
+          <div class="image-url-input">
+            <input type="url" name="image1" placeholder="https://example.com/image1.jpg">
+            <button type="button" onclick="this.previousElementSibling.value = ''">×</button>
+          </div>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Social Media (Optional)</h2>
+        
+        <div class="row">
+          <div class="form-group">
+            <label>Facebook</label>
+            <input type="url" name="facebook" placeholder="https://facebook.com/yourpage">
+          </div>
+          
+          <div class="form-group">
+            <label>Instagram</label>
+            <input type="url" name="instagram" placeholder="https://instagram.com/yourpage">
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="form-group">
+            <label>LinkedIn</label>
+            <input type="url" name="linkedin" placeholder="https://linkedin.com/company/yourcompany">
+          </div>
+          
+          <div class="form-group">
+            <label>Twitter/X</label>
+            <input type="url" name="twitter" placeholder="https://twitter.com/yourhandle">
+          </div>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Awards & Certifications (Optional)</h2>
+        
+        <div class="form-group">
+          <label>Awards & Recognition</label>
+          <textarea name="awards" placeholder="Any awards or certifications your business has received..."></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label>Certifications</label>
+          <textarea name="certifications" placeholder="Any certifications (POPIA, ISO, etc.)..."></textarea>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Additional Information</h2>
+        
+        <div class="form-group">
+          <label>Notes for Admin Review</label>
+          <textarea name="notes" placeholder="Any additional information you'd like us to know..."></textarea>
+        </div>
+        
+        <div class="form-footer">
+          <p>After approval, you'll receive an email with your submission ID. Admin will review and contact you within 48-72 hours.</p>
+          <button type="submit" class="btn-submit">Submit Directory Application</button>
+        </div>
+      </form>
+    </div>
+    
+    <div class="success-message" id="successMessage">
+      <h2>✅ Submission Received!</h2>
+      <p>Thank you for submitting your business details. Our team will review your application and contact you within 48-72 hours.</p>
+      <p style="margin-top: 20px; font-weight: 600;">Submission ID: <span id="submissionId"></span></p>
+    </div>
+    
+    <div class="error-message" id="errorMessage"></div>
+  </div>
+
+  <script>
+    // Image upload handling
+    function handleImageUpload(input) {
+      const preview = document.getElementById('imagePreview');
+      
+      if (input.files) {
+        Array.from(input.files).forEach(file => {
+          if (file.size > 5 * 1024 * 1024) {
+            alert('Image too large! Maximum size is 5MB.');
+            return;
+          }
+          
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            const img = document.createElement('img');
+            img.src = e.target.result;
+            img.title = file.name;
+            preview.appendChild(img);
+          };
+          reader.readAsDataURL(file);
+        });
+      }
+    }
+
+    // Form submission
+    document.getElementById('directoryForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const form = e.target;
+      const submitBtn = form.querySelector('.btn-submit');
+      const successMsg = document.getElementById('successMessage');
+      const errorMsg = document.getElementById('errorMessage');
+      
+      // Show loading state
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting...';
+      
+      // Gather form data
+      const formData = new FormData(form);
+      const data = {
+        action: 'directory',
+        ...Object.fromEntries(formData.entries())
+      };
+      
+      // Add additional metadata
+      data.submittedAt = new Date().toISOString();
+      data.source = 'website-form';
+      
+      // Show error message
+      const showError = (message) => {
+        errorMsg.textContent = message;
+        errorMsg.classList.add('show');
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Application';
+        setTimeout(() => errorMsg.classList.remove('show'), 5000);
+      };
+      
+      // Show success message
+      const showSuccess = (result) => {
+        successMsg.classList.add('show');
+        if (result.submissionId) {
+          document.getElementById('submissionId').textContent = result.submissionId;
+        }
+        form.reset();
+        document.getElementById('imagePreview').innerHTML = '';
+        
+        // Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+      
+      try {
+        // Submit to worker
+        const response = await fetch('/api/directory', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(data)
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+          showSuccess(result);
+        } else {
+          showError(result.error || 'Failed to submit application. Please try again.');
+        }
+      } catch (error) {
+        console.error('Submission error:', error);
+        showError('Network error. Please check your connection and try again. Contact office@kougabusinessforum.com if the problem persists.');
+      }
+    });
+  </script>
+</body>
+</html>

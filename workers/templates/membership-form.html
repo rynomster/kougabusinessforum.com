@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KBF Membership Application</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+    
+    .header {
+      background: linear-gradient(135deg, #06c8ff 0%, #0e7996 100%);
+      color: white;
+      padding: 40px 30px;
+      text-align: center;
+    }
+    
+    .header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    
+    .header p {
+      opacity: 0.9;
+      font-size: 1.1rem;
+    }
+    
+    .form-section {
+      padding: 30px;
+    }
+    
+    .form-section h2 {
+      color: #1a1a2e;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #06c8ff;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      color: #1a1a2e;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    .form-group label .required {
+      color: #e53e3e;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #06c8ff;
+      box-shadow: 0 0 0 3px rgba(6, 200, 255, 0.1);
+    }
+    
+    .form-group textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+    
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    
+    .address-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, #06c8ff 0%, #0e7996 100%);
+      color: white;
+      border: none;
+      padding: 16px 32px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(6, 200, 255, 0.3);
+    }
+    
+    .btn-primary:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+    
+    .info-box {
+      background: #f0f9ff;
+      border-left: 4px solid #06c8ff;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+    }
+    
+    .info-box h4 {
+      color: #06c8ff;
+      margin-bottom: 8px;
+    }
+    
+    .info-box p {
+      color: #4a5568;
+      line-height: 1.6;
+    }
+    
+    .pricing {
+      background: #f7fafc;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 25px;
+    }
+    
+    .pricing h3 {
+      color: #1a1a2e;
+      margin-bottom: 15px;
+    }
+    
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    
+    .pricing-card {
+      background: white;
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .pricing-card.selected {
+      border-color: #06c8ff;
+      background: #f0f9ff;
+    }
+    
+    .pricing-card input[type="radio"] {
+      display: none;
+    }
+    
+    .pricing-card input[type="radio"]:checked + label {
+      color: #06c8ff;
+      font-weight: 700;
+    }
+    
+    .pricing-card label {
+      cursor: pointer;
+      padding: 8px;
+      display: block;
+    }
+    
+    .pricing-card .price {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin: 10px 0;
+    }
+    
+    .form-footer {
+      padding: 20px 30px;
+      background: #f7fafc;
+      border-top: 1px solid #e2e8f0;
+    }
+    
+    .form-footer p {
+      color: #718096;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+    
+    .form-footer .btn-submit {
+      background: linear-gradient(135deg, #06c8ff 0%, #0e7996 100%);
+      color: white;
+      border: none;
+      padding: 14px 32px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .success-message {
+      display: none;
+      text-align: center;
+      padding: 40px;
+      background: #d1fae5;
+      color: #065f46;
+      border-radius: 8px;
+      margin: 20px;
+    }
+    
+    .success-message.show {
+      display: block;
+    }
+    
+    .error-message {
+      display: none;
+      background: #fee2e2;
+      color: #991b1b;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin: 20px;
+    }
+    
+    .error-message.show {
+      display: block;
+    }
+    
+    @media (max-width: 600px) {
+      .row {
+        grid-template-columns: 1fr;
+      }
+      
+      .address-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🦀 KBF Membership Application</h1>
+      <p>Join the Kouga Business Forum community</p>
+    </div>
+    
+    <div class="form-section">
+      <div class="info-box">
+        <h4>📋 What You'll Get</h4>
+        <p>Membership gives you access to the business directory, networking opportunities, and recognition as a verified Kouga business.</p>
+      </div>
+      
+      <div class="pricing">
+        <h3>💰 Choose Your Membership</h3>
+        <div class="pricing-grid">
+          <div class="pricing-card" id="annual-card">
+            <input type="radio" name="membershipType" id="annual" value="annual">
+            <label for="annual">
+              <div>Annual</div>
+              <div class="price">R1,200</div>
+              <div style="font-size: 0.9rem; color: #666;">One-time payment</div>
+            </label>
+          </div>
+          <div class="pricing-card" id="monthly-card">
+            <input type="radio" name="membershipType" id="monthly" value="monthly" checked>
+            <label for="monthly">
+              <div>Monthly</div>
+              <div class="price">R200 + R100/mo</div>
+              <div style="font-size: 0.9rem; color: #666;">R1,400 per year</div>
+            </label>
+          </div>
+          <div class="pricing-card" id="complimentary-card">
+            <input type="radio" name="membershipType" id="complimentary" value="complimentary">
+            <label for="complimentary">
+              <div>Complimentary</div>
+              <div class="price">FREE</div>
+              <div style="font-size: 0.9rem; color: #666;">NGOs, schools, churches</div>
+            </label>
+          </div>
+        </div>
+      </div>
+      
+      <form id="membershipForm">
+        <h2>Personal Details</h2>
+        
+        <div class="form-group">
+          <label>First Name <span class="required">*</span></label>
+          <input type="text" name="firstName" required placeholder="John">
+        </div>
+        
+        <div class="form-group">
+          <label>Last Name <span class="required">*</span></label>
+          <input type="text" name="lastName" required placeholder="Doe">
+        </div>
+        
+        <div class="row">
+          <div class="form-group">
+            <label>Email <span class="required">*</span></label>
+            <input type="email" name="email" required placeholder="john@example.com">
+          </div>
+          
+          <div class="form-group">
+            <label>Phone <span class="required">*</span></label>
+            <input type="tel" name="phone" required placeholder="063 123 4567">
+          </div>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Business Details</h2>
+        
+        <div class="form-group">
+          <label>Business/Company Name <span class="required">*</span></label>
+          <input type="text" name="company" required placeholder="ABC Company">
+        </div>
+        
+        <div class="form-group">
+          <label>Website <span class="required">*</span></label>
+          <input type="url" name="website" required placeholder="https://example.com">
+        </div>
+        
+        <div class="form-group">
+          <label>Business Category <span class="required">*</span></label>
+          <select name="businessCategory" required>
+            <option value="">Select a category...</option>
+            <option value="retail">Retail</option>
+            <option value="service">Service Provider</option>
+            <option value="manufacturing">Manufacturing</option>
+            <option value="consulting">Consulting</option>
+            <option value="construction">Construction</option>
+            <option value="agriculture">Agriculture</option>
+            <option value="hospitality">Hospitality</option>
+            <option value="healthcare">Healthcare</option>
+            <option value="education">Education</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Address</h2>
+        
+        <div class="address-grid">
+          <div class="form-group">
+            <label>Street Address <span class="required">*</span></label>
+            <input type="text" name="street" required>
+          </div>
+          
+          <div class="form-group">
+            <label>Town <span class="required">*</span></label>
+            <input type="text" name="town" required>
+          </div>
+          
+          <div class="form-group">
+            <label>Region <span class="required">*</span></label>
+            <select name="region" required>
+              <option value="">Select region...</option>
+              <option value="Jeffreys Bay">Jeffreys Bay</option>
+              <option value="Humansdorp">Humansdorp</option>
+              <option value="St. Francis Bay">St. Francis Bay</option>
+              <option value="Hankey">Hankey</option>
+              <option value="Patensie">Patensie</option>
+              <option value="Loerie">Loerie</option>
+              <option value="Thornhill">Thornhill</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label>Postal Code</label>
+            <input type="text" name="postalCode" placeholder="5210">
+          </div>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Social Media (Optional)</h2>
+        
+        <div class="row">
+          <div class="form-group">
+            <label>Facebook</label>
+            <input type="url" name="facebook" placeholder="https://facebook.com/yourpage">
+          </div>
+          
+          <div class="form-group">
+            <label>Instagram</label>
+            <input type="url" name="instagram" placeholder="https://instagram.com/yourpage">
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="form-group">
+            <label>LinkedIn</label>
+            <input type="url" name="linkedin" placeholder="https://linkedin.com/company/yourcompany">
+          </div>
+          
+          <div class="form-group">
+            <label>Twitter/X</label>
+            <input type="url" name="twitter" placeholder="https://twitter.com/yourhandle">
+          </div>
+        </div>
+        
+        <h2 style="margin-top: 30px;">Additional Information</h2>
+        
+        <div class="form-group">
+          <label>Notes or Additional Information</label>
+          <textarea name="notes" placeholder="Any additional information you'd like us to know..."></textarea>
+        </div>
+        
+        <div class="form-footer">
+          <p>By submitting this form, you agree to our <a href="/privacy-policy.html" target="_blank">Privacy Policy</a> and terms of membership.</p>
+          <button type="submit" class="btn-submit">Submit Application</button>
+        </div>
+      </form>
+    </div>
+    
+    <div class="success-message" id="successMessage">
+      <h2>✅ Application Submitted!</h2>
+      <p>Thank you for your application. Our team will review it and contact you within 48 hours.</p>
+      <p style="margin-top: 20px; font-weight: 600;">Application ID: <span id="submissionId"></span></p>
+    </div>
+    
+    <div class="error-message" id="errorMessage"></div>
+  </div>
+
+  <script>
+    // Pricing selection handling
+    document.querySelectorAll('.pricing-card input[type="radio"]').forEach(radio => {
+      radio.addEventListener('change', (e) => {
+        document.querySelectorAll('.pricing-card').forEach(card => card.classList.remove('selected'));
+        e.target.closest('.pricing-card').classList.add('selected');
+      });
+    });
+
+    // Form submission
+    document.getElementById('membershipForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const form = e.target;
+      const submitBtn = form.querySelector('.btn-submit');
+      const successMsg = document.getElementById('successMessage');
+      const errorMsg = document.getElementById('errorMessage');
+      
+      // Show loading state
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting...';
+      
+      // Gather form data
+      const formData = new FormData(form);
+      const data = {
+        action: 'membership',
+        ...Object.fromEntries(formData.entries())
+      };
+      
+      // Add additional metadata
+      data.submittedAt = new Date().toISOString();
+      data.source = 'website-form';
+      
+      // Show error message
+      const showError = (message) => {
+        errorMsg.textContent = message;
+        errorMsg.classList.add('show');
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Application';
+        setTimeout(() => errorMsg.classList.remove('show'), 5000);
+      };
+      
+      // Show success message
+      const showSuccess = (result) => {
+        successMsg.classList.add('show');
+        if (result.submissionId) {
+          document.getElementById('submissionId').textContent = result.submissionId;
+        }
+        form.reset();
+        // Remove selected pricing
+        form.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+        document.querySelectorAll('.pricing-card').forEach(card => card.classList.remove('selected'));
+        
+        // Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+      
+      try {
+        // Submit to worker
+        const response = await fetch('/api/membership', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(data)
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+          showSuccess(result);
+        } else {
+          showError(result.error || 'Failed to submit application. Please try again.');
+        }
+      } catch (error) {
+        console.error('Submission error:', error);
+        showError('Network error. Please check your connection and try again. Contact office@kougabusinessforum.com if the problem persists.');
+      }
+    });
+  </script>
+</body>
+</html>
