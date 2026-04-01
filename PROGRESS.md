@@ -1,6 +1,6 @@
 # 📊 KBF Website - Project Progress
 
-**Last Updated:** 2026-03-31 22:15 UTC
+**Last Updated:** 2026-04-01 19:00 UTC
 **Status:** Phase 3 Active - Post-Launch Maintenance
 
 ---
@@ -41,6 +41,9 @@
 - [x] **Google Sheets auto-sync for directory**
 - [x] **GitHub Actions for directory sync**
 - [x] **Team collaboration protocol (AGENTS.md)**
+- [x] **Cloudflare Worker for form handling (membership, directory, newsletter)**
+- [x] **Branch protection setup (main protected, develop for work)**
+- [x] **Social media links in footer**
 
 ### Content
 - [x] 10 committee members with photos
@@ -65,7 +68,7 @@
 ### High Priority
 | Task | Status | Notes |
 |------|--------|-------|
-| **Formspree Setup** | ⏳ Pending | User to sign up at formspree.io |
+| **Form Handling (Worker)** | ✅ Complete | Membership, directory, newsletter via Cloudflare Worker |
 | **Member Payment Status** | ⏳ Pending | Who has paid for 2026 |
 
 ### Medium Priority
@@ -172,7 +175,7 @@ kbf-web-2026/
 
 | Item | Status | Last Request |
 |------|--------|--------------|
-| Formspree setup | ⏳ Pending | User to sign up at formspree.io |
+| Social media URLs | ⏳ Pending | Confirm real FB/LinkedIn/Twitter/Instagram links |
 | WordPress backup | ⏳ Pending | Export XML + download media |
 | KBF 2026 events | ⏳ Pending | Client finalizing calendar |
 | Member list (paid) | ⏳ Pending | Who has paid for 2026 |
@@ -183,13 +186,13 @@ kbf-web-2026/
 
 - [ ] Directory membership badge system ✅ Done
 - [ ] Business submission form ✅ Ready
+- [ ] Newsletter subscription ✅ Ready (worker endpoint /api/newsletter)
+- [ ] Social media links ✅ Done (footer)
 - [ ] PayFast payment integration ⏳ Pending WordPress backup
 - [ ] Member-only content section
 - [ ] Meeting minutes archive (5yr requirement)
 - [ ] Newsletter archive
 - [ ] Event registration integration
-- [ ] Newsletter subscription
-- [ ] Social media links
 - [ ] Google Analytics
 - [ ] Accessibility audit (WCAG)
 
@@ -204,6 +207,15 @@ kbf-web-2026/
 - Custom domain: new.kougabusinessforum.com
 - **All directory tasks completed**
 - **Team collaboration protocol established**
+- **Social media links added to footer (placeholders - need real URLs)**
+- **Newsletter signup added to homepage**
+- **RSS sync blocked by Cloudflare bot protection - worker proxy ready but not deployed**
+
+### RSS Sync Status (2026-04-01)
+- CI runs every 6 hours but fails with HTTP 403 from Cloudflare
+- IP whitelist attempted but Cloudflare uses bot fingerprinting
+- Worker proxy code added to `workers/src/index.js` (routes: /api/rss, /rss)
+- Solution: Deploy worker to bypass Cloudflare bot protection
 
 ---
 

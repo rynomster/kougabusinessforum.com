@@ -152,6 +152,9 @@ async function handleRequest(req) {
     case '/api/admin/webhook':
       return handleAdminWebhook(method, body, req);
 
+    case '/api/newsletter':
+      return handleNewsletter(method, body);
+
     case '/api/rss':
     case '/rss':
       return handleRssProxy(method);
@@ -368,6 +371,21 @@ async function handleAdminWebhook(method, body, req) {
     message: 'Webhook processed',
     submissionId: body.submissionId
   });
+}
+
+// Handle newsletter subscription
+async function handleNewsletter(method, body) {
+  if (method !== 'POST') {
+    return errorResponse('Method not allowed', 405);
+  }
+
+  if (!body || !body.email) {
+    return errorResponse('Email is required', 400);
+  }
+
+  log(`📧 Newsletter subscription: ${body.email}`);
+
+  return jsonResponse({ success: true }, 201);
 }
 
 // Serve the worker
