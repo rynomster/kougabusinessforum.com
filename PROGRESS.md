@@ -44,6 +44,7 @@
 - [x] **Cloudflare Worker for form handling (membership, directory, newsletter)**
 - [x] **Branch protection setup (main protected, develop for work)**
 - [x] **Social media links in footer**
+- [x] **Homepage data integration & link optimization** (Refactor 🏗️)
 
 ### Content
 - [x] 10 committee members with photos
