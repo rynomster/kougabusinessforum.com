@@ -225,10 +225,13 @@ p {
 /* Hero Section */
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background: linear-gradient(rgba(26, 26, 46, 0.7), rgba(26, 26, 46, 0.7)), url('../images/kouga-tourism-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   padding: var(--spacing-xl) 0 var(--spacing-lg);
   overflow: hidden;
 }
@@ -236,23 +239,27 @@ p {
 .hero::before {
   content: '';
   position: absolute;
-  top: -50%;
-  right: -20%;
-  width: 80%;
-  height: 150%;
-  background: radial-gradient(circle, rgba(233, 69, 96, 0.15) 0%, transparent 70%);
-  animation: pulse 8s ease-in-out infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 0.5; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(1.1); }
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(135deg, transparent 0%, rgba(6, 200, 255, 0.05) 100%);
+  pointer-events: none;
 }
 
 .hero-content {
   position: relative;
   z-index: 10;
   max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: white;
+  margin-bottom: 1.5rem;
 }
 
 .hero-subtitle {
@@ -267,6 +274,16 @@ p {
   gap: var(--spacing-md);
   flex-wrap: wrap;
   margin-top: var(--spacing-lg);
+}
+
+.hero-attribution {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  z-index: 10;
+  pointer-events: none;
 }
 
 /* Category Cards Grid */
@@ -830,48 +847,6 @@ p {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(6, 200, 255, 0.5);
   background: linear-gradient(135deg, #00b1e4 0%, #06c8ff 100%);
-}
-
-/* Hero Section Matching Mockup */
-.hero {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 60%;
-  height: 100%;
-  background: linear-gradient(135deg, transparent 0%, rgba(6, 200, 255, 0.05) 100%);
-  pointer-events: none;
-}
-
-.hero-content {
-  max-width: 800px;
-  padding: 2rem;
-}
-
-.hero h1 {
-  font-size: 3.5rem;
-  font-weight: 800;
-  color: white;
-  line-height: 1.1;
-  margin-bottom: 1.5rem;
-  letter-spacing: -0.03em;
-}
-
-.hero-subtitle {
-  font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.8);
-  line-height: 1.7;
-  margin-bottom: 2rem;
 }
 
 /* Accent Colors */
