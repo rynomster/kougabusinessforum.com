@@ -6,12 +6,37 @@ const { execSync } = require('child_process');
 const RSS_URL = 'https://9ty9.co.za/event/feed';
 const IMAGES_DIR = 'images/events';
 
+// Prune events that ended more than this many days ago
+const PRUNE_PAST_DAYS = 7;
+
 async function syncEvents() {
   console.log('Starting RSS sync...');
+  console.log(`Pruning events older than ${PRUNE_PAST_DAYS} days past their date`);
 
   // Create images directory
   if (!fs.existsSync(IMAGES_DIR)) {
     fs.mkdirSync(IMAGES_DIR, { recursive: true });
+  }
+
+  // Load existing events FIRST - don't delete before fetching
+  let existingEvents = [];
+  const eventsJsonPath = 'events.json';
+  if (fs.existsSync(eventsJsonPath)) {
+    try {
+      const existing = JSON.parse(fs.readFileSync(eventsJsonPath, 'utf8'));
+      existingEvents = existing.events || [];
+      console.log(`Loaded ${existingEvents.length} existing events`);
+    } catch (err) {
+      console.warn('Could not parse existing events.json, starting fresh:', err.message);
+    }
+  }
+
+  // Build lookup map by GUID to detect duplicates
+  const eventsByGuid = new Map();
+  for (const event of existingEvents) {
+    if (event.guid) {
+      eventsByGuid.set(event.guid, event);
+    }
   }
 
   // Load templates
@@ -37,7 +62,7 @@ async function syncEvents() {
 
     // Fail on HTTP errors
     if (httpCode === '403' || httpCode === '429') {
-      console.error(`ERROR: Cloudflare blocked request (HTTP ${httpCode}). IP may not be allowlisted for GitHub Actions runners.`);
+      console.error(`ERROR: Cloudflare blocked request (HTTP ${httpCode}). Keeping existing events.`);
       process.exit(1);
     }
 
@@ -50,18 +75,16 @@ async function syncEvents() {
     }
 
     if (!xml.includes('<item>')) {
-      console.log('Response does not contain <item> tags. First 500 chars:');
-      console.log(xml.substring(0, 500));
-      throw new Error('RSS feed did not return valid XML with events');
+      console.log('Response does not contain <item> tags. Keeping existing events.');
+      console.log('First 500 chars:', xml.substring(0, 500));
+      // Don't exit with error - keep what we have
     }
-    const items = [];
+
     const itemMatches = xml.match(/<item>([\s\S]*?)<\/item>/g) || [];
-
-    // Filter out events older than 1 month
-    const oneMonthAgo = new Date();
-    oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
-
     console.log(`Found ${itemMatches.length} items in feed.`);
+
+    let newEventsAdded = 0;
+    let newEventsSkipped = 0;
 
     for (const itemXml of itemMatches) {
       const title = (itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) || itemXml.match(/<title>(.*?)<\/title>/))?.[1] || 'Untitled';
@@ -77,9 +100,16 @@ async function syncEvents() {
       const cleanDesc = description.replace(/<[^>]+>/g, '').trim();
       const date = new Date(pubDate);
 
-      // Skip events older than 1 month
-      if (date < oneMonthAgo) {
+      // Skip if no valid date
+      if (isNaN(date.getTime())) {
+        console.log(`Skipping event without valid date: ${title}`);
         continue;
+      }
+
+      // Check for duplicate by GUID
+      if (guid && eventsByGuid.has(guid)) {
+        newEventsSkipped++;
+        continue; // Already have this event, skip
       }
 
       // Download image locally
@@ -103,7 +133,7 @@ async function syncEvents() {
         }
       }
 
-      items.push({
+      const event = {
         title: title.trim(),
         link,
         guid,
@@ -113,23 +143,53 @@ async function syncEvents() {
         month: date.toLocaleDateString('en-ZA', { month: 'short' }).toUpperCase(),
         description: cleanDesc.substring(0, 200),
         image: localImage
-      });
+      };
+
+      // Add to map and array
+      eventsByGuid.set(guid, event);
+      existingEvents.push(event);
+      newEventsAdded++;
     }
 
-    console.log(`✓ Total events kept: ${items.length}`);
+    console.log(`✓ New events added: ${newEventsAdded}, duplicates skipped: ${newEventsSkipped}`);
 
-    if (items.length === 0) {
-      console.error('ERROR: No events found in RSS feed. Aborting to avoid data loss.');
+    // NOW prune old events - after successful fetch, only if we got new data
+    if (newEventsAdded > 0 || newEventsSkipped > 0) {
+      const pruneThreshold = new Date();
+      pruneThreshold.setDate(pruneThreshold.getDate() - PRUNE_PAST_DAYS);
+      console.log(`Pruning events with dates before: ${pruneThreshold.toISOString().split('T')[0]}`);
+
+      const originalCount = existingEvents.length;
+      existingEvents = existingEvents.filter(event => {
+        if (!event.dateStr) return true; // Keep events without dates
+        const eventDate = new Date(event.dateStr);
+        return eventDate >= pruneThreshold;
+      });
+
+      const prunedCount = originalCount - existingEvents.length;
+      console.log(`Pruned ${prunedCount} old events (${PRUNE_PAST_DAYS}+ days past)`);
+    } else {
+      console.log('No new events from feed, skipping prune to preserve existing data');
+    }
+
+    // Sort by date ascending (oldest first for display)
+    existingEvents.sort((a, b) => new Date(a.dateStr) - new Date(b.dateStr));
+
+    console.log(`✓ Total events after sync: ${existingEvents.length}`);
+
+    if (existingEvents.length === 0) {
+      console.error('ERROR: No events remaining. Aborting to avoid data loss.');
       process.exit(1);
     }
 
     // Save events.json
-    fs.writeFileSync('events.json', JSON.stringify({
+    fs.writeFileSync(eventsJsonPath, JSON.stringify({
       lastUpdated: new Date().toISOString(),
       source: RSS_URL,
-      count: items.length,
-      events: items.slice(0, 50)
+      count: existingEvents.length,
+      events: existingEvents
     }, null, 2));
+    console.log(`✓ Saved events.json (${existingEvents.length} events)`);
 
     // Generate events.html
     const eventsHtml = `<!DOCTYPE html>
@@ -155,7 +215,7 @@ async function syncEvents() {
     <div class="container">
       <p class="last-updated">Last updated: ${new Date().toLocaleString('en-ZA')}</p>
       <div class="events-grid">
-${items.slice(0, 50).map((event, i) => {
+${existingEvents.map((event, i) => {
   const imgSrc = event.image ? (event.image.startsWith('http') ? event.image : `${event.image}`) : '';
   const imgAlt = event.title.replace(/"/g, '&quot;');
   return `        <div class="event-card">
@@ -181,6 +241,10 @@ ${items.slice(0, 50).map((event, i) => {
 
   } catch (err) {
     console.error('Error during sync:', err.message);
+    // Don't delete existing events on error - exit gracefully
+    if (existingEvents.length > 0) {
+      console.log(`Keeping ${existingEvents.length} existing events due to error.`);
+    }
     process.exit(1);
   }
 }
