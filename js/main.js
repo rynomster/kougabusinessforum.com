@@ -1,7 +1,7 @@
 // KBF Website - Modern Redesign JavaScript
 
 // Configuration
-const RSS_FEED_URL = 'https://kougabusinessforum.com/feed/';
+const EVENTS_JSON_URL = 'events.json';
 
 // DOM Ready
 document.addEventListener('DOMContentLoaded', function() {
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Navigation - Smooth Scrolling
 function initializeNavigation() {
-  const navLinks = document.querySelectorAll('.nav a[href^="#"], .hero a[href^="#"]');
+  const navLinks = document.querySelectorAll('a[href^="#"]');
   
   navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
@@ -145,17 +145,17 @@ function initializeScrollAnimations() {
   });
 }
 
-// Load and display events from RSS feed
+// Load and display events from events.json
 async function loadEvents() {
   try {
-    const response = await fetch(RSS_FEED_URL);
+    const response = await fetch(EVENTS_JSON_URL);
     
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     
-    const feedData = await response.text();
-    const events = parseAtomFeed(feedData);
+    const data = await response.json();
+    const events = data.events;
     
     if (events && events.length > 0) {
       displayEvents(events);
@@ -166,24 +166,31 @@ async function loadEvents() {
   }
 }
 
-// Parse Atom feed format
-function parseAtomFeed(feedData) {
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(feedData, 'text/xml');
+// Display real events from events.json
+function displayEvents(events) {
+  const container = document.getElementById('events-container');
+  if (!container) return;
+
+  // Clear existing content to prevent duplicates
+  container.innerHTML = '';
   
-  const items = doc.querySelectorAll('entry');
-  const results = [];
+  // Display the first 3 events
+  const featuredEvents = events.slice(0, 3);
   
-  items.forEach(item => {
-    results.push({
-      title: item.querySelector('title')?.textContent || 'Untitled',
-      link: item.querySelector('link')?.getAttribute('href') || '#',
-      pubDate: item.querySelector('published')?.textContent || item.querySelector('updated')?.textContent || '',
-      content: item.querySelector('content')?.textContent || item.querySelector('summary')?.textContent || ''
-    });
+  featuredEvents.forEach((event, index) => {
+    const eventCard = document.createElement('div');
+    eventCard.className = 'card';
+    eventCard.style.animationDelay = `${index * 100}ms`;
+    eventCard.innerHTML = `
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
+        <h3 style="margin: 0;">${event.title}</h3>
+        <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${event.day} ${event.month}</span>
+      </div>
+      <p style="color: var(--text-muted);">${event.description.length > 120 ? event.description.substring(0, 120) + '...' : event.description}</p>
+      <a href="${event.link}" target="_blank" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">More Info</a>
+    `;
+    container.appendChild(eventCard);
   });
-  
-  return results;
 }
 
 // Display demo events
@@ -252,7 +259,7 @@ function displayDemoEvents() {
 // Utility: Console logging for debugging
 if (typeof console !== 'undefined') {
   console.log('KBF Website initialized');
-  console.log('RSS Feed URL:', RSS_FEED_URL);
+  console.log('Events URL:', EVENTS_JSON_URL);
   console.log('Modern redesign loaded successfully');
 }
 

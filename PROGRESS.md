@@ -38,6 +38,8 @@
 - [x] 43 event images downloaded locally
 - [x] Login references removed
 - [x] **Directory with badge system implemented**
+- [x] **Homepage refactor: Layout aligned to target structure (Hero, Welcome, Previews)**
+- [x] **Homepage refactor: Dynamic events from `events.json` and smooth scrolling fixed**
 - [x] **Google Sheets auto-sync for directory**
 - [x] **GitHub Actions for directory sync**
 - [x] **Team collaboration protocol (AGENTS.md)**
