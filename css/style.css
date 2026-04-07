@@ -137,6 +137,11 @@ p {
   box-shadow: 0 6px 20px rgba(6, 200, 255, 0.4);
 }
 
+.btn-newsletter:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-md);
+}
+
 .btn-secondary {
   background: var(--primary-light);
   color: white;

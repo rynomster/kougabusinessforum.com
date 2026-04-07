@@ -331,10 +331,23 @@
       <div style="max-width: 600px; margin: 0 auto; text-align: center;">
         <h2 style="color: white; margin-bottom: 1rem;">Stay Updated</h2>
         <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; font-size: 1.1rem;">Get the latest news, events, and opportunities from the Kouga Business Forum delivered to your inbox.</p>
-        <form action="/api/newsletter" method="POST" class="newsletter-form" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
-          <input type="email" name="email" required placeholder="Enter your email address" style="flex: 1; min-width: 250px; padding: 1rem 1.5rem; border: 2px solid rgba(255,255,255,0.3); border-radius: var(--radius); font-size: 1rem; background: white; color: var(--text-main);">
-          <button type="submit" style="padding: 1rem 2rem; background: white; color: var(--accent-teal); border: none; border-radius: var(--radius); font-weight: 600; font-size: 1rem; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">Subscribe</button>
+
+        <form id="newsletter-form" action="/api/newsletter" method="POST" class="newsletter-form" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+          <input type="email" name="email" required placeholder="Enter your email address" style="flex: 1; min-width: 250px; padding: 1rem 1.5rem; border: 2px solid rgba(255,255,255,0.3); border-radius: var(--radius-sm); font-size: 1rem; background: white; color: var(--text-main);">
+          <button type="submit" class="btn-newsletter" style="padding: 1rem 2rem; background: white; color: var(--accent-teal); border: none; border-radius: var(--radius-sm); font-weight: 600; font-size: 1rem; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">Subscribe</button>
         </form>
+
+        <div id="newsletter-success" style="display: none; color: white; background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: var(--radius-sm); margin-top: 1rem; font-weight: 500;">
+          🎉 Thank you! You've been successfully subscribed to our newsletter.
+        </div>
+
+        <div id="newsletter-error" style="display: none; color: #ff6b6b; background: rgba(255,255,255,0.1); padding: 1rem; border-radius: var(--radius-sm); margin-top: 1rem; font-weight: 500; font-size: 0.9rem;">
+          ❌ Sorry, there was an error. Please try again or contact us directly.
+        </div>
+
+        <p style="color: rgba(255,255,255,0.7); margin-top: 1.5rem; font-size: 0.85rem;">
+          We respect your privacy. Unsubscribe at any time.
+        </p>
       </div>
     </div>
   </section>

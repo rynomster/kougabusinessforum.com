@@ -71,6 +71,54 @@ function initializeMobileMenuToggle() {
 
 // Forms
 function initializeForms() {
+  // Newsletter Form
+  const newsletterForm = document.getElementById('newsletter-form');
+  const newsletterSuccess = document.getElementById('newsletter-success');
+  const newsletterError = document.getElementById('newsletter-error');
+
+  if (newsletterForm) {
+    newsletterForm.addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      const emailInput = this.querySelector('input[name="email"]');
+      const submitBtn = this.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+
+      // Reset state
+      if (newsletterError) newsletterError.style.display = 'none';
+
+      // Loading state
+      submitBtn.textContent = 'Subscribing...';
+      submitBtn.disabled = true;
+
+      try {
+        const response = await fetch('/api/newsletter', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: emailInput.value })
+        });
+
+        if (response.ok) {
+          // Show success message
+          newsletterForm.style.display = 'none';
+          if (newsletterSuccess) {
+            newsletterSuccess.style.display = 'block';
+          }
+        } else {
+          throw new Error('Subscription failed');
+        }
+      } catch (error) {
+        console.error('Newsletter error:', error);
+        // Show error message
+        if (newsletterError) {
+          newsletterError.style.display = 'block';
+        }
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+      }
+    });
+  }
+
   // Join Form
   const joinForm = document.getElementById('join-form');
   if (joinForm) {
