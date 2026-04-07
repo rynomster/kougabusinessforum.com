@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-02T00:04:37.696Z",
+  "lastUpdated": "2026-04-05T00:04:46.510Z",
   "source": "https://9ty9.co.za/event/feed",
-  "count": 50,
+  "count": 72,
   "events": [
     {
       "title": "Jacobus Silver at  De Viswijf in Jeffreys Bay",
@@ -411,6 +411,17 @@
       "image": "images/events/CurryQuiz-28July2026.jpg"
     },
     {
+      "title": "The Art of Networking at  Jeffreys Bay Golf Club in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/the-art-of-networking/",
+      "guid": "https://9ty9.co.za/events/the-art-of-networking/",
+      "pubDate": "Tue, 07 Apr 2026 15:30:00 +0000",
+      "dateStr": "2026-04-07",
+      "day": "07",
+      "month": "APR",
+      "description": "Tue, 7 April 2026 - 17:30 - 20:00",
+      "image": "images/events/The-Art-of-Networking-7April2026.jpg"
+    },
+    {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-03-2026-04-08/",
       "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-03-2026-04-08/",
@@ -552,6 +563,237 @@
       "month": "APR",
       "description": "Sat, 11 April 2026 - 08:00 - 17:00",
       "image": "images/events/Kouga-Mayoral-Cup-Touch-Rugby-11April2026.jpg"
+    },
+    {
+      "title": "Kouga Mayoral Cup  - Volleyball at  Kabeljous Beach in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kouga-mayoral-cup-volleyball/",
+      "guid": "https://9ty9.co.za/events/kouga-mayoral-cup-volleyball/",
+      "pubDate": "Sat, 11 Apr 2026 06:00:00 +0000",
+      "dateStr": "2026-04-11",
+      "day": "11",
+      "month": "APR",
+      "description": "Sat, 11 April 2026 - 08:00 - 17:00",
+      "image": "images/events/Kouga-Mayoral-Cup-Volleyball-11April2026.jpg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11/",
+      "pubDate": "Sat, 11 Apr 2026 06:00:00 +0000",
+      "dateStr": "2026-04-11",
+      "day": "11",
+      "month": "APR",
+      "description": "Sat, 11 April 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St Francis Parkrun at  St Francis Links in St Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11/",
+      "pubDate": "Sat, 11 Apr 2026 06:00:00 +0000",
+      "dateStr": "2026-04-11",
+      "day": "11",
+      "month": "APR",
+      "description": "Sat, 11 April 2026 - 08:00 - 09:00",
+      "image": "images/events/St-Francis-Parkrun.jpg"
+    },
+    {
+      "title": "Milkwood Farmers Market at  Milkwood Mark \\ Market in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/milkwood-farmers-market-2026-04-11/",
+      "guid": "https://9ty9.co.za/events/milkwood-farmers-market-2026-04-11/",
+      "pubDate": "Sat, 11 Apr 2026 07:00:00 +0000",
+      "dateStr": "2026-04-11",
+      "day": "11",
+      "month": "APR",
+      "description": "Sat, 11 April 2026 - 09:00 - 13:00",
+      "image": "images/events/Milkwood-Market-26Dec2026.jpg"
+    },
+    {
+      "title": "Poppy Painting Workshop at  Palette Art Gallery in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/poppy-painting-workshop/",
+      "guid": "https://9ty9.co.za/events/poppy-painting-workshop/",
+      "pubDate": "Sat, 11 Apr 2026 07:00:00 +0000",
+      "dateStr": "2026-04-11",
+      "day": "11",
+      "month": "APR",
+      "description": "Sat, 11 April 2026 - 09:00 - 13:00",
+      "image": "images/events/Poppy-Painting-Workshop-11April2026.jpg"
+    },
+    {
+      "title": "Elements of Nature Market at  Elements of Nature Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/elements-of-nature-market-2026-02-07-2026-02-08-2026-03-07-2026-03-08-2026-04-11/",
+      "guid": "https://9ty9.co.za/events/elements-of-nature-market-2026-02-07-2026-02-08-2026-03-07-2026-03-08-2026-04-11/",
+      "pubDate": "Sat, 11 Apr 2026 08:00:00 +0000",
+      "dateStr": "2026-04-11",
+      "day": "11",
+      "month": "APR",
+      "description": "Sat, 11 April 2026 - 10:00 - 15:00",
+      "image": "images/events/Elements-of-Nature-Market-20Dec2026.jpg"
+    },
+    {
+      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11/",
+      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11/",
+      "pubDate": "Sat, 11 Apr 2026 13:00:00 +0000",
+      "dateStr": "2026-04-11",
+      "day": "11",
+      "month": "APR",
+      "description": "Sat, 11 April 2026 - 15:00 - 18:00",
+      "image": "images/events/Backyard-Karaoke.jpg"
+    },
+    {
+      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11/",
+      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11/",
+      "pubDate": "Sat, 11 Apr 2026 17:00:00 +0000",
+      "dateStr": "2026-04-11",
+      "day": "11",
+      "month": "APR",
+      "description": "Sat, 11 April 2026 - 19:00 - 23:59",
+      "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12/",
+      "guid": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12/",
+      "pubDate": "Sun, 12 Apr 2026 07:00:00 +0000",
+      "dateStr": "2026-04-12",
+      "day": "12",
+      "month": "APR",
+      "description": "Sun, 12 April 2026 - 09:00 - 18:00",
+      "image": "images/events/Quintes-Sunday.jpg"
+    },
+    {
+      "title": "The Gorge Artisans Market at  The Gorge Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/the-gorge-artisans-market-2026-04-12/",
+      "guid": "https://9ty9.co.za/events/the-gorge-artisans-market-2026-04-12/",
+      "pubDate": "Sun, 12 Apr 2026 07:00:00 +0000",
+      "dateStr": "2026-04-12",
+      "day": "12",
+      "month": "APR",
+      "description": "Sun, 12 April 2026 - 09:00 - 14:00",
+      "image": "images/events/Gorge-2April2026.jpg"
+    },
+    {
+      "title": "Elements of Nature Market at  Elements of Nature Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/elements-of-nature-market-2026-02-07-2026-02-08-2026-03-07-2026-03-08-2026-04-11-2026-04-12/",
+      "guid": "https://9ty9.co.za/events/elements-of-nature-market-2026-02-07-2026-02-08-2026-03-07-2026-03-08-2026-04-11-2026-04-12/",
+      "pubDate": "Sun, 12 Apr 2026 08:00:00 +0000",
+      "dateStr": "2026-04-12",
+      "day": "12",
+      "month": "APR",
+      "description": "Sun, 12 April 2026 - 10:00 - 15:00",
+      "image": "images/events/Elements-of-Nature-Market-20Dec2026.jpg"
+    },
+    {
+      "title": "Mingle Market at  Gamtoos Ferry Hotel in Gamtoos",
+      "link": "https://9ty9.co.za/events/mingle-market/",
+      "guid": "https://9ty9.co.za/events/mingle-market/",
+      "pubDate": "Sun, 12 Apr 2026 08:00:00 +0000",
+      "dateStr": "2026-04-12",
+      "day": "12",
+      "month": "APR",
+      "description": "Sun, 12 April 2026 - 10:00 - 15:00",
+      "image": "images/events/Mingle-Market-12Apr2026.jpg"
+    },
+    {
+      "title": "Curry &amp; Quiz Night at  St Francis Links in St Francis Bay",
+      "link": "https://9ty9.co.za/events/curry-quiz-night-2026-03-31-2026-04-07-2026-04-14/",
+      "guid": "https://9ty9.co.za/events/curry-quiz-night-2026-03-31-2026-04-07-2026-04-14/",
+      "pubDate": "Tue, 14 Apr 2026 17:00:00 +0000",
+      "dateStr": "2026-04-14",
+      "day": "14",
+      "month": "APR",
+      "description": "Tue, 14 April 2026 - 19:00 - 21:00",
+      "image": "images/events/CurryQuiz-28July2026.jpg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-10-2026-04-15/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-10-2026-04-15/",
+      "pubDate": "Wed, 15 Apr 2026 07:00:00 +0000",
+      "dateStr": "2026-04-15",
+      "day": "15",
+      "month": "APR",
+      "description": "Wed, 15 April 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-04-16/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-04-16/",
+      "pubDate": "Thu, 16 Apr 2026 16:00:00 +0000",
+      "dateStr": "2026-04-16",
+      "day": "16",
+      "month": "APR",
+      "description": "Thu, 16 April 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-15-2026-04-17/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-15-2026-04-17/",
+      "pubDate": "Fri, 17 Apr 2026 07:00:00 +0000",
+      "dateStr": "2026-04-17",
+      "day": "17",
+      "month": "APR",
+      "description": "Fri, 17 April 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Black River Gypsy at  Grand Prix  Sports Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/black-river-gypsy-2026-03-27-2026-04-03-2026-04-10-2026-04-17/",
+      "guid": "https://9ty9.co.za/events/black-river-gypsy-2026-03-27-2026-04-03-2026-04-10-2026-04-17/",
+      "pubDate": "Fri, 17 Apr 2026 17:00:00 +0000",
+      "dateStr": "2026-04-17",
+      "day": "17",
+      "month": "APR",
+      "description": "Fri, 17 April 2026 - 19:00 - 21:00",
+      "image": "images/events/BRG-1May2026.jpg"
+    },
+    {
+      "title": "Kouga Mayoral Cup  - Gymnastics at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kouga-mayoral-cup-gymnastics/",
+      "guid": "https://9ty9.co.za/events/kouga-mayoral-cup-gymnastics/",
+      "pubDate": "Sat, 18 Apr 2026 06:00:00 +0000",
+      "dateStr": "2026-04-18",
+      "day": "18",
+      "month": "APR",
+      "description": "Sat, 18 April 2026 - 08:00 - 17:00",
+      "image": "images/events/Kouga-Mayoral-Cup-Gymnastics-18April2026.jpg"
+    },
+    {
+      "title": "Kouga Mayoral Cup  - Rugby at  Pellsrus Sports Field in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kouga-mayoral-cup-rugby/",
+      "guid": "https://9ty9.co.za/events/kouga-mayoral-cup-rugby/",
+      "pubDate": "Sat, 18 Apr 2026 06:00:00 +0000",
+      "dateStr": "2026-04-18",
+      "day": "18",
+      "month": "APR",
+      "description": "Sat, 18 April 2026 - 08:00 - 17:00",
+      "image": "images/events/Kouga-Mayoral-Cup-Rugby-18April2025.jpg"
+    },
+    {
+      "title": "Kouga Mayoral Cup - Weight Lifting at  Kruisfontein Civic Centre in Humansdorp",
+      "link": "https://9ty9.co.za/events/kouga-mayoral-cup-weight-lifting/",
+      "guid": "https://9ty9.co.za/events/kouga-mayoral-cup-weight-lifting/",
+      "pubDate": "Sat, 18 Apr 2026 06:00:00 +0000",
+      "dateStr": "2026-04-18",
+      "day": "18",
+      "month": "APR",
+      "description": "Sat, 18 April 2026 - 08:00 - 17:00",
+      "image": "images/events/Kouga-Mayoral-Cup-Weight-Lifting-18April2026.jpg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18/",
+      "pubDate": "Sat, 18 Apr 2026 06:00:00 +0000",
+      "dateStr": "2026-04-18",
+      "day": "18",
+      "month": "APR",
+      "description": "Sat, 18 April 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
     }
   ]
 }

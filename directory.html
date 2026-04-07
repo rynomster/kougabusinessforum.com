@@ -3,9 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Discover local businesses in Jeffreys Bay, Humansdorp, and St. Francis Bay. The Kouga Business Forum directory connects you with verified local suppliers and services.">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>Business Directory | Kouga Business Forum - Local Business Search</title>
+  <meta name="description" content="Discover local businesses in Jeffreys Bay, Humansdorp, and St. Francis Bay. The Kouga Business Forum directory connects you with verified local suppliers and services.">
+  <link rel="canonical" href="https://new.kougabusinessforum.com/directory.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://new.kougabusinessforum.com/directory.html">
+  <meta property="og:title" content="Business Directory | Kouga Business Forum">
+  <meta property="og:description" content="Search verified businesses and services across the Kouga region. Find plumbers, retailers, tourism operators, and more.">
+  <meta property="og:image" content="https://new.kougabusinessforum.com/images/kouga-tourism-hero.jpg">
+  <meta property="og:site_name" content="Kouga Business Forum">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://new.kougabusinessforum.com/directory.html">
+  <meta name="twitter:title" content="Business Directory | Kouga Business Forum">
+  <meta name="twitter:description" content="Search verified businesses and services across the Kouga region. Find plumbers, retailers, tourism operators, and more.">
+  <meta name="twitter:image" content="https://new.kougabusinessforum.com/images/kouga-tourism-hero.jpg">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
@@ -43,6 +59,9 @@
     .business-contact { display: flex; flex-wrap: wrap; gap: 1rem; padding-top: 1.5rem; border-top: 1px solid rgba(0, 0, 0, 0.05); }
     .contact-item { display: flex; align-items: center; gap: 0.5rem; color: #0e7996; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: gap 0.2s ease; }
     .contact-item:hover { gap: 0.75rem; }
+    .badge { padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; margin-right: 0.5rem; }
+    .badge-verified { background: #e3f2fd; color: #1976d2; }
+    .badge-basic { background: #f5f5f5; color: #757575; }
     @media (max-width: 768px) { .directory-header { padding: 100px 0 40px; } .filter-section { flex-direction: column; align-items: stretch; } .filter-group { justify-content: center; } .filter-btn { flex: 1; min-width: 120px; justify-content: center; } .business-contact { flex-direction: column; gap: 0.75rem; } }
 </style>
 </head>
@@ -71,16 +90,6 @@
     </nav>
   </div>
 </header>
-
-
-
-
-
-
-
-
-
-
 
   <section class="directory-header">
     <div class="container">
@@ -114,152 +123,13 @@
       </div>
     </div>
   </section>
+
   <section class="section">
     <div class="directory-content">
-      <div class="result-count" id="resultCount">Showing 12 businesses</div>
       <div class="directory-results" id="resultsContainer">
+        <div class="result-count" id="resultCount">Loading businesses...</div>
         <div class="grid">
-          <article class="business-card" data-category="construction" data-location="jeffreys-bay">
-            <div class="business-header">
-              <div class="business-icon">🏗️</div>
-              <div class="business-name"><h3>Jeffreys Bay Builders</h3><span class="badge badge-verified">🔵 KBF Verified</span> <span class="business-category">Construction</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> Jeffreys Bay</div>
-            <p class="business-description">Professional residential and commercial builders with 25+ years of experience. Specializing in renovations, extensions, and new builds.</p>
-            <div class="business-contact">
-              <a href="mailto:info@jebb.co.za" class="contact-item">✉️ info@jebb.co.za</a>
-            </div>
-          </article>
-
-          <article class="business-card" data-category="retail" data-location="humansdorp">
-            <div class="business-header">
-              <div class="business-icon">🛍️</div>
-              <div class="business-name"><h3>Humansdorp Gift Shop</h3><span class="badge badge-verified">🔵 KBF Verified</span> <span class="business-category">Retail</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> Humansdorp</div>
-            <p class="business-description">Handcrafted gifts, local art, and souvenirs. Supporting local artisans with unique products you won't find anywhere else.</p>
-            <div class="business-contact">
-              <a href="mailto:shop@humansdorpgift.co.za" class="contact-item">✉️ shop@humansdorpgift.co.za</a>
-            </div>
-          </article>
-
-          <article class="business-card" data-category="tourism" data-location="st-francis-bay">
-            <div class="business-header">
-              <div class="business-icon">🏖️</div>
-              <div class="business-name"><h3>St. Francis Bay Adventures</h3><span class="badge badge-verified">🔵 KBF Verified</span> <span class="business-category">Tourism</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> St. Francis Bay</div>
-            <p class="business-description">Guided boat tours, kayaking, and surfing lessons. Experience the beautiful coastline with expert local guides.</p>
-            <div class="business-contact">
-              <a href="mailto:adventures@sfbat.com" class="contact-item">✉️ adventures@sfbat.com</a>
-            </div>
-          </article>
-
-          <article class="business-card" data-category="agriculture" data-location="hankey">
-            <div class="business-header">
-              <div class="business-icon">🌾</div>
-              <div class="business-name"><h3>Hankey Wool & Grain</h3><span class="badge badge-basic">⚪ Basic</span> <span class="business-category">Agriculture</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> Hankey</div>
-            <p class="business-description">Family-owned sheep and grain farm. We supply quality wool and organic grains to local markets and export markets.</p>
-            <div class="business-contact">
-              <a href="mailto:contact@hankeywool.co.za" class="contact-item">✉️ contact@hankeywool.co.za</a>
-            </div>
-          </article>
-          <article class="business-card" data-category="services" data-location="jeffreys-bay">
-            <div class="business-header">
-              <div class="business-icon">💻</div>
-              <div class="business-name"><h3>Tech Solutions Jeffreys Bay</h3><span class="business-category">Services</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> Jeffreys Bay</div>
-            <p class="business-description">IT support, website development, and digital marketing services for small businesses. Making technology accessible for everyone.</p>
-            <div class="business-contact">
-              <a href="mailto:hello@techsolutionsjb.co.za" class="contact-item">✉️ hello@techsolutionsjb.co.za</a>
-            </div>
-          </article>
-
-          <article class="business-card" data-category="professional" data-location="jeffreys-bay">
-            <div class="business-header">
-              <div class="business-icon">⚖️</div>
-              <div class="business-name"><h3>Jeffreys Bay Legal</h3><span class="business-category">Professional</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> Jeffreys Bay</div>
-            <p class="business-description">Experienced attorneys specializing in business law, property matters, and estate planning. Serving the Kouga region since 1985.</p>
-            <div class="business-contact">
-              <a href="mailto:info@jblegal.co.za" class="contact-item">✉️ info@jblegal.co.za</a>
-            </div>
-          </article>
-
-          <article class="business-card" data-category="construction" data-location="patensie">
-            <div class="business-header">
-              <div class="business-icon">🔨</div>
-              <div class="business-name"><h3>Patensie Renovations</h3><span class="business-category">Construction</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> Patensie</div>
-            <p class="business-description">Specializing in bathroom and kitchen renovations. Quality workmanship at affordable prices. Free estimates available.</p>
-            <div class="business-contact">
-              <a href="mailto:info@patensiereno.co.za" class="contact-item">✉️ info@patensiereno.co.za</a>
-            </div>
-          </article>
-
-          <article class="business-card" data-category="retail" data-location="loerie">
-            <div class="business-header">
-              <div class="business-icon">👗</div>
-              <div class="business-name"><h3>Loerie Fashion Boutique</h3><span class="business-category">Retail</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> Loerie</div>
-            <p class="business-description">Trendy clothing and accessories for men, women, and children. We stock local designers alongside international brands.</p>
-            <div class="business-contact">
-              <a href="mailto:fashion@loerieboutique.co.za" class="contact-item">✉️ fashion@loerieboutique.co.za</a>
-            </div>
-          </article>
-          <article class="business-card" data-category="tourism" data-location="loerie">
-            <div class="business-header">
-              <div class="business-icon">🐠</div>
-              <div class="business-name"><h3>Loerie Fish & Chips</h3><span class="business-category">Tourism</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> Loerie</div>
-            <p class="business-description">Fresh seafood served daily. Famous for our crispy fish and chips, along with homemade soups and salads. Perfect beach food!</p>
-            <div class="business-contact">
-              <a href="mailto:orders@loeriefish.co.za" class="contact-item">✉️ orders@loeriefish.co.za</a>
-            </div>
-          </article>
-
-          <article class="business-card" data-category="agriculture" data-location="thornhill">
-            <div class="business-header">
-              <div class="business-icon">🍇</div>
-              <div class="business-name"><h3>Thornhill Vineyards</h3><span class="business-category">Agriculture</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> Thornhill</div>
-            <p class="business-description">Premium wine producers offering tours and tastings. Our award-winning Shiraz and Chenin Blanc are made from the finest grapes.</p>
-            <div class="business-contact">
-              <a href="mailto:info@thornhillvineyards.co.za" class="contact-item">✉️ info@thornhillvineyards.co.za</a>
-            </div>
-          </article>
-
-          <article class="business-card" data-category="services" data-location="humansdorp">
-            <div class="business-header">
-              <div class="business-icon">🧹</div>
-              <div class="business-name"><h3>Humansdorp Cleaning Services</h3><span class="business-category">Services</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> Humansdorp</div>
-            <p class="business-description">Residential and commercial cleaning services. Reliable, thorough, and affordable. We serve Jeffreys Bay and surrounding areas.</p>
-            <div class="business-contact">
-              <a href="mailto:clean@humansdorpclean.co.za" class="contact-item">✉️ clean@humansdorpclean.co.za</a>
-            </div>
-          </article>
-
-          <article class="business-card" data-category="professional" data-location="st-francis-bay">
-            <div class="business-header">
-              <div class="business-icon">📊</div>
-              <div class="business-name"><h3>St. Francis Accounting</h3><span class="business-category">Professional</span></div>
-            </div>
-            <div class="business-location"><span>📍</span> St. Francis Bay</div>
-            <p class="business-description">Accounting and bookkeeping services for small businesses and individuals. Tax preparation, payroll, and financial advisory.</p>
-            <div class="business-contact">
-              <a href="mailto:accounts@sfaccounting.co.za" class="contact-item">✉️ accounts@sfaccounting.co.za</a>
-            </div>
-          </article>
+          <!-- Dynamic businesses will be loaded here via js/directory.js -->
         </div>
 
         <div class="empty-state" id="emptyState" style="display: none;">
@@ -273,7 +143,6 @@
         </div>
       </div>
 
-      <!-- Add Business CTA -->
       <div class="directory-cta">
         <h3>Not listed in the directory?</h3>
         <p>Grow your visibility and reach more customers in the Kouga region. Submit your business listing today for review.</p>
@@ -281,6 +150,7 @@
       </div>
     </div>
   </section>
+
   <footer class="footer">
   <!-- shared-footer.html -->
   <div class="container">
@@ -341,199 +211,7 @@
   </div>
 </footer>
 
-
-
-
-
-
-
-
-
-
-
-  <script>
-    const businesses = [
-      { id: 1, name: 'Jeffreys Bay Builders', category: 'construction', location: 'jeffreys-bay', description: 'Professional residential and commercial builders with 25+ years of experience. Specializing in renovations, extensions, and new builds.', contact: '043 712 3456', email: 'info@jebb.co.za', icon: '🏗️', verified: true },
-      { id: 2, name: 'Humansdorp Gift Shop', category: 'retail', location: 'humansdorp', description: 'Handcrafted gifts, local art, and souvenirs. Supporting local artisans.', contact: '043 723 4567', email: 'shop@humansdorpgift.co.za', icon: '🛍️', verified: true },
-      { id: 3, name: 'St. Francis Bay Adventures', category: 'tourism', location: 'st-francis-bay', description: 'Guided boat tours, kayaking, and surfing lessons.', contact: '043 734 5678', email: 'adventures@sfbat.com', icon: '🏖️', verified: true },
-      { id: 4, name: 'Hankey Wool & Grain', category: 'agriculture', location: 'hankey', description: 'Family-owned sheep and grain farm supplying quality wool and organic grains.', contact: '043 745 6789', email: 'contact@hankeywool.co.za', icon: '🌾', verified: false },
-      { id: 5, name: 'Tech Solutions Jeffreys Bay', category: 'services', location: 'jeffreys-bay', description: 'IT support, website development, and digital marketing services.', contact: '043 756 7890', email: 'hello@techsolutionsjb.co.za', icon: '💻', verified: false },
-      { id: 6, name: 'Jeffreys Bay Legal', category: 'professional', location: 'jeffreys-bay', description: 'Experienced attorneys specializing in business law and property matters.', contact: '043 767 8901', email: 'info@jblegal.co.za', icon: '⚖️', verified: false },
-      { id: 7, name: 'Patensie Renovations', category: 'construction', location: 'patensie', description: 'Specializing in bathroom and kitchen renovations.', contact: '043 778 9012', email: 'info@patensiereno.co.za', icon: '🔨', verified: false },
-      { id: 8, name: 'Loerie Fashion Boutique', category: 'retail', location: 'loerie', description: 'Trendy clothing and accessories for all ages.', contact: '043 789 0123', email: 'fashion@loerieboutique.co.za', icon: '👗', verified: false },
-      { id: 9, name: 'Loerie Fish & Chips', category: 'tourism', location: 'loerie', description: 'Fresh seafood served daily with crispy fish and chips.', contact: '043 790 1234', email: 'orders@loeriefish.co.za', icon: '🐠', verified: false },
-      { id: 10, name: 'Thornhill Vineyards', category: 'agriculture', location: 'thornhill', description: 'Premium wine producers offering tours and tastings.', contact: '043 701 2345', email: 'info@thornhillvineyards.co.za', icon: '🍇', verified: false },
-      { id: 11, name: 'Humansdorp Cleaning Services', category: 'services', location: 'humansdorp', description: 'Residential and commercial cleaning services.', contact: '043 712 3457', email: 'clean@humansdorpclean.co.za', icon: '🧹', verified: false },
-      { id: 12, name: 'St. Francis Accounting', category: 'professional', location: 'st-francis-bay', description: 'Accounting and bookkeeping services for small businesses.', contact: '043 723 4568', email: 'accounts@sfaccounting.co.za', icon: '📊', verified: false }
-    ];
-
-    const categoryNames = {
-      'construction': 'Construction', 'retail': 'Retail', 'tourism': 'Tourism',
-      'agriculture': 'Agriculture', 'services': 'Services', 'professional': 'Professional'
-    };
-
-    function getDisplayName(loc) {
-      const names = {
-        'jeffreys-bay': 'Jeffreys Bay', 'humansdorp': 'Humansdorp',
-        'st-francis-bay': 'St. Francis Bay', 'hankey': 'Hankey',
-        'patensie': 'Patensie', 'loerie': 'Loerie', 'thornhill': 'Thornhill'
-      };
-      return names[loc] || loc;
-    }
-
-    function filterBusinesses(query = '', category = 'all', location = 'all') {
-      return businesses.filter(b => {
-        const matchQuery = query === '' || b.name.toLowerCase().includes(query.toLowerCase()) ||
-                           b.description.toLowerCase().includes(query.toLowerCase());
-        const matchCategory = category === 'all' || b.category === category;
-        const matchLocation = location === 'all' || b.location === location;
-        return matchQuery && matchCategory && matchLocation;
-      });
-    }
-
-    function renderBusinesses(data) {
-      const container = document.getElementById('resultsContainer');
-      const emptyState = document.getElementById('emptyState');
-      const countEl = document.getElementById('resultCount');
-
-      if (data.length === 0) {
-        container.style.display = 'none';
-        emptyState.style.display = 'block';
-        return;
-      }
-
-      container.style.display = 'block';
-      emptyState.style.display = 'none';
-
-      // Clear and rebuild using safe DOM methods
-      const grid = document.createElement('div');
-      grid.className = 'grid';
-
-      for (const b of data) {
-        const article = document.createElement('article');
-        article.className = b.verified ? 'business-card verified' : 'business-card';
-        article.dataset.category = b.category;
-        article.dataset.location = b.location;
-
-        const header = document.createElement('div');
-        header.className = 'business-header';
-
-        const icon = document.createElement('div');
-        icon.className = 'business-icon';
-        icon.textContent = b.icon;
-
-        const nameDiv = document.createElement('div');
-        nameDiv.className = 'business-name';
-
-        const h3 = document.createElement('h3');
-        h3.textContent = b.name;
-
-        const badge = document.createElement('span');
-        badge.className = b.verified ? 'badge badge-verified' : 'badge badge-basic';
-        badge.textContent = b.verified ? '🔵 KBF Verified' : '⚪ Basic';
-
-        const category = document.createElement('span');
-        category.className = 'business-category';
-        category.textContent = categoryNames[b.category];
-
-        nameDiv.appendChild(h3);
-        nameDiv.appendChild(badge);
-        nameDiv.appendChild(category);
-        header.appendChild(icon);
-        header.appendChild(nameDiv);
-
-        const location = document.createElement('div');
-        location.className = 'business-location';
-        const locationIcon = document.createElement('span');
-        locationIcon.textContent = '📍';
-        location.appendChild(locationIcon);
-        location.appendChild(document.createTextNode(' ' + getDisplayName(b.location)));
-
-        const desc = document.createElement('p');
-        desc.className = 'business-description';
-        desc.textContent = b.description;
-
-        const contact = document.createElement('div');
-        contact.className = 'business-contact';
-
-        const phone = document.createElement('a');
-        phone.href = 'tel:+270' + b.contact;
-        phone.className = 'contact-item';
-        phone.textContent = '📞 0' + b.contact;
-
-        const email = document.createElement('a');
-        email.href = 'mailto:' + b.email;
-        email.className = 'contact-item';
-        email.textContent = '✉️ ' + b.email;
-
-        contact.appendChild(phone);
-        contact.appendChild(email);
-
-        article.appendChild(header);
-        article.appendChild(location);
-        article.appendChild(desc);
-        article.appendChild(contact);
-        grid.appendChild(article);
-      }
-
-      container.innerHTML = '';
-      container.appendChild(grid);
-      countEl.textContent = 'Showing ' + data.length + (data.length === 1 ? ' business' : ' businesses');
-    }
-
-    function resetFilters() {
-      document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.filter === 'all' || btn.dataset.location === 'all');
-      });
-      document.getElementById('searchInput').value = '';
-      renderBusinesses(businesses);
-    }
-
-    // Search input
-    document.getElementById('searchInput').addEventListener('input', function(e) {
-      renderBusinesses(filterBusinesses(e.target.value, categoryFilter, locationFilter));
-    });
-
-    // Category filter
-    document.querySelectorAll('[data-filter]').forEach(btn => {
-      btn.addEventListener('click', function() {
-        document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
-        this.classList.add('active');
-        categoryFilter = this.dataset.filter;
-        const query = document.getElementById('searchInput').value;
-        renderBusinesses(filterBusinesses(query, categoryFilter, locationFilter));
-      });
-    });
-
-    // Location filter
-    document.querySelectorAll('[data-location]').forEach(btn => {
-      btn.addEventListener('click', function() {
-        document.querySelectorAll('[data-location]').forEach(b => b.classList.remove('active'));
-        this.classList.add('active');
-        locationFilter = this.dataset.location;
-        const query = document.getElementById('searchInput').value;
-        renderBusinesses(filterBusinesses(query, categoryFilter, locationFilter));
-      });
-    });
-
-    // Initialize
-    const urlParams = new URLSearchParams(window.location.search);
-    let categoryFilter = urlParams.get('category') || 'all';
-    let locationFilter = urlParams.get('location') || 'all';
-
-    // Update active filter button states
-    if (categoryFilter !== 'all') {
-      document.querySelectorAll('[data-filter]').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.filter === categoryFilter);
-      });
-    }
-    if (locationFilter !== 'all') {
-      document.querySelectorAll('[data-location]').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.location === locationFilter);
-      });
-    }
-
-    renderBusinesses(filterBusinesses('', categoryFilter, locationFilter));
-  </script>
+  <script src="js/main.js"></script>
+  <script src="js/directory.js"></script>
 </body>
 </html>
