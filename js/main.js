@@ -159,6 +159,28 @@ function initializeForms() {
       window.location.href = mailto;
     });
   });
+
+  // Contact Form Pre-fill
+  const contactForm = document.getElementById('contactForm');
+  if (contactForm) {
+    const urlParams = new URLSearchParams(window.location.search);
+    const inquiry = urlParams.get('inquiry');
+    const business = urlParams.get('business');
+    const subjectSelect = contactForm.querySelector('#subject');
+    const messageTextarea = contactForm.querySelector('#message');
+
+    if (inquiry === 'directory' && business) {
+      if (subjectSelect) subjectSelect.value = 'directory';
+      if (messageTextarea) {
+        messageTextarea.value = `I am requesting contact details for the following business: ${business}\n\n[Please add any additional questions here]`;
+      }
+    } else if (inquiry === 'complimentary') {
+      if (subjectSelect) subjectSelect.value = 'complimentary';
+      if (messageTextarea) {
+        messageTextarea.value = `I am interested in applying for complimentary membership for our organization.\n\nOrganization Name: \nType (NGO/School/Church): \n\n[Please add any additional information here]`;
+      }
+    }
+  }
 }
 
 // Scroll Animations
