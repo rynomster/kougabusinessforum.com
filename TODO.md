@@ -25,12 +25,24 @@
 
 | Task | Description | Priority | Notes |
 |------|-------------|----------|-------|
-| P1 | Formspree Setup | High | User to sign up |
-| P2 | Member Payment Status | High | Who's paid for 2026 |
-| P3 | WordPress Migration | Medium | Meeting minutes, newsletters |
-| P4 | PayFast Integration | Medium | Sync with directory |
-| P5 | KBF Events Content | Medium | 2026 events calendar |
-| P6 | Accessibility Audit | Low | WCAG compliance |
+| P1 | Issue Cleanup | High | Replace current pending list with Homepage Redesign issues |
+| P2 | Fix Homepage Hero | High | Strong value prop: "The Voice of Business in the Kouga Region" |
+| P3 | Homepage Layout Reorder | High | Reorder sections (Hero, Intro, Committee, Directory, Events, Gallery, News, Footer) |
+| P4 | Remove Mission/Vision from Home | High | Content to live primarily on About page |
+| P5 | Slogan & Messaging Finalization | High | Lock slogan, tone, and messaging across site |
+| P6 | Advocacy & Impact Page | High | Dedicated page for projects, progress, and municipal engagement |
+| P7 | Membership Requirements UX | High | Clarify join process, requirements, and post-signup flow |
+| P8 | Events Preview Section | High | Restore preview linking to full events page |
+| P9 | Gallery Preview Section | Medium | Homepage media showcase |
+| P10 | News & Updates Preview | Medium | Chairman communications / news feed |
+| P11 | Afrikaans Language Strategy | Medium | Plan i18n approach for Afrikaans support |
+| P12 | Quick Action Cards | Medium | Clickable links for Events, Directory, News, Join |
+| P13 | Advocacy & Impact Refinement | Medium | Build authority and link to deeper content |
+| P14 | Homepage CTA Clarity | Medium | Standardize "Join", "View Events", "Explore Directory" |
+| P15 | Content Migration (Old Site) | Low | Extract copy, advocacy history, and messaging |
+| P16 | Meeting Summaries | Low | Simplified, readable governance highlights |
+| P17 | WordPress Migration | Low | Meeting minutes, newsletters archive |
+| P18 | PayFast Sync | Low | Sync payment status with directory badges |
 
 ---
 

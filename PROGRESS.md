@@ -1,7 +1,21 @@
 # 📊 KBF Website - Project Progress
 
-**Last Updated:** 2026-04-01 19:00 UTC
-**Status:** Phase 3 Active - Post-Launch Maintenance
+**Last Updated:** 2026-04-08 19:45 UTC
+**Status:** Phase 2.5 - Homepage Redesign & Content Strategy
+
+---
+
+## 🏗️ Current Sprint: Homepage Redesign
+We are pivoting to a cleaner, action-oriented homepage structure.
+
+- [ ] **Fix Hero Section:** Update headline to "The Voice of Business in the Kouga Region".
+- [ ] **Layout Reordering:** Sequence: Hero -> Intro -> Committee -> Directory -> Events -> Gallery -> News -> Footer.
+- [ ] **Content Pruning:** Move dense Mission/Vision text to the About page.
+- [ ] **Slogan & Branding:** Finalize slogan and lock brand voice/messaging.
+- [ ] **Advocacy & Impact:** Develop dedicated Advocacy page and municipal tracking.
+- [ ] **Membership Clarity:** Improve signup UX and benefit communication.
+- [ ] **Afrikaans Support:** Implement multi-language strategy (EN/AF).
+- [ ] **Live Previews:** Implement previews for Events, News, and Gallery.
 
 ---
 
