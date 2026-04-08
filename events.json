@@ -1,30 +1,8 @@
 {
-  "lastUpdated": "2026-04-07T00:03:46.241Z",
+  "lastUpdated": "2026-04-08T00:04:47.189Z",
   "source": "https://9ty9.co.za/event/feed",
-  "count": 84,
+  "count": 90,
   "events": [
-    {
-      "title": "Jacobus Silver at  De Viswijf in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/jacobus-silver/",
-      "guid": "https://9ty9.co.za/events/jacobus-silver/",
-      "pubDate": "Wed, 01 Apr 2026 15:30:00 +0000",
-      "dateStr": "2026-04-01",
-      "day": "01",
-      "month": "APR",
-      "description": "Wed, 1 April 2026 - 17:30 - 21:00",
-      "image": "images/events/Jacobus-Silver-1April2026.jpg"
-    },
-    {
-      "title": "Ocean Vibes at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/ocean-vibes/",
-      "guid": "https://9ty9.co.za/events/ocean-vibes/",
-      "pubDate": "Wed, 01 Apr 2026 16:00:00 +0000",
-      "dateStr": "2026-04-01",
-      "day": "01",
-      "month": "APR",
-      "description": "Wed, 1 April 2026 - 18:00 - 21:00",
-      "image": "images/events/Ocean-Vibes-1April2026.jpg"
-    },
     {
       "title": "SANBS Blood Donation Clinic at  Fountains Mall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/sanbs-blood-donation-clinic-2026-03-06-2026-03-28-2026-04-02/",
@@ -444,6 +422,17 @@
       "image": "images/events/NATIONAL-BREAKDOWN-8April2026.jpg"
     },
     {
+      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kuns-klets-2026-04-08/",
+      "guid": "https://9ty9.co.za/events/kuns-klets-2026-04-08/",
+      "pubDate": "Wed, 08 Apr 2026 09:00:00 +0000",
+      "dateStr": "2026-04-08",
+      "day": "08",
+      "month": "APR",
+      "description": "Wed, 8 April 2026 - 11:00 - 13:00",
+      "image": "images/events/Kuns-en-Klets-Club-Bont-31July2026.jpg"
+    },
+    {
       "title": "eThekwini Surf Pro at   in",
       "link": "https://9ty9.co.za/events/ethekwini-surf-pro/",
       "guid": "https://9ty9.co.za/events/ethekwini-surf-pro/",
@@ -488,6 +477,17 @@
       "image": "images/events/Merrell-Mammoth-Adventure-Race-12April2026.jpg"
     },
     {
+      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kuns-klets-2026-04-09/",
+      "guid": "https://9ty9.co.za/events/kuns-klets-2026-04-09/",
+      "pubDate": "Thu, 09 Apr 2026 09:00:00 +0000",
+      "dateStr": "2026-04-09",
+      "day": "09",
+      "month": "APR",
+      "description": "Thu, 9 April 2026 - 11:00 - 13:00",
+      "image": "images/events/Kuns-en-Klets-Club-Bont-31July2026.jpg"
+    },
+    {
       "title": "Kouga Mayoral Cup  - Chess at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/kouga-mayoral-cup-chess/",
       "guid": "https://9ty9.co.za/events/kouga-mayoral-cup-chess/",
@@ -530,6 +530,28 @@
       "month": "APR",
       "description": "Fri, 10 April 2026 - 19:00 - 21:00",
       "image": "images/events/BRG-1May2026.jpg"
+    },
+    {
+      "title": "Tarryn Light at  Quayside Pub in St Francis Bay",
+      "link": "https://9ty9.co.za/events/tarryn-light-2026-04-10/",
+      "guid": "https://9ty9.co.za/events/tarryn-light-2026-04-10/",
+      "pubDate": "Fri, 10 Apr 2026 18:00:00 +0000",
+      "dateStr": "2026-04-10",
+      "day": "10",
+      "month": "APR",
+      "description": "Fri, 10 April 2026 - 20:00 - 23:00",
+      "image": "images/events/Tarryn-Light-17April2026.jpg"
+    },
+    {
+      "title": "Whiskey &amp; Ginger at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/whiskey-ginger/",
+      "guid": "https://9ty9.co.za/events/whiskey-ginger/",
+      "pubDate": "Fri, 10 Apr 2026 18:00:00 +0000",
+      "dateStr": "2026-04-10",
+      "day": "10",
+      "month": "APR",
+      "description": "Fri, 10 April 2026 - 20:00 - 22:00",
+      "image": "images/events/Whiskey-Ginger-10April2026.jpg"
     },
     {
       "title": "Kouga Mayoral Cup  - Basketball at  Kabeljous Beach in Jeffreys Bay",
@@ -719,6 +741,28 @@
       "image": "images/events/Friends-of-the-Library.jpg"
     },
     {
+      "title": "Kwandi Class at  JBay Sewing Centre in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kwandi-class/",
+      "guid": "https://9ty9.co.za/events/kwandi-class/",
+      "pubDate": "Wed, 15 Apr 2026 08:00:00 +0000",
+      "dateStr": "2026-04-15",
+      "day": "15",
+      "month": "APR",
+      "description": "Wed, 15 April 2026 - 10:00 - 13:00",
+      "image": "images/events/Kwandi-Class.jpg"
+    },
+    {
+      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kuns-klets-2026-04-15/",
+      "guid": "https://9ty9.co.za/events/kuns-klets-2026-04-15/",
+      "pubDate": "Wed, 15 Apr 2026 09:00:00 +0000",
+      "dateStr": "2026-04-15",
+      "day": "15",
+      "month": "APR",
+      "description": "Wed, 15 April 2026 - 11:00 - 13:00",
+      "image": "images/events/Kuns-en-Klets-Club-Bont-31July2026.jpg"
+    },
+    {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/acoustic-night-2026-04-16/",
       "guid": "https://9ty9.co.za/events/acoustic-night-2026-04-16/",
@@ -728,6 +772,17 @@
       "month": "APR",
       "description": "Thu, 16 April 2026 - 18:00 - 21:00",
       "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kuns-klets-2026-04-16/",
+      "guid": "https://9ty9.co.za/events/kuns-klets-2026-04-16/",
+      "pubDate": "Thu, 16 Apr 2026 09:00:00 +0000",
+      "dateStr": "2026-04-16",
+      "day": "16",
+      "month": "APR",
+      "description": "Thu, 16 April 2026 - 11:00 - 13:00",
+      "image": "images/events/Kuns-en-Klets-Club-Bont-31July2026.jpg"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -750,6 +805,17 @@
       "month": "APR",
       "description": "Fri, 17 April 2026 - 19:00 - 21:00",
       "image": "images/events/BRG-1May2026.jpg"
+    },
+    {
+      "title": "Tarryn Light at  Quayside Pub in St Francis Bay",
+      "link": "https://9ty9.co.za/events/tarryn-light-2026-04-10-2026-04-17/",
+      "guid": "https://9ty9.co.za/events/tarryn-light-2026-04-10-2026-04-17/",
+      "pubDate": "Fri, 17 Apr 2026 18:00:00 +0000",
+      "dateStr": "2026-04-17",
+      "day": "17",
+      "month": "APR",
+      "description": "Fri, 17 April 2026 - 20:00 - 23:00",
+      "image": "images/events/Tarryn-Light-17April2026.jpg"
     },
     {
       "title": "Kouga Mayoral Cup  - Gymnastics at  Newton Community Hall in Jeffreys Bay",
