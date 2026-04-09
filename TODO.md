@@ -39,7 +39,7 @@
 | P9 | Gallery Preview Section | Medium | Homepage media showcase |
 | P10 | News & Updates Preview | Medium | Chairman communications / news feed |
 | P11 | Afrikaans Language Strategy | Medium | Plan i18n approach for Afrikaans support |
-| P12 | Quick Action Cards | Medium | Clickable links for Events, Directory, News, Join |
+| P12 | Quick Action Cards | Medium | ✅ Fixed | Links now work with #news anchor |
 | P13 | Advocacy & Impact Refinement | Medium | Build authority and link to deeper content |
 | P14 | Homepage CTA Clarity | Medium | Standardize "Join", "View Events", "Explore Directory" |
 | P15 | Content Migration (Old Site) | Low | Extract copy, advocacy history, and messaging |

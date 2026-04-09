@@ -11,10 +11,10 @@
 - [x] **Layout Reordering:** ✅ Hero → Intro → Committee → Directory → Events → Gallery → News → Advocacy → Join (2026-04-08)
 - [x] **Content Pruning:** ✅ Mission/Vision removed from homepage, lives on About page (2026-04-08)
 - [x] **Slogan & Branding:** ✅ Brand messaging locked - "The Voice of Business" capitalized as brand term (2026-04-08)
-- [ ] **Quick Action Cards:** ⏳ Link to #news is a placeholder (News section not yet live)
+- [x] **Quick Action Cards:** ✅ Fixed #news links (anchor added, links now work)
 - [ ] **Membership Clarity:** ⏳ Improve signup UX and benefit communication
 - [ ] **Afrikaans Support:** ⏳ Plan i18n approach (EN/AF)
-- [x] **CSS Refactoring:** ✅ Moved inline styles from HTML to style.css (2026-04-09)
+- [x] **Homepage Cleanup:** ✅ Removed duplicate committee section (2026-04-09)
 - [ ] **Advocacy Page:** ⏳ Dedicated Advocacy & Impact page needed (currently a section)
 
 ---
