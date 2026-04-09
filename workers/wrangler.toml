@@ -3,34 +3,34 @@ main = "src/index.js"
 compatibility_date = "2024-01-01"
 
 # Environment variables - set via Wrangler dashboard or .env
-# [vars]
-# ADMIN_EMAIL = "office@kougabusinessforum.com"
-# ADMIN_PHONE = "063 902 1597"
-# KBF_WEBSITE = "https://new.kougabusinessforum.com"
+[vars]
+ADMIN_EMAIL = "office@kougabusinessforum.com"
+ADMIN_PHONE = "063 902 1597"
+KBF_WEBSITE = "https://new.kougabusinessforum.com"
 
 # Routes for Cloudflare Pages/Workers integration
 # Method restrictions are handled in worker code
 
 [[routes]]
-zone_name = "kougabusinessforum.com"
+zone_name = "new.kougabusinessforum.com"
 pattern = "api/membership"
 
 [[routes]]
-zone_name = "kougabusinessforum.com"
+zone_name = "new.kougabusinessforum.com"
 pattern = "api/directory"
 
 [[routes]]
-zone_name = "kougabusinessforum.com"
+zone_name = "new.kougabusinessforum.com"
 pattern = "api/submissions/*"
 
 [[routes]]
-zone_name = "kougabusinessforum.com"
+zone_name = "new.kougabusinessforum.com"
 pattern = "api/admin/webhook"
 
 [[routes]]
-zone_name = "kougabusinessforum.com"
+zone_name = "new.kougabusinessforum.com"
 pattern = "api/rss"
 
 [[routes]]
-zone_name = "kougabusinessforum.com"
+zone_name = "new.kougabusinessforum.com"
 pattern = "rss"

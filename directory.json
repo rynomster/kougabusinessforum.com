@@ -1,0 +1,148 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "name": "Jeffreys Bay Builders",
+      "category": "construction",
+      "location": "jeffreys-bay",
+      "description": "Professional residential and commercial builders with 25+ years of experience. Specializing in renovations, extensions, and new builds.",
+      "contact": "0437123456",
+      "email": "info@jebb.co.za",
+      "icon": "🏗️",
+      "verified": true,
+      "membership_year": 2026
+    },
+    {
+      "id": 2,
+      "name": "Humansdorp Gift Shop",
+      "category": "retail",
+      "location": "humansdorp",
+      "description": "Handcrafted gifts, local art, and souvenirs. Supporting local artisans.",
+      "contact": "0437234567",
+      "email": "shop@humansdorpgift.co.za",
+      "icon": "🛍️",
+      "verified": true,
+      "membership_year": 2026
+    },
+    {
+      "id": 3,
+      "name": "St. Francis Bay Adventures",
+      "category": "tourism",
+      "location": "st-francis-bay",
+      "description": "Guided boat tours, kayaking, and surfing lessons.",
+      "contact": "0437345678",
+      "email": "adventures@sfbat.com",
+      "icon": "🏖️",
+      "verified": true,
+      "membership_year": 2026
+    },
+    {
+      "id": 4,
+      "name": "Hankey Wool & Grain",
+      "category": "agriculture",
+      "location": "hankey",
+      "description": "Family-owned sheep and grain farm supplying quality wool and organic grains.",
+      "contact": "0437456789",
+      "email": "contact@hankeywool.co.za",
+      "icon": "🌾",
+      "verified": false,
+      "membership_year": 2026
+    },
+    {
+      "id": 5,
+      "name": "Tech Solutions Jeffreys Bay",
+      "category": "services",
+      "location": "jeffreys-bay",
+      "description": "IT support, website development, and digital marketing services.",
+      "contact": "0437567890",
+      "email": "hello@techsolutionsjb.co.za",
+      "icon": "💻",
+      "verified": false,
+      "membership_year": 2026
+    },
+    {
+      "id": 6,
+      "name": "Jeffreys Bay Legal",
+      "category": "professional",
+      "location": "jeffreys-bay",
+      "description": "Experienced attorneys specializing in business law and property matters.",
+      "contact": "0437678901",
+      "email": "info@jblegal.co.za",
+      "icon": "⚖️",
+      "verified": false,
+      "membership_year": 2026
+    },
+    {
+      "id": 7,
+      "name": "Patensie Renovations",
+      "category": "construction",
+      "location": "patensie",
+      "description": "Specializing in bathroom and kitchen renovations.",
+      "contact": "0437789012",
+      "email": "info@patensiereno.co.za",
+      "icon": "🔨",
+      "verified": false,
+      "membership_year": 2026
+    },
+    {
+      "id": 8,
+      "name": "Loerie Fashion Boutique",
+      "category": "retail",
+      "location": "loerie",
+      "description": "Trendy clothing and accessories for all ages.",
+      "contact": "0437890123",
+      "email": "fashion@loerieboutique.co.za",
+      "icon": "👗",
+      "verified": false,
+      "membership_year": 2026
+    },
+    {
+      "id": 9,
+      "name": "Loerie Fish & Chips",
+      "category": "tourism",
+      "location": "loerie",
+      "description": "Fresh seafood served daily with crispy fish and chips.",
+      "contact": "0437901234",
+      "email": "orders@loeriefish.co.za",
+      "icon": "🐠",
+      "verified": false,
+      "membership_year": 2026
+    },
+    {
+      "id": 10,
+      "name": "Thornhill Vineyards",
+      "category": "agriculture",
+      "location": "thornhill",
+      "description": "Premium wine producers offering tours and tastings.",
+      "contact": "0437012345",
+      "email": "info@thornhillvineyards.co.za",
+      "icon": "🍇",
+      "verified": false,
+      "membership_year": 2026
+    },
+    {
+      "id": 11,
+      "name": "Humansdorp Cleaning Services",
+      "category": "services",
+      "location": "humansdorp",
+      "description": "Residential and commercial cleaning services.",
+      "contact": "0437123457",
+      "email": "clean@humansdorpclean.co.za",
+      "icon": "🧹",
+      "verified": false,
+      "membership_year": 2026
+    },
+    {
+      "id": 12,
+      "name": "St. Francis Accounting",
+      "category": "professional",
+      "location": "st-francis-bay",
+      "description": "Accounting and bookkeeping services for small businesses.",
+      "contact": "0437234568",
+      "email": "accounts@sfaccounting.co.za",
+      "icon": "📊",
+      "verified": false,
+      "membership_year": 2026
+    }
+  ]
+}

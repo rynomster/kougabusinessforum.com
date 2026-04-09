@@ -19,14 +19,17 @@ function log(message) {
 }
 
 // Helper to send email notification (placeholder - implement with nodemailer or similar)
-async function sendAdminNotification(submission) {
-  log(`📧 Admin notification would be sent to ${ADMIN_EMAIL}`);
+async function sendAdminNotification(submission, env) {
+  const adminEmail = env?.ADMIN_EMAIL || ADMIN_EMAIL;
+  const kbfWebsite = env?.KBF_WEBSITE || KBF_WEBSITE;
+
+  log(`📧 Admin notification would be sent to ${adminEmail}`);
 
   // TODO: Implement actual email sending
   // Example using fetch to SMTP server
   // or integrate with a service like SendGrid, Mailgun, Resend, etc.
 
-  const emailBody = `New ${submission.type} submission received on ${KBF_WEBSITE}.
+  const emailBody = `New ${submission.type} submission received on ${kbfWebsite}.
 
 Submission ID: ${submission.submissionId}
 Submitted at: ${new Date(submission.submittedAt).toLocaleString()}
@@ -46,20 +49,30 @@ function generateSubmissionId(type) {
   return `${type}_${timestamp}_${random}`;
 }
 
+// Helper to get CORS headers
+function getCorsHeaders(env) {
+  const allowedOrigin = env?.KBF_WEBSITE || ALLOWED_ORIGIN;
+  return {
+    'Access-Control-Allow-Origin': allowedOrigin,
+    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+  };
+}
+
 // Helper to build JSON response with CORS headers
-function jsonResponse(data, status = 200) {
+function jsonResponse(data, status = 200, env = null) {
   return new Response(JSON.stringify(data), {
     status,
     headers: {
       'Content-Type': 'application/json',
-      ...corsHeaders,
+      ...getCorsHeaders(env),
     },
   });
 }
 
 // Helper for error responses with CORS
-function errorResponse(error, status = 400) {
-  return jsonResponse({ error }, status);
+function errorResponse(error, status = 400, env = null) {
+  return jsonResponse({ error }, status, env);
 }
 
 // Input sanitization - basic HTML entity encoding
@@ -107,7 +120,7 @@ function checkRateLimit(ip) {
 }
 
 // Main handler
-async function handleRequest(req) {
+async function handleRequest(req, env) {
   const url = new URL(req.url);
   const method = req.method;
   const path = url.pathname;
@@ -116,7 +129,7 @@ async function handleRequest(req) {
 
   // Handle CORS preflight
   if (method === 'OPTIONS') {
-    return new Response(null, { headers: corsHeaders });
+    return new Response(null, { headers: getCorsHeaders(env) });
   }
 
   // Get client IP for rate limiting
@@ -125,7 +138,7 @@ async function handleRequest(req) {
   // Apply rate limiting
   if (!checkRateLimit(clientIP)) {
     log(`⚠️ Rate limit exceeded for IP: ${clientIP}`);
-    return errorResponse('Rate limit exceeded. Please try again later.', 429);
+    return errorResponse('Rate limit exceeded. Please try again later.', 429, env);
   }
 
   // Parse JSON body if present
@@ -134,44 +147,44 @@ async function handleRequest(req) {
     try {
       body = await req.json();
     } catch (error) {
-      return errorResponse('Invalid JSON body', 400);
+      return errorResponse('Invalid JSON body', 400, env);
     }
   }
 
   // Route handler
   switch (path) {
     case '/api/membership':
-      return handleMembershipSubmission(method, body);
+      return handleMembershipSubmission(method, body, env);
 
     case '/api/directory':
-      return handleDirectorySubmission(method, body);
+      return handleDirectorySubmission(method, body, env);
 
     case '/api/submissions':
-      return handleSubmissionStatus(method, body, url);
+      return handleSubmissionStatus(method, body, url, env);
 
     case '/api/admin/webhook':
-      return handleAdminWebhook(method, body, req);
+      return handleAdminWebhook(method, body, req, env);
 
     case '/api/newsletter':
-      return handleNewsletter(method, body);
+      return handleNewsletter(method, body, env);
 
     case '/api/rss':
     case '/rss':
-      return handleRssProxy(method);
+      return handleRssProxy(method, env);
 
     default:
       // Handle path-based submission lookup
       if (path.startsWith('/api/submissions/')) {
-        return handleSubmissionStatus(method, body, url);
+        return handleSubmissionStatus(method, body, url, env);
       }
-      return errorResponse('Not found', 404);
+      return errorResponse('Not found', 404, env);
   }
 }
 
 // Handle RSS proxy - fetches from 9ty9.co.za to bypass Cloudflare
-async function handleRssProxy(method) {
+async function handleRssProxy(method, env) {
   if (method !== 'GET') {
-    return errorResponse('Method not allowed', 405);
+    return errorResponse('Method not allowed', 405, env);
   }
 
   const RSS_URL = 'https://9ty9.co.za/event/feed';
@@ -201,21 +214,24 @@ async function handleRssProxy(method) {
     });
   } catch (error) {
     log(`❌ RSS proxy error: ${error.message}`);
-    return errorResponse('Failed to fetch RSS feed', 502);
+    return errorResponse('Failed to fetch RSS feed', 502, env);
   }
 }
 
 // Handle membership submission
-async function handleMembershipSubmission(method, body) {
+async function handleMembershipSubmission(method, body, env) {
+  const adminEmail = env?.ADMIN_EMAIL || ADMIN_EMAIL;
+  const adminPhone = env?.ADMIN_PHONE || ADMIN_PHONE;
+
   if (method !== 'POST') {
-    return errorResponse('Method not allowed', 405);
+    return errorResponse('Method not allowed', 405, env);
   }
 
   // Validate required fields
   const requiredFields = ['firstName', 'lastName', 'email', 'membershipType'];
   for (const field of requiredFields) {
     if (!body[field]) {
-      return errorResponse(`Missing required field: ${field}`, 400);
+      return errorResponse(`Missing required field: ${field}`, 400, env);
     }
   }
 
@@ -231,8 +247,8 @@ async function handleMembershipSubmission(method, body) {
     status: 'pending',
     submittedAt: new Date().toISOString(),
     admin: {
-      email: ADMIN_EMAIL,
-      phone: ADMIN_PHONE
+      email: adminEmail,
+      phone: adminPhone
     }
   };
 
@@ -242,7 +258,7 @@ async function handleMembershipSubmission(method, body) {
   // await saveSubmission(submission);
 
   // Send admin notification
-  await sendAdminNotification(submission);
+  await sendAdminNotification(submission, env);
 
   return jsonResponse({
     success: true,
@@ -250,13 +266,16 @@ async function handleMembershipSubmission(method, body) {
     submissionId,
     nextSteps: 'Admin will verify and approve within 48 hours',
     pricing: 'R200 one-time + R100/month OR R1200 annual'
-  }, 201);
+  }, 201, env);
 }
 
 // Handle directory submission
-async function handleDirectorySubmission(method, body) {
+async function handleDirectorySubmission(method, body, env) {
+  const adminEmail = env?.ADMIN_EMAIL || ADMIN_EMAIL;
+  const adminPhone = env?.ADMIN_PHONE || ADMIN_PHONE;
+
   if (method !== 'POST') {
-    return errorResponse('Method not allowed', 405);
+    return errorResponse('Method not allowed', 405, env);
   }
 
   // Validate required fields
@@ -271,7 +290,7 @@ async function handleDirectorySubmission(method, body) {
 
   for (const field of requiredFields) {
     if (!body[field]) {
-      return errorResponse(`Missing required field: ${field}`, 400);
+      return errorResponse(`Missing required field: ${field}`, 400, env);
     }
   }
 
@@ -287,8 +306,8 @@ async function handleDirectorySubmission(method, body) {
     status: 'pending',
     submittedAt: new Date().toISOString(),
     admin: {
-      email: ADMIN_EMAIL,
-      phone: ADMIN_PHONE
+      email: adminEmail,
+      phone: adminPhone
     }
   };
 
@@ -298,7 +317,7 @@ async function handleDirectorySubmission(method, body) {
   // await saveSubmission(submission);
 
   // Send admin notification
-  await sendAdminNotification(submission);
+  await sendAdminNotification(submission, env);
 
   return jsonResponse({
     success: true,
@@ -306,17 +325,17 @@ async function handleDirectorySubmission(method, body) {
     submissionId,
     pendingApproval: true,
     estimatedApprovalTime: '48-72 hours'
-  }, 201);
+  }, 201, env);
 }
 
 // Handle submission status lookup
-async function handleSubmissionStatus(method, body, url) {
+async function handleSubmissionStatus(method, body, url, env) {
   // Extract submission ID from path
   const path = url.pathname;
   const match = path.match(/\/api\/submissions\/(.+)$/);
 
   if (!match) {
-    return errorResponse('Submission ID required', 400);
+    return errorResponse('Submission ID required', 400, env);
   }
 
   const submissionId = match[1];
@@ -331,16 +350,16 @@ async function handleSubmissionStatus(method, body, url) {
       status: 'pending',
       submittedAt: new Date().toISOString(),
       message: 'Submission is pending review'
-    });
+    }, 200, env);
   }
 
-  return errorResponse('Method not allowed', 405);
+  return errorResponse('Method not allowed', 405, env);
 }
 
 // Handle admin webhook
-async function handleAdminWebhook(method, body, req) {
+async function handleAdminWebhook(method, body, req, env) {
   if (method !== 'POST') {
-    return errorResponse('Method not allowed', 405);
+    return errorResponse('Method not allowed', 405, env);
   }
 
   // Webhook authentication - verify Bearer token
@@ -354,7 +373,7 @@ async function handleAdminWebhook(method, body, req) {
 
   if (!isAuthorized) {
     log(`⚠️ Unauthorized webhook attempt from IP: ${req.headers.get('CF-Connecting-IP')}`);
-    return errorResponse('Unauthorized', 401);
+    return errorResponse('Unauthorized', 401, env);
   }
 
   log(`🔔 Admin webhook received for submission: ${body.submissionId}`);
@@ -370,27 +389,27 @@ async function handleAdminWebhook(method, body, req) {
     success: true,
     message: 'Webhook processed',
     submissionId: body.submissionId
-  });
+  }, 200, env);
 }
 
 // Handle newsletter subscription
-async function handleNewsletter(method, body) {
+async function handleNewsletter(method, body, env) {
   if (method !== 'POST') {
-    return errorResponse('Method not allowed', 405);
+    return errorResponse('Method not allowed', 405, env);
   }
 
   if (!body || !body.email) {
-    return errorResponse('Email is required', 400);
+    return errorResponse('Email is required', 400, env);
   }
 
   log(`📧 Newsletter subscription: ${body.email}`);
 
-  return jsonResponse({ success: true }, 201);
+  return jsonResponse({ success: true }, 201, env);
 }
 
 // Serve the worker
 export default {
-  async fetch(req) {
-    return handleRequest(req);
+  async fetch(req, env) {
+    return handleRequest(req, env);
   }
 };

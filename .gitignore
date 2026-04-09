@@ -29,3 +29,11 @@ Thumbs.db
 tmp/
 temp/
 *.tmp
+
+# Test artifacts
+test-results/
+playwright-report/
+blob-report/
+verify_refactor*.py
+verify_refactor*.js
+server.log
