@@ -101,10 +101,82 @@
           <a href="#features" class="btn btn-secondary btn-lg">Explore Features</a>
         </div>
       </div>
+      <div class="hero-attribution">Photo: Kouga Tourism</div>
     </div>
   </section>
 
-  <!-- 2. COMMITTEE PREVIEW -->
+  <!-- 2. INTRO / WELCOME -->
+  <section id="welcome" class="section" style="background: white;">
+    <div class="container">
+      <div style="max-width: 800px; margin: 0 auto; text-align: center; margin-bottom: var(--spacing-lg);">
+        <h2 style="margin-bottom: var(--spacing-sm);">Welcome to Kouga Business Forum</h2>
+        <p style="font-size: 1.2rem; color: var(--text-muted); line-height: 1.8;">
+          Serving the Kouga business community since 2011. We provide a credible and purposeful platform to connect, advocate, and grow businesses across Jeffreys Bay, Humansdorp, St. Francis Bay, and beyond.
+        </p>
+      </div>
+
+      <div class="quick-access">
+        <a href="events.html" class="quick-access-item">
+          <div class="quick-access-icon">📅</div>
+          <span class="quick-access-title">Events Calendar</span>
+        </a>
+        <a href="directory.html" class="quick-access-item">
+          <div class="quick-access-icon">🏢</div>
+          <span class="quick-access-title">Business Directory</span>
+        </a>
+        <a href="#news" class="quick-access-item">
+          <div class="quick-access-icon">📰</div>
+          <span class="quick-access-title">News & Updates</span>
+        </a>
+        <a href="membership.html" class="quick-access-item">
+          <div class="quick-access-icon">🤝</div>
+          <span class="quick-access-title">Join the Forum</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. COMMITTEE PREVIEW -->
+  <section id="committee-preview" class="section" style="background: var(--bg-light);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Meet Our Committee</h2>
+        <p>A dedicated team of local business leaders working to further the interests of all members.</p>
+      </div>
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+        <div class="card committee-card">
+          <div class="committee-image">
+            <img src="images/Vice-chair-Lieb-Swiegers.jpg" alt="Lieb Swiegers">
+          </div>
+          <div class="committee-info">
+            <h3>Lieb Swiegers</h3>
+            <p class="committee-role">Chairman</p>
+          </div>
+        </div>
+        <div class="card committee-card">
+          <div class="committee-image">
+            <img src="images/Johannes-Barnard.jpg" alt="Johannes Barnard">
+          </div>
+          <div class="committee-info">
+            <h3>Johannes Barnard</h3>
+            <p class="committee-role">Vice-Chair & Treasurer</p>
+          </div>
+        </div>
+        <div class="card committee-card">
+          <div class="committee-image">
+            <img src="images/Dries-du-Preez.jpg" alt="Dries du Preez">
+          </div>
+          <div class="committee-info">
+            <h3>Dries du Preez</h3>
+            <p class="committee-role">Executive Committee Member</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: var(--spacing-md);">
+        <a href="about.html" class="btn btn-secondary">View Full Committee</a>
+      </div>
+    </div>
+  </section>
   <section class="section">
     <div class="container">
       <div class="section-header">
@@ -192,6 +264,7 @@
       </div>
 
       <div id="events-container" class="grid">
+        <!-- Dynamically loaded events go here -->
         <div class="card">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
             <h3 style="margin: 0;">🤝 Networking Breakfast</h3>
@@ -199,24 +272,6 @@
           </div>
           <p style="color: var(--text-muted);">Join us for a networking session with local business leaders. Light breakfast provided.</p>
           <a href="#contact" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">RSVP Now</a>
-        </div>
-
-        <div class="card">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
-            <h3 style="margin: 0;">📚 Digital Transformation Workshop</h3>
-            <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">MAR 22</span>
-          </div>
-          <p style="color: var(--text-muted);">Learn how to leverage digital tools to grow your business in the modern economy.</p>
-          <a href="#contact" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">Register</a>
-        </div>
-
-        <div class="card">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
-            <h3 style="margin: 0;">🌊 Coastal Clean-Up Day</h3>
-            <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">APR 05</span>
-          </div>
-          <p style="color: var(--text-muted);">Community event - Help keep our beautiful coastlines clean and beautiful.</p>
-          <a href="#contact" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">Sign Up</a>
         </div>
       </div>
 
@@ -226,21 +281,38 @@
     </div>
   </section>
 
-  <!-- 6. GALLERY PREVIEW -->
-  <section class="section" style="background: var(--bg-light);">
+  <!-- 6. PHOTO GALLERY PREVIEW -->
+  <section id="gallery-preview" class="section">
     <div class="container">
       <div class="section-header">
-        <h2>Gallery</h2>
-        <p>Glimpses from our events, community initiatives, and business highlights.</p>
+        <h2>Kouga Region Gallery</h2>
+        <p>Capturing the diverse industries and landscapes that make our region a hub for business and growth.</p>
       </div>
-      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
-        <div style="background: var(--accent-gradient); height: 200px; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">🏙️</div>
-        <div style="background: var(--bg-dark); height: 200px; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">🤝</div>
-        <div style="background: var(--accent-teal); height: 200px; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">🌊</div>
-        <div style="background: var(--accent-cyan); height: 200px; border-radius: var(--radius); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">🏢</div>
-      </div>
-      <div style="text-align: center; margin-top: 2rem;">
-        <a href="#" class="btn btn-secondary" style="opacity: 0.5; cursor: not-allowed;">Gallery Coming Soon</a>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/citrus_farming.jpg" alt="Citrus Farming in Kouga">
+          <div class="gallery-overlay">
+            <span style="color: white; font-weight: 600;">Agriculture</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/Construction.jpg" alt="Construction Development">
+          <div class="gallery-overlay">
+            <span style="color: white; font-weight: 600;">Development</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/Agriculture-Dairy.jpg" alt="Dairy Farming">
+          <div class="gallery-overlay">
+            <span style="color: white; font-weight: 600;">Dairy Industry</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/ocean-warming-climate-change-earth_1big_stock.jpg" alt="Kouga Coastline">
+          <div class="gallery-overlay">
+            <span style="color: white; font-weight: 600;">Tourism & Coast</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -297,7 +369,7 @@
     <div class="container">
       <div class="section-header">
         <h2>Celebrating Our Members</h2>
-        <p>Every business has a story. We showcase our members to highlight their achievements and inspire collaboration.</p>
+        <p>Success stories from within the Kouga business community.</p>
       </div>
       <div class="card" style="max-width: 800px; margin: 0 auto; text-align: center; padding: 3rem;">
         <div style="font-size: 3rem; color: var(--accent-cyan); margin-bottom: 1.5rem;">"</div>
@@ -436,10 +508,18 @@
       <div style="max-width: 600px; margin: 0 auto; text-align: center;">
         <h2 style="color: white; margin-bottom: 1rem;">Stay Updated</h2>
         <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; font-size: 1.1rem;">Get the latest news, events, and opportunities from the Kouga Business Forum delivered to your inbox.</p>
-        <form action="/api/newsletter" method="POST" class="newsletter-form" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
-          <input type="email" name="email" required placeholder="Enter your email address" style="flex: 1; min-width: 250px; padding: 1rem 1.5rem; border: 2px solid rgba(255,255,255,0.3); border-radius: var(--radius); font-size: 1rem; background: white; color: var(--text-main);">
-          <button type="submit" style="padding: 1rem 2rem; background: white; color: var(--accent-teal); border: none; border-radius: var(--radius); font-weight: 600; font-size: 1rem; cursor: pointer;">Subscribe</button>
+        <form id="newsletter-form" action="/api/newsletter" method="POST" class="newsletter-form" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+          <input type="email" name="email" required placeholder="Enter your email address" style="flex: 1; min-width: 250px; padding: 1rem 1.5rem; border: 2px solid rgba(255,255,255,0.3); border-radius: var(--radius-sm); font-size: 1rem; background: white; color: var(--text-main);">
+          <button type="submit" class="btn-newsletter" style="padding: 1rem 2rem; background: white; color: var(--accent-teal); border: none; border-radius: var(--radius-sm); font-weight: 600; font-size: 1rem; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;">Subscribe</button>
         </form>
+
+        <div id="newsletter-success" style="display: none; color: white; background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: var(--radius-sm); margin-top: 1rem; font-weight: 500;">
+          🎉 Thank you! You've been successfully subscribed to our newsletter.
+        </div>
+
+        <div id="newsletter-error" style="display: none; color: #ff6b6b; background: rgba(255,255,255,0.1); padding: 1rem; border-radius: var(--radius-sm); margin-top: 1rem; font-weight: 500; font-size: 0.9rem;">
+          ❌ Sorry, there was an error. Please try again or contact us directly.
+        </div>
       </div>
     </div>
   </section>
