@@ -121,16 +121,10 @@ function initializeForms() {
 
   // Join Form
   const joinForm = document.getElementById('join-form');
+  const joinSuccess = document.getElementById('join-success');
   if (joinForm) {
     joinForm.addEventListener('submit', function(e) {
       e.preventDefault();
-      
-      // Gather form data
-      const formData = new FormData(this);
-      const data = {};
-      formData.forEach((value, key) => {
-        data[key] = value;
-      });
       
       // Simulate submission with animation
       const submitBtn = this.querySelector('button[type="submit"]');
@@ -140,7 +134,12 @@ function initializeForms() {
       submitBtn.disabled = true;
       
       setTimeout(() => {
-        alert(`Thank you for your interest in joining KBF!\n\nYour application has been submitted. We will contact you at ${data.email} shortly.`);
+        // Show success message
+        joinForm.style.display = 'none';
+        if (joinSuccess) {
+          joinSuccess.style.display = 'block';
+          joinSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
         
         // Reset form
         this.reset();
