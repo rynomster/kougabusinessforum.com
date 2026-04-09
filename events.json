@@ -1,52 +1,8 @@
 {
-  "lastUpdated": "2026-04-08T00:04:47.189Z",
+  "lastUpdated": "2026-04-09T00:03:09.147Z",
   "source": "https://9ty9.co.za/event/feed",
-  "count": 90,
+  "count": 87,
   "events": [
-    {
-      "title": "SANBS Blood Donation Clinic at  Fountains Mall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/sanbs-blood-donation-clinic-2026-03-06-2026-03-28-2026-04-02/",
-      "guid": "https://9ty9.co.za/events/sanbs-blood-donation-clinic-2026-03-06-2026-03-28-2026-04-02/",
-      "pubDate": "Thu, 02 Apr 2026 09:00:00 +0000",
-      "dateStr": "2026-04-02",
-      "day": "02",
-      "month": "APR",
-      "description": "Thu, 2 April 2026 - 11:00 - 16:00",
-      "image": "images/events/SANBS-Blood-Donation-Clinic-28April2026.jpg"
-    },
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-04-02/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-04-02/",
-      "pubDate": "Thu, 02 Apr 2026 16:00:00 +0000",
-      "dateStr": "2026-04-02",
-      "day": "02",
-      "month": "APR",
-      "description": "Thu, 2 April 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "Splash Festival at  Kings Beach in Nelson Mandela Bay",
-      "link": "https://9ty9.co.za/events/splash-festival/",
-      "guid": "https://9ty9.co.za/events/splash-festival/",
-      "pubDate": "Thu, 02 Apr 2026 22:00:00 +0000",
-      "dateStr": "2026-04-02",
-      "day": "02",
-      "month": "APR",
-      "description": "Fri, 3 April 2026 - Sun, 5 April 2026 - All Day",
-      "image": "images/events/SpashFestival-5April2026.jpg"
-    },
-    {
-      "title": "Trans Kouga Wilderness Overlanding Tour | 3–11 April 2026 at  Baviaanskloof in Baviaanskloof",
-      "link": "https://9ty9.co.za/events/trans-kouga-wilderness-overlanding-tour-3-11-april-2026/",
-      "guid": "https://9ty9.co.za/events/trans-kouga-wilderness-overlanding-tour-3-11-april-2026/",
-      "pubDate": "Thu, 02 Apr 2026 22:00:00 +0000",
-      "dateStr": "2026-04-02",
-      "day": "02",
-      "month": "APR",
-      "description": "Fri, 3 April 2026 - Sat, 11 April 2026 - All Day",
-      "image": "images/events/Trans-Kouga-Wilderness-Overlanding-Tour-1.jpg"
-    },
     {
       "title": "Rip Curl Gromsearch presented by Sea Harvest &amp; supported by the Royal St Andrews Hotel at   in",
       "link": "https://9ty9.co.za/events/rip-curl-gromsearch-presented-by-sea-harvest-supported-by-the-royal-st-andrews-hotel/",
@@ -486,6 +442,17 @@
       "month": "APR",
       "description": "Thu, 9 April 2026 - 11:00 - 13:00",
       "image": "images/events/Kuns-en-Klets-Club-Bont-31July2026.jpg"
+    },
+    {
+      "title": "Kouga Working World Careers Expo at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kouga-working-world-careers-expo/",
+      "guid": "https://9ty9.co.za/events/kouga-working-world-careers-expo/",
+      "pubDate": "Thu, 09 Apr 2026 06:30:00 +0000",
+      "dateStr": "2026-04-09",
+      "day": "09",
+      "month": "APR",
+      "description": "Thu, 9 April 2026 - Fri, 10 April 2026 - 08:30 - 15:30",
+      "image": "images/events/Working-World-Exhibition-10April2026.jpg"
     },
     {
       "title": "Kouga Mayoral Cup  - Chess at  Newton Community Hall in Jeffreys Bay",
