@@ -22,31 +22,17 @@
 | T14 | Build.js Header Standardization | ✅ Complete | Consistent headers across all pages |
 | T15 | Homepage Dynamic Events | ✅ Complete | Dynamic loading from events.json |
 | T16 | Homepage Layout Refactor | ✅ Complete | Aligned with target structure |
-| T17 | CSS Refactoring | ✅ Complete | Moved inline styles to style.css and standardized utility classes |
 
 ### Pending ⏳
 
 | Task | Description | Priority | Notes |
 |------|-------------|----------|-------|
-| P1 | Issue Cleanup | ✅ | Homepage redesign issues addressed |
-| P2 | Fix Homepage Hero | High | Strong value prop: "The Voice of Business in the Kouga Region" |
-| P3 | Homepage Layout Reorder | High | Reorder sections (Hero, Intro, Committee, Directory, Events, Gallery, News, Footer) |
-| P4 | Remove Mission/Vision from Home | High | Content to live primarily on About page |
-| P5 | Slogan & Messaging Finalization | High | Lock slogan, tone, and messaging across site |
-| P6 | Advocacy & Impact Page | High | Dedicated page for projects, progress, and municipal engagement |
-| P7 | Membership Requirements UX | High | Clarify join process, requirements, and post-signup flow |
-| P8 | Events Preview Section | High | Restore preview linking to full events page |
-| P9 | Gallery Preview Section | Medium | Homepage media showcase |
-| P10 | News & Updates Preview | Medium | Chairman communications / news feed |
-| P11 | Afrikaans Language Strategy | Medium | Plan i18n approach for Afrikaans support |
-| P12 | Quick Action Cards | ✅ | Links work with about.html#news | Links now work with #news anchor |
-| P13 | Advocacy & Impact Refinement | Medium | Build authority and link to deeper content |
-| P14 | Homepage CTA Clarity | ✅ | Standardized with utility classes |
-| P15 | Content Migration (Old Site) | Low | Extract copy, advocacy history, and messaging |
-| P16 | Meeting Summaries | Low | Simplified, readable governance highlights |
-| P17 | WordPress Migration | Low | Meeting minutes, newsletters archive |
-| P18 | PayFast Sync | Low | Sync payment status with directory badges |
-
+| P1 | Formspree Setup | High | User to sign up |
+| P2 | Member Payment Status | High | Who's paid for 2026 |
+| P3 | WordPress Migration | Medium | Meeting minutes, newsletters |
+| P4 | PayFast Integration | Medium | Sync with directory |
+| P5 | KBF Events Content | Medium | 2026 events calendar |
+| P6 | Accessibility Audit | Low | WCAG compliance |
 
 ---
 

@@ -1,21 +1,7 @@
 # 📊 KBF Website - Project Progress
 
-**Last Updated:** 2026-04-09 06:34 UTC
-**Status:** Phase 2.5 - Homepage Redesign & Content Strategy
-
----
-
-## 🏗️ Current Sprint: Homepage Redesign
-
-- [x] **Fix Hero Section:** ✅ Headline updated to "The Voice of Business in the Kouga Region" (2026-04-08)
-- [x] **Layout Reordering:** ✅ Hero → Intro → Committee → Directory → Events → Gallery → News → Advocacy → Join (2026-04-08)
-- [x] **Content Pruning:** ✅ Mission/Vision removed from homepage, lives on About page (2026-04-08)
-- [x] **Slogan & Branding:** ✅ Brand messaging locked - "The Voice of Business" capitalized as brand term (2026-04-08)
-- [x] **Quick Action Cards:** ✅ Fixed #news links (anchor added, links now work)
-- [ ] **Membership Clarity:** ⏳ Improve signup UX and benefit communication
-- [ ] **Afrikaans Support:** ⏳ Plan i18n approach (EN/AF)
-- [x] **Homepage Cleanup:** ✅ Removed duplicate committee section (2026-04-09)
-- [ ] **Advocacy Page:** ⏳ Dedicated Advocacy & Impact page needed (currently a section)
+**Last Updated:** 2026-04-01 19:00 UTC
+**Status:** Phase 3 Active - Post-Launch Maintenance
 
 ---
 
@@ -251,9 +237,3 @@ kbf-web-2026/
 
 **Overall Project Status:** 82% Complete
 **Current Phase:** Post-Launch Maintenance & Polish
-## 2026-04-09 - Homepage Improvement & i18n Audit
-- **Cleanup**: Removed duplicate committee sections in `index.html`.
-- **Links**: Fixed broken `#news` anchor links; redirected to `about.html#news` and updated "Coming Soon" placeholders with working links.
-- **Buttons**: Standardized CTA buttons using new utility classes (`btn-sm`, `btn-block`).
-- **CSS**: Added utility classes for opacity, cursors, and button sizing to `style.css`.
-- **i18n**: Audited Afrikaans pages (`af/`); updated `af/index.html` to match the new committee design and fixed broken links.

@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-04-09T00:03:09.147Z",
+  "lastUpdated": "2026-04-05T00:04:46.510Z",
   "source": "https://9ty9.co.za/event/feed",
-  "count": 87,
+  "count": 72,
   "events": [
+    {
+      "title": "Jacobus Silver at  De Viswijf in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jacobus-silver/",
+      "guid": "https://9ty9.co.za/events/jacobus-silver/",
+      "pubDate": "Wed, 01 Apr 2026 15:30:00 +0000",
+      "dateStr": "2026-04-01",
+      "day": "01",
+      "month": "APR",
+      "description": "Wed, 1 April 2026 - 17:30 - 21:00",
+      "image": "images/events/Jacobus-Silver-1April2026.jpg"
+    },
+    {
+      "title": "Ocean Vibes at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/ocean-vibes/",
+      "guid": "https://9ty9.co.za/events/ocean-vibes/",
+      "pubDate": "Wed, 01 Apr 2026 16:00:00 +0000",
+      "dateStr": "2026-04-01",
+      "day": "01",
+      "month": "APR",
+      "description": "Wed, 1 April 2026 - 18:00 - 21:00",
+      "image": "images/events/Ocean-Vibes-1April2026.jpg"
+    },
+    {
+      "title": "SANBS Blood Donation Clinic at  Fountains Mall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/sanbs-blood-donation-clinic-2026-03-06-2026-03-28-2026-04-02/",
+      "guid": "https://9ty9.co.za/events/sanbs-blood-donation-clinic-2026-03-06-2026-03-28-2026-04-02/",
+      "pubDate": "Thu, 02 Apr 2026 09:00:00 +0000",
+      "dateStr": "2026-04-02",
+      "day": "02",
+      "month": "APR",
+      "description": "Thu, 2 April 2026 - 11:00 - 16:00",
+      "image": "images/events/SANBS-Blood-Donation-Clinic-28April2026.jpg"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-04-02/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-04-02/",
+      "pubDate": "Thu, 02 Apr 2026 16:00:00 +0000",
+      "dateStr": "2026-04-02",
+      "day": "02",
+      "month": "APR",
+      "description": "Thu, 2 April 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Splash Festival at  Kings Beach in Nelson Mandela Bay",
+      "link": "https://9ty9.co.za/events/splash-festival/",
+      "guid": "https://9ty9.co.za/events/splash-festival/",
+      "pubDate": "Thu, 02 Apr 2026 22:00:00 +0000",
+      "dateStr": "2026-04-02",
+      "day": "02",
+      "month": "APR",
+      "description": "Fri, 3 April 2026 - Sun, 5 April 2026 - All Day",
+      "image": "images/events/SpashFestival-5April2026.jpg"
+    },
+    {
+      "title": "Trans Kouga Wilderness Overlanding Tour | 3–11 April 2026 at  Baviaanskloof in Baviaanskloof",
+      "link": "https://9ty9.co.za/events/trans-kouga-wilderness-overlanding-tour-3-11-april-2026/",
+      "guid": "https://9ty9.co.za/events/trans-kouga-wilderness-overlanding-tour-3-11-april-2026/",
+      "pubDate": "Thu, 02 Apr 2026 22:00:00 +0000",
+      "dateStr": "2026-04-02",
+      "day": "02",
+      "month": "APR",
+      "description": "Fri, 3 April 2026 - Sat, 11 April 2026 - All Day",
+      "image": "images/events/Trans-Kouga-Wilderness-Overlanding-Tour-1.jpg"
+    },
     {
       "title": "Rip Curl Gromsearch presented by Sea Harvest &amp; supported by the Royal St Andrews Hotel at   in",
       "link": "https://9ty9.co.za/events/rip-curl-gromsearch-presented-by-sea-harvest-supported-by-the-royal-st-andrews-hotel/",
@@ -378,17 +444,6 @@
       "image": "images/events/NATIONAL-BREAKDOWN-8April2026.jpg"
     },
     {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-04-08/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-04-08/",
-      "pubDate": "Wed, 08 Apr 2026 09:00:00 +0000",
-      "dateStr": "2026-04-08",
-      "day": "08",
-      "month": "APR",
-      "description": "Wed, 8 April 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Club-Bont-31July2026.jpg"
-    },
-    {
       "title": "eThekwini Surf Pro at   in",
       "link": "https://9ty9.co.za/events/ethekwini-surf-pro/",
       "guid": "https://9ty9.co.za/events/ethekwini-surf-pro/",
@@ -433,28 +488,6 @@
       "image": "images/events/Merrell-Mammoth-Adventure-Race-12April2026.jpg"
     },
     {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-04-09/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-04-09/",
-      "pubDate": "Thu, 09 Apr 2026 09:00:00 +0000",
-      "dateStr": "2026-04-09",
-      "day": "09",
-      "month": "APR",
-      "description": "Thu, 9 April 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Club-Bont-31July2026.jpg"
-    },
-    {
-      "title": "Kouga Working World Careers Expo at  Mentors Country Estate in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kouga-working-world-careers-expo/",
-      "guid": "https://9ty9.co.za/events/kouga-working-world-careers-expo/",
-      "pubDate": "Thu, 09 Apr 2026 06:30:00 +0000",
-      "dateStr": "2026-04-09",
-      "day": "09",
-      "month": "APR",
-      "description": "Thu, 9 April 2026 - Fri, 10 April 2026 - 08:30 - 15:30",
-      "image": "images/events/Working-World-Exhibition-10April2026.jpg"
-    },
-    {
       "title": "Kouga Mayoral Cup  - Chess at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/kouga-mayoral-cup-chess/",
       "guid": "https://9ty9.co.za/events/kouga-mayoral-cup-chess/",
@@ -497,28 +530,6 @@
       "month": "APR",
       "description": "Fri, 10 April 2026 - 19:00 - 21:00",
       "image": "images/events/BRG-1May2026.jpg"
-    },
-    {
-      "title": "Tarryn Light at  Quayside Pub in St Francis Bay",
-      "link": "https://9ty9.co.za/events/tarryn-light-2026-04-10/",
-      "guid": "https://9ty9.co.za/events/tarryn-light-2026-04-10/",
-      "pubDate": "Fri, 10 Apr 2026 18:00:00 +0000",
-      "dateStr": "2026-04-10",
-      "day": "10",
-      "month": "APR",
-      "description": "Fri, 10 April 2026 - 20:00 - 23:00",
-      "image": "images/events/Tarryn-Light-17April2026.jpg"
-    },
-    {
-      "title": "Whiskey &amp; Ginger at  Fergo’s Rhythm Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/whiskey-ginger/",
-      "guid": "https://9ty9.co.za/events/whiskey-ginger/",
-      "pubDate": "Fri, 10 Apr 2026 18:00:00 +0000",
-      "dateStr": "2026-04-10",
-      "day": "10",
-      "month": "APR",
-      "description": "Fri, 10 April 2026 - 20:00 - 22:00",
-      "image": "images/events/Whiskey-Ginger-10April2026.jpg"
     },
     {
       "title": "Kouga Mayoral Cup  - Basketball at  Kabeljous Beach in Jeffreys Bay",
@@ -708,28 +719,6 @@
       "image": "images/events/Friends-of-the-Library.jpg"
     },
     {
-      "title": "Kwandi Class at  JBay Sewing Centre in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kwandi-class/",
-      "guid": "https://9ty9.co.za/events/kwandi-class/",
-      "pubDate": "Wed, 15 Apr 2026 08:00:00 +0000",
-      "dateStr": "2026-04-15",
-      "day": "15",
-      "month": "APR",
-      "description": "Wed, 15 April 2026 - 10:00 - 13:00",
-      "image": "images/events/Kwandi-Class.jpg"
-    },
-    {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-04-15/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-04-15/",
-      "pubDate": "Wed, 15 Apr 2026 09:00:00 +0000",
-      "dateStr": "2026-04-15",
-      "day": "15",
-      "month": "APR",
-      "description": "Wed, 15 April 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Club-Bont-31July2026.jpg"
-    },
-    {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/acoustic-night-2026-04-16/",
       "guid": "https://9ty9.co.za/events/acoustic-night-2026-04-16/",
@@ -739,17 +728,6 @@
       "month": "APR",
       "description": "Thu, 16 April 2026 - 18:00 - 21:00",
       "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-04-16/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-04-16/",
-      "pubDate": "Thu, 16 Apr 2026 09:00:00 +0000",
-      "dateStr": "2026-04-16",
-      "day": "16",
-      "month": "APR",
-      "description": "Thu, 16 April 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Club-Bont-31July2026.jpg"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -772,17 +750,6 @@
       "month": "APR",
       "description": "Fri, 17 April 2026 - 19:00 - 21:00",
       "image": "images/events/BRG-1May2026.jpg"
-    },
-    {
-      "title": "Tarryn Light at  Quayside Pub in St Francis Bay",
-      "link": "https://9ty9.co.za/events/tarryn-light-2026-04-10-2026-04-17/",
-      "guid": "https://9ty9.co.za/events/tarryn-light-2026-04-10-2026-04-17/",
-      "pubDate": "Fri, 17 Apr 2026 18:00:00 +0000",
-      "dateStr": "2026-04-17",
-      "day": "17",
-      "month": "APR",
-      "description": "Fri, 17 April 2026 - 20:00 - 23:00",
-      "image": "images/events/Tarryn-Light-17April2026.jpg"
     },
     {
       "title": "Kouga Mayoral Cup  - Gymnastics at  Newton Community Hall in Jeffreys Bay",
@@ -827,138 +794,6 @@
       "month": "APR",
       "description": "Sat, 18 April 2026 - 08:00 - 09:00",
       "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
-    },
-    {
-      "title": "RUCC HANKEY 5km Colour Fun Run at  RUCC Church Hankey in Hankey",
-      "link": "https://9ty9.co.za/events/rucc-hankey-5km-colour-fun-run/",
-      "guid": "https://9ty9.co.za/events/rucc-hankey-5km-colour-fun-run/",
-      "pubDate": "Sat, 18 Apr 2026 04:00:00 +0000",
-      "dateStr": "2026-04-18",
-      "day": "18",
-      "month": "APR",
-      "description": "Sat, 18 April 2026 - 06:00 - 09:00",
-      "image": "images/events/RUCC-HANKEY-5km-Colour-Fun-Run-18April2026.jpg"
-    },
-    {
-      "title": "SilentSoul beach fitness experience at  George Road Beach in St Francis Bay",
-      "link": "https://9ty9.co.za/events/silentsoul-beach-fitness-experience/",
-      "guid": "https://9ty9.co.za/events/silentsoul-beach-fitness-experience/",
-      "pubDate": "Sat, 18 Apr 2026 05:30:00 +0000",
-      "dateStr": "2026-04-18",
-      "day": "18",
-      "month": "APR",
-      "description": "Sat, 18 April 2026 - 07:30 - 08:30",
-      "image": "images/events/SilentSoul-18April-2026.jpg"
-    },
-    {
-      "title": "Sea Harvest South African Para Surfing Championship presented by the Department of Sports, Arts and Culture and Made for More at   in",
-      "link": "https://9ty9.co.za/events/sea-harvest-south-african-para-surfing-championship-presented-by-the-department-of-sports-arts-and-culture-and-made-for-more/",
-      "guid": "https://9ty9.co.za/events/sea-harvest-south-african-para-surfing-championship-presented-by-the-department-of-sports-arts-and-culture-and-made-for-more/",
-      "pubDate": "Sat, 18 Apr 2026 06:00:00 +0000",
-      "dateStr": "2026-04-18",
-      "day": "18",
-      "month": "APR",
-      "description": "Sat, 18 April 2026 - Sun, 19 April 2026 - 08:00 - 17:00",
-      "image": "images/events/Surfing-South-Africa-5.png"
-    },
-    {
-      "title": "St Francis Parkrun at  St Francis Links in St Francis Bay",
-      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18/",
-      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18/",
-      "pubDate": "Sat, 18 Apr 2026 06:00:00 +0000",
-      "dateStr": "2026-04-18",
-      "day": "18",
-      "month": "APR",
-      "description": "Sat, 18 April 2026 - 08:00 - 09:00",
-      "image": "images/events/St-Francis-Parkrun.jpg"
-    },
-    {
-      "title": "Macramé Workshops at  Suikerbossie in Kabeljous",
-      "link": "https://9ty9.co.za/events/macrame-workshops/",
-      "guid": "https://9ty9.co.za/events/macrame-workshops/",
-      "pubDate": "Sat, 18 Apr 2026 08:00:00 +0000",
-      "dateStr": "2026-04-18",
-      "day": "18",
-      "month": "APR",
-      "description": "Sat, 18 April 2026 - 10:00 - 14:00",
-      "image": "images/events/Macrame-Workshops-18April2026.jpg"
-    },
-    {
-      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18/",
-      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18/",
-      "pubDate": "Sat, 18 Apr 2026 13:00:00 +0000",
-      "dateStr": "2026-04-18",
-      "day": "18",
-      "month": "APR",
-      "description": "Sat, 18 April 2026 - 15:00 - 18:00",
-      "image": "images/events/Backyard-Karaoke.jpg"
-    },
-    {
-      "title": "Kouga Mayoral Cup - Darts at  Jeffreys Bay Craft Brewery (JBCB) in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kouga-mayoral-cup-darts/",
-      "guid": "https://9ty9.co.za/events/kouga-mayoral-cup-darts/",
-      "pubDate": "Sat, 18 Apr 2026 15:00:00 +0000",
-      "dateStr": "2026-04-18",
-      "day": "18",
-      "month": "APR",
-      "description": "Sat, 18 April 2026 - 17:00 - 22:00",
-      "image": "images/events/Kouga-Mayoral-Cup-Darts-18April2026.jpg"
-    },
-    {
-      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18/",
-      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18/",
-      "pubDate": "Sat, 18 Apr 2026 17:00:00 +0000",
-      "dateStr": "2026-04-18",
-      "day": "18",
-      "month": "APR",
-      "description": "Sat, 18 April 2026 - 19:00 - 23:59",
-      "image": "images/events/Karaoke-Dec2026.jpeg"
-    },
-    {
-      "title": "ISUZU IRONMAN South Africa African Championship at  Hobie Beach in Gqeberha",
-      "link": "https://9ty9.co.za/events/isuzu-ironman-south-africa-african-championship/",
-      "guid": "https://9ty9.co.za/events/isuzu-ironman-south-africa-african-championship/",
-      "pubDate": "Sun, 19 Apr 2026 04:30:00 +0000",
-      "dateStr": "2026-04-19",
-      "day": "19",
-      "month": "APR",
-      "description": "Sun, 19 April 2026 - 06:30 - 17:00",
-      "image": "images/events/ISUZU-IRONMAN-South-Africa-African-Championship.jpg"
-    },
-    {
-      "title": "ISUZU IRONMAN South Africa African Championship at  Hobie Beach in Gqeberha",
-      "link": "https://9ty9.co.za/events/isuzu-ironman-south-africa-african-championship-2/",
-      "guid": "https://9ty9.co.za/events/isuzu-ironman-south-africa-african-championship-2/",
-      "pubDate": "Sun, 19 Apr 2026 04:30:00 +0000",
-      "dateStr": "2026-04-19",
-      "day": "19",
-      "month": "APR",
-      "description": "Sun, 19 April 2026 - 06:30 - 12:00",
-      "image": "images/events/IRONMAN-19April2026.jpg"
-    },
-    {
-      "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19/",
-      "guid": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19/",
-      "pubDate": "Sun, 19 Apr 2026 07:00:00 +0000",
-      "dateStr": "2026-04-19",
-      "day": "19",
-      "month": "APR",
-      "description": "Sun, 19 April 2026 - 09:00 - 18:00",
-      "image": "images/events/Quintes-Sunday.jpg"
-    },
-    {
-      "title": "ISUZU IRONMAN AFRICAN CHAMPIONSHIP at  Hobie Beach in Gqeberha",
-      "link": "https://9ty9.co.za/events/isuzu-ironman-african-championship/",
-      "guid": "https://9ty9.co.za/events/isuzu-ironman-african-championship/",
-      "pubDate": "Sun, 19 Apr 2026 16:30:00 +0000",
-      "dateStr": "2026-04-19",
-      "day": "19",
-      "month": "APR",
-      "description": "Sun, 19 April 2026 - 18:30 - 23:59",
-      "image": "images/events/ISUZU-IRONMAN-AFRICAN-CHAMPIONSHIP-19April2026.jpeg"
     }
   ]
 }

@@ -100,9 +100,12 @@ function initializeForms() {
 
         if (response.ok) {
           // Show success message
-          newsletterForm.style.display = 'none';
           if (newsletterSuccess) {
+            newsletterForm.style.display = 'none';
             newsletterSuccess.style.display = 'block';
+          } else {
+            alert('Thank you! You\'ve been successfully subscribed to our newsletter.');
+            this.reset();
           }
         } else {
           throw new Error('Subscription failed');
@@ -121,16 +124,10 @@ function initializeForms() {
 
   // Join Form
   const joinForm = document.getElementById('join-form');
+  const joinSuccess = document.getElementById('join-success');
   if (joinForm) {
     joinForm.addEventListener('submit', function(e) {
       e.preventDefault();
-      
-      // Gather form data
-      const formData = new FormData(this);
-      const data = {};
-      formData.forEach((value, key) => {
-        data[key] = value;
-      });
       
       // Simulate submission with animation
       const submitBtn = this.querySelector('button[type="submit"]');
@@ -140,7 +137,14 @@ function initializeForms() {
       submitBtn.disabled = true;
       
       setTimeout(() => {
-        alert(`Thank you for your interest in joining KBF!\n\nYour application has been submitted. We will contact you at ${data.email} shortly.`);
+        // Show success message
+        if (joinSuccess) {
+          joinForm.style.display = 'none';
+          joinSuccess.style.display = 'block';
+          joinSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else {
+          alert('Thank you for your interest in joining the Kouga Business Forum. Our team will review your application and contact you shortly.');
+        }
         
         // Reset form
         this.reset();

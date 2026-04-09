@@ -10,14 +10,13 @@ This file prevents concurrent work on the same tasks by multiple agents or sub-a
 
 | Task ID | Lock Holder | Started | Est. Duration | Status | Notes |
 |---------|-------------|---------|---------------|--------|-------|
-
+| - | None | - | - | - | All tasks currently available |
 
 ---
 
 ## Recent Completions
 
 | Task ID | Holder | Completed | Summary |
-| P19 | Subagent (Coder) | 2026-04-09 06:34 UTC | Moved inline styles to style.css and standardized utility classes |
 |---------|--------|-----------|---------|
 | T1-T8 | Main Agent | 2026-03-30 15:30 UTC | Sprint 3 complete - Homepage redesign, committee section, CSS logo |
 | T2 | Main Agent | 2026-03-30 14:00 UTC | Component mapping from mockup |
