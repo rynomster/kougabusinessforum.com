@@ -127,9 +127,12 @@ function getFilteredBusinesses() {
     const query = searchInput ? searchInput.value.toLowerCase() : '';
 
     return allBusinesses.filter(b => {
+        const locationName = getDisplayName(b.location).toLowerCase();
         const matchQuery = query === '' ||
                            b.name.toLowerCase().includes(query) ||
-                           b.description.toLowerCase().includes(query);
+                           b.description.toLowerCase().includes(query) ||
+                           b.location.toLowerCase().includes(query) ||
+                           locationName.includes(query);
         const matchCategory = categoryFilter === 'all' || b.category === categoryFilter;
         const matchLocation = locationFilter === 'all' || b.location === locationFilter;
         return matchQuery && matchCategory && matchLocation;
