@@ -1447,3 +1447,34 @@ textarea {
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(6, 200, 255, 0.4);
 }
+
+/* Calendar Interaction Styles */
+.calendar-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.add-to-cal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: var(--accent-cyan);
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 8px;
+  vertical-align: middle;
+  transition: all var(--transition-fast);
+  line-height: 1;
+}
+
+.add-to-cal:hover {
+  transform: scale(1.15);
+  background: var(--accent-teal);
+  box-shadow: 0 2px 5px rgba(6, 200, 255, 0.3);
+}
