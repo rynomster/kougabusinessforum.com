@@ -12,7 +12,22 @@ document.addEventListener('DOMContentLoaded', function() {
   initializeMobileMenuToggle();
   highlightCurrentPage();
   initializeMembershipProrata();
+  initializeIcons();
 });
+
+/**
+ * Initialize Lucide Icons
+ */
+function initializeIcons() {
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  } else {
+    // If using CDN, it might not be ready yet
+    window.addEventListener('load', () => {
+      if (typeof lucide !== 'undefined') lucide.createIcons();
+    });
+  }
+}
 
 /**
  * Highlight Current Page in Navigation
