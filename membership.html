@@ -87,19 +87,47 @@
             <li style="padding: 0.5rem 0;">✓ Newsletter subscription</li>
           </ul>
           
-          <!-- PayFast Annual Form -->
-          <form name="PayFastAnnualForm" action="https://payment.payfast.io/eng/process" method="post" style="margin-top: 1.5rem;">
-            <input type="hidden" name="cmd" value="_paynow">
-            <input type="hidden" name="receiver" pattern="[0-9]" value="20345535">
-            <input type="hidden" name="return_url" value="https://new.kougabusinessforum.com/thank-you.html">
-            <input type="hidden" name="cancel_url" value="https://new.kougabusinessforum.com/membership.html">
-            <input type="hidden" name="amount" value="1200">
-            <input type="hidden" name="item_name" value="KBF - Annual Membership 2026">
-            <input type="hidden" name="item_description" value="Valid for the 2026 membership year.">
-            <button type="submit" style="background: none; border: none; padding: 0; cursor: pointer;">
-              <img src="https://my.payfast.io/images/buttons/PayNow/Primary-Large-PayNow.png" alt="Pay Annual Membership - 2026" title="Pay Annual Membership - 2026" style="width: 100%; max-width: 200px;">
-            </button>
-          </form>
+          <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+            <p style="font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text-dark);">Existing Member Renewal</p>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem;">Full annual fee for 2026</p>
+            <!-- PayFast Annual Form (Existing) -->
+            <form name="PayFastAnnualForm" action="https://payment.payfast.io/eng/process" method="post">
+              <input type="hidden" name="cmd" value="_paynow">
+              <input type="hidden" name="receiver" pattern="[0-9]" value="20345535">
+              <input type="hidden" name="return_url" value="https://new.kougabusinessforum.com/thank-you.html">
+              <input type="hidden" name="cancel_url" value="https://new.kougabusinessforum.com/membership.html">
+              <input type="hidden" name="amount" value="1200">
+              <input type="hidden" name="item_name" value="KBF - Annual Membership 2026 (Renewal)">
+              <input type="hidden" name="item_description" value="Valid for the 2026 membership year.">
+              <button type="submit" style="background: none; border: none; padding: 0; cursor: pointer;">
+                <img src="https://my.payfast.io/images/buttons/PayNow/Primary-Large-PayNow.png" alt="Renew Membership" title="Renew Membership - R1,200" style="width: 100%; max-width: 160px;">
+              </button>
+            </form>
+          </div>
+
+          <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+            <p style="font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text-dark);">New Member Registration</p>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem;" id="prorata-info">Prorated for remaining months in 2026</p>
+            <div id="prorata-display" style="font-size: 1.5rem; font-weight: 800; color: var(--accent-cyan); margin-bottom: 1rem;">
+              <span id="prorated-price-display">R1,200</span>
+            </div>
+            <!-- PayFast New Member Form -->
+            <form name="PayFastNewMemberForm" action="https://payment.payfast.io/eng/process" method="post">
+              <input type="hidden" name="cmd" value="_paynow">
+              <input type="hidden" name="receiver" pattern="[0-9]" value="20345535">
+              <input type="hidden" name="return_url" value="https://new.kougabusinessforum.com/thank-you.html">
+              <input type="hidden" name="cancel_url" value="https://new.kougabusinessforum.com/membership.html">
+              <input type="hidden" name="amount" id="new-member-amount" value="1200">
+              <input type="hidden" name="item_name" id="new-member-item-name" value="KBF - Annual Membership 2026 (New Member)">
+              <input type="hidden" name="item_description" id="new-member-item-description" value="Valid for the 2026 membership year (Prorated).">
+              <button type="submit" style="background: none; border: none; padding: 0; cursor: pointer;">
+                <img src="https://my.payfast.io/images/buttons/PayNow/Primary-Large-PayNow.png" alt="Join KBF" title="Join KBF (Prorated)" style="width: 100%; max-width: 160px;">
+              </button>
+            </form>
+            <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 1rem; font-style: italic;">
+              *New members only pay for the months remaining in the year (including current month if before the 20th).
+            </p>
+          </div>
         </div>
 
         <!-- Monthly Membership -->
