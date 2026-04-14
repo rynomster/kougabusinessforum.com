@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   loadEvents();
   initializeMobileMenuToggle();
   highlightCurrentPage();
+  initializeMembershipProrata();
 });
 
 /**
@@ -339,6 +340,58 @@ if (typeof console !== 'undefined') {
   console.log('KBF Website initialized');
   console.log('Events URL:', EVENTS_JSON_URL);
   console.log('Modern redesign loaded successfully');
+}
+
+/**
+ * Membership Prorata Logic
+ * Calculates the remaining months in the year and updates the membership price.
+ * Formula: R100 per month remaining (including current month if before the 20th).
+ */
+function initializeMembershipProrata() {
+  const priceDisplay = document.getElementById('prorated-price-display');
+  const amountInput = document.getElementById('new-member-amount');
+  const itemNameInput = document.getElementById('new-member-item-name');
+  const itemDescInput = document.getElementById('new-member-item-description');
+  const prorataInfo = document.getElementById('prorata-info');
+
+  if (!priceDisplay || !amountInput) return;
+
+  const now = new Date();
+  const currentMonth = now.getMonth(); // 0-11
+  const currentDay = now.getDate();
+  const currentYear = now.getFullYear();
+
+  // If we are not in 2026, this logic might need adjustment,
+  // but the site is specifically for "Membership 2026".
+  // For the purpose of this task, we assume we are calculating for 2026.
+
+  let monthsRemaining = 12 - currentMonth;
+  if (currentDay >= 20) {
+    monthsRemaining -= 1;
+  }
+
+  // Ensure at least 1 month is charged if it's late in the year
+  if (monthsRemaining <= 0) {
+    monthsRemaining = 1;
+  }
+
+  const proratedAmount = monthsRemaining * 100;
+
+  // Update DOM
+  priceDisplay.textContent = `R${proratedAmount.toLocaleString()}`;
+  amountInput.value = proratedAmount;
+
+  if (prorataInfo) {
+    prorataInfo.textContent = `Prorated for ${monthsRemaining} month${monthsRemaining > 1 ? 's' : ''} remaining in 2026`;
+  }
+
+  if (itemNameInput) {
+    itemNameInput.value = `KBF - Annual Membership 2026 (New Member - ${monthsRemaining} Months)`;
+  }
+
+  if (itemDescInput) {
+    itemDescInput.value = `Access for the remainder of the 2026 calendar year (${monthsRemaining} month${monthsRemaining > 1 ? 's' : ''}).`;
+  }
 }
 
 // Performance: Lazy load images
