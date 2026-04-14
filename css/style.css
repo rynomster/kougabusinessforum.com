@@ -698,7 +698,7 @@ p {
   font-size: 0.9rem;
   margin: 0;
 }
-/* KBF CSS-Based Logo Styles */
+/* KBF Logo Styles */
 
 .logo-link {
   text-decoration: none;
@@ -712,54 +712,10 @@ p {
   white-space: nowrap;
 }
 
-.logo-icon {
-  position: relative;
-  width: 48px;
-  height: 48px;
-  background: linear-gradient(135deg, #06c8ff 0%, #0e7996 100%);
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(6, 200, 255, 0.4);
-  border: none;
-}
-
-.logo-icon::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.3) 50%, transparent 70%);
-  animation: logo-shine 3s ease-in-out infinite;
-}
-
-@keyframes logo-shine {
-  0%, 100% { transform: translateX(-100%) rotate(45deg); }
-  50% { transform: translateX(100%) rotate(45deg); }
-}
-
-.logo-icon-text {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.1rem;
-  font-weight: 800;
-  color: white;
-  letter-spacing: -0.05em;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  position: relative;
-  z-index: 1;
-}
-
-.logo-text {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: white;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
+.logo-img {
+  height: 80px;
+  width: auto;
+  display: block;
 }
 
 .logo-tagline {
@@ -926,17 +882,8 @@ p {
     gap: 0.5rem;
   }
 
-  .logo-icon {
-    width: 36px;
-    height: 36px;
-  }
-
-  .logo-icon-text {
-    font-size: 0.85rem;
-  }
-
-  .logo-text {
-    font-size: 0.95rem;
+  .logo-img {
+    height: 60px;
   }
 
   /* Mobile Nav */
