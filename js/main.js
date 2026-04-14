@@ -1,7 +1,7 @@
 // KBF Website - Modern Redesign JavaScript
 
 // Configuration
-const EVENTS_JSON_URL = 'events.json';
+const EVENTS_JSON_URL = 'kbevents.json';
 
 // DOM Ready
 document.addEventListener('DOMContentLoaded', function() {
@@ -245,7 +245,7 @@ async function loadEvents() {
   }
 }
 
-// Display real events from events.json
+// Display real events from kbevents.json
 function displayEvents(events) {
   const container = document.getElementById('events-container');
   if (!container) return;
@@ -260,13 +260,21 @@ function displayEvents(events) {
     const eventCard = document.createElement('div');
     eventCard.className = 'card';
     eventCard.style.animationDelay = `${index * 100}ms`;
+
+    // Support both kbevents.json and events.json data structures for robustness
+    const title = event.summary || event.title || 'Untitled Event';
+    const day = event.day || '';
+    const month = event.monthAbbr || event.month || '';
+    const description = event.descriptionClean || event.description || '';
+    const link = event.link || '#';
+
     eventCard.innerHTML = `
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
-        <h3 style="margin: 0;">${event.title}</h3>
-        <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${event.day} ${event.month}</span>
+        <h3 style="margin: 0;">${title}</h3>
+        <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${day} ${month}</span>
       </div>
-      <p style="color: var(--text-muted);">${event.description.length > 120 ? event.description.substring(0, 120) + '...' : event.description}</p>
-      <a href="${event.link}" target="_blank" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">More Info</a>
+      <p style="color: var(--text-muted);">${description.length > 120 ? description.substring(0, 120) + '...' : description}</p>
+      <a href="${link}" target="_blank" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">More Info</a>
     `;
     container.appendChild(eventCard);
   });

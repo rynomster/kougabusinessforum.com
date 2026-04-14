@@ -47,10 +47,14 @@ async function syncCalendar() {
           const monthFull = new Intl.DateTimeFormat('en-ZA', { month: 'long', timeZone: TZ }).format(startDate);
           const year = new Intl.DateTimeFormat('en-ZA', { year: 'numeric', timeZone: TZ }).format(startDate);
 
+          const googleCalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.summary || '')}&dates=${formatDateForGoogle(ev.start)}/${formatDateForGoogle(ev.end)}&details=${encodeURIComponent(ev.description || '')}&location=${encodeURIComponent(ev.location || '')}`;
+
           eventList.push({
             summary: ev.summary || 'Untitled Event',
             description: ev.description || '',
+            descriptionClean: (ev.description || '').replace(/<[^>]+>/g, '').trim(),
             location: ev.location || '',
+            link: googleCalLink,
             start: ev.start,
             end: ev.end,
             dateStr: startDate.toISOString().split('T')[0],
@@ -63,19 +67,29 @@ async function syncCalendar() {
       }
     }
 
+    // Prune past events
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const originalCount = eventList.length;
+    const filteredEvents = eventList.filter(ev => {
+      const eventEnd = new Date(ev.end);
+      return eventEnd >= today;
+    });
+    console.log(`✓ Pruned ${originalCount - filteredEvents.length} past events`);
+
     // Sort by date ascending
-    eventList.sort((a, b) => new Date(a.start) - new Date(b.start));
+    filteredEvents.sort((a, b) => new Date(a.start) - new Date(b.start));
 
     // Save JSON for potential future dynamic use
     fs.writeFileSync(OUTPUT_JSON, JSON.stringify({
       lastUpdated: new Date().toISOString(),
-      count: eventList.length,
-      events: eventList
+      count: filteredEvents.length,
+      events: filteredEvents
     }, null, 2));
-    console.log(`✓ Saved ${eventList.length} events to ${OUTPUT_JSON}`);
+    console.log(`✓ Saved ${filteredEvents.length} events to ${OUTPUT_JSON}`);
 
     // Generate HTML
-    generateHTML(eventList);
+    generateHTML(filteredEvents);
 
   } catch (err) {
     console.error('Error syncing calendar:', err.message);
@@ -110,10 +124,9 @@ function generateHTML(eventList) {
           <h3>${monthName}</h3>
           <ul class="event-list">
             ${monthEvents.map(ev => {
-              const googleCalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.summary)}&dates=${formatDateForGoogle(ev.start)}/${formatDateForGoogle(ev.end)}&details=${encodeURIComponent(ev.description)}&location=${encodeURIComponent(ev.location)}`;
               return `            <li>
               <strong>${ev.day} ${ev.monthAbbr}</strong> ${escapeHTML(ev.summary)}
-              <a href="${googleCalLink}" target="_blank" class="add-to-cal" title="Add to Google Calendar">+</a>
+              <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar">+</a>
             </li>`;
             }).join('\n')}
           </ul>

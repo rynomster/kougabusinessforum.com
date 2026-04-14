@@ -1,6 +1,6 @@
 # 📊 KBF Website - Project Progress
 
-**Last Updated:** 2026-04-01 19:00 UTC
+**Last Updated:** 2026-04-14 10:45 UTC
 **Status:** Phase 3 Active - Post-Launch Maintenance
 
 ---
@@ -8,12 +8,12 @@
 ## ✅ Completed Work
 
 ### Website Pages (Phase 1-2)
-- [x] **Homepage** (`index.html`) - Hero, features, committee, gallery, directory preview, join form
+- [x] **Homepage** (`index.html`) - Hero, features, committee, gallery, directory preview, join form (Now shows KBF Events)
 - [x] **Business Directory** (`directory.html`) - Full listing with search & category/location filtering
 - [x] **About Us** (`about.html`) - Committee section with all 10 members and photos
 - [x] **Contact** (`contact.html`) - Contact form and information
 - [x] **Events Page** (`events.html`) - Community events from 9ty9.co.za (50 events)
-- [x] **KBF Events** (`kbevents.html`) - Placeholder for KBF official events
+- [x] **KBF Events** (`kbevents.html`) - Official KBF events calendar (Integrated with homepage)
 - [x] **Membership** (`membership.html`) - 2026 pricing (R200+R100/mo or R1200 annual)
 - [x] **404 Page** (`404.html`) - Custom error page
 
@@ -42,6 +42,7 @@
 - [x] **Homepage refactor: Dynamic events from `events.json` and smooth scrolling fixed**
 - [x] **Google Sheets auto-sync for directory**
 - [x] **GitHub Actions for directory sync**
+- [x] **Landing Page Event Switch (Switch community events for official KBF events)**
 - [x] **Team collaboration protocol (AGENTS.md)**
 - [x] **Cloudflare Worker for form handling (membership, directory, newsletter)**
 - [x] **Branch protection setup (main protected, develop for work)**
@@ -60,7 +61,7 @@
 ### Post-Launch Tasks
 - [ ] Monitor directory submissions via Formspree
 - [ ] Track member payment status
-- [ ] Finalize KBF 2026 events calendar
+- [x] Finalize KBF 2026 events calendar (Calendar sync integrated)
 - [ ] WordPress migration (meeting minutes, newsletters)
 
 ---
@@ -79,7 +80,6 @@
 | **WordPress Migration** | ⏳ Pending | Need backup from client |
 | **Meeting Minutes (5yr)** | ⏳ Pending | Legal requirement |
 | **Newsletters Archive** | ⏳ Pending | Need from WordPress |
-| **KBF Events Content** | ⏳ Pending | Client finalizing 2026 events |
 
 ### Low Priority
 | Task | Status | Notes |
@@ -231,7 +231,7 @@ kbf-web-2026/
 ---
 
 *Built with ❤️ for the Kouga Business Community*
-*Last updated: 2026-03-31*
+*Last updated: 2026-04-14*
 
 ---
 
