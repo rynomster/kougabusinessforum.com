@@ -989,7 +989,7 @@ p {
   .menu-toggle span {
     width: 24px;
     height: 2px;
-    background: white;
+    background: var(--bg-white);
     border-radius: 2px;
     transition: all 0.3s ease;
   }
@@ -1215,16 +1215,6 @@ p {
   margin: 0 auto;
 }
 
-/* Empty State */
-.empty-state {
-  text-align: center;
-  padding: 3rem;
-}
-
-.empty-state p {
-  color: var(--text-muted);
-  font-size: 1.1rem;
-}
 
 /* Two Column Layout */
 .two-column {
@@ -1430,7 +1420,7 @@ textarea {
   align-items: center;
   gap: 0.35rem;
   padding: 0.3rem 0.65rem;
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
   font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1500,4 +1490,278 @@ textarea {
   transform: scale(1.15);
   background: var(--accent-teal);
   box-shadow: 0 2px 5px rgba(6, 200, 255, 0.3);
+}
+
+/* ============================
+   BUSINESS DIRECTORY SECTION
+   ============================ */
+
+.directory-hero {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.directory-subtitle {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+}
+
+.directory-search-wrapper {
+  max-width: 600px;
+  margin: 2rem auto 0;
+  position: relative;
+}
+
+.directory-search {
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  font-size: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: all var(--transition-normal);
+}
+
+.directory-search::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.directory-search:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--accent-cyan);
+}
+
+.filter-section {
+  max-width: 1200px;
+  margin: 2rem auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.25rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-light);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.filter-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: var(--accent-cyan);
+  transform: translateY(-2px);
+}
+
+.filter-btn.active {
+  background: var(--accent-cyan);
+  border-color: var(--accent-cyan);
+  color: white;
+}
+
+.directory-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.directory-results {
+  margin-top: 2rem;
+}
+
+.result-count {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: var(--bg-white);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.empty-state-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.empty-state h3 {
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.empty-state p {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.business-card {
+  background: var(--bg-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.business-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--bg-gradient);
+  transform: scaleX(0);
+  transition: transform var(--transition-normal);
+}
+
+.business-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.business-card:hover::before {
+  transform: scaleX(1);
+}
+
+.business-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.business-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--primary-light), var(--secondary));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+}
+
+.business-name h3 {
+  color: var(--primary-dark);
+  margin: 0 0 0.25rem 0;
+  font-size: 1.3rem;
+}
+
+.business-category {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(14, 121, 150, 0.1);
+  color: var(--accent-teal);
+  border-radius: var(--radius-lg);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.business-category::before {
+  content: '•';
+  font-size: 1rem;
+}
+
+.business-location {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.business-description {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.business-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent-teal);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: gap var(--transition-fast);
+}
+
+.contact-item:hover {
+  gap: 0.75rem;
+}
+
+.badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.badge-verified {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.badge-basic {
+  background: #f5f5f5;
+  color: #757575;
+}
+
+@media (max-width: 768px) {
+  .filter-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .filter-group {
+    justify-content: center;
+  }
+  .filter-btn {
+    flex: 1;
+    min-width: 120px;
+    justify-content: center;
+  }
+  .business-contact {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
 }
