@@ -141,15 +141,17 @@ p {
 }
 
 .btn-primary {
-  background: var(--accent-cyan);
+  background: var(--accent-gradient);
   color: white;
-  box-shadow: 0 4px 15px rgba(6, 200, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(6, 200, 255, 0.4);
+  border: none;
 }
 
 .btn-primary:hover {
-  background: var(--accent-teal);
+  background: linear-gradient(135deg, #00b1e4 0%, #06c8ff 100%);
+  color: white;
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(6, 200, 255, 0.4);
+  box-shadow: 0 6px 24px rgba(6, 200, 255, 0.5);
 }
 
 .btn-newsletter:hover {
@@ -164,6 +166,7 @@ p {
 
 .btn-secondary:hover {
   background: var(--primary);
+  color: white;
   transform: translateY(-2px);
 }
 
@@ -233,7 +236,7 @@ p {
   flex-wrap: nowrap;
 }
 
-.nav a {
+.nav a:not(.btn) {
   color: var(--text-muted);
   text-decoration: none;
   font-weight: 500;
@@ -241,12 +244,12 @@ p {
   position: relative;
 }
 
-.nav a:hover,
-.nav a.active {
+.nav a:not(.btn):hover,
+.nav a.active:not(.btn) {
   color: white;
 }
 
-.nav a::after {
+.nav a:not(.btn)::after {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -257,8 +260,8 @@ p {
   transition: width var(--transition-normal);
 }
 
-.nav a:hover::after,
-.nav a.active::after {
+.nav a:not(.btn):hover::after,
+.nav a.active:not(.btn)::after {
   width: 100%;
 }
 
@@ -803,7 +806,7 @@ p {
   flex-wrap: nowrap;
 }
 
-.nav a {
+.nav a:not(.btn) {
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   font-weight: 500;
@@ -812,11 +815,11 @@ p {
   position: relative;
 }
 
-.nav a:hover {
+.nav a:not(.btn):hover {
   color: #06c8ff;
 }
 
-.nav a::after {
+.nav a:not(.btn)::after {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -827,27 +830,10 @@ p {
   transition: width 0.3s ease;
 }
 
-.nav a:hover::after {
+.nav a:not(.btn):hover::after {
   width: 100%;
 }
 
-/* Button Styling */
-.btn-primary {
-  background: linear-gradient(135deg, #06c8ff 0%, #0e7996 100%);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 9999px;
-  font-weight: 600;
-  box-shadow: 0 4px 15px rgba(6, 200, 255, 0.5);
-  transition: all 0.3s ease;
-  border: none;
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(6, 200, 255, 0.5);
-  background: linear-gradient(135deg, #00b1e4 0%, #06c8ff 100%);
-}
 
 /* Accent Colors */
 .accent-cyan {
