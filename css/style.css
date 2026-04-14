@@ -746,6 +746,13 @@ p {
   font-size: 0.9rem;
   margin: 0;
 }
+
+.committee-bio {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: var(--spacing-sm);
+  line-height: 1.5;
+}
 /* KBF Logo Styles */
 
 .logo-link {
