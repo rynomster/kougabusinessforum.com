@@ -28,7 +28,7 @@
   --transition-slow: 0.4s ease;
   --radius-sm: 8px;
   --radius-md: 12px;
-  --radius-lg: 20px;
+  --radius-lg: 24px;
   --radius-full: 9999px;
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
@@ -49,6 +49,16 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:visited {
+  color: inherit;
 }
 
 :focus-visible {
@@ -139,7 +149,7 @@ p {
 .btn-primary:hover {
   background: var(--accent-teal);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(6, 200, 255, 0.4);
+  box-shadow: 0 6px 24px rgba(6, 200, 255, 0.4);
 }
 
 .btn-newsletter:hover {
@@ -338,7 +348,7 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
   gap: var(--spacing-md);
 }
 
@@ -602,6 +612,36 @@ p {
   color: white;
 }
 
+.social-links {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.social-link {
+  color: var(--text-muted);
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.social-link:hover {
+  color: white;
+  background: var(--accent-cyan);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(6, 200, 255, 0.3);
+}
+
+.social-link svg {
+  width: 24px;
+  height: 24px;
+}
+
 .footer-bottom {
   text-align: center;
   padding-top: var(--spacing-md);
@@ -611,7 +651,7 @@ p {
 
 /* Animations */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
+  from { opacity: 0; transform: translateY(24px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
@@ -735,7 +775,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 6px 20px rgba(6, 200, 255, 0.4);
+  box-shadow: 0 6px 24px rgba(6, 200, 255, 0.4);
 }
 
 .logo-symbol::after {
@@ -805,7 +845,7 @@ p {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(6, 200, 255, 0.5);
+  box-shadow: 0 6px 24px rgba(6, 200, 255, 0.5);
   background: linear-gradient(135deg, #00b1e4 0%, #06c8ff 100%);
 }
 
@@ -875,7 +915,7 @@ p {
     flex-direction: column;
     padding: 1rem;
     gap: 1rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
   }
 
   .nav.active {
@@ -1017,8 +1057,8 @@ p {
 
   /* Committee Mobile */
   .committee-image {
-    width: 120px;
-    height: 120px;
+    width: 124px;
+    height: 124px;
   }
 
   /* Gallery Mobile */
@@ -1232,7 +1272,7 @@ p {
 
 textarea {
   resize: vertical;
-  min-height: 120px;
+  min-height: 124px;
 }
 
 /* Border Top */
@@ -1398,8 +1438,8 @@ textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   background: var(--accent-cyan);
   color: white;
   border-radius: 4px;
@@ -1682,7 +1722,7 @@ textarea {
   }
   .filter-btn {
     flex: 1;
-    min-width: 120px;
+    min-width: 124px;
     justify-content: center;
   }
   .business-contact {
