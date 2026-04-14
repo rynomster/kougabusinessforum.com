@@ -10,7 +10,34 @@ document.addEventListener('DOMContentLoaded', function() {
   initializeScrollAnimations();
   loadEvents();
   initializeMobileMenuToggle();
+  highlightCurrentPage();
 });
+
+/**
+ * Highlight Current Page in Navigation
+ * Sets 'active' class and 'aria-current="page"' on the current nav link.
+ */
+function highlightCurrentPage() {
+  const currentPath = window.location.pathname;
+  const navLinks = document.querySelectorAll('.nav a');
+
+  navLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    if (!href) return;
+
+    // Handle home page specifically
+    const isHome = currentPath === '/' || currentPath === '/index.html' || currentPath === '';
+    const linkIsHome = href === 'index.html' || href === '/';
+
+    if (isHome && linkIsHome) {
+      link.classList.add('active');
+      link.setAttribute('aria-current', 'page');
+    } else if (href !== 'index.html' && href !== '/' && currentPath.includes(href)) {
+      link.classList.add('active');
+      link.setAttribute('aria-current', 'page');
+    }
+  });
+}
 
 // Navigation - Smooth Scrolling
 function initializeNavigation() {
@@ -43,6 +70,8 @@ function initializeMobileMenuToggle() {
 
   if (menuToggle && nav) {
     menuToggle.addEventListener('click', function() {
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !isExpanded);
       this.classList.toggle('active');
       nav.classList.toggle('active');
       document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
@@ -51,6 +80,7 @@ function initializeMobileMenuToggle() {
     // Close menu when clicking nav link
     nav.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
+        menuToggle.setAttribute('aria-expanded', 'false');
         menuToggle.classList.remove('active');
         nav.classList.remove('active');
         document.body.style.overflow = '';
@@ -60,6 +90,7 @@ function initializeMobileMenuToggle() {
     // Close menu when clicking outside
     document.addEventListener('click', (e) => {
       if (!nav.contains(e.target) && !menuToggle.contains(e.target) && nav.classList.contains('active')) {
+        menuToggle.setAttribute('aria-expanded', 'false');
         menuToggle.classList.remove('active');
         nav.classList.remove('active');
         document.body.style.overflow = '';

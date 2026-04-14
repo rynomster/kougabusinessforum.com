@@ -51,6 +51,11 @@ html {
   font-size: 16px;
 }
 
+:focus-visible {
+  outline: 3px solid var(--accent-cyan);
+  outline-offset: 3px;
+}
+
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: 1rem;
@@ -152,6 +157,18 @@ p {
   transform: translateY(-2px);
 }
 
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid var(--accent-cyan);
+}
+
+.btn-outline:hover {
+  background: var(--accent-cyan);
+  color: white;
+  transform: translateY(-2px);
+}
+
 .btn-lg {
   padding: 1.25rem 2.5rem;
   font-size: 1.1rem;
@@ -208,7 +225,8 @@ p {
   position: relative;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a.active {
   color: white;
 }
 
@@ -223,7 +241,8 @@ p {
   transition: width var(--transition-normal);
 }
 
-.nav a:hover::after {
+.nav a:hover::after,
+.nav a.active::after {
   width: 100%;
 }
 
@@ -943,7 +962,8 @@ p {
     border-radius: 8px;
   }
 
-  .nav a:not(.btn):hover {
+  .nav a:not(.btn):hover,
+  .nav a.active:not(.btn) {
     background: rgba(6, 200, 255, 0.1);
   }
 
