@@ -348,7 +348,7 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: var(--spacing-md);
 }
 
@@ -637,9 +637,9 @@ p {
   box-shadow: 0 4px 12px rgba(6, 200, 255, 0.3);
 }
 
-.social-link svg {
-  width: 24px;
-  height: 24px;
+.social-link i {
+  font-size: 1.25rem;
+  line-height: 1;
 }
 
 .footer-bottom {
@@ -1057,8 +1057,8 @@ p {
 
   /* Committee Mobile */
   .committee-image {
-    width: 124px;
-    height: 124px;
+    width: 120px;
+    height: 120px;
   }
 
   /* Gallery Mobile */
@@ -1272,7 +1272,7 @@ p {
 
 textarea {
   resize: vertical;
-  min-height: 124px;
+  min-height: 120px;
 }
 
 /* Border Top */
@@ -1722,7 +1722,7 @@ textarea {
   }
   .filter-btn {
     flex: 1;
-    min-width: 124px;
+    min-width: 120px;
     justify-content: center;
   }
   .business-contact {
