@@ -18,6 +18,8 @@ This file prevents concurrent work on the same tasks by multiple agents or sub-a
 
 | Task ID | Holder | Completed | Summary |
 |---------|--------|-----------|---------|
+| T17 | Main Agent | 2026-04-14 10:45 UTC | Switched landing page to show KBF events instead of community events |
+| T15-16 | Main Agent | 2026-04-01 19:00 UTC | Dynamic events from events.json and Homepage layout refactor |
 | T1-T8 | Main Agent | 2026-03-30 15:30 UTC | Sprint 3 complete - Homepage redesign, committee section, CSS logo |
 | T2 | Main Agent | 2026-03-30 14:00 UTC | Component mapping from mockup |
 | T3 | Main Agent | 2026-03-30 13:00 UTC | New CSS architecture |
@@ -111,6 +113,6 @@ In case of emergencies (server down, critical bug):
 
 ## Last Updated
 
-**2026-03-30 15:35 UTC** - All locks cleared, Sprint 3 complete
+**2026-04-14 11:00 UTC** - Landing page event source switch complete, LOCK.md updated.
 
 **Maintained by:** Jock (Main Agent)

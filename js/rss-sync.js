@@ -230,6 +230,12 @@ async function syncEvents() {
 
   <section class="section">
     <div class="container">
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <h3>Looking for official KBF events?</h3>
+        <p>View our official calendar for forum meetings, workshops, and networking functions.</p>
+        <a href="kbevents.html" class="btn btn-secondary">View KBF Events Calendar</a>
+      </div>
+
       <p class="last-updated">Last updated: ${new Date().toLocaleString('en-ZA')}</p>
       <div class="events-grid">
 ${existingEvents.map((event, i) => {

@@ -22,6 +22,7 @@
 | T14 | Build.js Header Standardization | ✅ Complete | Consistent headers across all pages |
 | T15 | Homepage Dynamic Events | ✅ Complete | Dynamic loading from events.json |
 | T16 | Homepage Layout Refactor | ✅ Complete | Aligned with target structure |
+| T17 | Landing Page Event Source Switch | ✅ Complete | KBF events now shown instead of community events |
 
 ### Pending ⏳
 
@@ -31,8 +32,7 @@
 | P2 | Member Payment Status | High | Who's paid for 2026 |
 | P3 | WordPress Migration | Medium | Meeting minutes, newsletters |
 | P4 | PayFast Integration | Medium | Sync with directory |
-| P5 | KBF Events Content | Medium | 2026 events calendar |
-| P6 | Accessibility Audit | Low | WCAG compliance |
+| P5 | Accessibility Audit | Low | WCAG compliance |
 
 ---
 
@@ -107,6 +107,6 @@
 
 ## Last Updated
 
-**2026-03-31 22:15 UTC** - Updated pricing: R200 reg + R100/mo or R1200 annual; new R100/mo remaining
+**2026-04-14 10:45 UTC** - Switched landing page to show KBF events instead of community events. Updated calendar and RSS sync logic.
 
 **Maintained by:** Jock (Main Agent)
