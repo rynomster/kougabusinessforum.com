@@ -159,7 +159,7 @@ p {
 
 .btn-outline {
   background: transparent;
-  color: white;
+  color: var(--primary-dark);
   border: 2px solid var(--accent-cyan);
 }
 
