@@ -261,7 +261,7 @@ function renderContactInfoInto(container, business) {
         }
     } else {
         const requestBtn = document.createElement('a');
-        requestBtn.href = `contact.html?inquiry=directory&business=${encodeURIComponent(business.name)}`;
+        requestBtn.href = `contact.html?inquiry=directory&business=${encodeURIComponent(business.name)}#contact-form`;
         requestBtn.className = 'btn btn-secondary btn-sm';
         requestBtn.style.fontSize = '0.8rem';
         requestBtn.style.padding = '0.5rem 1rem';

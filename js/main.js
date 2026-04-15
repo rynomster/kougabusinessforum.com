@@ -13,7 +13,30 @@ document.addEventListener('DOMContentLoaded', function() {
   highlightCurrentPage();
   initializeMembershipProrata();
   initializeIcons();
+  handleInitialHash();
 });
+
+/**
+ * Handle initial URL hash for deep links
+ */
+function handleInitialHash() {
+  if (window.location.hash) {
+    // Small delay to allow browser native scroll to settle and for dynamic content
+    setTimeout(() => {
+      const targetElement = document.querySelector(window.location.hash);
+      if (targetElement) {
+        const headerOffset = 100;
+        const elementPosition = targetElement.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }, 100);
+  }
+}
 
 /**
  * Initialize Lucide Icons
@@ -68,7 +91,7 @@ function initializeNavigation() {
       if (targetElement) {
         const headerOffset = 100;
         const elementPosition = targetElement.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        const offsetPosition = elementPosition + window.scrollY - headerOffset;
         
         window.scrollTo({
           top: offsetPosition,
@@ -352,7 +375,7 @@ function displayDemoEvents() {
         <span style="background: var(--accent); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${event.date}</span>
       </div>
       <p style="color: var(--text-muted);">${event.description}</p>
-      <a href="contact.html?inquiry=events" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">${event.cta}</a>
+      <a href="contact.html?inquiry=events#contact-form" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">${event.cta}</a>
     `;
     container.appendChild(eventCard);
   });
@@ -382,7 +405,6 @@ function initializeMembershipProrata() {
   const now = new Date();
   const currentMonth = now.getMonth(); // 0-11
   const currentDay = now.getDate();
-  const currentYear = now.getFullYear();
 
   // If we are not in 2026, this logic might need adjustment,
   // but the site is specifically for "Membership 2026".
