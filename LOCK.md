@@ -18,6 +18,7 @@ This file prevents concurrent work on the same tasks by multiple agents or sub-a
 
 | Task ID | Holder | Completed | Summary |
 |---------|--------|-----------|---------|
+| WP-MIG | SureThing Bot | 2026-04-15 | WordPress content migration — Documents & Archives pages, 16 PDFs organized, nav/footer/sitemap updated |
 | T1-T8 | Main Agent | 2026-03-30 15:30 UTC | Sprint 3 complete - Homepage redesign, committee section, CSS logo |
 | T2 | Main Agent | 2026-03-30 14:00 UTC | Component mapping from mockup |
 | T3 | Main Agent | 2026-03-30 13:00 UTC | New CSS architecture |
@@ -30,7 +31,7 @@ This file prevents concurrent work on the same tasks by multiple agents or sub-a
 ### How to Claim a Task
 
 1. **Check Active Locks** - Review this file for active tasks
-2. **Read Current Status** - Check TODO.md for context
+2. **Read Current Status** - Check PROGRESS.md for context
 3. **Claim the Task** - Add your lock entry above
 4. **Start Working** - Begin implementation
 5. **Update Progress** - Keep the lock file updated as you work
@@ -59,58 +60,23 @@ This file prevents concurrent work on the same tasks by multiple agents or sub-a
 
 ---
 
-## Sub-Agent Guidelines
-
-### Before Starting
-
-1. ✅ Check if task is already locked
-2. ✅ Review TODO.md for context and dependencies
-3. ✅ Confirm task is appropriate for your role
-4. ✅ Check if prerequisites are pending
-
-### While Working
-
-1. 🔄 Update lock status as work progresses
-2. 📝 Add notes if you hit blockers
-3. 🤝 Notify main agent if you need assistance
-
-### When Done
-
-1. ✅ Update lock to "Complete" with summary
-2. ✅ Commit code with relevant task ID
-3. ✅ Update TODO.md to reflect completion
-4. ✅ Notify main agent
-
----
-
 ## Quick Reference
 
 **Available Tasks:**
 
 | Task | Description | Priority |
 |------|-------------|----------|
-| P1 | RSS Feed Sync Testing | Medium |
-| P2 | Form Backend Integration | High |
-| P3 | Business Directory Page | High |
-| P4 | About Us Page | Medium |
-| P5 | Contact Page | Medium |
-| P6 | Image Optimization | Low |
-
----
-
-## Emergency Override
-
-In case of emergencies (server down, critical bug):
-
-1. Mark task as `🔴 Emergency` in Active Locks
-2. Add emergency context in Notes
-3. Notify all team members immediately
-4. Revert lock after resolution
+| P1 | RSS Feed Sync — Deploy worker proxy to bypass Cloudflare 403 | Medium |
+| P2 | Form Backend — Deploy Cloudflare Worker (code ready, needs wrangler deploy) | High |
+| P3 | PayFast Payment Integration | Medium |
+| P4 | SEO & Accessibility Audit | Low |
+| P5 | Custom Domain SSL (Cloudflare + GitHub Pages) | Low |
+| P6 | Meeting Minutes Compliance — Locate 2021–2022 AGM minutes (5-year legal req) | High |
 
 ---
 
 ## Last Updated
 
-**2026-03-30 15:35 UTC** - All locks cleared, Sprint 3 complete
+**2026-04-16 00:27 SAST** - WP-MIG completed, available tasks updated
 
-**Maintained by:** Jock (Main Agent)
+**Maintained by:** Project Agent (SureThing)

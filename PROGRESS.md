@@ -1,20 +1,24 @@
 # 📊 KBF Website - Project Progress
 
-**Last Updated:** 2026-04-14 10:45 UTC
+**Last Updated:** 2026-04-16
 **Status:** Phase 3 Active - Post-Launch Maintenance
+**Overall:** ~87% Complete
 
 ---
 
 ## ✅ Completed Work
 
-### Website Pages (Phase 1-2)
-- [x] **Homepage** (`index.html`) - Hero, features, committee, gallery, directory preview, join form (Now shows KBF Events)
-- [x] **Business Directory** (`directory.html`) - Full listing with search & category/location filtering
+### Website Pages
+- [x] **Homepage** (`index.html`) - Hero, features, committee, gallery, directory preview, KBF events
+- [x] **Business Directory** (`directory.html`) - Full listing with search, category/location filtering, badge system
 - [x] **About Us** (`about.html`) - Committee section with all 10 members and photos
 - [x] **Contact** (`contact.html`) - Contact form and information
-- [x] **Events Page** (`events.html`) - Community events from 9ty9.co.za (50 events)
-- [x] **KBF Events** (`kbevents.html`) - Official KBF events calendar (Integrated with homepage)
+- [x] **Events** (`events.html`) - Community events from 9ty9.co.za (50 events)
+- [x] **KBF Events** (`kbevents.html`) - Official KBF events calendar (integrated with homepage)
 - [x] **Membership** (`membership.html`) - 2026 pricing (R200+R100/mo or R1200 annual)
+- [x] **Documents** (`documents.html`) - AGM minutes, financial statements, notices, correspondence ✨ NEW
+- [x] **Archives** (`archives.html`) - Newsletters (Nuusbrief 2019, 2020) and reports ✨ NEW
+- [x] **Privacy Policy** (`privacy-policy.html`) - POPIA compliant
 - [x] **404 Page** (`404.html`) - Custom error page
 
 ### Design & Styling
@@ -26,43 +30,44 @@
 - [x] Favicon created and added to all pages
 
 ### SEO & Performance
-- [x] `sitemap.xml` - Search engine sitemap
+- [x] `sitemap.xml` - Search engine sitemap (includes all pages)
 - [x] `robots.txt` - Crawler instructions
-- [x] Meta tags on all pages
-- [x] Open Graph tags
+- [x] Meta tags + Open Graph tags on all pages
 - [x] Clean URLs
 
-### Technical
-- [x] GitHub integration with PAT
-- [x] Auto RSS sync (every 6 hours)
-- [x] 43 event images downloaded locally
-- [x] Login references removed
-- [x] **Directory with badge system implemented**
-- [x] **Homepage refactor: Layout aligned to target structure (Hero, Welcome, Previews)**
-- [x] **Homepage refactor: Dynamic events from `events.json` and smooth scrolling fixed**
-- [x] **Google Sheets auto-sync for directory**
-- [x] **GitHub Actions for directory sync**
-- [x] **Landing Page Event Switch (Switch community events for official KBF events)**
-- [x] **Team collaboration protocol (AGENTS.md)**
-- [x] **Cloudflare Worker for form handling (membership, directory, newsletter)**
-- [x] **Branch protection setup (main protected, develop for work)**
-- [x] **Social media links in footer**
+### Technical Infrastructure
+- [x] GitHub integration (rynomster/kougabusinessforum.com)
+- [x] Branch protection (main requires PR)
+- [x] Auto RSS sync workflow (every 6 hours)
+- [x] Google Sheets auto-sync for directory
+- [x] GitHub Actions for directory sync
+- [x] Cloudflare Worker for form handling (code ready, not yet deployed)
+- [x] Team collaboration protocol (AGENTS.md)
+- [x] Social media links in footer
 
 ### Content
 - [x] 10 committee members with photos
 - [x] 50 community events synced
 - [x] Membership pricing page
 - [x] Privacy policy (POPIA compliant)
+- [x] **WordPress content migrated** — 16 PDFs organized with clean naming conventions ✨ NEW
+  - AGM Minutes (2023, 2024)
+  - Annual Financial Statements (2024)
+  - AGM Notices (2024, 2025)
+  - Official correspondence (rates, chairman's message, KLM response, press release)
+  - Newsletters: Nuusbrief 2019, Nuusbrief 2020 (merged from 20 pages)
+  - Reports: Annual Report 2023, PACA Report Jul 2023, Kouga Express article
+  - KBF Application Info, Water Incentive Scheme
 
 ---
 
 ## 🔄 In Progress
 
-### Post-Launch Tasks
-- [ ] Monitor directory submissions via Formspree
-- [ ] Track member payment status
-- [x] Finalize KBF 2026 events calendar (Calendar sync integrated)
-- [ ] WordPress migration (meeting minutes, newsletters)
+| Task | Status | Notes |
+|------|--------|-------|
+| Form Backend Deployment | 🔧 Code ready | Cloudflare Worker needs `wrangler deploy` |
+| Meeting Minutes Compliance | ⚠️ Partially done | Have 2023 & 2024; need 2021–2022 for 5-year legal requirement |
+| RSS Feed Sync | 🔧 Worker proxy ready | Blocked by Cloudflare 403; worker proxy code in `workers/src/index.js` |
 
 ---
 
@@ -71,169 +76,96 @@
 ### High Priority
 | Task | Status | Notes |
 |------|--------|-------|
-| **Form Handling (Worker)** | ✅ Complete | Membership, directory, newsletter via Cloudflare Worker |
-| **Member Payment Status** | ⏳ Pending | Who has paid for 2026 |
+| **Deploy Cloudflare Worker** | 🔧 Ready to deploy | Handles membership, directory, newsletter forms |
+| **Meeting Minutes (2021–2022)** | ⏳ Waiting on client | 5-year legal requirement — older minutes location unknown |
+| **Member Payment Status** | ⏳ Waiting on client | Who has paid for 2026 |
 
 ### Medium Priority
 | Task | Status | Notes |
 |------|--------|-------|
-| **WordPress Migration** | ⏳ Pending | Need backup from client |
-| **Meeting Minutes (5yr)** | ⏳ Pending | Legal requirement |
-| **Newsletters Archive** | ⏳ Pending | Need from WordPress |
+| **PayFast Integration** | ⏳ Pending | Sync payments with directory badges |
+| **RSS Worker Proxy Deploy** | 🔧 Code ready | Bypasses Cloudflare bot protection for event sync |
+| **Social Media URLs** | ⏳ Waiting on client | Footer has placeholders — need real FB/LinkedIn/Twitter/Instagram |
 
 ### Low Priority
 | Task | Status | Notes |
 |------|--------|-------|
-| **PayFast Integration** | ⏳ Pending | Sync payments with directory |
-| **SEO Audit** | ⏳ Pending | Full accessibility review |
+| **SEO & Accessibility Audit** | ⏳ Pending | WCAG compliance review |
 | **Custom Domain SSL** | ⏳ Pending | Cloudflare + GitHub Pages |
-
----
-
-## 🏛️ Directory Membership Architecture
-
-### Current State
-- ✅ All businesses visible in directory
-- ✅ Category/location filters working
-- ✅ **Paid member badges implemented (🔵/⚪)**
-- ✅ **Contact details visible for paid members**
-- ✅ **Submission form ready for backend**
-- ⏳ **PayFast payment sync (waiting on WordPress backup)**
-
-### Directory Badges (COMPLETED)
-```
-🔵 = Paid/Verified Member (full details visible)
-⚪ = Free/Basic Listing (limited details)
-```
+| **Google Analytics** | ⏳ Pending | Not yet set up |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-kbf-web-2026/
+kougabusinessforum.com/
 ├── index.html              # Homepage
-├── directory.html          # Business Directory (with badges - ✅ Complete)
-├── directory.json          # Directory data store (auto-synced from Google Sheets)
-├── about.html             # About Us + Committee
-├── contact.html           # Contact Form
-├── membership.html        # Membership Pricing (2026)
-├── kbevents.html          # KBF Events (placeholder)
-├── events.html            # Community Events (auto-synced)
+├── directory.html          # Business Directory (badges, search, filters)
+├── about.html              # About Us + Committee
+├── contact.html            # Contact Form
+├── membership.html         # Membership Pricing (2026)
+├── kbevents.html           # KBF Events
+├── events.html             # Community Events (auto-synced)
+├── documents.html          # Documents page ✨ NEW
+├── archives.html           # Archives page ✨ NEW
 ├── privacy-policy.html     # Privacy Policy
-├── 404.html              # Error Page
-├── sitemap.xml           # SEO Sitemap
-├── robots.txt           # Crawler config
-├── favicon.svg          # Site icon
-├── css/
-│   └── style.css        # Centralized styles
-├── js/
-│   ├── main.js          # Interactive functionality
-│   ├── directory.js     # Directory search & filter logic
-│   └── rss-sync.js      # Auto-sync community events
-├── images/
-│   ├── committee/       # 10 member photos
-│   ├── events/          # 43 event images
-│   └── [category images]
+├── submit.html             # Business submission form
+├── thank-you.html          # Form confirmation
+├── 404.html                # Error Page
+├── sitemap.xml / robots.txt
+├── documents/              # ✨ NEW
+│   ├── agm-minutes/        # AGM meeting minutes (2023, 2024)
+│   ├── agm-notices/        # AGM notices (2024, 2025)
+│   ├── correspondence/     # Official letters & press releases
+│   ├── financial-statements/ # AFS 2024
+│   ├── kbf-application-info-2024.pdf
+│   └── kbf-water-incentive-scheme.pdf
+├── archives/               # ✨ NEW
+│   ├── newsletters/        # Nuusbrief 2019, 2020
+│   └── reports/            # Annual report, PACA, Kouga Express
+├── css/ js/ images/
 ├── templates/
-│   ├── header.html      # Reusable Header
-│   └── footer.html      # Reusable Footer
-├── .github/
-│   └── workflows/
-│       ├── rss-sync.yml  # Auto-sync community events (every 6 hours)
-│       └── sync-directory.yml  # Auto-sync directory from Google Sheets
-├── DIRECTORY_GUIDE.md    # How to manage directory listings
-├── build.js             # Header/Footer standardization script
-├── AGENTS.md            # Team collaboration protocol
-├── TODO.md              # Current sprint tasks
-├── PROGRESS.md          # This file
+│   ├── header.html         # Shared nav (includes Documents link)
+│   └── footer.html         # Shared footer (includes Documents link)
+├── .github/workflows/      # RSS sync, directory sync
+├── PROGRESS.md             # This file
+├── LOCK.md                 # Task coordination
+├── ROADMAP.md              # Future plans
 └── README.md
 ```
 
 ---
 
-## 🔗 Live Site
-
-**URL:** https://new.kougabusinessforum.com/
-
-**GitHub:** https://github.com/rynomster/kbf-web-2026/
-
----
-
-## 📞 Contact Info (On Site)
-
-- **Email:** office@kougabusinessforum.com
-- **Phone:** 063 902 1597 (mobile)
-
-### Membership Pricing
-- **Monthly:** R200 one-time + R100/month
-- **Annual:** R1,200 one-time (existing members)
-- **New/Remaining:** R100/month (e.g., April join = 9 × R100 = R900)
-- **Complimentary:** Free for NGOs, schools, churches
-
----
-
 ## ⏳ Waiting On Client
 
-| Item | Status | Last Request |
-|------|--------|--------------|
-| Social media URLs | ⏳ Pending | Confirm real FB/LinkedIn/Twitter/Instagram links |
-| WordPress backup | ⏳ Pending | Export XML + download media |
-| KBF 2026 events | ⏳ Pending | Client finalizing calendar |
-| Member list (paid) | ⏳ Pending | Who has paid for 2026 |
+| Item | Status | Notes |
+|------|--------|-------|
+| Meeting minutes 2021–2022 | ⏳ Pending | 5-year legal compliance gap |
+| Social media URLs | ⏳ Pending | Real FB/LinkedIn/Twitter/Instagram links |
+| Member payment list (2026) | ⏳ Pending | For directory badge updates |
+| ~~WordPress backup~~ | ✅ Done | Migrated 2026-04-15 |
+| ~~KBF 2026 events~~ | ✅ Done | Calendar sync integrated |
 
 ---
 
-## 🔜 Future Enhancements
+## 🔗 Live Site
 
-- [ ] Directory membership badge system ✅ Done
-- [ ] Business submission form ✅ Ready
-- [ ] Newsletter subscription ✅ Ready (worker endpoint /api/newsletter)
-- [ ] Social media links ✅ Done (footer)
-- [ ] PayFast payment integration ⏳ Pending WordPress backup
-- [ ] Member-only content section
-- [ ] Meeting minutes archive (5yr requirement)
-- [ ] Newsletter archive
-- [ ] Event registration integration
-- [ ] Google Analytics
-- [ ] Accessibility audit (WCAG)
+- **URL:** https://new.kougabusinessforum.com/
+- **GitHub:** https://github.com/rynomster/kougabusinessforum.com/
 
 ---
 
 ## 📝 Notes
 
-- Login/portal references removed (no backend yet)
-- Community events synced from 9ty9.co.za
-- KBF events page is placeholder
-- SSL enabled via Cloudflare
-- Custom domain: new.kougabusinessforum.com
-- **All directory tasks completed**
-- **Team collaboration protocol established**
-- **Social media links added to footer (placeholders - need real URLs)**
-- **Newsletter signup added to homepage**
-- **RSS sync blocked by Cloudflare bot protection - worker proxy ready but not deployed**
-
-### RSS Sync Status (2026-04-01)
-- CI runs every 6 hours but fails with HTTP 403 from Cloudflare
-- IP whitelist attempted but Cloudflare uses bot fingerprinting
-- Worker proxy code added to `workers/src/index.js` (routes: /api/rss, /rss)
-- Solution: Deploy worker to bypass Cloudflare bot protection
-
----
-
-## 🚀 To Resume Work
-
-1. Pull latest: `git pull origin main`
-2. Check this PROGRESS.md
-3. Check TODO.md for task details
-4. Review AGENTS.md if needed
+- WordPress backup (.wpress, ~1 GB) fully extracted and migrated on 2026-04-15
+- 20 individual 2020 Nuusbrief PDF pages were merged into a single document
+- Blog posts from WordPress (1,235) were mostly synced 9ty9.co.za events — already handled by RSS integration
+- RSS sync blocked by Cloudflare bot protection — worker proxy ready but not deployed
+- Cloudflare Worker for forms is built but needs deployment via `wrangler`
+- Social media footer links are placeholders pending real URLs from client
 
 ---
 
 *Built with ❤️ for the Kouga Business Community*
-*Last updated: 2026-04-14*
-
----
-
-**Overall Project Status:** 82% Complete
-**Current Phase:** Post-Launch Maintenance & Polish
+*Last updated: 2026-04-16*
