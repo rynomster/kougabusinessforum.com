@@ -1,30 +1,8 @@
 {
-  "lastUpdated": "2026-04-14T08:43:00.066Z",
+  "lastUpdated": "2026-04-15T14:23:37.226Z",
   "source": "https://9ty9.co.za/event/feed",
-  "count": 50,
+  "count": 53,
   "events": [
-    {
-      "title": "Curry &amp; Quiz Night at  St Francis Links in St Francis Bay",
-      "link": "https://9ty9.co.za/events/curry-quiz-night-2026-03-31-2026-04-07-2026-04-14/",
-      "guid": "https://9ty9.co.za/events/curry-quiz-night-2026-03-31-2026-04-07-2026-04-14/",
-      "pubDate": "Tue, 14 Apr 2026 17:00:00 +0000",
-      "dateStr": "2026-04-14",
-      "day": "14",
-      "month": "APR",
-      "description": "Tue, 14 April 2026 - 19:00 - 21:00",
-      "image": "images/events/CurryQuiz-28July2026.jpg"
-    },
-    {
-      "title": "Building Plans Amnesty at  Unwind Tapa Restaurant in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/building-plans-amnesty/",
-      "guid": "https://9ty9.co.za/events/building-plans-amnesty/",
-      "pubDate": "Tue, 14 Apr 2026 10:00:00 +0000",
-      "dateStr": "2026-04-14",
-      "day": "14",
-      "month": "APR",
-      "description": "Tue, 14 April 2026 - 12:00 - 13:00",
-      "image": "images/events/Building-Plans-Amnesty-14April2026.jpg"
-    },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-10-2026-04-15/",
@@ -464,6 +442,28 @@
       "month": "APR",
       "description": "Fri, 24 April 2026 - 18:00 - 20:00",
       "image": "images/events/Paint-a-Bag-24April2026.jpg"
+    },
+    {
+      "title": "Kosverkoping at  Gereformeerde Kerk - Jeffreysbaai in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kosverkoping/",
+      "guid": "https://9ty9.co.za/events/kosverkoping/",
+      "pubDate": "Fri, 24 Apr 2026 08:30:00 +0000",
+      "dateStr": "2026-04-24",
+      "day": "24",
+      "month": "APR",
+      "description": "Fri, 24 April 2026 - 10:30 - 11:00",
+      "image": "images/events/Kosverkoping-24April2026.jpg"
+    },
+    {
+      "title": "A Seat at the Huis Kombuis – A District Six Sensory Journey at  St Francis Links in St Francis Bay",
+      "link": "https://9ty9.co.za/events/a-seat-at-the-huis-kombuis-a-district-six-sensory-journey/",
+      "guid": "https://9ty9.co.za/events/a-seat-at-the-huis-kombuis-a-district-six-sensory-journey/",
+      "pubDate": "Fri, 24 Apr 2026 16:30:00 +0000",
+      "dateStr": "2026-04-24",
+      "day": "24",
+      "month": "APR",
+      "description": "Fri, 24 April 2026 - 18:30 - 22:00",
+      "image": "images/events/A-Seat-at-the-Huis-Kombuis-24April2026.jpg"
     },
     {
       "title": "EP Waveski Open at  Magnatubes in Jeffreys Bay",
