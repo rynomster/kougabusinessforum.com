@@ -6,7 +6,7 @@
   <title>Business Directory | Kouga Business Forum - Local Business Search</title>
   <meta name="description" content="Discover local businesses in Jeffreys Bay, Humansdorp, and St. Francis Bay. The Kouga Business Forum directory connects you with verified local suppliers and services.">
   <link rel="canonical" href="https://new.kougabusinessforum.com/directory.html">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/kbf-logo.png" type="image/png">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -24,46 +24,6 @@
   <meta name="twitter:image" content="https://new.kougabusinessforum.com/images/kouga-tourism-hero.jpg">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    .directory-header { padding: 120px 0 60px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); position: relative; overflow: hidden; }
-    .directory-header::before { content: ''; position: absolute; top: -50%; right: -10%; width: 60%; height: 150%; background: radial-gradient(circle, rgba(6, 200, 255, 0.15) 0%, transparent 70%); animation: pulse 8s ease-in-out infinite; }
-    .directory-hero { position: relative; z-index: 10; text-align: center; max-width: 800px; margin: 0 auto; }
-    .directory-subtitle { font-size: clamp(1.1rem, 2vw, 1.3rem); color: #eaeaea; margin-bottom: 2rem; }
-    .directory-search-wrapper { max-width: 600px; margin: 2rem auto 0; position: relative; }
-    .directory-search { width: 100%; padding: 1.25rem 1.5rem; font-size: 1rem; border: 2px solid rgba(255, 255, 255, 0.2); border-radius: 50px; background: rgba(255, 255, 255, 0.1); color: white; transition: all 0.3s ease; }
-    .directory-search::placeholder { color: rgba(255, 255, 255, 0.6); }
-    .directory-search:focus { outline: none; background: rgba(255, 255, 255, 0.15); border-color: #06c8ff; }
-    .filter-section { max-width: 1200px; margin: 2rem auto 0; display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; }
-    .filter-group { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .filter-btn { padding: 0.6rem 1.25rem; border: 2px solid rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.1); color: #eaeaea; border-radius: 25px; cursor: pointer; transition: all 0.3s ease; font-size: 0.9rem; font-weight: 500; }
-    .filter-btn:hover { background: rgba(255, 255, 255, 0.2); border-color: #06c8ff; transform: translateY(-2px); }
-    .filter-btn.active { background: #06c8ff; border-color: #06c8ff; color: white; }
-    .directory-content { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
-    .directory-results { margin-top: 2rem; }
-    .result-count { color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem; }
-    .empty-state { text-align: center; padding: 4rem 2rem; background: white; border-radius: 20px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08); }
-    .empty-state-icon { font-size: 4rem; margin-bottom: 1rem; opacity: 0.5; }
-    .empty-state h3 { color: #1a1a2e; margin-bottom: 0.5rem; }
-    .empty-state p { color: var(--text-muted); margin-bottom: 1.5rem; }
-    .business-card { background: white; border-radius: 20px; padding: 2rem; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; border: 1px solid rgba(0, 0, 0, 0.05); position: relative; overflow: hidden; }
-    .business-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 5px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); transform: scaleX(0); transition: transform 0.3s ease; }
-    .business-card:hover { transform: translateY(-8px); box-shadow: 0 12px 32px rgba(0, 0, 0, 0.16); }
-    .business-card:hover::before { transform: scaleX(1); }
-    .business-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
-    .business-icon { width: 64px; height: 64px; border-radius: 16px; background: linear-gradient(135deg, #0f3460, #533483); display: flex; align-items: center; justify-content: center; font-size: 1.75rem; }
-    .business-name h3 { color: #1a1a2e; margin: 0 0 0.25rem 0; font-size: 1.3rem; }
-    .business-category { display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.35rem 0.75rem; background: rgba(14, 121, 150, 0.1); color: #0e7996; border-radius: 20px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; }
-    .business-category::before { content: '•'; font-size: 1rem; }
-    .business-location { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem; }
-    .business-description { color: #666; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem; }
-    .business-contact { display: flex; flex-wrap: wrap; gap: 1rem; padding-top: 1.5rem; border-top: 1px solid rgba(0, 0, 0, 0.05); }
-    .contact-item { display: flex; align-items: center; gap: 0.5rem; color: #0e7996; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: gap 0.2s ease; }
-    .contact-item:hover { gap: 0.75rem; }
-    .badge { padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; margin-right: 0.5rem; }
-    .badge-verified { background: #e3f2fd; color: #1976d2; }
-    .badge-basic { background: #f5f5f5; color: #757575; }
-    @media (max-width: 768px) { .directory-header { padding: 100px 0 40px; } .filter-section { flex-direction: column; align-items: stretch; } .filter-group { justify-content: center; } .filter-btn { flex: 1; min-width: 120px; justify-content: center; } .business-contact { flex-direction: column; gap: 0.75rem; } }
-</style>
 </head>
 <body>
   <header class="header">
@@ -71,17 +31,15 @@
   <div class="container">
     <a href="index.html" class="logo-link">
       <div class="logo-container">
-        <div class="logo-icon"><span class="logo-icon-text">KBF</span></div>
-        <div><span class="logo-text">Kouga Business Forum</span></div>
+        <img src="images/kbf-logo-wide-glow.png" alt="Kouga Business Forum Logo" class="logo-img">
       </div>
     </a>
-    <button class="menu-toggle" aria-label="Toggle navigation menu">
+    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
       <span></span><span></span><span></span>
     </button>
-    <nav class="nav">
+    <nav class="nav" id="main-nav">
       <a href="index.html">Home</a>
-      <a href="kbevents.html">KBF Events</a>
-      <a href="events.html">Community</a>
+      <a href="kbevents.html">Events</a>
       <a href="about.html">About</a>
       <a href="directory.html">Directory</a>
       <a href="contact.html">Contact</a>
@@ -91,7 +49,7 @@
   </div>
 </header>
 
-  <section class="directory-header">
+  <section class="page-hero">
     <div class="container">
       <div class="directory-hero">
         <h1>Business Directory</h1>
@@ -132,11 +90,11 @@
           <!-- Dynamic businesses will be loaded here via js/directory.js -->
         </div>
 
-        <div class="empty-state hidden" id="emptyState">
+        <div class="empty-state" id="emptyState" style="display: none;">
           <div class="empty-state-icon">🔍</div>
           <h3>No businesses found</h3>
           <p>We couldn't find any businesses matching your search. Try adjusting your filters or search terms.</p>
-          <div class="d-flex gap-1 justify-center flex-wrap">
+          <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
             <button class="btn btn-secondary" onclick="resetFilters()">Clear all filters</button>
             <a href="submit.html" class="btn btn-primary">Add Your Business</a>
           </div>
@@ -157,7 +115,7 @@
     <div class="footer-content">
       <div class="footer-section">
         <h4>Kouga Business Forum</h4>
-        <p class="lh-18">The voice of business in the Kouga Region. Connecting entrepreneurs, leaders, and innovators across Jeffreys Bay, Humansdorp, St. Francis Bay, Hankey, Patensie, Loerie, and Thornhill.</p>
+        <p style="line-height: 1.8;">The leading voice for business advocacy, networking, and economic growth across the Kouga region.</p>
       </div>
       <div class="footer-section">
         <h4>Quick Links</h4>
@@ -165,7 +123,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="directory.html">Business Directory</a></li>
-          <li><a href="events.html">Events Calendar</a></li>
+          <li><a href="kbevents.html">Events Calendar</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="membership.html">Join Us</a></li>
         </ul>
@@ -175,8 +133,8 @@
         <ul class="footer-links">
           <li><a href="mailto:office@kougabusinessforum.com">office@kougabusinessforum.com</a></li>
           <li>
-            <a href="https://wa.me/27639021597" target="_blank" rel="noopener noreferrer" class="d-inline-flex align-center gap-sm">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="flex-shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <a href="https://wa.me/27639021597" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink: 0;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
               063 902 1597
             </a>
           </li>
@@ -196,19 +154,20 @@
         </ul>
       </div>
       <div class="footer-section">
-        <h4>Language / Taal</h4>
-        <ul class="footer-links">
-          <li><strong>English</strong></li>
-          <li><a href="af/index.html">Afrikaans</a></li>
-        </ul>
-      </div>
-      <div class="footer-section">
         <h4>Follow Us</h4>
         <div class="social-links">
-          <a href="https://facebook.com/kougabusinessforum" target="_blank" rel="noopener noreferrer" class="social-link">Facebook</a>
-          <a href="https://linkedin.com/company/kougabusinessforum" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
-          <a href="https://x.com/kougabusinessforum" target="_blank" rel="noopener noreferrer" class="social-link">Twitter/X</a>
-          <a href="https://instagram.com/kougabusinessforum" target="_blank" rel="noopener noreferrer" class="social-link">Instagram</a>
+          <a href="https://facebook.com/kougabusinessforum" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+            <i data-lucide="facebook"></i>
+          </a>
+          <a href="https://linkedin.com/company/kougabusinessforum" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+            <i data-lucide="linkedin"></i>
+          </a>
+          <a href="https://x.com/kougabusinessforum" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter / X">
+            <i data-lucide="twitter"></i>
+          </a>
+          <a href="https://instagram.com/kougabusinessforum" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+            <i data-lucide="instagram"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -216,6 +175,7 @@
       <p>&copy; 2026 Kouga Business Forum. All rights reserved.</p>
     </div>
   </div>
+  <script src="https://unpkg.com/lucide@latest"></script>
 </footer>
 
   <script src="js/main.js"></script>

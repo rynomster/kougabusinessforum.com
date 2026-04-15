@@ -1,7 +1,7 @@
 // KBF Website - Modern Redesign JavaScript
 
 // Configuration
-const EVENTS_JSON_URL = 'events.json';
+const EVENTS_JSON_URL = 'kbevents.json';
 
 // DOM Ready
 document.addEventListener('DOMContentLoaded', function() {
@@ -10,7 +10,73 @@ document.addEventListener('DOMContentLoaded', function() {
   initializeScrollAnimations();
   loadEvents();
   initializeMobileMenuToggle();
+  highlightCurrentPage();
+  initializeMembershipProrata();
+  initializeIcons();
+  handleInitialHash();
 });
+
+/**
+ * Handle initial URL hash for deep links
+ */
+function handleInitialHash() {
+  if (window.location.hash) {
+    // Small delay to allow browser native scroll to settle and for dynamic content
+    setTimeout(() => {
+      const targetElement = document.querySelector(window.location.hash);
+      if (targetElement) {
+        const headerOffset = 100;
+        const elementPosition = targetElement.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }, 100);
+  }
+}
+
+/**
+ * Initialize Lucide Icons
+ */
+function initializeIcons() {
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  } else {
+    // If using CDN, it might not be ready yet
+    window.addEventListener('load', () => {
+      if (typeof lucide !== 'undefined') lucide.createIcons();
+    });
+  }
+}
+
+/**
+ * Highlight Current Page in Navigation
+ * Sets 'active' class and 'aria-current="page"' on the current nav link.
+ */
+function highlightCurrentPage() {
+  const currentPath = window.location.pathname;
+  const navLinks = document.querySelectorAll('.nav a');
+
+  navLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    if (!href) return;
+
+    // Handle home page specifically
+    const isHome = currentPath === '/' || currentPath === '/index.html' || currentPath === '';
+    const linkIsHome = href === 'index.html' || href === '/';
+
+    if (isHome && linkIsHome) {
+      link.classList.add('active');
+      link.setAttribute('aria-current', 'page');
+    } else if (href !== 'index.html' && href !== '/' && currentPath.includes(href)) {
+      link.classList.add('active');
+      link.setAttribute('aria-current', 'page');
+    }
+  });
+}
 
 // Navigation - Smooth Scrolling
 function initializeNavigation() {
@@ -25,7 +91,7 @@ function initializeNavigation() {
       if (targetElement) {
         const headerOffset = 100;
         const elementPosition = targetElement.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        const offsetPosition = elementPosition + window.scrollY - headerOffset;
         
         window.scrollTo({
           top: offsetPosition,
@@ -43,6 +109,8 @@ function initializeMobileMenuToggle() {
 
   if (menuToggle && nav) {
     menuToggle.addEventListener('click', function() {
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !isExpanded);
       this.classList.toggle('active');
       nav.classList.toggle('active');
       document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
@@ -51,6 +119,7 @@ function initializeMobileMenuToggle() {
     // Close menu when clicking nav link
     nav.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
+        menuToggle.setAttribute('aria-expanded', 'false');
         menuToggle.classList.remove('active');
         nav.classList.remove('active');
         document.body.style.overflow = '';
@@ -60,6 +129,7 @@ function initializeMobileMenuToggle() {
     // Close menu when clicking outside
     document.addEventListener('click', (e) => {
       if (!nav.contains(e.target) && !menuToggle.contains(e.target) && nav.classList.contains('active')) {
+        menuToggle.setAttribute('aria-expanded', 'false');
         menuToggle.classList.remove('active');
         nav.classList.remove('active');
         document.body.style.overflow = '';
@@ -100,9 +170,12 @@ function initializeForms() {
 
         if (response.ok) {
           // Show success message
-          newsletterForm.style.display = 'none';
           if (newsletterSuccess) {
+            newsletterForm.style.display = 'none';
             newsletterSuccess.style.display = 'block';
+          } else {
+            alert('Thank you! You\'ve been successfully subscribed to our newsletter.');
+            this.reset();
           }
         } else {
           throw new Error('Subscription failed');
@@ -116,37 +189,6 @@ function initializeForms() {
         submitBtn.textContent = originalText;
         submitBtn.disabled = false;
       }
-    });
-  }
-
-  // Join Form
-  const joinForm = document.getElementById('join-form');
-  if (joinForm) {
-    joinForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      
-      // Gather form data
-      const formData = new FormData(this);
-      const data = {};
-      formData.forEach((value, key) => {
-        data[key] = value;
-      });
-      
-      // Simulate submission with animation
-      const submitBtn = this.querySelector('button[type="submit"]');
-      const originalText = submitBtn.textContent;
-      
-      submitBtn.textContent = 'Submitting...';
-      submitBtn.disabled = true;
-      
-      setTimeout(() => {
-        alert(`Thank you for your interest in joining KBF!\n\nYour application has been submitted. We will contact you at ${data.email} shortly.`);
-        
-        // Reset form
-        this.reset();
-        submitBtn.textContent = originalText;
-        submitBtn.disabled = false;
-      }, 1500);
     });
   }
 
@@ -178,6 +220,11 @@ function initializeForms() {
       if (subjectSelect) subjectSelect.value = 'complimentary';
       if (messageTextarea) {
         messageTextarea.value = `I am interested in applying for complimentary membership for our organization.\n\nOrganization Name: \nType (NGO/School/Church): \n\n[Please add any additional information here]`;
+      }
+    } else if (inquiry === 'events') {
+      if (subjectSelect) subjectSelect.value = 'events';
+      if (messageTextarea) {
+        messageTextarea.value = `I am interested in more information about an upcoming event.\n\nEvent Name: \n\n[Please add your specific questions here]`;
       }
     }
   }
@@ -236,7 +283,7 @@ async function loadEvents() {
   }
 }
 
-// Display real events from events.json
+// Display real events from kbevents.json
 function displayEvents(events) {
   const container = document.getElementById('events-container');
   if (!container) return;
@@ -251,13 +298,21 @@ function displayEvents(events) {
     const eventCard = document.createElement('div');
     eventCard.className = 'card';
     eventCard.style.animationDelay = `${index * 100}ms`;
+
+    // Support both kbevents.json and events.json data structures for robustness
+    const title = event.summary || event.title || 'Untitled Event';
+    const day = event.day || '';
+    const month = event.monthAbbr || event.month || '';
+    const description = event.descriptionClean || event.description || '';
+    const link = event.link || '#';
+
     eventCard.innerHTML = `
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
-        <h3 style="margin: 0;">${event.title}</h3>
-        <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${event.day} ${event.month}</span>
+        <h3 style="margin: 0;">${title}</h3>
+        <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${day} ${month}</span>
       </div>
-      <p style="color: var(--text-muted);">${event.description.length > 120 ? event.description.substring(0, 120) + '...' : event.description}</p>
-      <a href="${event.link}" target="_blank" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">More Info</a>
+      <p style="color: var(--text-muted);">${description.length > 120 ? description.substring(0, 120) + '...' : description}</p>
+      <a href="${link}" target="_blank" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">More Info</a>
     `;
     container.appendChild(eventCard);
   });
@@ -320,7 +375,7 @@ function displayDemoEvents() {
         <span style="background: var(--accent); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${event.date}</span>
       </div>
       <p style="color: var(--text-muted);">${event.description}</p>
-      <a href="#contact" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">${event.cta}</a>
+      <a href="contact.html?inquiry=events#contact-form" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">${event.cta}</a>
     `;
     container.appendChild(eventCard);
   });
@@ -331,6 +386,57 @@ if (typeof console !== 'undefined') {
   console.log('KBF Website initialized');
   console.log('Events URL:', EVENTS_JSON_URL);
   console.log('Modern redesign loaded successfully');
+}
+
+/**
+ * Membership Prorata Logic
+ * Calculates the remaining months in the year and updates the membership price.
+ * Formula: R100 per month remaining (including current month if before the 20th).
+ */
+function initializeMembershipProrata() {
+  const priceDisplay = document.getElementById('prorated-price-display');
+  const amountInput = document.getElementById('new-member-amount');
+  const itemNameInput = document.getElementById('new-member-item-name');
+  const itemDescInput = document.getElementById('new-member-item-description');
+  const prorataInfo = document.getElementById('prorata-info');
+
+  if (!priceDisplay || !amountInput) return;
+
+  const now = new Date();
+  const currentMonth = now.getMonth(); // 0-11
+  const currentDay = now.getDate();
+
+  // If we are not in 2026, this logic might need adjustment,
+  // but the site is specifically for "Membership 2026".
+  // For the purpose of this task, we assume we are calculating for 2026.
+
+  let monthsRemaining = 12 - currentMonth;
+  if (currentDay >= 20) {
+    monthsRemaining -= 1;
+  }
+
+  // Ensure at least 1 month is charged if it's late in the year
+  if (monthsRemaining <= 0) {
+    monthsRemaining = 1;
+  }
+
+  const proratedAmount = monthsRemaining * 100;
+
+  // Update DOM
+  priceDisplay.textContent = `R${proratedAmount.toLocaleString()}`;
+  amountInput.value = proratedAmount;
+
+  if (prorataInfo) {
+    prorataInfo.textContent = `Prorated for ${monthsRemaining} month${monthsRemaining > 1 ? 's' : ''} remaining in 2026`;
+  }
+
+  if (itemNameInput) {
+    itemNameInput.value = `KBF - Annual Membership 2026 (New Member - ${monthsRemaining} Months)`;
+  }
+
+  if (itemDescInput) {
+    itemDescInput.value = `Access for the remainder of the 2026 calendar year (${monthsRemaining} month${monthsRemaining > 1 ? 's' : ''}).`;
+  }
 }
 
 // Performance: Lazy load images
