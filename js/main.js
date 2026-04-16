@@ -222,11 +222,23 @@ function initializeForms() {
         messageTextarea.value = `I am interested in applying for complimentary membership for our organization.\n\nOrganization Name: \nType (NGO/School/Church): \n\n[Please add any additional information here]`;
       }
     } else if (inquiry === 'events') {
+      const eventName = urlParams.get('event');
       if (subjectSelect) subjectSelect.value = 'events';
       if (messageTextarea) {
-        messageTextarea.value = `I am interested in more information about an upcoming event.\n\nEvent Name: \n\n[Please add your specific questions here]`;
+        if (eventName) {
+          messageTextarea.value = `I would like to RSVP or request more information for the following event: ${eventName}\n\n[Please add your specific questions or number of attendees here]`;
+        } else {
+          messageTextarea.value = `I am interested in more information about an upcoming event.\n\nEvent Name: \n\n[Please add your specific questions here]`;
+        }
       }
     }
+
+    contactForm.addEventListener('submit', function() {
+      // Small delay to allow the mailto: action to trigger before showing feedback
+      setTimeout(() => {
+        alert('Thank you! Your email client should now open with your message. If not, please email us directly at office@kougabusinessforum.com');
+      }, 500);
+    });
   }
 }
 
@@ -311,8 +323,11 @@ function displayEvents(events) {
         <h3 style="margin: 0;">${title}</h3>
         <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${day} ${month}</span>
       </div>
-      <p style="color: var(--text-muted);">${description.length > 120 ? description.substring(0, 120) + '...' : description}</p>
-      <a href="${link}" target="_blank" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">More Info</a>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${description.length > 120 ? description.substring(0, 120) + '...' : description}</p>
+      <div style="display: flex; gap: 0.75rem; margin-top: auto; flex-wrap: wrap;">
+        <a href="contact.html?inquiry=events&event=${encodeURIComponent(title)}#contact-form" class="btn btn-primary" style="padding: 0.75rem 1.25rem; font-size: 0.85rem; flex: 1; text-align: center; white-space: nowrap;">RSVP Now</a>
+        <a href="${link}" target="_blank" class="btn btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.85rem; flex: 1; text-align: center; white-space: nowrap;">Add to Cal</a>
+      </div>
     `;
     container.appendChild(eventCard);
   });
@@ -372,10 +387,13 @@ function displayDemoEvents() {
     eventCard.innerHTML = `
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
         <h3 style="margin: 0;">${event.title}</h3>
-        <span style="background: var(--accent); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${event.date}</span>
+        <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${event.date}</span>
       </div>
-      <p style="color: var(--text-muted);">${event.description}</p>
-      <a href="contact.html?inquiry=events#contact-form" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">${event.cta}</a>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${event.description}</p>
+      <div style="display: flex; gap: 0.75rem; margin-top: auto; flex-wrap: wrap;">
+        <a href="contact.html?inquiry=events&event=${encodeURIComponent(event.title)}#contact-form" class="btn btn-primary" style="padding: 0.75rem 1.25rem; font-size: 0.85rem; flex: 1; text-align: center; white-space: nowrap;">${event.cta}</a>
+        <a href="kbevents.html" class="btn btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.85rem; flex: 1; text-align: center; white-space: nowrap;">View Calendar</a>
+      </div>
     `;
     container.appendChild(eventCard);
   });
