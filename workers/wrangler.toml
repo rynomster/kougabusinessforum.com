@@ -8,29 +8,28 @@ ADMIN_EMAIL = "office@kougabusinessforum.com"
 ADMIN_PHONE = "063 902 1597"
 KBF_WEBSITE = "https://new.kougabusinessforum.com"
 
-# Routes for Cloudflare Pages/Workers integration
-# Method restrictions are handled in worker code
+# HTTP routes must include a full hostname pattern.
+# zone_name should be the Cloudflare DNS zone (apex), not a subdomain.
+[[routes]]
+pattern = "new.kougabusinessforum.com/api/membership"
+zone_name = "kougabusinessforum.com"
 
 [[routes]]
-zone_name = "new.kougabusinessforum.com"
-pattern = "api/membership"
+pattern = "new.kougabusinessforum.com/api/directory"
+zone_name = "kougabusinessforum.com"
 
 [[routes]]
-zone_name = "new.kougabusinessforum.com"
-pattern = "api/directory"
+pattern = "new.kougabusinessforum.com/api/submissions/*"
+zone_name = "kougabusinessforum.com"
 
 [[routes]]
-zone_name = "new.kougabusinessforum.com"
-pattern = "api/submissions/*"
+pattern = "new.kougabusinessforum.com/api/admin/webhook"
+zone_name = "kougabusinessforum.com"
 
 [[routes]]
-zone_name = "new.kougabusinessforum.com"
-pattern = "api/admin/webhook"
+pattern = "new.kougabusinessforum.com/api/rss"
+zone_name = "kougabusinessforum.com"
 
 [[routes]]
-zone_name = "new.kougabusinessforum.com"
-pattern = "api/rss"
-
-[[routes]]
-zone_name = "new.kougabusinessforum.com"
-pattern = "rss"
+pattern = "new.kougabusinessforum.com/rss"
+zone_name = "kougabusinessforum.com"
