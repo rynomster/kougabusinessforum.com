@@ -1,0 +1,14 @@
+{
+  "name": "kbf-submissions-worker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Worker for KBF form submissions",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

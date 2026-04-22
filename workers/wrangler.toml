@@ -1,6 +1,7 @@
 name = "kbf-submissions-worker"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
 
 # Environment variables - set via Wrangler dashboard or .env
 [vars]
@@ -11,23 +12,7 @@ KBF_WEBSITE = "https://new.kougabusinessforum.com"
 # HTTP routes must include a full hostname pattern.
 # zone_name should be the Cloudflare DNS zone (apex), not a subdomain.
 [[routes]]
-pattern = "new.kougabusinessforum.com/api/membership"
-zone_name = "kougabusinessforum.com"
-
-[[routes]]
-pattern = "new.kougabusinessforum.com/api/directory"
-zone_name = "kougabusinessforum.com"
-
-[[routes]]
-pattern = "new.kougabusinessforum.com/api/submissions/*"
-zone_name = "kougabusinessforum.com"
-
-[[routes]]
-pattern = "new.kougabusinessforum.com/api/admin/webhook"
-zone_name = "kougabusinessforum.com"
-
-[[routes]]
-pattern = "new.kougabusinessforum.com/api/rss"
+pattern = "new.kougabusinessforum.com/api/*"
 zone_name = "kougabusinessforum.com"
 
 [[routes]]
