@@ -303,8 +303,17 @@ function displayEvents(events) {
   // Clear existing content to prevent duplicates
   container.innerHTML = '';
   
-  // Display the first 3 events
-  const featuredEvents = events.slice(0, 3);
+  // Filter events to only show upcoming ones (today or later)
+  const now = new Date();
+  now.setHours(0, 0, 0, 0); // Start of today
+
+  const upcomingEvents = events.filter(event => {
+    const eventDate = new Date(event.start || event.date);
+    return eventDate >= now;
+  });
+
+  // Display the first 3 upcoming events
+  const featuredEvents = upcomingEvents.slice(0, 3);
   
   featuredEvents.forEach((event, index) => {
     const eventCard = document.createElement('div');
@@ -321,7 +330,7 @@ function displayEvents(events) {
     eventCard.innerHTML = `
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
         <h3 style="margin: 0;">${title}</h3>
-        <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${day} ${month}</span>
+        <span style="background: var(--primary-dark); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${day} ${month}</span>
       </div>
       <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${description.length > 120 ? description.substring(0, 120) + '...' : description}</p>
       <div style="display: flex; gap: 0.75rem; margin-top: auto; flex-wrap: wrap;">
@@ -344,37 +353,19 @@ function displayDemoEvents() {
   const demoEvents = [
     {
       title: '🤝 Monthly Networking Breakfast',
-      date: 'MAR 15',
+      date: 'MAY 15',
       description: 'Join us for a networking session with local business leaders. Light breakfast provided.',
       cta: 'RSVP Now'
     },
     {
-      title: '📚 Business Workshop: Digital Transformation',
-      date: 'MAR 22',
-      description: 'Learn how to leverage digital tools to grow your business in the modern economy.',
+      title: '📚 Business Workshop: Growth',
+      date: 'MAY 22',
+      description: 'Learn how to leverage new tools to grow your business in the modern economy.',
       cta: 'Register'
     },
     {
-      title: '🌊 Coastal Clean-Up Day',
-      date: 'APR 05',
-      description: 'Community event - Help keep our beautiful coastlines clean and beautiful.',
-      cta: 'Sign Up'
-    },
-    {
-      title: '💼 Women in Business Breakfast',
-      date: 'APR 12',
-      description: 'Exclusive networking for women entrepreneurs in the Kouga region.',
-      cta: 'Learn More'
-    },
-    {
-      title: '🎓 Young Entrepreneurs Summit',
-      date: 'APR 20',
-      description: 'A day dedicated to mentoring and supporting young business leaders.',
-      cta: 'Register Now'
-    },
-    {
       title: '🤝 Annual General Meeting',
-      date: 'MAY 08',
+      date: 'JUN 08',
       description: 'Join us for the annual AGM and hear about our achievements and future plans.',
       cta: 'Get Details'
     }
@@ -387,7 +378,7 @@ function displayDemoEvents() {
     eventCard.innerHTML = `
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
         <h3 style="margin: 0;">${event.title}</h3>
-        <span style="background: var(--accent-gradient); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${event.date}</span>
+        <span style="background: var(--primary-dark); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${event.date}</span>
       </div>
       <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${event.description}</p>
       <div style="display: flex; gap: 0.75rem; margin-top: auto; flex-wrap: wrap;">

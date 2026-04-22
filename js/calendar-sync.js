@@ -138,10 +138,10 @@ function generateHTML(eventList) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KBF Events | Kouga Business Forum</title>
-  <meta name="description" content="Official KBF events including AGM meetings, networking sessions, and member workshops.">
+  <title>Official Events | Kouga Business Forum | Kouga Region</title>
+  <meta name="description" content="Official Kouga Business Forum (KBF) events, AGM meetings, networking sessions, and workshops for the Kouga business community.">
   <link rel="canonical" href="https://new.kougabusinessforum.com/kbevents.html">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/kbf-logo.png" type="image/png">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -190,7 +190,7 @@ function generateHTML(eventList) {
       <div class="card" style="margin-top: 3rem; text-align: center;">
         <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
           <strong>For inquiries:</strong>
-          <a href="mailto:office@kougabusinessforum.com" style="color: var(--accent-cyan);">
+          <a href="mailto:office@kougabusinessforum.com" style="color: var(--accent-teal);">
             office@kougabusinessforum.com
           </a>
         </p>
