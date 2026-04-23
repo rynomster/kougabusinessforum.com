@@ -16,9 +16,18 @@
 
 | Task ID | Holder | Completed | Summary |
 |---------|--------|-----------|---------|
-| T18–T26 | SureThing Bot | 2026-04-15 | WordPress content migration — Documents & Archives pages, 16 PDFs, nav/footer/sitemap updates (PR #60, #61) |
+| T27–T36 | SteadyGrow / NorthStar Bots | 2026-04-22/23 | Sprint 7 — Membership upgrade (Lucide icons), KBF Events SEO, events accuracy, CTA optimization, advocacy section, local credibility, content polish, worker route fix, Wrangler log capture (PRs #65–#74) |
+| T18–T26 | SureThing Bot | 2026-04-15/16 | Sprint 6 — WordPress content migration — Documents & Archives pages, 16 PDFs, nav/footer/sitemap updates (PRs #60, #62) |
 | T10–T17 | Main Agent | 2026-03-30 | Sprint 5 — Directory membership badges, Google Sheets sync, homepage refactor |
 | T1–T9 | Main Agent | 2026-03-30 | Sprints 1–4 — Foundation, design, content, events |
+
+---
+
+## Known Blocker
+
+| Task | Blocker | Action Required |
+|------|---------|----------------|
+| P1 Deploy Worker | `CLOUDFLARE_ACCOUNT_ID` GitHub secret is invalid (error 7003) | Ryno to update secret with correct ID from Cloudflare dashboard |
 
 ---
 
@@ -30,7 +39,7 @@
 2. Check [TODO.md](TODO.md) for task details and dependencies
 3. Add your lock entry:
    ```
-   | P1 | Your Name | 2026-04-16 | 🔄 In Progress | Working on Cloudflare deploy |
+   | P2 | Your Name | 2026-04-23 | 🔄 In Progress | Locating AGM minutes |
    ```
 4. Start working
 5. When done, move the entry to **Recent Completions** and update [TODO.md](TODO.md)
@@ -40,18 +49,10 @@
 - **Completed:** Move to Recent Completions with summary
 - **Releasing early:** Change status to `🔄 Released` with reason, remove from Active Locks
 
-### Conflict Resolution
-
-| Scenario | Resolution |
-|----------|------------|
-| **Double-lock** | Later agent must wait or choose a different task |
-| **Blocked** | Mark as blocked in Notes, document the blocker |
-| **Emergency** | Mark as `🔴 Emergency`, notify team immediately |
-
 ---
 
 ## Last Updated
 
-**2026-04-16** - All locks cleared after WordPress migration
+**2026-04-23** — Sprint 7 completions logged; worker deploy blocker documented
 
 *See also: [TODO.md](TODO.md) · [PROGRESS.md](PROGRESS.md) · [ROADMAP.md](ROADMAP.md)*

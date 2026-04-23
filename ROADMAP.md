@@ -1,6 +1,6 @@
 # 🗺️ KBF Website - Roadmap
 
-**Last Updated:** 2026-04-16
+**Last Updated:** 2026-04-23
 **Current Phase:** Phase 3 — Content Migration & Backend
 
 > **How to use this file:** ROADMAP.md shows the big picture — what's been done across each phase and what's coming next. For day-to-day task tracking, see [TODO.md](TODO.md). For detailed project state, see [PROGRESS.md](PROGRESS.md). For task coordination, see [LOCK.md](LOCK.md).
@@ -25,9 +25,9 @@
 
 - [x] Google Sheets → Directory auto-sync (GitHub Actions)
 - [x] RSS feed sync for community events (6-hour interval)
-- [x] Cloudflare Worker for form handling (code ready)
+- [x] Calendar sync for KBF events (6-hour interval)
+- [x] Cloudflare Worker for form handling (code complete, wrangler.toml fixed)
 - [x] Directory paid-member badge system (🔵/⚪)
-- [x] Social media links in footer
 - [x] Team collaboration protocol (AGENTS.md, LOCK.md)
 
 ---
@@ -40,8 +40,9 @@
 - [x] Archives page — Newsletters (Nuusbrief 2019/2020), reports
 - [x] 16 PDFs organized with clean naming conventions
 - [x] Navigation updated across all 11 pages
-- [ ] **Deploy Cloudflare Worker** — `wrangler deploy` (code ready)
-- [ ] **Deploy RSS worker proxy** — bypass Cloudflare 403 for event sync
+- [x] Content polish, local SEO, advocacy section (PRs #65–#68, #70, #72, #73)
+- [ ] **Deploy Cloudflare Worker** — blocked by invalid `CLOUDFLARE_ACCOUNT_ID` secret (fix: update secret in GitHub)
+- [ ] **Deploy RSS worker proxy** — blocked until Worker deploy is fixed
 - [ ] **Locate 2021–2022 AGM minutes** — 5-year legal requirement (have 2023 & 2024 only)
 
 ---
@@ -53,12 +54,14 @@
 - [ ] Payment status sync with directory badges
 - [ ] Member payment tracking for 2026
 - [ ] Confirm real social media URLs (FB, LinkedIn, Twitter, Instagram)
+- [ ] GOOGLE_SHEET_ID secret → activate directory auto-sync
 
 ---
 
 ## 📅 Phase 5 — Polish & Growth
 *Target: Q3 2026*
 
+- [ ] SEO & accessibility audit (WCAG compliance)
 - [ ] SEO & accessibility audit (WCAG compliance)
 - [ ] Google Analytics setup
 - [ ] Custom domain SSL optimization (Cloudflare + GitHub Pages)
@@ -87,7 +90,8 @@
 | Committee members | 10 |
 | Directory listings | Synced from Google Sheets |
 | Community events | 50 (auto-synced) |
-| Overall completion | ~87% |
+| PRs merged | 74 |
+| Overall completion | ~90% |
 
 ---
 
