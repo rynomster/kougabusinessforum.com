@@ -1312,7 +1312,7 @@ textarea {
 }
 
 .faq-question {
-  color: var(--accent-cyan);
+  color: var(--accent-teal);
   margin-bottom: var(--spacing-xs);
 }
 
@@ -1328,7 +1328,7 @@ textarea {
 }
 
 .month-card h3 {
-  color: var(--accent-cyan);
+  color: var(--accent-teal);
   font-size: 1.25rem;
   border-bottom: 2px solid rgba(6, 200, 255, 0.2);
   padding-bottom: 0.75rem;
