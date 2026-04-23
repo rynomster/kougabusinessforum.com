@@ -4,6 +4,7 @@
   "private": true,
   "description": "Cloudflare Worker for KBF form submissions",
   "scripts": {
+    "predeploy": "node check-config.js",
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "test": "echo \"Error: no test specified\" && exit 1"

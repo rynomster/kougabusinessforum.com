@@ -46,8 +46,10 @@ If you are hosting the main site on Cloudflare Pages, you can move `src/index.js
 
 The error `Could not route to /client/v4/accounts/***/workers/services/kbf-submissions-worker, perhaps your object identifier is invalid? [code: 7003]` is usually caused by one of the following:
 
-1. **Incorrect Account ID:**
-   Verify your Account ID in the Cloudflare Dashboard (found in the Workers & Pages overview sidebar). Ensure `CLOUDFLARE_ACCOUNT_ID` matches exactly.
+1. **Incorrect Account ID (31-char truncation):**
+   Verify your Account ID in the Cloudflare Dashboard (found in the Workers & Pages overview sidebar). Ensure `CLOUDFLARE_ACCOUNT_ID` is exactly **32 characters long**.
+
+   *Note: A common error is a 31-character ID, which usually happens if the first or last character is missed during copying. Cloudflare IDs are always 32-character hexadecimal strings.*
 
 2. **Invalid API Token:**
    The token must have permission to edit Workers. Test your token with:
