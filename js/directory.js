@@ -12,12 +12,17 @@ let categoryFilter = 'all';
 let locationFilter = 'all';
 
 const categoryNames = {
-    'construction': 'Construction',
-    'retail': 'Retail',
-    'tourism': 'Tourism',
-    'agriculture': 'Agriculture',
-    'services': 'Services',
-    'professional': 'Professional'
+    'construction': 'Construction & Building',
+    'retail': 'Retail & Shopping',
+    'tourism': 'Tourism & Hospitality',
+    'agriculture': 'Agriculture & Farming',
+    'services': 'Services & Trade',
+    'professional': 'Professional Services',
+    'automotive': 'Automotive',
+    'health': 'Health & Wellness',
+    'education': 'Education & Training',
+    'finance': 'Finance & Insurance',
+    'other': 'Other'
 };
 
 /**
@@ -127,12 +132,14 @@ function getFilteredBusinesses() {
     const query = searchInput ? searchInput.value.toLowerCase() : '';
 
     return allBusinesses.filter(b => {
-        const locationName = getDisplayName(b.location).toLowerCase();
+        const locationName = getDisplayName(b.location || '').toLowerCase();
+        const categoryName = (categoryNames[b.category] || b.category || '').toLowerCase();
         const matchQuery = query === '' ||
-                           b.name.toLowerCase().includes(query) ||
-                           b.description.toLowerCase().includes(query) ||
-                           b.location.toLowerCase().includes(query) ||
-                           locationName.includes(query);
+                           (b.name || '').toLowerCase().includes(query) ||
+                           (b.description || '').toLowerCase().includes(query) ||
+                           (b.location || '').toLowerCase().includes(query) ||
+                           locationName.includes(query) ||
+                           categoryName.includes(query);
         const matchCategory = categoryFilter === 'all' || b.category === categoryFilter;
         const matchLocation = locationFilter === 'all' || b.location === locationFilter;
         return matchQuery && matchCategory && matchLocation;
@@ -176,6 +183,7 @@ function renderDirectory() {
 
         const icon = document.createElement('div');
         icon.className = 'business-icon';
+        icon.setAttribute('aria-hidden', 'true');
         icon.textContent = b.icon || '🏢';
 
         const nameContainer = document.createElement('div');
@@ -202,7 +210,7 @@ function renderDirectory() {
         // Location
         const location = document.createElement('div');
         location.className = 'business-location';
-        location.innerHTML = `<span>📍</span> `;
+        location.innerHTML = `<span aria-hidden="true">📍</span> `;
         const locText = document.createTextNode(getDisplayName(b.location));
         location.appendChild(locText);
 

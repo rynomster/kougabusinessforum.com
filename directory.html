@@ -86,12 +86,12 @@
   <section class="section">
     <div class="directory-content">
       <div class="directory-results" id="resultsContainer">
-        <div class="result-count" id="resultCount">Loading businesses...</div>
+        <div class="result-count" id="resultCount" aria-live="polite">Loading businesses...</div>
         <div class="grid">
           <!-- Dynamic businesses will be loaded here via js/directory.js -->
         </div>
 
-        <div class="empty-state" id="emptyState" style="display: none;">
+        <div class="empty-state" id="emptyState" style="display: none;" role="status">
           <div class="empty-state-icon">🔍</div>
           <h3>No businesses found</h3>
           <p>We couldn't find any businesses matching your search. Try adjusting your filters or search terms.</p>
