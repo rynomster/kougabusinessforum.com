@@ -268,7 +268,7 @@ function renderContactInfoInto(container, business) {
         requestBtn.textContent = 'Request Contact Details';
 
         const upsell = document.createElement('a');
-        upsell.href = 'membership.html';
+        upsell.href = 'membership.html#pricing';
         upsell.className = 'contact-item';
         upsell.style.fontSize = '0.75rem';
         upsell.style.color = 'var(--text-muted)';
