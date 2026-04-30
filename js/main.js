@@ -206,22 +206,22 @@ function initializeForms() {
   const contactForm = document.getElementById('contactForm');
   if (contactForm) {
     const urlParams = new URLSearchParams(window.location.search);
-    const inquiry = urlParams.get('inquiry');
+    const enquiry = urlParams.get('enquiry') || urlParams.get('inquiry');
     const business = urlParams.get('business');
     const subjectSelect = contactForm.querySelector('#subject');
     const messageTextarea = contactForm.querySelector('#message');
 
-    if (inquiry === 'directory' && business) {
+    if (enquiry === 'directory' && business) {
       if (subjectSelect) subjectSelect.value = 'directory';
       if (messageTextarea) {
         messageTextarea.value = `I am requesting contact details for the following business: ${business}\n\n[Please add any additional questions here]`;
       }
-    } else if (inquiry === 'complimentary') {
+    } else if (enquiry === 'complimentary') {
       if (subjectSelect) subjectSelect.value = 'complimentary';
       if (messageTextarea) {
         messageTextarea.value = `I am interested in applying for complimentary membership for our organization.\n\nOrganization Name: \nType (NGO/School/Church): \n\n[Please add any additional information here]`;
       }
-    } else if (inquiry === 'events') {
+    } else if (enquiry === 'events') {
       const eventName = urlParams.get('event');
       if (subjectSelect) subjectSelect.value = 'events';
       if (messageTextarea) {
@@ -334,7 +334,7 @@ function displayEvents(events) {
       </div>
       <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${description.length > 120 ? description.substring(0, 120) + '...' : description}</p>
       <div style="display: flex; gap: 0.75rem; margin-top: auto; flex-wrap: wrap;">
-        <a href="contact.html?inquiry=events&event=${encodeURIComponent(title)}#contact-form" class="btn btn-primary" style="padding: 0.75rem 1.25rem; font-size: 0.85rem; flex: 1; text-align: center; white-space: nowrap;">RSVP Now</a>
+        <a href="contact.html?enquiry=events&event=${encodeURIComponent(title)}#contact-form" class="btn btn-primary" style="padding: 0.75rem 1.25rem; font-size: 0.85rem; flex: 1; text-align: center; white-space: nowrap;">RSVP Now</a>
         <a href="${link}" target="_blank" class="btn btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.85rem; flex: 1; text-align: center; white-space: nowrap;">Add to Cal</a>
       </div>
     `;
@@ -382,7 +382,7 @@ function displayDemoEvents() {
       </div>
       <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${event.description}</p>
       <div style="display: flex; gap: 0.75rem; margin-top: auto; flex-wrap: wrap;">
-        <a href="contact.html?inquiry=events&event=${encodeURIComponent(event.title)}#contact-form" class="btn btn-primary" style="padding: 0.75rem 1.25rem; font-size: 0.85rem; flex: 1; text-align: center; white-space: nowrap;">${event.cta}</a>
+        <a href="contact.html?enquiry=events&event=${encodeURIComponent(event.title)}#contact-form" class="btn btn-primary" style="padding: 0.75rem 1.25rem; font-size: 0.85rem; flex: 1; text-align: center; white-space: nowrap;">${event.cta}</a>
         <a href="kbevents.html" class="btn btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.85rem; flex: 1; text-align: center; white-space: nowrap;">View Calendar</a>
       </div>
     `;
