@@ -406,7 +406,15 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.75rem;
+  color: white;
+}
+
+.card-icon i, .card-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 2.5px;
+  fill: none;
 }
 
 .card h3 {
@@ -499,7 +507,15 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  color: var(--accent-teal);
+}
+
+.quick-access-icon i, .quick-access-icon svg {
+  width: 32px;
+  height: 32px;
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
 }
 
 .quick-access-title {
@@ -1208,6 +1224,21 @@ p {
   padding: 2rem 1.5rem;
 }
 
+.stat-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: var(--accent-teal);
+}
+
+.stat-icon i, .stat-icon svg {
+  width: 32px;
+  height: 32px;
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
+}
+
 .stat-number {
   font-size: 3.5rem;
   font-weight: 800;
@@ -1730,4 +1761,19 @@ textarea {
     flex-direction: column;
     gap: 0.75rem;
   }
+}
+
+.testimonial-icon {
+  color: var(--accent-teal);
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-icon i, .testimonial-icon svg {
+  width: 48px;
+  height: 48px;
+  stroke: currentColor;
+  stroke-width: 2px;
+  fill: none;
 }

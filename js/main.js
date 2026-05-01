@@ -329,7 +329,10 @@ function displayEvents(events) {
 
     eventCard.innerHTML = `
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
-        <h3 style="margin: 0;">${title}</h3>
+        <h3 style="margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+          <i data-lucide="calendar" width="18" height="18" style="color: var(--accent-teal);"></i>
+          ${title}
+        </h3>
         <span style="background: var(--primary-dark); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${day} ${month}</span>
       </div>
       <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${description.length > 120 ? description.substring(0, 120) + '...' : description}</p>
@@ -340,6 +343,11 @@ function displayEvents(events) {
     `;
     container.appendChild(eventCard);
   });
+
+  // Re-initialize icons for dynamic content
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
 }
 
 // Display demo events
@@ -377,7 +385,10 @@ function displayDemoEvents() {
     eventCard.style.animationDelay = `${index * 100}ms`;
     eventCard.innerHTML = `
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
-        <h3 style="margin: 0;">${event.title}</h3>
+        <h3 style="margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+          <i data-lucide="calendar" width="18" height="18" style="color: var(--accent-teal);"></i>
+          ${event.title}
+        </h3>
         <span style="background: var(--primary-dark); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600;">${event.date}</span>
       </div>
       <p style="color: var(--text-muted); margin-bottom: 1.5rem;">${event.description}</p>
@@ -388,6 +399,11 @@ function displayDemoEvents() {
     `;
     container.appendChild(eventCard);
   });
+
+  // Re-initialize icons for dynamic content
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
 }
 
 // Utility: Console logging for debugging
