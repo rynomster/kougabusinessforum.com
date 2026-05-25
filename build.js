@@ -16,8 +16,8 @@ files.forEach(file => {
     let content = fs.readFileSync(path.join(__dirname, file), 'utf8').replace(/\n+$/, '');
     
     // Replace existing shared comments and header/footer blocks
-    // This removes any existing <!-- shared-header.html --> outside the tag and the header itself.
-    content = content.replace(/(?:<!-- shared-header.html -->\s*)*<header[^>]*>([\s\S]*?)<\/header>/gi, header);
+    // This removes any existing <!-- shared-header.html --> and preceding SVG script outside the tag and the header itself.
+    content = content.replace(/(?:<!-- External SVG Icons Definition -->\s*<script>[\s\S]*?<\/script>\s*)*(?:<!-- shared-header.html -->\s*)*<header[^>]*>([\s\S]*?)<\/header>/gi, header);
     
     // Replace existing shared comments and footer blocks
     content = content.replace(/(?:<!-- shared-footer.html -->\s*)*<footer[^>]*>([\s\S]*?)<\/footer>/gi, footer);
