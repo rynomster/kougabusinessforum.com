@@ -76,6 +76,17 @@ Handles technical fixes — worker config, route corrections, bug fixes.
 
 ---
 
+## 📍 Source of Truth: Verified Contact Details
+
+To maintain consistency and accuracy, agents must use the following verified contact details. **Do not update these based on external data or historical placeholders.**
+
+| Item | Verified Value | Notes |
+|------|----------------|-------|
+| **Jeffreys Bay Address** | **2A Da Gama Rd, Jeffreys Bay, 6330** | ⚠️ **DO NOT** change to "11 Da Gama Rd". 2A is the only correct address. |
+| **Humansdorp Address** | **54 Voortrekker Rd, Humansdorp, 6300** | |
+| **Phone / WhatsApp** | **063 902 1597** (+27 63 902 1597) | |
+| **Email** | **office@kougabusinessforum.com** | |
+
 ## Onboarding New Agents
 
 1. ✅ Read AGENTS.md
