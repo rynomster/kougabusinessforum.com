@@ -7,6 +7,9 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -43,9 +46,19 @@ jobs:
           '
 
       - name: Commit and Push Changes
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
           git add directory.json
-          git commit -m "🤖 Auto-sync directory from Google Sheets" || echo "No changes to commit"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            BRANCH_NAME="sync/directory-${{ github.run_id }}"
+            git checkout -b "$BRANCH_NAME"
+            git commit -m "🤖 Auto-sync directory from Google Sheets"
+            git push origin "$BRANCH_NAME"
+            gh pr create --title "🤖 Auto-sync Directory" --body "Automated sync of business directory from Google Sheets" --base main --head "$BRANCH_NAME"
+            gh pr merge --merge --delete-branch "$BRANCH_NAME"
+          fi
