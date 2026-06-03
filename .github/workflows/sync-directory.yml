@@ -59,11 +59,6 @@ jobs:
             git checkout -b "$BRANCH_NAME"
             git commit -m "🤖 Auto-sync directory from Google Sheets"
             git push origin "$BRANCH_NAME"
-            if ! gh pr create --title "🤖 Auto-sync Directory" --body "Automated sync of business directory from Google Sheets" --base main --head "$BRANCH_NAME"; then
-              echo "❌ Error: Failed to create Pull Request."
-              echo "This is likely because 'Allow GitHub Actions to create and approve pull requests' is disabled."
-              echo "Fix: Go to Repo Settings -> Actions -> General -> Workflow permissions -> Enable 'Allow GitHub Actions to create and approve pull requests'."
-              exit 1
-            fi
+            gh pr create --title "🤖 Auto-sync Directory" --body "Automated sync of business directory from Google Sheets" --base main --head "$BRANCH_NAME"
             gh pr merge --merge --delete-branch "$BRANCH_NAME"
           fi
