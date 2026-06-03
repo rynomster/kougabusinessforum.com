@@ -195,6 +195,11 @@ p {
   font-size: 1.1rem;
 }
 
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
 /* Header */
 .header {
   position: fixed;
@@ -345,6 +350,11 @@ p {
 .section-header {
   text-align: center;
   margin-bottom: var(--spacing-lg);
+}
+
+.section-header-left {
+  text-align: left;
+  margin-bottom: 2rem;
 }
 
 .section-header h2 {
@@ -1260,33 +1270,69 @@ p {
   color: var(--text-muted);
 }
 
-/* Contact Cards */
-.contact-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  padding: 1.5rem;
+/* Contact Info Components */
+.contact-method-card {
+  text-align: center;
+  padding: var(--spacing-md);
 }
 
-.contact-icon {
-  width: 48px;
-  height: 48px;
-  background: var(--accent-gradient);
-  border-radius: var(--radius-sm);
+.contact-method-card .card-icon {
+  margin: 0 auto var(--spacing-sm);
+}
+
+.contact-method-card h3 {
+  margin-bottom: var(--spacing-xs);
+}
+
+.btn-group {
   display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.map-placeholder {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(135deg, var(--bg-light) 0%, #e0e0e0 100%);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
-  flex-shrink: 0;
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+  margin-bottom: 1.5rem;
 }
 
-.contact-info h4 {
+.map-placeholder svg {
+  opacity: 0.5;
+  margin-bottom: 0.5rem;
+}
+
+.office-hours-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.office-hours-day {
+  font-weight: 600;
+  display: block;
   margin-bottom: 0.25rem;
 }
 
-.contact-info p {
+.office-hours-time {
   color: var(--text-muted);
-  margin: 0;
+  font-size: 0.95rem;
+}
+
+.contact-submit-btn {
+  width: 100%;
+  padding: 1.25rem;
+  font-size: 1.1rem;
 }
 
 /* Form Improvements */
