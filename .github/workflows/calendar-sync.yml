@@ -39,6 +39,11 @@ jobs:
             git checkout -b "$BRANCH_NAME"
             git commit -m "📅 Auto-sync KBF Events from Google Calendar"
             git push origin "$BRANCH_NAME"
-            gh pr create --title "📅 Auto-sync KBF Events" --body "Automated sync from Google Calendar" --base main --head "$BRANCH_NAME"
+            if ! gh pr create --title "📅 Auto-sync KBF Events" --body "Automated sync from Google Calendar" --base main --head "$BRANCH_NAME"; then
+              echo "❌ Error: Failed to create Pull Request."
+              echo "This is likely because 'Allow GitHub Actions to create and approve pull requests' is disabled."
+              echo "Fix: Go to Repo Settings -> Actions -> General -> Workflow permissions -> Enable 'Allow GitHub Actions to create and approve pull requests'."
+              exit 1
+            fi
             gh pr merge --merge --delete-branch "$BRANCH_NAME"
           fi
