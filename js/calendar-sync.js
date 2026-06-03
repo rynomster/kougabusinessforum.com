@@ -173,7 +173,7 @@ function generateHTML(eventList) {
   <section class="section">
     <div class="container">
       <div class="section-header">
-        <h2>2026 Events Calendar</h2>
+        <h2>${new Date().getFullYear()} Events Calendar</h2>
         <p>Official forum meetings, midday sessions, and networking functions.</p>
       </div>
 
