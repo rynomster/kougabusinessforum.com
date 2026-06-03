@@ -145,7 +145,8 @@ node js/rss-sync.js
 **Kouga Business Forum**
 - Email: office@kougabusinessforum.com
 - Phone: 063 902 1597 (mobile)
-- Location: Jeffreys Bay, Kouga Region
+- **Jeffreys Bay:** 2A Da Gama Rd, Jeffreys Bay, 6330
+- **Humansdorp:** 54 Voortrekker Rd, Humansdorp, 6300
 
 **Regions:** Jeffreys Bay, Humansdorp, St. Francis Bay, Hankey, Patensie, Loerie, Thornhill
 

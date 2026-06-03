@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initializeMembershipProrata();
   initializeIcons();
   handleInitialHash();
+  initializeMembershipForm();
 });
 
 /**
@@ -462,6 +463,65 @@ function initializeMembershipProrata() {
   if (itemDescInput) {
     itemDescInput.value = `Access for the remainder of the 2026 calendar year (${monthsRemaining} month${monthsRemaining > 1 ? 's' : ''}).`;
   }
+}
+
+/**
+ * Membership Registration Form Integration
+ * Links the Step 1 registration details with the Step 2 PayFast forms.
+ */
+function initializeMembershipForm() {
+  const detailsForm = document.getElementById('membership-details-form');
+  const payfastForms = [
+    document.forms['PayFastAnnualForm'],
+    document.forms['PayFastNewMemberForm'],
+    document.forms['PayFastMonthlyForm']
+  ];
+
+  if (!detailsForm) return;
+
+  payfastForms.forEach(form => {
+    if (!form) return;
+
+    form.addEventListener('submit', function(e) {
+      // Validate details form
+      if (!detailsForm.checkValidity()) {
+        e.preventDefault();
+        detailsForm.reportValidity();
+
+        // Scroll to details form if not visible
+        const headerOffset = 100;
+        const elementPosition = detailsForm.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+
+        // Highlight the form
+        detailsForm.style.transition = 'outline 0.3s ease';
+        detailsForm.style.outline = '2px solid var(--accent-light)';
+        setTimeout(() => {
+          detailsForm.style.outline = 'none';
+        }, 2000);
+
+        return;
+      }
+
+      // Sync data to hidden fields
+      const businessName = detailsForm.querySelector('#reg-business-name').value;
+      const firstName = detailsForm.querySelector('#reg-first-name').value;
+      const lastName = detailsForm.querySelector('#reg-last-name').value;
+      const email = detailsForm.querySelector('#reg-email').value;
+      const phone = detailsForm.querySelector('#reg-phone').value;
+
+      form.querySelector('input[name="custom_str1"]').value = businessName;
+      form.querySelector('input[name="name_first"]').value = firstName;
+      form.querySelector('input[name="name_last"]').value = lastName;
+      form.querySelector('input[name="email_address"]').value = email;
+      form.querySelector('input[name="cell_number"]').value = phone;
+    });
+  });
 }
 
 // Performance: Lazy load images

@@ -25,6 +25,20 @@ const categoryNames = {
     'other': 'Other'
 };
 
+const categoryIcons = {
+    'construction': 'hammer',
+    'retail': 'shopping-cart',
+    'tourism': 'palm-tree',
+    'agriculture': 'sprout',
+    'services': 'wrench',
+    'professional': 'briefcase',
+    'automotive': 'car',
+    'health': 'heart',
+    'education': 'graduation-cap',
+    'finance': 'banknote',
+    'other': 'building'
+};
+
 /**
  * Initialize Directory
  */
@@ -184,7 +198,10 @@ function renderDirectory() {
         const icon = document.createElement('div');
         icon.className = 'business-icon';
         icon.setAttribute('aria-hidden', 'true');
-        icon.textContent = b.icon || '🏢';
+        const iconName = categoryIcons[b.category] || 'building';
+        const iconEl = document.createElement('i');
+        iconEl.setAttribute('data-lucide', iconName);
+        icon.appendChild(iconEl);
 
         const nameContainer = document.createElement('div');
         nameContainer.className = 'business-name';
@@ -194,7 +211,16 @@ function renderDirectory() {
 
         const badge = document.createElement('span');
         badge.className = `badge ${b.verified ? 'badge-verified' : 'badge-basic'}`;
-        badge.textContent = b.verified ? '🔵 KBF Verified' : '⚪ Basic';
+        const badgeIcon = b.verified ? 'check-circle' : 'circle';
+
+        const bIcon = document.createElement('i');
+        bIcon.setAttribute('data-lucide', badgeIcon);
+        bIcon.setAttribute('width', '12');
+        bIcon.setAttribute('height', '12');
+        bIcon.style.marginRight = '4px';
+
+        badge.appendChild(bIcon);
+        badge.appendChild(document.createTextNode(b.verified ? 'KBF Verified' : 'Basic'));
 
         const category = document.createElement('span');
         category.className = 'business-category';
@@ -210,9 +236,15 @@ function renderDirectory() {
         // Location
         const location = document.createElement('div');
         location.className = 'business-location';
-        location.innerHTML = `<span aria-hidden="true">📍</span> `;
-        const locText = document.createTextNode(getDisplayName(b.location));
-        location.appendChild(locText);
+
+        const locIcon = document.createElement('i');
+        locIcon.setAttribute('data-lucide', 'map-pin');
+        locIcon.setAttribute('width', '16');
+        locIcon.setAttribute('height', '16');
+        locIcon.style.marginRight = '8px';
+
+        location.appendChild(locIcon);
+        location.appendChild(document.createTextNode(getDisplayName(b.location)));
 
         // Description
         const description = document.createElement('p');
@@ -231,6 +263,11 @@ function renderDirectory() {
 
         container.appendChild(article);
     });
+
+    // Re-initialize icons for dynamic content
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
 }
 
 /**
@@ -243,14 +280,30 @@ function renderContactInfoInto(container, business) {
             const tel = document.createElement('a');
             tel.href = `tel:${business.contact}`;
             tel.className = 'contact-item';
-            tel.textContent = `📞 ${formatPhoneNumber(business.contact)}`;
+
+            const pIcon = document.createElement('i');
+            pIcon.setAttribute('data-lucide', 'phone');
+            pIcon.setAttribute('width', '16');
+            pIcon.setAttribute('height', '16');
+            pIcon.style.marginRight = '8px';
+
+            tel.appendChild(pIcon);
+            tel.appendChild(document.createTextNode(formatPhoneNumber(business.contact)));
             container.appendChild(tel);
         }
         if (business.email) {
             const mail = document.createElement('a');
             mail.href = `mailto:${business.email}`;
             mail.className = 'contact-item';
-            mail.textContent = `✉️ ${business.email}`;
+
+            const eIcon = document.createElement('i');
+            eIcon.setAttribute('data-lucide', 'mail');
+            eIcon.setAttribute('width', '16');
+            eIcon.setAttribute('height', '16');
+            eIcon.style.marginRight = '8px';
+
+            mail.appendChild(eIcon);
+            mail.appendChild(document.createTextNode(business.email));
             container.appendChild(mail);
         }
         if (business.website) {
@@ -258,7 +311,15 @@ function renderContactInfoInto(container, business) {
             web.href = business.website;
             web.target = '_blank';
             web.className = 'contact-item';
-            web.textContent = '🌐 Website';
+
+            const wIcon = document.createElement('i');
+            wIcon.setAttribute('data-lucide', 'globe');
+            wIcon.setAttribute('width', '16');
+            wIcon.setAttribute('height', '16');
+            wIcon.style.marginRight = '8px';
+
+            web.appendChild(wIcon);
+            web.appendChild(document.createTextNode('Website'));
             container.appendChild(web);
         }
         if (container.children.length === 0) {
@@ -273,14 +334,33 @@ function renderContactInfoInto(container, business) {
         requestBtn.className = 'btn btn-secondary btn-sm';
         requestBtn.style.fontSize = '0.8rem';
         requestBtn.style.padding = '0.5rem 1rem';
-        requestBtn.textContent = 'Request Contact Details';
+
+        const rIcon = document.createElement('i');
+        rIcon.setAttribute('data-lucide', 'message-square');
+        rIcon.setAttribute('width', '14');
+        rIcon.setAttribute('height', '14');
+        rIcon.style.marginRight = '6px';
+
+        requestBtn.appendChild(rIcon);
+        requestBtn.appendChild(document.createTextNode('Request Details'));
 
         const upsell = document.createElement('a');
-        upsell.href = 'membership.html';
+        upsell.href = 'membership.html#pricing';
         upsell.className = 'contact-item';
         upsell.style.fontSize = '0.75rem';
-        upsell.style.color = 'var(--text-muted)';
-        upsell.textContent = 'Unlock with Membership →';
+        upsell.style.color = 'var(--accent-teal)';
+        upsell.style.fontWeight = '700';
+        upsell.style.textTransform = 'uppercase';
+        upsell.style.letterSpacing = '0.03em';
+
+        const uIcon = document.createElement('i');
+        uIcon.setAttribute('data-lucide', 'unlock');
+        uIcon.setAttribute('width', '12');
+        uIcon.setAttribute('height', '12');
+        uIcon.style.marginRight = '4px';
+
+        upsell.appendChild(uIcon);
+        upsell.appendChild(document.createTextNode('Become a Verified Member'));
 
         container.appendChild(requestBtn);
         container.appendChild(upsell);

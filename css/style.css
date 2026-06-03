@@ -1557,11 +1557,20 @@ textarea {
   max-width: 600px;
   margin: 2rem auto 0;
   position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon-inside {
+  position: absolute;
+  left: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  pointer-events: none;
 }
 
 .directory-search {
   width: 100%;
-  padding: 1.25rem 1.5rem;
+  padding: 1.25rem 1.5rem 1.25rem 3.5rem;
   font-size: 1rem;
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 50px;
@@ -1822,4 +1831,57 @@ textarea {
   stroke: currentColor;
   stroke-width: 2px;
   fill: none;
+}
+
+/* Portfolio & Regional Footprint Styles */
+.portfolio-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: var(--accent-teal);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.regional-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.town-card {
+  background: white;
+  padding: 2rem;
+  border-radius: var(--radius-md);
+  text-align: center;
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-normal);
+}
+
+.town-card:hover {
+  border-color: var(--accent-cyan);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-sm);
+}
+
+.town-card h4 {
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.town-card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .regional-grid {
+    grid-template-columns: 1fr;
+  }
 }

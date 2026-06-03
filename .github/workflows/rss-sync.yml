@@ -10,13 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: '24'
 
@@ -27,6 +28,8 @@ jobs:
         run: HUSKY=0 node js/rss-sync.js
 
       - name: Commit changes
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
@@ -34,6 +37,10 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
+            BRANCH_NAME="sync/rss-${{ github.run_id }}"
+            git checkout -b "$BRANCH_NAME"
             git commit -m "chore: Auto-sync community events with local images"
-            git push
+            git push origin "$BRANCH_NAME"
+            gh pr create --title "📡 Auto-sync RSS Events" --body "Automated sync of community events from RSS feed" --base main --head "$BRANCH_NAME"
+            gh pr merge --merge --delete-branch "$BRANCH_NAME"
           fi
