@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | Kouga Business Forum - Jeffreys Bay Office</title>
-  <meta name="description" content="Contact the Kouga Business Forum (KBF) for membership inquiries, event information, or business support in the Jeffreys Bay and Kouga region.">
+  <meta name="description" content="Contact the Kouga Business Forum (KBF) for membership enquiries, event information, or business support in the Jeffreys Bay and Kouga region.">
   <link rel="canonical" href="https://new.kougabusinessforum.com/contact.html">
   <link rel="icon" href="images/kbf-logo.png" type="image/png">
 
@@ -12,7 +12,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://new.kougabusinessforum.com/contact.html">
   <meta property="og:title" content="Contact Us | Kouga Business Forum">
-  <meta property="og:description" content="Have questions? Reach out to KBF for membership, events, or local business support in the Kouga region.">
+  <meta property="og:description" content="Have questions? Reach out to KBF for membership enquiries, events, or local business support in the Kouga region.">
   <meta property="og:image" content="https://new.kougabusinessforum.com/images/kouga-tourism-hero.jpg">
   <meta property="og:site_name" content="Kouga Business Forum">
 
@@ -20,7 +20,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://new.kougabusinessforum.com/contact.html">
   <meta name="twitter:title" content="Contact Us | Kouga Business Forum">
-  <meta name="twitter:description" content="Have questions? Reach out to KBF for membership, events, or local business support in the Kouga region.">
+  <meta name="twitter:description" content="Have questions? Reach out to KBF for membership enquiries, events, or local business support in the Kouga region.">
   <meta name="twitter:image" content="https://new.kougabusinessforum.com/images/kouga-tourism-hero.jpg">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -50,24 +50,14 @@
   </div>
 </header>
 
-
-
-
-
-
-
-
-
-
-
   <section class="hero">
     <div class="container">
       <div class="hero-content">
-        <h1>Get in Touch</h1>
-        <p class="hero-subtitle">We'd love to hear from you. Whether you're interested in membership, events, or have a question, we're here to help.</p>
+        <h1>Contact the KBF</h1>
+        <p class="hero-subtitle">We're here to support Kouga businesses. Reach out for membership enquiries, advocacy support, or event information.</p>
         <div class="hero-cta-group">
           <a href="#contact-form" class="btn btn-primary btn-lg">Send a Message</a>
-          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -76,86 +66,89 @@
     <div class="container">
       <div class="grid two-column">
         <div>
-          <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
-            <h2>Send Us a Message</h2>
-            <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+          <div class="section-header-left">
+            <h2>Send an Enquiry</h2>
+            <p>Complete the form below and a member of the KBF team will contact you shortly.</p>
           </div>
 
           <div class="form-container" id="contact-form">
             <form action="mailto:office@kougabusinessforum.com?subject=KBF Website Enquiry" method="post" enctype="text/plain" id="contactForm">
-              <div class="form-group">
-                <label for="name">Full Name *</label>
-                <input type="text" id="name" name="name" required placeholder="Your full name" aria-required="true">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name *</label>
+                  <input type="text" id="name" name="name" required placeholder="Your name" aria-required="true">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required placeholder="your@email.com" aria-required="true">
+                </div>
               </div>
 
-              <div class="form-group">
-                <label for="email">Email Address *</label>
-                <input type="email" id="email" name="email" required placeholder="your.email@example.com" aria-required="true">
-              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="e.g. 063 902 1597">
+                </div>
 
-              <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" placeholder="084 123 4567">
-              </div>
-
-              <div class="form-group">
-                <label for="subject">Subject *</label>
-                <select id="subject" name="subject" required aria-required="true">
-                  <option value="">Select a subject</option>
-                  <option value="general">General Enquiry</option>
-                  <option value="membership">Membership Enquiry</option>
-                  <option value="complimentary">Complimentary Membership</option>
-                  <option value="advocacy">Advocacy Issue</option>
-                  <option value="directory">Directory Enquiry</option>
-                  <option value="events">Events & RSVP</option>
-                  <option value="other">Other</option>
-                </select>
+                <div class="form-group">
+                  <label for="subject">Enquiry Type *</label>
+                  <select id="subject" name="subject" required aria-required="true">
+                    <option value="">Select enquiry type</option>
+                    <option value="general">General Enquiry</option>
+                    <option value="membership">Membership Enquiry</option>
+                    <option value="complimentary">Complimentary Membership</option>
+                    <option value="advocacy">Advocacy Issue</option>
+                    <option value="directory">Directory Enquiry</option>
+                    <option value="events">Events & RSVP</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
               </div>
 
               <div class="form-group">
                 <label for="message">Message *</label>
-                <textarea id="message" name="message" rows="6" required placeholder="How can we help you?" aria-required="true" style="resize: vertical;"></textarea>
+                <textarea id="message" name="message" rows="6" required placeholder="How can we help you?" aria-required="true"></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1.25rem; font-size: 1.1rem;">
-                Send Message
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" style="margin-left: 0.5rem;">
-                  <path d="M5 12h14M12 5l7 7-7 7"/>
-                </svg>
+              <button type="submit" class="btn btn-primary contact-submit-btn">
+                Send Enquiry
+                <i data-lucide="send" width="20" height="20"></i>
               </button>
             </form>
-
-
           </div>
         </div>
 
         <div>
-          <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
+          <div class="section-header-left">
             <h2>Contact Information</h2>
             <p>We're here to help. Reach out through any of these channels.</p>
           </div>
 
-          <div class="grid" style="grid-template-columns: 1fr; gap: 1.5rem;">
-            <div class="card" style="text-align: center; padding: 2rem;">
-              <div class="card-icon" style="font-size: 2rem; margin: 0 auto 1rem;">📍</div>
+          <div class="grid">
+            <div class="card contact-method-card">
+              <div class="card-icon"><i data-lucide="map-pin"></i></div>
               <h3>Visit Us</h3>
-              <p style="color: var(--text-muted);">
-                Jeffreys Bay, Kouga Region
-              </p>
+              <p>Jeffreys Bay, Kouga Region</p>
             </div>
 
-            <div class="card" style="text-align: center; padding: 2rem;">
-              <div class="card-icon" style="font-size: 2rem; margin: 0 auto 1rem;">💬</div>
-              <h3>WhatsApp</h3>
-              <p style="color: var(--text-muted);">
-                <a href="https://wa.me/27639021597" target="_blank" rel="noopener noreferrer" style="color: var(--primary-dark); text-decoration: none; font-weight: 600;">063 902 1597</a>
-              </p>
+            <div class="card contact-method-card">
+              <div class="card-icon"><i data-lucide="message-square"></i></div>
+              <h3>Call or WhatsApp</h3>
+              <div>
+                <p style="font-size: 1.25rem; font-weight: 700; color: var(--primary-dark); margin-bottom: 0.5rem;">063 902 1597</p>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Mon-Fri, 08:00 - 16:00</p>
+              </div>
+              <div class="btn-group">
+                <a href="tel:+27639021597" class="btn btn-primary btn-sm">Call Now</a>
+                <a href="https://wa.me/27639021597" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">WhatsApp</a>
+              </div>
             </div>
 
-            <div class="card" style="text-align: center; padding: 2rem;">
-              <div class="card-icon" style="font-size: 2rem; margin: 0 auto 1rem;">✉️</div>
+            <div class="card contact-method-card">
+              <div class="card-icon"><i data-lucide="mail"></i></div>
               <h3>Email</h3>
-              <p style="color: var(--text-muted);">
+              <p>
                 <a href="mailto:office@kougabusinessforum.com" style="color: var(--primary-dark); text-decoration: none; font-weight: 600;">office@kougabusinessforum.com</a>
               </p>
             </div>
@@ -163,43 +156,45 @@
 
           <div class="card" style="margin-top: 2rem; padding: 2rem;">
             <h3 style="margin-bottom: 1rem;">Office Hours</h3>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem;">
+            <div class="office-hours-grid">
               <div>
-                <p style="font-weight: 600;">Monday - Friday</p>
-                <p style="color: var(--text-muted);">08:00 - 16:00</p>
+                <span class="office-hours-day">Monday - Friday</span>
+                <span class="office-hours-time">08:00 - 16:00</span>
               </div>
               <div>
-                <p style="font-weight: 600;">Saturday</p>
-                <p style="color: var(--text-muted);">09:00 - 13:00</p>
+                <span class="office-hours-day">Saturday</span>
+                <span class="office-hours-time">09:00 - 13:00</span>
               </div>
               <div>
-                <p style="font-weight: 600;">Sunday</p>
-                <p style="color: var(--text-muted);">Closed</p>
+                <span class="office-hours-day">Sunday</span>
+                <span class="office-hours-time">Closed</span>
               </div>
             </div>
           </div>
 
-          <div class="card" style="margin-top: 2rem; padding: 2rem;">
+          <div class="card contact-method-card" style="margin-top: 2rem;">
+            <div class="card-icon"><i data-lucide="map"></i></div>
             <h3 style="margin-bottom: 1rem;">Find Us on the Map</h3>
-            <div style="width: 100%; height: 300px; background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 1.2rem;">🗺️
-              Interactive Map
+            <div class="map-placeholder">
+              <i data-lucide="navigation" width="32" height="32"></i>
+              <span style="font-weight: 600; font-size: 0.9rem;">Jeffreys Bay Business District</span>
             </div>
-            <p style="text-align: center; margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">
-              Map will load here. Located in the heart of Jeffreys Bay business district.
-            </p>
+            <a href="https://www.google.com/maps/search/Kouga+Business+Forum" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+              View on Google Maps
+            </a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section" style="background: var(--bg-light);">
+  <section class="section bg-light">
     <div class="container">
       <div class="section-header">
         <h2>Have Questions?</h2>
         <p>If you can't find what you're looking for, our team is ready to help.</p>
       </div>
-      <div style="text-align: center;">
+      <div class="text-center">
         <a href="#contact-form" class="btn btn-primary btn-lg">Get in Touch</a>
       </div>
     </div>
@@ -275,16 +270,6 @@
   </div>
   <script src="https://unpkg.com/lucide@latest"></script>
 </footer>
-
-
-
-
-
-
-
-
-
-
 
   <script src="js/main.js"></script>
 </body>
