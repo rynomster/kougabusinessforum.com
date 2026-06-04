@@ -52,7 +52,10 @@ async function syncEvents() {
 
   try {
     // Use curl instead of axios - Cloudflare trusts curl more than Node.js
-    const curlCmd = `curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" -H "Accept: application/rss+xml, application/xml, text/xml, */*" -H "Referer: https://9ty9.co.za/" -w "\\n%{http_code}" "${RSS_URL}"`;
+    const rssSecret = process.env.RSS_PROXY_SECRET || '';
+    const authHeader = rssSecret ? `-H "x-rss-secret: ${rssSecret}"` : '';
+
+    const curlCmd = `curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" ${authHeader} -H "Accept: application/rss+xml, application/xml, text/xml, */*" -H "Referer: https://9ty9.co.za/" -w "\\n%{http_code}" "${RSS_URL}"`;
     const curlOutput = execSync(curlCmd, { timeout: 15000, encoding: 'utf8' });
     const lines = curlOutput.trim().split('\n');
     const httpCode = lines.pop();
