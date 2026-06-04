@@ -34,11 +34,9 @@ For real-time status, blockers, and task lists, refer to:
 ---
 
 ## Collaboration Workflow
-1. Check [LOCK.md](LOCK.md) — Is the task free?
-2. Check [TODO.md](TODO.md) — Task details and dependencies.
-3. Claim the task in [LOCK.md](LOCK.md).
-4. Do the work, commit, raise PR.
-5. Update [TODO.md](TODO.md) and [LOCK.md](LOCK.md) on completion.
+1. Check [TODO.md](TODO.md) — Task details and dependencies.
+2. Do the work, commit, raise PR.
+3. Update [TODO.md](TODO.md) on completion.
 
 ---
 
@@ -55,8 +53,8 @@ For real-time status, blockers, and task lists, refer to:
 ---
 
 ## Onboarding New Agents
-1. Read `AGENTS.md`, `LOCK.md`, and `TODO.md`.
-2. Identify your role and claim a task in `LOCK.md`.
+1. Read `AGENTS.md` and `TODO.md`.
+2. Identify your role and pick a task in `TODO.md`.
 3. Update status on completion.
 
 ---
