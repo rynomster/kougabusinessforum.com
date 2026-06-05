@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-05T10:03:21.453Z",
+  "lastUpdated": "2026-06-05T15:19:07.573Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 50,
+  "count": 51,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -552,6 +552,17 @@
       "month": "JUN",
       "description": "Tue, 16 June 2026 - Mon, 22 June 2026 - All Day",
       "image": "images/events/ReTribe-22June2026.jpg"
+    },
+    {
+      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16/",
+      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16/",
+      "pubDate": "Tue, 16 Jun 2026 08:00:00 +0000",
+      "dateStr": "2026-06-16",
+      "day": "16",
+      "month": "JUN",
+      "description": "Tue, 16 June 2026 - 10:00 - 12:00",
+      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
     }
   ]
 }
