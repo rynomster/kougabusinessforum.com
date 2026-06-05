@@ -1,41 +1,8 @@
 {
-  "lastUpdated": "2026-06-04T20:12:37.210Z",
+  "lastUpdated": "2026-06-05T04:23:53.893Z",
   "source": "https://new.kougabusinessforum.com/rss",
   "count": 50,
   "events": [
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-06-04/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-06-04/",
-      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-04",
-      "day": "04",
-      "month": "JUN",
-      "description": "Thu, 4 June 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "Amy Winehouse - a tribute to The Diva And Her Demons - Dinner Show at  Port St Francis Ski Boat and Yacht Club in Port St Francis",
-      "link": "https://9ty9.co.za/events/amy-winehouse-a-tribute-to-the-diva-and-her-demons-dinner-show/",
-      "guid": "https://9ty9.co.za/events/amy-winehouse-a-tribute-to-the-diva-and-her-demons-dinner-show/",
-      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-04",
-      "day": "04",
-      "month": "JUN",
-      "description": "Thu, 4 June 2026 - 18:00 - 22:00",
-      "image": "images/events/Amy-Winehouse-4June2026.jpg"
-    },
-    {
-      "title": "Chris Yelland – Energy South Africa  - Hosted by Kouga Business Forum at  Humansdorp Boutique Hotel in Humansdorp",
-      "link": "https://9ty9.co.za/events/chris-yelland-energy-south-africa-hosted-by-kouga-business-forum/",
-      "guid": "https://9ty9.co.za/events/chris-yelland-energy-south-africa-hosted-by-kouga-business-forum/",
-      "pubDate": "Thu, 04 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-04",
-      "day": "04",
-      "month": "JUN",
-      "description": "Thu, 4 June 2026 - 18:00 - 20:00",
-      "image": "images/events/Chris-Yelland-4June2026.jpg"
-    },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-03-2026-06-05/",
@@ -552,6 +519,39 @@
       "month": "JUN",
       "description": "Sun, 14 June 2026 - 10:00 - 15:00",
       "image": "images/events/Elements-of-Nature-Market-20Dec2026.jpg"
+    },
+    {
+      "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
+      "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14/",
+      "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14/",
+      "pubDate": "Sun, 14 Jun 2026 09:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 11:00 - 15:00",
+      "image": "images/events/Vernon-Thornhill2.jpg"
+    },
+    {
+      "title": "Franna Benadé at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/franna-benade/",
+      "guid": "https://9ty9.co.za/events/franna-benade/",
+      "pubDate": "Sun, 14 Jun 2026 15:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 17:00 - 20:00",
+      "image": "images/events/Franna-Benade-14June2026.jpg"
+    },
+    {
+      "title": "ReTribe at  Bergrivier Eco Retreat in Thornhill",
+      "link": "https://9ty9.co.za/events/retribe/",
+      "guid": "https://9ty9.co.za/events/retribe/",
+      "pubDate": "Mon, 15 Jun 2026 22:00:00 +0000",
+      "dateStr": "2026-06-15",
+      "day": "15",
+      "month": "JUN",
+      "description": "Tue, 16 June 2026 - Mon, 22 June 2026 - All Day",
+      "image": "images/events/ReTribe-22June2026.jpg"
     }
   ]
 }
