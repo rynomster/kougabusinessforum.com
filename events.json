@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-05T15:19:07.573Z",
+  "lastUpdated": "2026-06-05T20:05:45.476Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 51,
+  "count": 59,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -222,6 +222,94 @@
       "month": "JUN",
       "description": "Sun, 7 June 2026 - 12:00 - 15:00",
       "image": "images/events/SEEKOS-MIDDAG-BY-JEVISTA-7June2026.jpg"
+    },
+    {
+      "title": "3 Bedroom House in Fountains Estate at   in",
+      "link": "https://9ty9.co.za/events/3-bedroom-house-in-fountains-estate-3/",
+      "guid": "https://9ty9.co.za/events/3-bedroom-house-in-fountains-estate-3/",
+      "pubDate": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-07",
+      "day": "07",
+      "month": "JUN",
+      "description": "Sun, 7 June 2026 - 15:00 - 17:00",
+      "image": "images/events/3-Bedroom-House-in-Fountains-Estate-31May2024.jpg"
+    },
+    {
+      "title": "3 Bedroom House in Wavecrest at   in",
+      "link": "https://9ty9.co.za/events/3-bedroom-house-in-wavecrest/",
+      "guid": "https://9ty9.co.za/events/3-bedroom-house-in-wavecrest/",
+      "pubDate": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-07",
+      "day": "07",
+      "month": "JUN",
+      "description": "Sun, 7 June 2026 - 15:00 - 17:00",
+      "image": "images/events/3-Bedroom-House-in-Wavecrest-31May2026.jpg"
+    },
+    {
+      "title": "Charming apartment with Seaviews at   in",
+      "link": "https://9ty9.co.za/events/charming-apartment-with-seaviews/",
+      "guid": "https://9ty9.co.za/events/charming-apartment-with-seaviews/",
+      "pubDate": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-07",
+      "day": "07",
+      "month": "JUN",
+      "description": "Sun, 7 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Charming-apartment-with-Seaviews.jpg"
+    },
+    {
+      "title": "Comfortable Coastal Living Spacious 3-Bedroom Apartment for Sale at   in",
+      "link": "https://9ty9.co.za/events/comfortable-coastal-living-spacious-3-bedroom-apartment-for-sale/",
+      "guid": "https://9ty9.co.za/events/comfortable-coastal-living-spacious-3-bedroom-apartment-for-sale/",
+      "pubDate": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-07",
+      "day": "07",
+      "month": "JUN",
+      "description": "Sun, 7 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Comfortable-Coastal-Living-Spacious-3-Bedroom-Apartment-for-Sale.jpg"
+    },
+    {
+      "title": "LAE-ONDERHOUD FAMILIEWONING MET RUIM LEEFRUIMTES at   in",
+      "link": "https://9ty9.co.za/events/lae-onderhoud-familiewoning-met-ruim-leefruimtes/",
+      "guid": "https://9ty9.co.za/events/lae-onderhoud-familiewoning-met-ruim-leefruimtes/",
+      "pubDate": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-07",
+      "day": "07",
+      "month": "JUN",
+      "description": "Sun, 7 June 2026 - 15:00 - 17:00",
+      "image": "images/events/LAE-ONDERHOUD-FAMILIEWONING-MET-RUIM-LEEFRUIMTES.jpg"
+    },
+    {
+      "title": "Modern, Comfortable Ground-Floor Apartment for Sale at   in",
+      "link": "https://9ty9.co.za/events/modern-comfortable-ground-floor-apartment-for-sale/",
+      "guid": "https://9ty9.co.za/events/modern-comfortable-ground-floor-apartment-for-sale/",
+      "pubDate": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-07",
+      "day": "07",
+      "month": "JUN",
+      "description": "Sun, 7 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Modern-Comfortable-Ground-Floor-Apartment-for-Sale.jpg"
+    },
+    {
+      "title": "NEW ON THE MARKET : BRAND-NEW : STYLISH 4 BEDROOM HOUSE AT FOUTAINS ESTATE JEFFREY&#039;S BAY at   in",
+      "link": "https://9ty9.co.za/events/new-on-the-market-brand-new-stylish-4-bedroom-house-at-foutains-estate-jeffreys-bay/",
+      "guid": "https://9ty9.co.za/events/new-on-the-market-brand-new-stylish-4-bedroom-house-at-foutains-estate-jeffreys-bay/",
+      "pubDate": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-07",
+      "day": "07",
+      "month": "JUN",
+      "description": "Sun, 7 June 2026 - 15:00 - 17:00",
+      "image": "images/events/NEW-ON-THE-MARKET-BRAND-NEW-31May2026.jpg"
+    },
+    {
+      "title": "Music Bingo with Tarryn Light Productions at  Port St Francis Ski Boat and Yacht Club in Port St Francis",
+      "link": "https://9ty9.co.za/events/music-bingo-with-tarryn-light-productions/",
+      "guid": "https://9ty9.co.za/events/music-bingo-with-tarryn-light-productions/",
+      "pubDate": "Mon, 08 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-08",
+      "day": "08",
+      "month": "JUN",
+      "description": "Mon, 8 June 2026 - 18:00 - 21:00",
+      "image": "images/events/Music-Bingo-with-Tarryn-Light-Productions-8June2026.jpg"
     },
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
