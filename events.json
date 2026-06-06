@@ -1,63 +1,8 @@
 {
-  "lastUpdated": "2026-06-05T20:05:45.476Z",
+  "lastUpdated": "2026-06-06T04:06:08.658Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 59,
+  "count": 54,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-03-2026-06-05/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-03-2026-06-05/",
-      "pubDate": "Fri, 05 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-05",
-      "day": "05",
-      "month": "JUN",
-      "description": "Fri, 5 June 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "What&#039;s Good In The Hood at  What&#039;s Good In The Hood in Gqeberha",
-      "link": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05/",
-      "guid": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05/",
-      "pubDate": "Fri, 05 Jun 2026 15:00:00 +0000",
-      "dateStr": "2026-06-05",
-      "day": "05",
-      "month": "JUN",
-      "description": "Fri, 5 June 2026 - 17:00 - 21:00",
-      "image": "images/events/Whats-Good-In-The-Hood-31Dec2026.jpg"
-    },
-    {
-      "title": "Winter Knights Barefoot Bowls at  St Francis Bowling Club in St Francis Bay",
-      "link": "https://9ty9.co.za/events/winter-knights-barefoot-bowls/",
-      "guid": "https://9ty9.co.za/events/winter-knights-barefoot-bowls/",
-      "pubDate": "Fri, 05 Jun 2026 15:30:00 +0000",
-      "dateStr": "2026-06-05",
-      "day": "05",
-      "month": "JUN",
-      "description": "Fri, 5 June 2026 - 17:30 - 21:00",
-      "image": "images/events/Winter-Nights-5June2026.jpg"
-    },
-    {
-      "title": "EG Kerk Musiek Trivia at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/eg-kerk-musiek-trivia/",
-      "guid": "https://9ty9.co.za/events/eg-kerk-musiek-trivia/",
-      "pubDate": "Fri, 05 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-05",
-      "day": "05",
-      "month": "JUN",
-      "description": "Fri, 5 June 2026 - 18:00 - 20:00",
-      "image": "images/events/EG-Kerk-Musiek-Trivia-5June2026.jpg"
-    },
-    {
-      "title": "Algoa Bay Whale Festival 2026 at  The Willows Resort &amp; Conference Centre in Gqeberha",
-      "link": "https://9ty9.co.za/events/algoa-bay-whale-festival-2026/",
-      "guid": "https://9ty9.co.za/events/algoa-bay-whale-festival-2026/",
-      "pubDate": "Fri, 05 Jun 2026 22:00:00 +0000",
-      "dateStr": "2026-06-05",
-      "day": "05",
-      "month": "JUN",
-      "description": "Sat, 6 June 2026 - Sun, 7 June 2026 - 00:00",
-      "image": "images/events/Algoa-Bay-Whale-Festival-7June2026-1.jpg"
-    },
     {
       "title": "Jeffreys Bay Car Boot Sale at  Methodist Church of Jeffreys Bay in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale-2026-06-06/",
