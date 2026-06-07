@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-07T14:08:42.100Z",
+  "lastUpdated": "2026-06-07T19:41:32.976Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 43,
+  "count": 61,
   "events": [
     {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
@@ -475,6 +475,204 @@
       "month": "JUN",
       "description": "Tue, 16 June 2026 - 10:00 - 12:00",
       "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Curry &amp; Quiz Night at  St Francis Links in St Francis Bay",
+      "link": "https://9ty9.co.za/events/curry-quiz-night-2026-03-31-2026-04-07-2026-04-14-2026-04-21-2026-04-28-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16/",
+      "guid": "https://9ty9.co.za/events/curry-quiz-night-2026-03-31-2026-04-07-2026-04-14-2026-04-21-2026-04-28-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16/",
+      "pubDate": "Tue, 16 Jun 2026 17:00:00 +0000",
+      "dateStr": "2026-06-16",
+      "day": "16",
+      "month": "JUN",
+      "description": "Tue, 16 June 2026 - 19:00 - 21:00",
+      "image": "images/events/CurryQuiz-28July2026.jpg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-12-2026-06-17/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-12-2026-06-17/",
+      "pubDate": "Wed, 17 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-17",
+      "day": "17",
+      "month": "JUN",
+      "description": "Wed, 17 June 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kuns-klets-2026-06-17/",
+      "guid": "https://9ty9.co.za/events/kuns-klets-2026-06-17/",
+      "pubDate": "Wed, 17 Jun 2026 09:00:00 +0000",
+      "dateStr": "2026-06-17",
+      "day": "17",
+      "month": "JUN",
+      "description": "Wed, 17 June 2026 - 11:00 - 13:00",
+      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
+    },
+    {
+      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kuns-klets-2026-06-18/",
+      "guid": "https://9ty9.co.za/events/kuns-klets-2026-06-18/",
+      "pubDate": "Thu, 18 Jun 2026 09:00:00 +0000",
+      "dateStr": "2026-06-18",
+      "day": "18",
+      "month": "JUN",
+      "description": "Thu, 18 June 2026 - 11:00 - 13:00",
+      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-06-18/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-06-18/",
+      "pubDate": "Thu, 18 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-18",
+      "day": "18",
+      "month": "JUN",
+      "description": "Thu, 18 June 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-17-2026-06-19/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-17-2026-06-19/",
+      "pubDate": "Fri, 19 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-19",
+      "day": "19",
+      "month": "JUN",
+      "description": "Fri, 19 June 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Forest Run Challenge 2026 at  Army Base Port Elizabeth- Forest Hill in Gqeberha",
+      "link": "https://9ty9.co.za/events/forest-run-challenge-2026/",
+      "guid": "https://9ty9.co.za/events/forest-run-challenge-2026/",
+      "pubDate": "Sat, 20 Jun 2026 05:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - 07:00 - 10:00",
+      "image": "images/events/Forest-Run-Challenge-20June2026.jpg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-13-2026-06-20/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-13-2026-06-20/",
+      "pubDate": "Sat, 20 Jun 2026 06:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "South African Schools Champs at   in",
+      "link": "https://9ty9.co.za/events/south-african-schools-champs/",
+      "guid": "https://9ty9.co.za/events/south-african-schools-champs/",
+      "pubDate": "Sat, 20 Jun 2026 06:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - 08:00 - 17:00",
+      "image": "images/events/Surfing-South-Africa-10.png"
+    },
+    {
+      "title": "St Francis Parkrun at  St Francis Links in St Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-13-2026-06-20/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-13-2026-06-20/",
+      "pubDate": "Sat, 20 Jun 2026 06:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - 08:00 - 09:00",
+      "image": "images/events/St-Francis-Parkrun.jpg"
+    },
+    {
+      "title": "Voter Registration Weekend at  Kouga in Kouga",
+      "link": "https://9ty9.co.za/events/voter-registration-weekend/",
+      "guid": "https://9ty9.co.za/events/voter-registration-weekend/",
+      "pubDate": "Sat, 20 Jun 2026 06:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - Sun, 21 June 2026 - 08:00 - 17:00",
+      "image": "images/events/IEC-21June2026.jpg"
+    },
+    {
+      "title": "Make &amp; Take Oil Class at  Infood Coffee Roastery in Jeffrey’s Bay",
+      "link": "https://9ty9.co.za/events/make-take-oil-class/",
+      "guid": "https://9ty9.co.za/events/make-take-oil-class/",
+      "pubDate": "Sat, 20 Jun 2026 08:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - 10:00 - 12:00",
+      "image": "images/events/Make-Take-Oil-Class-20June2026.jpg"
+    },
+    {
+      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-13-2026-06-20/",
+      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-13-2026-06-20/",
+      "pubDate": "Sat, 20 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - 15:00 - 18:00",
+      "image": "images/events/Backyard-Karaoke.jpg"
+    },
+    {
+      "title": "Country Night with Just Jane at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/country-night-with-just-jane/",
+      "guid": "https://9ty9.co.za/events/country-night-with-just-jane/",
+      "pubDate": "Sat, 20 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - 18:00 - 21:00",
+      "image": "images/events/Just-Jane-20June2026.jpg"
+    },
+    {
+      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-13-2026-06-20/",
+      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-13-2026-06-20/",
+      "pubDate": "Sat, 20 Jun 2026 17:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - 19:00 - 23:59",
+      "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Winter Solstice Sea Plunge at  Granny&#039;s Pool in St Francis Bay",
+      "link": "https://9ty9.co.za/events/winter-solstice-sea-plunge/",
+      "guid": "https://9ty9.co.za/events/winter-solstice-sea-plunge/",
+      "pubDate": "Sun, 21 Jun 2026 05:15:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 07:15 - 08:00",
+      "image": "images/events/Winter-Solstice-21June2026.jpg"
+    },
+    {
+      "title": "Crossways Village Market at  Elements PE in Gqeberha",
+      "link": "https://9ty9.co.za/events/crossways-village-market-2026-06-21/",
+      "guid": "https://9ty9.co.za/events/crossways-village-market-2026-06-21/",
+      "pubDate": "Sun, 21 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 09:00 - 14:00",
+      "image": "images/events/Crossways-Market-28June2026.jpg"
+    },
+    {
+      "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19-2026-04-26-2026-05-03-20-14-2026-06-21/",
+      "guid": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19-2026-04-26-2026-05-03-20-14-2026-06-21/",
+      "pubDate": "Sun, 21 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 09:00 - 18:00",
+      "image": "images/events/Quintes-Sunday.jpg"
     }
   ]
 }
