@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-06-08T20:26:57.128Z",
+  "lastUpdated": "2026-06-09T04:09:40.588Z",
   "source": "https://new.kougabusinessforum.com/rss",
   "count": 50,
   "events": [
-    {
-      "title": "Music Bingo with Tarryn Light Productions at  Port St Francis Ski Boat and Yacht Club in Port St Francis",
-      "link": "https://9ty9.co.za/events/music-bingo-with-tarryn-light-productions/",
-      "guid": "https://9ty9.co.za/events/music-bingo-with-tarryn-light-productions/",
-      "pubDate": "Mon, 08 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-08",
-      "day": "08",
-      "month": "JUN",
-      "description": "Mon, 8 June 2026 - 18:00 - 21:00",
-      "image": "images/events/Music-Bingo-with-Tarryn-Light-Productions-8June2026.jpg"
-    },
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09/",
@@ -112,6 +101,17 @@
       "month": "JUN",
       "description": "Thu, 11 June 2026 - 18:00 - 21:00",
       "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Empowering Future Parent with Gillian Arendse at  Stulting Primary School in Humansdorp",
+      "link": "https://9ty9.co.za/events/empowering-future-parent-with-gillian-arendse/",
+      "guid": "https://9ty9.co.za/events/empowering-future-parent-with-gillian-arendse/",
+      "pubDate": "Thu, 11 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-11",
+      "day": "11",
+      "month": "JUN",
+      "description": "Thu, 11 June 2026 - 18:00 - 19:00",
+      "image": "images/events/Empowering-Furure-Parents-11June2026.jpg"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
