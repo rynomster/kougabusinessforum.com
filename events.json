@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-09T09:56:24.759Z",
+  "lastUpdated": "2026-06-09T15:19:20.653Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 50,
+  "count": 51,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -552,6 +552,17 @@
       "month": "JUN",
       "description": "Sun, 21 June 2026 - 09:00 - 18:00",
       "image": "images/events/Quintes-Sunday.jpg"
+    },
+    {
+      "title": "UV &amp; Epoxy Resin Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/uv-epoxy-resin-workshop/",
+      "guid": "https://9ty9.co.za/events/uv-epoxy-resin-workshop/",
+      "pubDate": "Sun, 21 Jun 2026 08:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 10:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/06/UV-Epoxy-Resin-Workshop-21June2026.jpg"
     }
   ]
 }
