@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-10T04:20:55.832Z",
+  "lastUpdated": "2026-06-10T10:14:24.739Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 50,
+  "count": 52,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -134,6 +134,17 @@
       "month": "JUN",
       "description": "Fri, 12 June 2026 - Sat, 13 June 2026 - 19:00 - 23:00",
       "image": "images/events/Skilpad-Party-13June2026.jpg"
+    },
+    {
+      "title": "Tarryn Light at  Quayside Pub in St Francis Bay",
+      "link": "https://9ty9.co.za/events/tarryn-light/",
+      "guid": "https://9ty9.co.za/events/tarryn-light/",
+      "pubDate": "Fri, 12 Jun 2026 16:30:00 +0000",
+      "dateStr": "2026-06-12",
+      "day": "12",
+      "month": "JUN",
+      "description": "Fri, 12 June 2026 - 18:30 - 21:30",
+      "image": "images/events/Tarryn-Light-12June2026.jpg"
     },
     {
       "title": "Humansdorp car boot sale: Shalom Gemèente at  Shalom Kouga in Humansdorp",
@@ -343,6 +354,17 @@
       "month": "JUN",
       "description": "Tue, 16 June 2026 - 19:00 - 21:00",
       "image": "images/events/CurryQuiz-28July2026.jpg"
+    },
+    {
+      "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
+      "link": "https://9ty9.co.za/events/crossways-village-market/",
+      "guid": "https://9ty9.co.za/events/crossways-village-market/",
+      "pubDate": "Tue, 16 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-16",
+      "day": "16",
+      "month": "JUN",
+      "description": "Tue, 16 June 2026 - 09:00 - 14:00",
+      "image": "images/events/Crossways-Village-Market-16June2026.jpg"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
