@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-10T15:53:36.947Z",
+  "lastUpdated": "2026-06-10T20:39:49.159Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 52,
+  "count": 56,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -321,6 +321,50 @@
       "month": "JUN",
       "description": "Sun, 14 June 2026 - 17:00 - 20:00",
       "image": "images/events/Franna-Benade-14June2026.jpg"
+    },
+    {
+      "title": "LOVELY NEAT 4 BEDROOM HOME IN NOORSEKLOOF AREA at   in",
+      "link": "https://9ty9.co.za/events/lovely-neat-4-bedroom-home-in-noorsekloof-area/",
+      "guid": "https://9ty9.co.za/events/lovely-neat-4-bedroom-home-in-noorsekloof-area/",
+      "pubDate": "Sun, 14 Jun 2026 12:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 14:00 - 17:00",
+      "image": "images/events/LOVELY-NEAT-4-BEDROOM-HOME-IN-NOORSEKLOOF-AREA.jpg"
+    },
+    {
+      "title": "Low Maintenance and Close to the Beach at   in",
+      "link": "https://9ty9.co.za/events/low-maintenance-and-close-to-the-beach/",
+      "guid": "https://9ty9.co.za/events/low-maintenance-and-close-to-the-beach/",
+      "pubDate": "Sun, 14 Jun 2026 12:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 14:00 - 17:00",
+      "image": "images/events/Low-Maintenance-and-Close-to-the-Beach.jpg"
+    },
+    {
+      "title": "Perfect Unit Close to the Beach at   in",
+      "link": "https://9ty9.co.za/events/perfect-unit-close-to-the-beach/",
+      "guid": "https://9ty9.co.za/events/perfect-unit-close-to-the-beach/",
+      "pubDate": "Sun, 14 Jun 2026 12:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 14:00 - 17:00",
+      "image": "images/events/Perfect-Unit-Close-to-the-Beach.jpg"
+    },
+    {
+      "title": "An Entertainers Dream at   in",
+      "link": "https://9ty9.co.za/events/an-entertainers-dream/",
+      "guid": "https://9ty9.co.za/events/an-entertainers-dream/",
+      "pubDate": "Sun, 14 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 15:00 - 17:00",
+      "image": "images/events/An-Entertainers-Dream.jpg"
     },
     {
       "title": "ReTribe at  Bergrivier Eco Retreat in Thornhill",
