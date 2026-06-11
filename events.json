@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-11T16:14:16.947Z",
+  "lastUpdated": "2026-06-11T20:29:10.440Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 55,
+  "count": 58,
   "events": [
     {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
@@ -354,6 +354,39 @@
       "month": "JUN",
       "description": "Sun, 14 June 2026 - 11:00 - 12:00",
       "image": "images/events/Newly-Built-Contemporary-Home-in-St-Francis-Bay-Show-House.jpg"
+    },
+    {
+      "title": "Brand New Built - Large Family Home at   in",
+      "link": "https://9ty9.co.za/events/brand-new-built-large-family-home/",
+      "guid": "https://9ty9.co.za/events/brand-new-built-large-family-home/",
+      "pubDate": "Sun, 14 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Brand-New-Built.jpg"
+    },
+    {
+      "title": "Low-Maintenance Facebrick Home for Sale in Quiet Cul-de-Sac. Wave Crest at   in",
+      "link": "https://9ty9.co.za/events/low-maintenance-facebrick-home-for-sale-in-quiet-cul-de-sac-wave-crest-2/",
+      "guid": "https://9ty9.co.za/events/low-maintenance-facebrick-home-for-sale-in-quiet-cul-de-sac-wave-crest-2/",
+      "pubDate": "Sun, 14 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Low-Maintenance-Facebrick.jpg"
+    },
+    {
+      "title": "Neat. Refined. Effortlessly Secure.. Fountains Estate (On Show) at   in",
+      "link": "https://9ty9.co.za/events/neat-refined-effortlessly-secure-fountains-estate-on-show/",
+      "guid": "https://9ty9.co.za/events/neat-refined-effortlessly-secure-fountains-estate-on-show/",
+      "pubDate": "Sun, 14 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Neat.jpg"
     },
     {
       "title": "ReTribe at  Bergrivier Eco Retreat in Thornhill",
