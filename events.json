@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-11T04:43:09.793Z",
+  "lastUpdated": "2026-06-11T10:49:23.550Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 53,
+  "count": 55,
   "events": [
     {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
@@ -224,6 +224,17 @@
       "image": "images/events/Freshlyground-13June2026.jpg"
     },
     {
+      "title": "Basic First Aid and CPR at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/basic-first-aid-and-cpr/",
+      "guid": "https://9ty9.co.za/events/basic-first-aid-and-cpr/",
+      "pubDate": "Sat, 13 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-13",
+      "day": "13",
+      "month": "JUN",
+      "description": "Sat, 13 June 2026 - 09:00 - 13:00",
+      "image": "images/events/Basic-First-Aid-and-CPR-13June2026.jpg"
+    },
+    {
       "title": "Collective Market at  Collective Market in Gqeberha",
       "link": "https://9ty9.co.za/events/collective-market-2026-06-14/",
       "guid": "https://9ty9.co.za/events/collective-market-2026-06-14/",
@@ -332,6 +343,17 @@
       "month": "JUN",
       "description": "Sun, 14 June 2026 - 15:00 - 17:00",
       "image": "images/events/An-Entertainers-Dream.jpg"
+    },
+    {
+      "title": "Newly Built Contemporary Home in St Francis Bay (Show House) at   in",
+      "link": "https://9ty9.co.za/events/newly-built-contemporary-home-in-st-francis-bay-show-house/",
+      "guid": "https://9ty9.co.za/events/newly-built-contemporary-home-in-st-francis-bay-show-house/",
+      "pubDate": "Sun, 14 Jun 2026 09:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 11:00 - 12:00",
+      "image": "images/events/Newly-Built-Contemporary-Home-in-St-Francis-Bay-Show-House.jpg"
     },
     {
       "title": "ReTribe at  Bergrivier Eco Retreat in Thornhill",
