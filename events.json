@@ -1,63 +1,8 @@
 {
-  "lastUpdated": "2026-06-11T20:29:10.440Z",
+  "lastUpdated": "2026-06-12T04:45:58.242Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 58,
+  "count": 55,
   "events": [
-    {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-06-11/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-06-11/",
-      "pubDate": "Thu, 11 Jun 2026 09:00:00 +0000",
-      "dateStr": "2026-06-11",
-      "day": "11",
-      "month": "JUN",
-      "description": "Thu, 11 June 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
-    },
-    {
-      "title": "Let&#039;s get WineCentric with Roodekrantz at  De Viswijf in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/lets-get-winecentric-with-roodekrantz/",
-      "guid": "https://9ty9.co.za/events/lets-get-winecentric-with-roodekrantz/",
-      "pubDate": "Thu, 11 Jun 2026 15:30:00 +0000",
-      "dateStr": "2026-06-11",
-      "day": "11",
-      "month": "JUN",
-      "description": "Thu, 11 June 2026 - 17:30 - 22:00",
-      "image": "images/events/Roodekrantz-11June2026.jpg"
-    },
-    {
-      "title": "Luna Paige: Die Reisigers at  Unwind Tapa Restaurant in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/luna-paige-die-reisigers/",
-      "guid": "https://9ty9.co.za/events/luna-paige-die-reisigers/",
-      "pubDate": "Thu, 11 Jun 2026 15:30:00 +0000",
-      "dateStr": "2026-06-11",
-      "day": "11",
-      "month": "JUN",
-      "description": "Thu, 11 June 2026 - 17:30 - 20:00",
-      "image": "images/events/Luna-Paige-11June2026.jpg"
-    },
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-06-11/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-06-11/",
-      "pubDate": "Thu, 11 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-11",
-      "day": "11",
-      "month": "JUN",
-      "description": "Thu, 11 June 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "Empowering Future Parent with Gillian Arendse at  Stulting Primary School in Humansdorp",
-      "link": "https://9ty9.co.za/events/empowering-future-parent-with-gillian-arendse/",
-      "guid": "https://9ty9.co.za/events/empowering-future-parent-with-gillian-arendse/",
-      "pubDate": "Thu, 11 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-11",
-      "day": "11",
-      "month": "JUN",
-      "description": "Thu, 11 June 2026 - 18:00 - 19:00",
-      "image": "images/events/Empowering-Furure-Parents-11June2026.jpg"
-    },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-10-2026-06-12/",
@@ -387,6 +332,28 @@
       "month": "JUN",
       "description": "Sun, 14 June 2026 - 15:00 - 17:00",
       "image": "images/events/Neat.jpg"
+    },
+    {
+      "title": "Eye-Catching Youll Love It (Show House) at   in",
+      "link": "https://9ty9.co.za/events/eye-catching-youll-love-it-show-house/",
+      "guid": "https://9ty9.co.za/events/eye-catching-youll-love-it-show-house/",
+      "pubDate": "Sun, 14 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Eye-Catching-Youll-Love-It.jpg"
+    },
+    {
+      "title": "Opportunity on a Sizeable Stand in Fountains Estate, Jeffreys Bay (Show House) at   in",
+      "link": "https://9ty9.co.za/events/opportunity-on-a-sizeable-stand-in-fountains-estate-jeffreys-bay/",
+      "guid": "https://9ty9.co.za/events/opportunity-on-a-sizeable-stand-in-fountains-estate-jeffreys-bay/",
+      "pubDate": "Sun, 14 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Opportunity-on-a-Sizeable-Stand-in-Fountains-Estate-Jeffreys-Bay.jpg"
     },
     {
       "title": "ReTribe at  Bergrivier Eco Retreat in Thornhill",
