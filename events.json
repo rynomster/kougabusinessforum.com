@@ -1,63 +1,8 @@
 {
-  "lastUpdated": "2026-06-12T20:19:36.278Z",
+  "lastUpdated": "2026-06-13T04:24:28.008Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 55,
+  "count": 50,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-10-2026-06-12/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-10-2026-06-12/",
-      "pubDate": "Fri, 12 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-12",
-      "day": "12",
-      "month": "JUN",
-      "description": "Fri, 12 June 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Assisi SPCA Golf Day at  St Francis Links in St Francis Bay",
-      "link": "https://9ty9.co.za/events/assisi-spca-golf-day/",
-      "guid": "https://9ty9.co.za/events/assisi-spca-golf-day/",
-      "pubDate": "Fri, 12 Jun 2026 07:30:00 +0000",
-      "dateStr": "2026-06-12",
-      "day": "12",
-      "month": "JUN",
-      "description": "Fri, 12 June 2026 - 09:30 - 17:00",
-      "image": "images/events/Assisi-SPCA-Golf-Day-12June2026.jpg"
-    },
-    {
-      "title": "Luna Paige: Die Reisigers at  Nineteen33 in Gqeberha",
-      "link": "https://9ty9.co.za/events/luna-paige-die-reisigers-2/",
-      "guid": "https://9ty9.co.za/events/luna-paige-die-reisigers-2/",
-      "pubDate": "Fri, 12 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-12",
-      "day": "12",
-      "month": "JUN",
-      "description": "Fri, 12 June 2026 - 18:00 - 22:00",
-      "image": "images/events/3.-Die-Reisigers-_-Insta-Gqeberha.jpg"
-    },
-    {
-      "title": "Skilpad Party with Tommy Dell &amp; Shaun Dell at  The Wave Barrel in Jeffrey's Bay",
-      "link": "https://9ty9.co.za/events/skilpad-party-with-tommy-dell-shaun-dell/",
-      "guid": "https://9ty9.co.za/events/skilpad-party-with-tommy-dell-shaun-dell/",
-      "pubDate": "Fri, 12 Jun 2026 17:00:00 +0000",
-      "dateStr": "2026-06-12",
-      "day": "12",
-      "month": "JUN",
-      "description": "Fri, 12 June 2026 - Sat, 13 June 2026 - 19:00 - 23:00",
-      "image": "images/events/Skilpad-Party-13June2026.jpg"
-    },
-    {
-      "title": "Tarryn Light at  Quayside Pub in St Francis Bay",
-      "link": "https://9ty9.co.za/events/tarryn-light/",
-      "guid": "https://9ty9.co.za/events/tarryn-light/",
-      "pubDate": "Fri, 12 Jun 2026 16:30:00 +0000",
-      "dateStr": "2026-06-12",
-      "day": "12",
-      "month": "JUN",
-      "description": "Fri, 12 June 2026 - 18:30 - 21:30",
-      "image": "images/events/Tarryn-Light-12June2026.jpg"
-    },
     {
       "title": "Humansdorp car boot sale: Shalom Gemèente at  Shalom Kouga in Humansdorp",
       "link": "https://9ty9.co.za/events/humansdorp-car-boot-sale-shalom-gemeente/",
