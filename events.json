@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-14T09:48:08.692Z",
+  "lastUpdated": "2026-06-14T14:19:21.163Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 50,
+  "count": 55,
   "events": [
     {
       "title": "Collective Market at  Collective Market in Gqeberha",
@@ -180,6 +180,17 @@
       "image": "images/events/Opportunity-on-a-Sizeable-Stand-in-Fountains-Estate-Jeffreys-Bay.jpg"
     },
     {
+      "title": "Art &amp; Ales at  St Francis Brewing Co. in St Francis Bay",
+      "link": "https://9ty9.co.za/events/art-ales/",
+      "guid": "https://9ty9.co.za/events/art-ales/",
+      "pubDate": "Sun, 14 Jun 2026 09:00:00 +0000",
+      "dateStr": "2026-06-14",
+      "day": "14",
+      "month": "JUN",
+      "description": "Sun, 14 June 2026 - Sun, 5 July 2026 - 11:00 - 21:00",
+      "image": "images/events/Art-Ales-6July2026.jpg"
+    },
+    {
       "title": "ReTribe at  Bergrivier Eco Retreat in Thornhill",
       "link": "https://9ty9.co.za/events/retribe/",
       "guid": "https://9ty9.co.za/events/retribe/",
@@ -266,6 +277,17 @@
       "month": "JUN",
       "description": "Thu, 18 June 2026 - 18:00 - 21:00",
       "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Mixed Media Monoprint Workshop at  Marta at Art in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mixed-media-monoprint-workshop/",
+      "guid": "https://9ty9.co.za/events/mixed-media-monoprint-workshop/",
+      "pubDate": "Thu, 18 Jun 2026 10:00:00 +0000",
+      "dateStr": "2026-06-18",
+      "day": "18",
+      "month": "JUN",
+      "description": "Thu, 18 June 2026 - 12:00 - 15:00",
+      "image": "images/events/Monoprint-Workshop-18June2026.jpg"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -552,6 +574,39 @@
       "month": "JUN",
       "description": "Wed, 24 June 2026 - 12:00 - 18:00",
       "image": "images/events/Blood-Donation-Drive-24June2026.jpg"
+    },
+    {
+      "title": "Bingo at  Arthur Fennell Hall in Aston Bay",
+      "link": "https://9ty9.co.za/events/bingo-2026-05-06-2026-05-20-2026-06-10-2026-06-24/",
+      "guid": "https://9ty9.co.za/events/bingo-2026-05-06-2026-05-20-2026-06-10-2026-06-24/",
+      "pubDate": "Wed, 24 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-24",
+      "day": "24",
+      "month": "JUN",
+      "description": "Wed, 24 June 2026 - 18:00 - 20:00",
+      "image": "images/events/Bingo-24June2026.jpg"
+    },
+    {
+      "title": "Aloe Cup at  Jeffreys Bay Primary School in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/aloe-cup/",
+      "guid": "https://9ty9.co.za/events/aloe-cup/",
+      "pubDate": "Thu, 25 Jun 2026 06:00:00 +0000",
+      "dateStr": "2026-06-25",
+      "day": "25",
+      "month": "JUN",
+      "description": "Thu, 25 June 2026 - Sat, 27 June 2026 - 08:00 - 17:00",
+      "image": "images/events/Aloe-Cup-Rugby-27June2026.jpg"
+    },
+    {
+      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kuns-klets-2026-06-25/",
+      "guid": "https://9ty9.co.za/events/kuns-klets-2026-06-25/",
+      "pubDate": "Thu, 25 Jun 2026 09:00:00 +0000",
+      "dateStr": "2026-06-25",
+      "day": "25",
+      "month": "JUN",
+      "description": "Thu, 25 June 2026 - 11:00 - 13:00",
+      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
     }
   ]
 }
