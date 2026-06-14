@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-14T14:19:21.163Z",
+  "lastUpdated": "2026-06-14T19:46:30.956Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 55,
+  "count": 66,
   "events": [
     {
       "title": "Collective Market at  Collective Market in Gqeberha",
@@ -607,6 +607,127 @@
       "month": "JUN",
       "description": "Thu, 25 June 2026 - 11:00 - 13:00",
       "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-06-25/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-06-25/",
+      "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-25",
+      "day": "25",
+      "month": "JUN",
+      "description": "Thu, 25 June 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Quiz Night at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/quiz-night-a-the-backyard-2026-06-25/",
+      "guid": "https://9ty9.co.za/events/quiz-night-a-the-backyard-2026-06-25/",
+      "pubDate": "Thu, 25 Jun 2026 17:00:00 +0000",
+      "dateStr": "2026-06-25",
+      "day": "25",
+      "month": "JUN",
+      "description": "Thu, 25 June 2026 - 19:00 - 21:00",
+      "image": "images/events/Quiz-Night-17Dec2026.jpg"
+    },
+    {
+      "title": "SPAR Kirkwood Wildsfees at  Kirkwood Wildsfees in Kirkwood",
+      "link": "https://9ty9.co.za/events/spar-kirkwood-wildsfees/",
+      "guid": "https://9ty9.co.za/events/spar-kirkwood-wildsfees/",
+      "pubDate": "Fri, 26 Jun 2026 05:00:00 +0000",
+      "dateStr": "2026-06-26",
+      "day": "26",
+      "month": "JUN",
+      "description": "Fri, 26 June 2026 - Sun, 28 June 2026 - 07:00 - 19:00",
+      "image": "images/events/Kirkwood-Wildsfees-28June2026.jpg"
+    },
+    {
+      "title": "Educare Holiday Club at  Educare in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/educare-holiday-club/",
+      "guid": "https://9ty9.co.za/events/educare-holiday-club/",
+      "pubDate": "Fri, 26 Jun 2026 05:30:00 +0000",
+      "dateStr": "2026-06-26",
+      "day": "26",
+      "month": "JUN",
+      "description": "Fri, 26 June 2026 - Mon, 20 July 2026 - 07:30 - 17:00",
+      "image": "images/events/Educare-Holiday-Club-20July2026.jpeg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-24-2026-06-26/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-24-2026-06-26/",
+      "pubDate": "Fri, 26 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-26",
+      "day": "26",
+      "month": "JUN",
+      "description": "Fri, 26 June 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "The Sea Exhibition at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/the-sea-exhibition/",
+      "guid": "https://9ty9.co.za/events/the-sea-exhibition/",
+      "pubDate": "Fri, 26 Jun 2026 14:00:00 +0000",
+      "dateStr": "2026-06-26",
+      "day": "26",
+      "month": "JUN",
+      "description": "Fri, 26 June 2026 - 16:00 - 18:00",
+      "image": "images/events/The-Sea-Exhibition-27June2026.jpg"
+    },
+    {
+      "title": "Workshop Exhibition: The Sea at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/workshop-exhibition-the-sea/",
+      "guid": "https://9ty9.co.za/events/workshop-exhibition-the-sea/",
+      "pubDate": "Fri, 26 Jun 2026 14:00:00 +0000",
+      "dateStr": "2026-06-26",
+      "day": "26",
+      "month": "JUN",
+      "description": "Fri, 26 June 2026 - 16:00 - 19:00",
+      "image": "images/events/Workshop-Exhibition-26June2026.jpg"
+    },
+    {
+      "title": "What&#039;s Good In The Hood at  What&#039;s Good In The Hood in Gqeberha",
+      "link": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26/",
+      "guid": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26/",
+      "pubDate": "Fri, 26 Jun 2026 15:00:00 +0000",
+      "dateStr": "2026-06-26",
+      "day": "26",
+      "month": "JUN",
+      "description": "Fri, 26 June 2026 - 17:00 - 21:00",
+      "image": "images/events/Whats-Good-In-The-Hood-31Dec2026.jpg"
+    },
+    {
+      "title": "AP Kerk Basaar at  Afrikaanse Protestantse Kerk Jefferysbaai (AP Kerk) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/ap-kerk-basaar/",
+      "guid": "https://9ty9.co.za/events/ap-kerk-basaar/",
+      "pubDate": "Sat, 27 Jun 2026 06:00:00 +0000",
+      "dateStr": "2026-06-27",
+      "day": "27",
+      "month": "JUN",
+      "description": "Sat, 27 June 2026 - 08:00 - 13:00",
+      "image": "images/events/AP-Kerk-Basaar-27June2026.jpg"
+    },
+    {
+      "title": "Jeffreys Bay Car Boot Sale at  Die Werf - Fountains Mall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale/",
+      "guid": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale/",
+      "pubDate": "Sat, 27 Jun 2026 06:00:00 +0000",
+      "dateStr": "2026-06-27",
+      "day": "27",
+      "month": "JUN",
+      "description": "Sat, 27 June 2026 - 08:00 - 13:00",
+      "image": "images/events/Car-Boot-Sale-1.jpg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-20-2026-06-27/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-20-2026-06-27/",
+      "pubDate": "Sat, 27 Jun 2026 06:00:00 +0000",
+      "dateStr": "2026-06-27",
+      "day": "27",
+      "month": "JUN",
+      "description": "Sat, 27 June 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
     }
   ]
 }
