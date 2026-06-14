@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-14T04:51:38.576Z",
+  "lastUpdated": "2026-06-14T09:48:08.692Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 39,
+  "count": 50,
   "events": [
     {
       "title": "Collective Market at  Collective Market in Gqeberha",
@@ -431,6 +431,127 @@
       "month": "JUN",
       "description": "Sun, 21 June 2026 - 11:00 - 15:00",
       "image": "images/events/Vernon-Thornhill2.jpg"
+    },
+    {
+      "title": "Fathers Day at the German Club at  German Club (PE) in Gqeberha",
+      "link": "https://9ty9.co.za/events/fathers-day-at-the-german-club/",
+      "guid": "https://9ty9.co.za/events/fathers-day-at-the-german-club/",
+      "pubDate": "Sun, 21 Jun 2026 09:30:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 11:30 - 16:00",
+      "image": "images/events/German-Club-Fathers-Day.jpg"
+    },
+    {
+      "title": "FATHER’S DAY @ Port St Francis Ski Boat &amp; Yacht Club at  Port St Francis Ski Boat and Yacht Club in Port St Francis",
+      "link": "https://9ty9.co.za/events/fathers-day-port-st-francis-ski-boat-yacht-club/",
+      "guid": "https://9ty9.co.za/events/fathers-day-port-st-francis-ski-boat-yacht-club/",
+      "pubDate": "Sun, 21 Jun 2026 10:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 12:00 - 16:00",
+      "image": "images/events/Kerry-Hiles-21June2026.jpg"
+    },
+    {
+      "title": "Fathers Day Community Braai at  St Francis Links in St Francis Bay",
+      "link": "https://9ty9.co.za/events/fathers-day-community-braai/",
+      "guid": "https://9ty9.co.za/events/fathers-day-community-braai/",
+      "pubDate": "Sun, 21 Jun 2026 10:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 12:00 - 17:00",
+      "image": "images/events/Fathers-Day-Community-Braai-21June2026.jpg"
+    },
+    {
+      "title": "Fathers Day Braai at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/fathers-day-braai-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/fathers-day-braai-at-the-backyard/",
+      "pubDate": "Sun, 21 Jun 2026 10:30:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 12:30 - 21:00",
+      "image": "images/events/Fathers-Day-21June2026.jpg"
+    },
+    {
+      "title": "The Sea Workshop at   in",
+      "link": "https://9ty9.co.za/events/the-sea-workshop/",
+      "guid": "https://9ty9.co.za/events/the-sea-workshop/",
+      "pubDate": "Mon, 22 Jun 2026 08:00:00 +0000",
+      "dateStr": "2026-06-22",
+      "day": "22",
+      "month": "JUN",
+      "description": "Mon, 22 June 2026 - Fri, 26 June 2026 - 10:00 - 15:00",
+      "image": "images/events/The-Sea-Exhibition-27June2026.jpg"
+    },
+    {
+      "title": "Chris Yelland – Energy South Africa  - Hosted by Kouga Business Forum at  Humansdorp Boutique Hotel in Humansdorp",
+      "link": "https://9ty9.co.za/events/chris-yelland-energy-south-africa-hosted-by-kouga-business-forum/",
+      "guid": "https://9ty9.co.za/events/chris-yelland-energy-south-africa-hosted-by-kouga-business-forum/",
+      "pubDate": "Mon, 22 Jun 2026 11:30:00 +0000",
+      "dateStr": "2026-06-22",
+      "day": "22",
+      "month": "JUN",
+      "description": "Mon, 22 June 2026 - 13:30 - 16:00",
+      "image": "images/events/Chris-Yelland-25June2026.jpg"
+    },
+    {
+      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23/",
+      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23/",
+      "pubDate": "Tue, 23 Jun 2026 08:00:00 +0000",
+      "dateStr": "2026-06-23",
+      "day": "23",
+      "month": "JUN",
+      "description": "Tue, 23 June 2026 - 10:00 - 12:00",
+      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Curry &amp; Quiz Night at  St Francis Links in St Francis Bay",
+      "link": "https://9ty9.co.za/events/curry-quiz-night-2026-03-31-2026-04-07-2026-04-14-2026-04-21-2026-04-28-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23/",
+      "guid": "https://9ty9.co.za/events/curry-quiz-night-2026-03-31-2026-04-07-2026-04-14-2026-04-21-2026-04-28-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23/",
+      "pubDate": "Tue, 23 Jun 2026 17:00:00 +0000",
+      "dateStr": "2026-06-23",
+      "day": "23",
+      "month": "JUN",
+      "description": "Tue, 23 June 2026 - 19:00 - 21:00",
+      "image": "images/events/CurryQuiz-28July2026.jpg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-19-2026-06-24/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-19-2026-06-24/",
+      "pubDate": "Wed, 24 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-24",
+      "day": "24",
+      "month": "JUN",
+      "description": "Wed, 24 June 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kuns-klets-2026-06-24/",
+      "guid": "https://9ty9.co.za/events/kuns-klets-2026-06-24/",
+      "pubDate": "Wed, 24 Jun 2026 09:00:00 +0000",
+      "dateStr": "2026-06-24",
+      "day": "24",
+      "month": "JUN",
+      "description": "Wed, 24 June 2026 - 11:00 - 13:00",
+      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
+    },
+    {
+      "title": "Blood Donation Drive at Smhart Security at  Smhart Security in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/blood-donation-drive-at-smhart-security/",
+      "guid": "https://9ty9.co.za/events/blood-donation-drive-at-smhart-security/",
+      "pubDate": "Wed, 24 Jun 2026 10:00:00 +0000",
+      "dateStr": "2026-06-24",
+      "day": "24",
+      "month": "JUN",
+      "description": "Wed, 24 June 2026 - 12:00 - 18:00",
+      "image": "images/events/Blood-Donation-Drive-24June2026.jpg"
     }
   ]
 }
