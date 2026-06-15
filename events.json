@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-15T05:08:26.173Z",
+  "lastUpdated": "2026-06-15T12:32:26.348Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 50,
+  "count": 54,
   "events": [
     {
       "title": "ReTribe at  Bergrivier Eco Retreat in Thornhill",
@@ -48,6 +48,17 @@
       "image": "images/events/Crossways-Village-Market-16June2026.jpg"
     },
     {
+      "title": "Clear Exit at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/clear-exit/",
+      "guid": "https://9ty9.co.za/events/clear-exit/",
+      "pubDate": "Tue, 16 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-16",
+      "day": "16",
+      "month": "JUN",
+      "description": "Tue, 16 June 2026 - 18:00 - 21:00",
+      "image": "images/events/Clear-Exit-16June2026.jpg"
+    },
+    {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-12-2026-06-17/",
       "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-12-2026-06-17/",
@@ -68,6 +79,17 @@
       "month": "JUN",
       "description": "Wed, 17 June 2026 - 11:00 - 13:00",
       "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
+    },
+    {
+      "title": "JJ Pieterse at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jj-pieterse/",
+      "guid": "https://9ty9.co.za/events/jj-pieterse/",
+      "pubDate": "Wed, 17 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-17",
+      "day": "17",
+      "month": "JUN",
+      "description": "Wed, 17 June 2026 - 18:00 - 21:00",
+      "image": "images/events/JJ-Pieterse-17June2026.jpg"
     },
     {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
@@ -112,6 +134,17 @@
       "month": "JUN",
       "description": "Fri, 19 June 2026 - 09:00 - 12:00",
       "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Jared Gunstone at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jared-gunstone/",
+      "guid": "https://9ty9.co.za/events/jared-gunstone/",
+      "pubDate": "Fri, 19 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-19",
+      "day": "19",
+      "month": "JUN",
+      "description": "Fri, 19 June 2026 - 18:00 - 21:00",
+      "image": "images/events/Jared-Gunstone-19June2026.jpg"
     },
     {
       "title": "Forest Run Challenge 2026 at  Army Base Port Elizabeth- Forest Hill in Gqeberha",
@@ -211,6 +244,17 @@
       "month": "JUN",
       "description": "Sat, 20 June 2026 - 19:00 - 23:59",
       "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Just Jane Country Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/just-jane-country-night/",
+      "guid": "https://9ty9.co.za/events/just-jane-country-night/",
+      "pubDate": "Sat, 20 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - 18:00 - 21:00",
+      "image": "images/events/Just-Jane-20June2026-1.jpg"
     },
     {
       "title": "Winter Solstice Sea Plunge at  Granny&#039;s Pool in St Francis Bay",
