@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-16T05:11:18.866Z",
+  "lastUpdated": "2026-06-16T11:25:05.065Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 56,
+  "count": 57,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -376,6 +376,17 @@
       "month": "JUN",
       "description": "Sun, 21 June 2026 - 11:00 - 14:00",
       "image": "images/events/Attie-21June2026.jpg"
+    },
+    {
+      "title": "Father&#039;s Day Brunch at  Unwind Tapa Restaurant in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/fathers-day-brunch/",
+      "guid": "https://9ty9.co.za/events/fathers-day-brunch/",
+      "pubDate": "Sun, 21 Jun 2026 08:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 10:00 - 13:00",
+      "image": "images/events/Fathers-Day-Brunch-21June2026.jpg"
     },
     {
       "title": "The Sea Workshop at   in",
