@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-06-15T21:12:33.972Z",
+  "lastUpdated": "2026-06-16T05:11:18.866Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 54,
+  "count": 56,
   "events": [
-    {
-      "title": "ReTribe at  Bergrivier Eco Retreat in Thornhill",
-      "link": "https://9ty9.co.za/events/retribe/",
-      "guid": "https://9ty9.co.za/events/retribe/",
-      "pubDate": "Mon, 15 Jun 2026 22:00:00 +0000",
-      "dateStr": "2026-06-15",
-      "day": "15",
-      "month": "JUN",
-      "description": "Tue, 16 June 2026 - Mon, 22 June 2026 - All Day",
-      "image": "images/events/ReTribe-22June2026.jpg"
-    },
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16/",
@@ -145,6 +134,17 @@
       "month": "JUN",
       "description": "Fri, 19 June 2026 - 18:00 - 21:00",
       "image": "images/events/Jared-Gunstone-19June2026.jpg"
+    },
+    {
+      "title": "Black River Gypsy at  Grand Prix  Sports Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/black-river-gypsy/",
+      "guid": "https://9ty9.co.za/events/black-river-gypsy/",
+      "pubDate": "Fri, 19 Jun 2026 17:00:00 +0000",
+      "dateStr": "2026-06-19",
+      "day": "19",
+      "month": "JUN",
+      "description": "Fri, 19 June 2026 - 19:00 - 20:00",
+      "image": "images/events/BRG-19June2026.jpg"
     },
     {
       "title": "Forest Run Challenge 2026 at  Army Base Port Elizabeth- Forest Hill in Gqeberha",
@@ -354,6 +354,28 @@
       "month": "JUN",
       "description": "Sun, 21 June 2026 - 12:30 - 21:00",
       "image": "images/events/Fathers-Day-21June2026.jpg"
+    },
+    {
+      "title": "𝑴𝒊𝒏𝒈𝒍𝒆 𝑴𝒂𝒓𝒌𝒆𝒕 𝑷𝒐𝒑-𝑼𝒑 𝒂𝒕 𝑴𝒓 𝑷𝒆𝒍𝒍’𝒔 𝑯𝒐𝒖𝒔𝒆 at  Mr Pell&#039;s House in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/%f0%9d%91%b4%f0%9d%92%8a%f0%9d%92%8f%f0%9d%92%88%f0%9d%92%8d%f0%9d%92%86-%f0%9d%91%b4%f0%9d%92%82%f0%9d%92%93%f0%9d%92%8c%f0%9d%92%86%f0%9d%92%95-%f0%9d%91%b7%f0%9d%92%90%f0%9d%92%91-%f0%9d%91%bc/",
+      "guid": "https://9ty9.co.za/events/%f0%9d%91%b4%f0%9d%92%8a%f0%9d%92%8f%f0%9d%92%88%f0%9d%92%8d%f0%9d%92%86-%f0%9d%91%b4%f0%9d%92%82%f0%9d%92%93%f0%9d%92%8c%f0%9d%92%86%f0%9d%92%95-%f0%9d%91%b7%f0%9d%92%90%f0%9d%92%91-%f0%9d%91%bc/",
+      "pubDate": "Sun, 21 Jun 2026 08:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 10:00 - 15:00",
+      "image": "images/events/Mingle-Market-21June2026.jpg"
+    },
+    {
+      "title": "Attie at  Mr Pell&#039;s House in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/attie/",
+      "guid": "https://9ty9.co.za/events/attie/",
+      "pubDate": "Sun, 21 Jun 2026 09:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 11:00 - 14:00",
+      "image": "images/events/Attie-21June2026.jpg"
     },
     {
       "title": "The Sea Workshop at   in",
