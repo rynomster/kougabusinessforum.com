@@ -471,6 +471,7 @@ function initializeMembershipProrata() {
  */
 function initializeMembershipForm() {
   const detailsForm = document.getElementById('membership-details-form');
+  const proceedBtn = document.getElementById('btn-proceed-to-plans');
   const payfastForms = [
     document.forms['PayFastAnnualForm'],
     document.forms['PayFastNewMemberForm'],
@@ -478,6 +479,27 @@ function initializeMembershipForm() {
   ];
 
   if (!detailsForm) return;
+
+  // Handle "Proceed to Plans" button
+  if (proceedBtn) {
+    proceedBtn.addEventListener('click', function() {
+      if (detailsForm.checkValidity()) {
+        const targetElement = document.getElementById('membership-plans');
+        if (targetElement) {
+          const headerOffset = 100;
+          const elementPosition = targetElement.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      } else {
+        detailsForm.reportValidity();
+      }
+    });
+  }
 
   payfastForms.forEach(form => {
     if (!form) return;
