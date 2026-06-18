@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-18T15:41:54.437Z",
+  "lastUpdated": "2026-06-18T20:33:43.495Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 53,
+  "count": 55,
   "events": [
     {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
@@ -191,6 +191,17 @@
       "image": "images/events/Just-Jane-20June2026-1.jpg"
     },
     {
+      "title": "LIVE DOCUMENTARY PERFORMANCE – UNDEAD GENERATION at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/live-documentary-performance-undead-generation/",
+      "guid": "https://9ty9.co.za/events/live-documentary-performance-undead-generation/",
+      "pubDate": "Sat, 20 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-20",
+      "day": "20",
+      "month": "JUN",
+      "description": "Sat, 20 June 2026 - 18:00 - 20:00",
+      "image": "images/events/Undead-Generation-20June2026.jpg"
+    },
+    {
       "title": "Winter Solstice Sea Plunge at  Granny&#039;s Pool in St Francis Bay",
       "link": "https://9ty9.co.za/events/winter-solstice-sea-plunge/",
       "guid": "https://9ty9.co.za/events/winter-solstice-sea-plunge/",
@@ -332,6 +343,17 @@
       "month": "JUN",
       "description": "Sun, 21 June 2026 - 09:00 - 20:00",
       "image": "images/events/Bru-Co-Fathers-Day-21June2026.jpg"
+    },
+    {
+      "title": "Surf Boertjie at  Crossways Village Market in Thornhill",
+      "link": "https://9ty9.co.za/events/surf-boertjie/",
+      "guid": "https://9ty9.co.za/events/surf-boertjie/",
+      "pubDate": "Sun, 21 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 09:00 - 14:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/06/Surf-Boertjie-21June2026.jfif"
     },
     {
       "title": "The Sea Workshop at   in",
