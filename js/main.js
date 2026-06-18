@@ -522,6 +522,26 @@ function initializeMembershipForm() {
       form.querySelector('input[name="cell_number"]').value = phone;
     });
   });
+
+  // Handle "Next: Select Your Plan" transition button
+  const proceedBtn = document.getElementById('btn-proceed-to-plans');
+  if (proceedBtn) {
+    proceedBtn.addEventListener('click', function() {
+      if (detailsForm.reportValidity()) {
+        const targetPlans = document.getElementById('membership-plans');
+        if (targetPlans) {
+          const headerOffset = 100;
+          const elementPosition = targetPlans.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      }
+    });
+  }
 }
 
 // Performance: Lazy load images
