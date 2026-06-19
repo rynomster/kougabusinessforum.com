@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-19T05:05:02.436Z",
+  "lastUpdated": "2026-06-19T10:49:13.606Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 52,
+  "count": 59,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -321,6 +321,83 @@
       "month": "JUN",
       "description": "Sun, 21 June 2026 - 09:00 - 14:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/06/Surf-Boertjie-21June2026.jfif"
+    },
+    {
+      "title": "Live Music Just for Dad at  The J-Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/live-music-just-for-dad/",
+      "guid": "https://9ty9.co.za/events/live-music-just-for-dad/",
+      "pubDate": "Sun, 21 Jun 2026 10:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 12:00 - 15:00",
+      "image": "images/events/J-Bar-Fathers-Day-21June2026.jpg"
+    },
+    {
+      "title": "3 Bedroom House in Wavecrest (On SHow) at   in",
+      "link": "https://9ty9.co.za/events/3-bedroom-house-in-wavecrest-on-show/",
+      "guid": "https://9ty9.co.za/events/3-bedroom-house-in-wavecrest-on-show/",
+      "pubDate": "Sun, 21 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 15:00 - 17:00",
+      "image": "images/events/3-Bedroom-House-in-Wavecrest-21June2026.jpg"
+    },
+    {
+      "title": "BRAND NEW 3 BEDROOM HOUSE FOR SALE IN THE FOUNTAINS ESTATE (On SHow) at   in",
+      "link": "https://9ty9.co.za/events/brand-new-3-bedroom-house-for-sale-in-the-fountains-estate-on-show/",
+      "guid": "https://9ty9.co.za/events/brand-new-3-bedroom-house-for-sale-in-the-fountains-estate-on-show/",
+      "pubDate": "Sun, 21 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 15:00 - 17:00",
+      "image": "images/events/BRAND-NEW-3-BEDROOM-21June2026.jpg"
+    },
+    {
+      "title": "Family home in Fountains Estate (On Show) at   in",
+      "link": "https://9ty9.co.za/events/family-home-in-fountains-estate-on-show/",
+      "guid": "https://9ty9.co.za/events/family-home-in-fountains-estate-on-show/",
+      "pubDate": "Sun, 21 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Family-home-in-Fountains-Estate-21June2026.jpg"
+    },
+    {
+      "title": "Low-Maintenance Facebrick Home for Sale in Quiet Cul-de-Sac. Wave Crest (On Show) at   in",
+      "link": "https://9ty9.co.za/events/low-maintenance-facebrick-home-for-sale-in-quiet-cul-de-sac-wave-crest-on-show/",
+      "guid": "https://9ty9.co.za/events/low-maintenance-facebrick-home-for-sale-in-quiet-cul-de-sac-wave-crest-on-show/",
+      "pubDate": "Sun, 21 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Low-Maintenance-Facebrick-21June2026.jpg"
+    },
+    {
+      "title": "Tuscan Style House for Sale right on the beach (On Show) at   in",
+      "link": "https://9ty9.co.za/events/tuscan-style-house-for-sale-right-on-the-beach/",
+      "guid": "https://9ty9.co.za/events/tuscan-style-house-for-sale-right-on-the-beach/",
+      "pubDate": "Sun, 21 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Tuscan-Style-House-for-Sale-right-on-the-beach-21June2026.jpg"
+    },
+    {
+      "title": "Unique Architectural Elegance in Fountains Estate, Jeffreys Bay (On Show) at   in",
+      "link": "https://9ty9.co.za/events/unique-architectural-elegance-in-fountains-estate-jeffreys-bay-on-show/",
+      "guid": "https://9ty9.co.za/events/unique-architectural-elegance-in-fountains-estate-jeffreys-bay-on-show/",
+      "pubDate": "Sun, 21 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 15:00 - 17:00",
+      "image": "images/events/Unique-Architectural-Elegance-21June2026.jpg"
     },
     {
       "title": "The Sea Workshop at   in",
