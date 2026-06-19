@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-19T10:49:13.606Z",
+  "lastUpdated": "2026-06-19T15:34:34.738Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 59,
+  "count": 60,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -398,6 +398,17 @@
       "month": "JUN",
       "description": "Sun, 21 June 2026 - 15:00 - 17:00",
       "image": "images/events/Unique-Architectural-Elegance-21June2026.jpg"
+    },
+    {
+      "title": "Hopeless Romantics at  Joe Fish Restaurant and Bar in Cape St Francis",
+      "link": "https://9ty9.co.za/events/hopeless-romantics/",
+      "guid": "https://9ty9.co.za/events/hopeless-romantics/",
+      "pubDate": "Sun, 21 Jun 2026 10:30:00 +0000",
+      "dateStr": "2026-06-21",
+      "day": "21",
+      "month": "JUN",
+      "description": "Sun, 21 June 2026 - 12:30 - 15:30",
+      "image": "images/events/Hopeless-Romantics-21June2021.jpg"
     },
     {
       "title": "The Sea Workshop at   in",
