@@ -1,21 +1,7 @@
 {
-  "lastUpdated": "2026-06-18T20:25:59.636Z",
-  "count": 6,
+  "lastUpdated": "2026-06-19T04:19:37.560Z",
+  "count": 5,
   "events": [
-    {
-      "summary": "Committee Meeting",
-      "description": "Official KBF Event. Time and details TBA.",
-      "descriptionClean": "Official KBF Event. Time and details TBA.",
-      "location": "",
-      "link": "https://www.google.com/calendar/render?action=TEMPLATE&text=Committee%20Meeting&dates=20260618T160000Z/20260618T180000Z&details=Official%20KBF%20Event.%20Time%20and%20details%20TBA.&location=",
-      "start": "2026-06-18T16:00:00.000Z",
-      "end": "2026-06-18T18:00:00.000Z",
-      "dateStr": "2026-06-18",
-      "day": "18",
-      "monthAbbr": "JUN",
-      "monthFull": "June",
-      "year": "2026"
-    },
     {
       "summary": "Committee Meeting",
       "description": "Official KBF Event. Time and details TBA.",
