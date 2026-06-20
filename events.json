@@ -1,52 +1,8 @@
 {
-  "lastUpdated": "2026-06-19T19:56:39.496Z",
+  "lastUpdated": "2026-06-20T04:17:22.830Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 60,
+  "count": 56,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-17-2026-06-19/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-17-2026-06-19/",
-      "pubDate": "Fri, 19 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-19",
-      "day": "19",
-      "month": "JUN",
-      "description": "Fri, 19 June 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Jared Gunstone at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/jared-gunstone/",
-      "guid": "https://9ty9.co.za/events/jared-gunstone/",
-      "pubDate": "Fri, 19 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-19",
-      "day": "19",
-      "month": "JUN",
-      "description": "Fri, 19 June 2026 - 18:00 - 21:00",
-      "image": "images/events/Jared-Gunstone-19June2026.jpg"
-    },
-    {
-      "title": "Black River Gypsy at  Grand Prix  Sports Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/black-river-gypsy/",
-      "guid": "https://9ty9.co.za/events/black-river-gypsy/",
-      "pubDate": "Fri, 19 Jun 2026 17:00:00 +0000",
-      "dateStr": "2026-06-19",
-      "day": "19",
-      "month": "JUN",
-      "description": "Fri, 19 June 2026 - 19:00 - 20:00",
-      "image": "images/events/BRG-19June2026.jpg"
-    },
-    {
-      "title": "Edward Allen at  Fergo’s Rhythm Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/edward-allen/",
-      "guid": "https://9ty9.co.za/events/edward-allen/",
-      "pubDate": "Fri, 19 Jun 2026 17:00:00 +0000",
-      "dateStr": "2026-06-19",
-      "day": "19",
-      "month": "JUN",
-      "description": "Fri, 19 June 2026 - 19:00 - 22:00",
-      "image": "images/events/Edward-Allen-19June2026.jpg"
-    },
     {
       "title": "Forest Run Challenge 2026 at  Army Base Port Elizabeth- Forest Hill in Gqeberha",
       "link": "https://9ty9.co.za/events/forest-run-challenge-2026/",
