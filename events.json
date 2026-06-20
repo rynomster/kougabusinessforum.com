@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-20T04:17:22.830Z",
+  "lastUpdated": "2026-06-20T09:28:52.636Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 56,
+  "count": 58,
   "events": [
     {
       "title": "Forest Run Challenge 2026 at  Army Base Port Elizabeth- Forest Hill in Gqeberha",
@@ -497,6 +497,28 @@
       "month": "JUN",
       "description": "Thu, 25 June 2026 - 19:00 - 21:00",
       "image": "images/events/Quiz-Night-17Dec2026.jpg"
+    },
+    {
+      "title": "Eastern Cape Visual Art Exhibition 2026 at  Albany Museum Makhanda in Makhanda",
+      "link": "https://9ty9.co.za/events/eastern-cape-visual-art-exhibition-2026/",
+      "guid": "https://9ty9.co.za/events/eastern-cape-visual-art-exhibition-2026/",
+      "pubDate": "Thu, 25 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-25",
+      "day": "25",
+      "month": "JUN",
+      "description": "Thu, 25 June 2026 - Sun, 5 July 2026 - 09:00 - 17:00",
+      "image": "images/events/Eastern-Cape-Visual-Art-Exhibition-5July2026.jpg"
+    },
+    {
+      "title": "Eskom will be in Kouga Municipality at  Loerieheuwel Community Hall in Loeri",
+      "link": "https://9ty9.co.za/events/eskom-will-be-in-kouga-municipality/",
+      "guid": "https://9ty9.co.za/events/eskom-will-be-in-kouga-municipality/",
+      "pubDate": "Thu, 25 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-25",
+      "day": "25",
+      "month": "JUN",
+      "description": "Thu, 25 June 2026 - 09:00 - 15:00",
+      "image": "images/events/Eskom-25June2026.jpg"
     },
     {
       "title": "SPAR Kirkwood Wildsfees at  Kirkwood Wildsfees in Kirkwood",
