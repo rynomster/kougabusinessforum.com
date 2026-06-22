@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-22T12:17:42.044Z",
+  "lastUpdated": "2026-06-22T20:56:39.445Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 50,
+  "count": 52,
   "events": [
     {
       "title": "The Sea Workshop at   in",
@@ -257,6 +257,17 @@
       "image": "images/events/Movie-26June2026.jpg"
     },
     {
+      "title": "Lucky Draw Loubser Painting at the SPCA Charity Shop Jeffreys Bay at  SPCA Charity Shop Jeffreys Bay in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/lucky-draw-loubser-painting-at-the-spca-charity-shop-jeffreys-bay/",
+      "guid": "https://9ty9.co.za/events/lucky-draw-loubser-painting-at-the-spca-charity-shop-jeffreys-bay/",
+      "pubDate": "Fri, 26 Jun 2026 10:30:00 +0000",
+      "dateStr": "2026-06-26",
+      "day": "26",
+      "month": "JUN",
+      "description": "Fri, 26 June 2026 - 12:30 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/06/SPCA-31July2026.jpg"
+    },
+    {
       "title": "AP Kerk Basaar at  Afrikaanse Protestantse Kerk Jefferysbaai (AP Kerk) in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/ap-kerk-basaar/",
       "guid": "https://9ty9.co.za/events/ap-kerk-basaar/",
@@ -398,6 +409,17 @@
       "month": "JUN",
       "description": "Sat, 27 June 2026 - 20:00 - 22:00",
       "image": "images/events/Simon-Shaw-Band-27June2026.jpg"
+    },
+    {
+      "title": "Line Dancing Fun Day at  Fountains Mall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/line-dancing-fun-day/",
+      "guid": "https://9ty9.co.za/events/line-dancing-fun-day/",
+      "pubDate": "Sat, 27 Jun 2026 07:00:00 +0000",
+      "dateStr": "2026-06-27",
+      "day": "27",
+      "month": "JUN",
+      "description": "Sat, 27 June 2026 - 09:00 - 14:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/06/SPCA-31July2026-1.jpg"
     },
     {
       "title": "MELK RUN at 3Rivers Trails at  3Rivers Trails in Thornhill",
