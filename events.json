@@ -1,52 +1,8 @@
 {
-  "lastUpdated": "2026-06-24T19:55:49.729Z",
+  "lastUpdated": "2026-06-25T04:10:41.243Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 52,
+  "count": 49,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-19-2026-06-24/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-19-2026-06-24/",
-      "pubDate": "Wed, 24 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-24",
-      "day": "24",
-      "month": "JUN",
-      "description": "Wed, 24 June 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-06-24/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-06-24/",
-      "pubDate": "Wed, 24 Jun 2026 09:00:00 +0000",
-      "dateStr": "2026-06-24",
-      "day": "24",
-      "month": "JUN",
-      "description": "Wed, 24 June 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
-    },
-    {
-      "title": "Blood Donation Drive at Smhart Security at  Smhart Security in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/blood-donation-drive-at-smhart-security/",
-      "guid": "https://9ty9.co.za/events/blood-donation-drive-at-smhart-security/",
-      "pubDate": "Wed, 24 Jun 2026 10:00:00 +0000",
-      "dateStr": "2026-06-24",
-      "day": "24",
-      "month": "JUN",
-      "description": "Wed, 24 June 2026 - 12:00 - 18:00",
-      "image": "images/events/Blood-Donation-Drive-24June2026.jpg"
-    },
-    {
-      "title": "Bingo at  Arthur Fennell Hall in Aston Bay",
-      "link": "https://9ty9.co.za/events/bingo-2026-05-06-2026-05-20-2026-06-10-2026-06-24/",
-      "guid": "https://9ty9.co.za/events/bingo-2026-05-06-2026-05-20-2026-06-10-2026-06-24/",
-      "pubDate": "Wed, 24 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-24",
-      "day": "24",
-      "month": "JUN",
-      "description": "Wed, 24 June 2026 - 18:00 - 20:00",
-      "image": "images/events/Bingo-24June2026.jpg"
-    },
     {
       "title": "Aloe Cup at  Jeffreys Bay Primary School in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/aloe-cup/",
@@ -398,6 +354,17 @@
       "month": "JUN",
       "description": "Sat, 27 June 2026 - 18:30 - 21:30",
       "image": "images/events/Alcatraz-27June2026.jpg"
+    },
+    {
+      "title": "Hopeless Romantics at  Barney&#039;s Tavern in Gqeberha",
+      "link": "https://9ty9.co.za/events/hopeless-romantics/",
+      "guid": "https://9ty9.co.za/events/hopeless-romantics/",
+      "pubDate": "Sat, 27 Jun 2026 16:00:00 +0000",
+      "dateStr": "2026-06-27",
+      "day": "27",
+      "month": "JUN",
+      "description": "Sat, 27 June 2026 - 18:00 - 21:00",
+      "image": "images/events/Hopeless-Romantics-27June2026.jpg"
     },
     {
       "title": "MELK RUN at 3Rivers Trails at  3Rivers Trails in Thornhill",
