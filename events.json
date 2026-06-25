@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-25T09:34:43.495Z",
+  "lastUpdated": "2026-06-25T14:45:40.878Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 49,
+  "count": 50,
   "events": [
     {
       "title": "Aloe Cup at  Jeffreys Bay Primary School in Jeffreys Bay",
@@ -541,6 +541,17 @@
       "month": "JUL",
       "description": "Fri, 3 July 2026 - 09:00 - 12:00",
       "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "The Call Youth Conference 2026 at  Victory Church in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/the-call-youth-conference-2026/",
+      "guid": "https://9ty9.co.za/events/the-call-youth-conference-2026/",
+      "pubDate": "Fri, 03 Jul 2026 14:30:00 +0000",
+      "dateStr": "2026-07-03",
+      "day": "03",
+      "month": "JUL",
+      "description": "Fri, 3 July 2026 - Sun, 5 July 2026 - 16:30 - 11:30",
+      "image": "images/events/The-Call-Youth-Conference-2-5July2026.jpg"
     }
   ]
 }
