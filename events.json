@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-26T04:17:09.015Z",
+  "lastUpdated": "2026-06-26T09:40:13.416Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 46,
+  "count": 47,
   "events": [
     {
       "title": "SPAR Kirkwood Wildsfees at  Kirkwood Wildsfees in Kirkwood",
@@ -288,6 +288,17 @@
       "month": "JUN",
       "description": "Sat, 27 June 2026 - 18:00 - 21:00",
       "image": "images/events/Hopeless-Romantics-27June2026.jpg"
+    },
+    {
+      "title": "Chingadas Tequila Festival 2026 at  Chingadas Mexican Cantina in Gqeberha",
+      "link": "https://9ty9.co.za/events/chingadas-tequila-festival-2026/",
+      "guid": "https://9ty9.co.za/events/chingadas-tequila-festival-2026/",
+      "pubDate": "Sat, 27 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-27",
+      "day": "27",
+      "month": "JUN",
+      "description": "Sat, 27 June 2026 - 15:00 - 18:00",
+      "image": "images/events/Chingadas-Tequila-Festival-2026-27June2026.jpg"
     },
     {
       "title": "MELK RUN at 3Rivers Trails at  3Rivers Trails in Thornhill",
