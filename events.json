@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-26T09:40:13.416Z",
+  "lastUpdated": "2026-06-26T14:37:57.220Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 47,
+  "count": 50,
   "events": [
     {
       "title": "SPAR Kirkwood Wildsfees at  Kirkwood Wildsfees in Kirkwood",
@@ -519,6 +519,39 @@
       "month": "JUL",
       "description": "Fri, 3 July 2026 - 18:00 - 21:00",
       "image": "images/events/5-Course-Tasting-Evening-3July2026.jpg"
+    },
+    {
+      "title": "Baviaans Mountain Marathon at  Doringkloof 4x4 Bush Camp in Baviaanskloof",
+      "link": "https://9ty9.co.za/events/baviaans-mountain-marathon/",
+      "guid": "https://9ty9.co.za/events/baviaans-mountain-marathon/",
+      "pubDate": "Sat, 04 Jul 2026 05:00:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - 07:00 - 17:00",
+      "image": "images/events/Baviaans-Mountain-Marathon-4July20262.jpg"
+    },
+    {
+      "title": "Billabong Junior Contest at   in",
+      "link": "https://9ty9.co.za/events/billabong-junior-contest/",
+      "guid": "https://9ty9.co.za/events/billabong-junior-contest/",
+      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - Mon, 6 July 2026 - 08:00 - 17:00",
+      "image": "images/events/Surfing-South-Africa-17.png"
+    },
+    {
+      "title": "Jeffreys Bay Car Boot Sale at  Methodist Church of Jeffreys Bay in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale-2026-07-04/",
+      "guid": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale-2026-07-04/",
+      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - 08:00 - 13:00",
+      "image": "images/events/Car-Boot-Sale.jpg"
     }
   ]
 }
