@@ -1,85 +1,8 @@
 {
-  "lastUpdated": "2026-06-25T20:11:08.290Z",
+  "lastUpdated": "2026-06-26T04:17:09.015Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 50,
+  "count": 46,
   "events": [
-    {
-      "title": "Aloe Cup at  Jeffreys Bay Primary School in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/aloe-cup/",
-      "guid": "https://9ty9.co.za/events/aloe-cup/",
-      "pubDate": "Thu, 25 Jun 2026 06:00:00 +0000",
-      "dateStr": "2026-06-25",
-      "day": "25",
-      "month": "JUN",
-      "description": "Thu, 25 June 2026 - Sat, 27 June 2026 - 08:00 - 17:00",
-      "image": "images/events/Aloe-Cup-Rugby-27June2026.jpg"
-    },
-    {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-06-25/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-06-25/",
-      "pubDate": "Thu, 25 Jun 2026 09:00:00 +0000",
-      "dateStr": "2026-06-25",
-      "day": "25",
-      "month": "JUN",
-      "description": "Thu, 25 June 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
-    },
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-06-25/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-06-25/",
-      "pubDate": "Thu, 25 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-25",
-      "day": "25",
-      "month": "JUN",
-      "description": "Thu, 25 June 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "Quiz Night at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/quiz-night-a-the-backyard-2026-06-25/",
-      "guid": "https://9ty9.co.za/events/quiz-night-a-the-backyard-2026-06-25/",
-      "pubDate": "Thu, 25 Jun 2026 17:00:00 +0000",
-      "dateStr": "2026-06-25",
-      "day": "25",
-      "month": "JUN",
-      "description": "Thu, 25 June 2026 - 19:00 - 21:00",
-      "image": "images/events/Quiz-Night-17Dec2026.jpg"
-    },
-    {
-      "title": "Eastern Cape Visual Art Exhibition 2026 at  Albany Museum Makhanda in Makhanda",
-      "link": "https://9ty9.co.za/events/eastern-cape-visual-art-exhibition-2026/",
-      "guid": "https://9ty9.co.za/events/eastern-cape-visual-art-exhibition-2026/",
-      "pubDate": "Thu, 25 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-25",
-      "day": "25",
-      "month": "JUN",
-      "description": "Thu, 25 June 2026 - Sun, 5 July 2026 - 09:00 - 17:00",
-      "image": "images/events/Eastern-Cape-Visual-Art-Exhibition-5July2026.jpg"
-    },
-    {
-      "title": "Eskom will be in Kouga Municipality at  Loerieheuwel Community Hall in Loeri",
-      "link": "https://9ty9.co.za/events/eskom-will-be-in-kouga-municipality/",
-      "guid": "https://9ty9.co.za/events/eskom-will-be-in-kouga-municipality/",
-      "pubDate": "Thu, 25 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-25",
-      "day": "25",
-      "month": "JUN",
-      "description": "Thu, 25 June 2026 - 09:00 - 15:00",
-      "image": "images/events/Eskom-25June2026.jpg"
-    },
-    {
-      "title": "Undead Generation at  Fergo’s Rhythm Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/undead-generation/",
-      "guid": "https://9ty9.co.za/events/undead-generation/",
-      "pubDate": "Thu, 25 Jun 2026 18:00:00 +0000",
-      "dateStr": "2026-06-25",
-      "day": "25",
-      "month": "JUN",
-      "description": "Thu, 25 June 2026 - 20:00 - 23:00",
-      "image": "images/events/Undead-Generation-25June2026.jpg"
-    },
     {
       "title": "SPAR Kirkwood Wildsfees at  Kirkwood Wildsfees in Kirkwood",
       "link": "https://9ty9.co.za/events/spar-kirkwood-wildsfees/",
@@ -510,6 +433,17 @@
       "image": "images/events/Paper-Cut-1July2026.jpg"
     },
     {
+      "title": "Quiz Night at  Tolbos Country Shop and Restaurant in Patensie",
+      "link": "https://9ty9.co.za/events/quiz-night/",
+      "guid": "https://9ty9.co.za/events/quiz-night/",
+      "pubDate": "Wed, 01 Jul 2026 16:00:00 +0000",
+      "dateStr": "2026-07-01",
+      "day": "01",
+      "month": "JUL",
+      "description": "Wed, 1 July 2026 - 18:00 - 21:00",
+      "image": "images/events/Quiz-Night-1July2026.jpg"
+    },
+    {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/kuns-klets-2026-07-02/",
       "guid": "https://9ty9.co.za/events/kuns-klets-2026-07-02/",
@@ -552,6 +486,28 @@
       "month": "JUL",
       "description": "Fri, 3 July 2026 - Sun, 5 July 2026 - 16:30 - 11:30",
       "image": "images/events/The-Call-Youth-Conference-2-5July2026.jpg"
+    },
+    {
+      "title": "What&#039;s Good In The Hood at  What&#039;s Good In The Hood in Gqeberha",
+      "link": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03/",
+      "guid": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03/",
+      "pubDate": "Fri, 03 Jul 2026 15:00:00 +0000",
+      "dateStr": "2026-07-03",
+      "day": "03",
+      "month": "JUL",
+      "description": "Fri, 3 July 2026 - 17:00 - 21:00",
+      "image": "images/events/Whats-Good-In-The-Hood-31Dec2026.jpg"
+    },
+    {
+      "title": "5 Course Tasting Evening at  Ember &amp; Tide in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/5-course-tasting-evening/",
+      "guid": "https://9ty9.co.za/events/5-course-tasting-evening/",
+      "pubDate": "Fri, 03 Jul 2026 16:00:00 +0000",
+      "dateStr": "2026-07-03",
+      "day": "03",
+      "month": "JUL",
+      "description": "Fri, 3 July 2026 - 18:00 - 21:00",
+      "image": "images/events/5-Course-Tasting-Evening-3July2026.jpg"
     }
   ]
 }
