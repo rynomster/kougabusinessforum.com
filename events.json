@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-27T04:03:36.531Z",
+  "lastUpdated": "2026-06-27T08:45:06.876Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 44,
+  "count": 46,
   "events": [
     {
       "title": "AP Kerk Basaar at  Afrikaanse Protestantse Kerk Jefferysbaai (AP Kerk) in Jeffreys Bay",
@@ -246,6 +246,17 @@
       "image": "images/events/Black-River-Gypsy-28June2026.jpg"
     },
     {
+      "title": "Properties on Show in Jeffreys Bay and Surrounds at   in",
+      "link": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds/",
+      "guid": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds/",
+      "pubDate": "Sun, 28 Jun 2026 13:00:00 +0000",
+      "dateStr": "2026-06-28",
+      "day": "28",
+      "month": "JUN",
+      "description": "Sun, 28 June 2026 - 15:00 - 17:00",
+      "image": "images/events/On-SHow.jpeg"
+    },
+    {
       "title": "June Holiday Junior Fishing Workshop at  Port St Francis Ski Boat and Yacht Club in Port St Francis",
       "link": "https://9ty9.co.za/events/june-holiday-junior-fishing-workshop/",
       "guid": "https://9ty9.co.za/events/june-holiday-junior-fishing-workshop/",
@@ -486,6 +497,17 @@
       "month": "JUL",
       "description": "Sat, 4 July 2026 - 09:00 - 13:00",
       "image": "images/events/Milkwood-Market-2-26Dec2026.jpg"
+    },
+    {
+      "title": "Our Market at  Our Market in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/our-market-2026-07-04/",
+      "guid": "https://9ty9.co.za/events/our-market-2026-07-04/",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - 09:00 - 13:00",
+      "image": "images/events/Our-Market-20Dec2026.jpg"
     }
   ]
 }
