@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-27T13:57:14.840Z",
+  "lastUpdated": "2026-06-27T19:38:06.911Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 46,
+  "count": 59,
   "events": [
     {
       "title": "AP Kerk Basaar at  Afrikaanse Protestantse Kerk Jefferysbaai (AP Kerk) in Jeffreys Bay",
@@ -508,6 +508,149 @@
       "month": "JUL",
       "description": "Sat, 4 July 2026 - 09:00 - 13:00",
       "image": "images/events/Our-Market-20Dec2026.jpg"
+    },
+    {
+      "title": "Van Stadens River Farmers Market and Auction at  van Stadens River Farmers’ Association - Fitches Corner in Gqeberha",
+      "link": "https://9ty9.co.za/events/van-stadens-river-farmers-market-and-auction-2026-01-03-2026-02-07-2026-03-07-2026-04-04-2026-05-02-2026-06-06-2026-07-04/",
+      "guid": "https://9ty9.co.za/events/van-stadens-river-farmers-market-and-auction-2026-01-03-2026-02-07-2026-03-07-2026-04-04-2026-05-02-2026-06-06-2026-07-04/",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - 09:00 - 15:00",
+      "image": "images/events/Farmers-Market-and-Auction.jpg"
+    },
+    {
+      "title": "Windsong Bohemian Market at  Windsong Bohemian Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/windsong-bohemian-market-2026-07-04/",
+      "guid": "https://9ty9.co.za/events/windsong-bohemian-market-2026-07-04/",
+      "pubDate": "Sat, 04 Jul 2026 07:30:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - 09:30 - 14:00",
+      "image": "images/events/Windsong-19Dec2026.jpg"
+    },
+    {
+      "title": "Ulysses PE 1st Day Jol at  Thornhill Hotel in Thornhill",
+      "link": "https://9ty9.co.za/events/ulysses-pe-1st-day-jol/",
+      "guid": "https://9ty9.co.za/events/ulysses-pe-1st-day-jol/",
+      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - 10:00 - 21:00",
+      "image": "images/events/Ulysses-4July2026.jpg"
+    },
+    {
+      "title": "De WijnFeest at  De Viswijf in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/de-wijnfeest/",
+      "guid": "https://9ty9.co.za/events/de-wijnfeest/",
+      "pubDate": "Sat, 04 Jul 2026 09:00:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - 11:00 - 17:00",
+      "image": "images/events/De-WijnFeest-4Kuly2026.jpg"
+    },
+    {
+      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-27-2026-07-04/",
+      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-27-2026-07-04/",
+      "pubDate": "Sat, 04 Jul 2026 13:00:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - 15:00 - 18:00",
+      "image": "images/events/Backyard-Karaoke.jpg"
+    },
+    {
+      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-27-2026-07-04/",
+      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-27-2026-07-04/",
+      "pubDate": "Sat, 04 Jul 2026 17:00:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - 19:00 - 23:59",
+      "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
+      "link": "https://9ty9.co.za/events/crossways-village-market-2026-07-05/",
+      "guid": "https://9ty9.co.za/events/crossways-village-market-2026-07-05/",
+      "pubDate": "Sun, 05 Jul 2026 07:00:00 +0000",
+      "dateStr": "2026-07-05",
+      "day": "05",
+      "month": "JUL",
+      "description": "Sun, 5 July 2026 - 09:00 - 14:00",
+      "image": "images/events/Crossways-Village-Markets-27Dec2026.jpg"
+    },
+    {
+      "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19-2026-04-26-2026-05-03-20-28-2026-07-05/",
+      "guid": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19-2026-04-26-2026-05-03-20-28-2026-07-05/",
+      "pubDate": "Sun, 05 Jul 2026 07:00:00 +0000",
+      "dateStr": "2026-07-05",
+      "day": "05",
+      "month": "JUL",
+      "description": "Sun, 5 July 2026 - 09:00 - 18:00",
+      "image": "images/events/Quintes-Sunday.jpg"
+    },
+    {
+      "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
+      "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05/",
+      "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05/",
+      "pubDate": "Sun, 05 Jul 2026 09:00:00 +0000",
+      "dateStr": "2026-07-05",
+      "day": "05",
+      "month": "JUL",
+      "description": "Sun, 5 July 2026 - 11:00 - 15:00",
+      "image": "images/events/Vernon-Thornhill2.jpg"
+    },
+    {
+      "title": "Properties on Show in Jeffreys Bay and Surrounds at   in",
+      "link": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-07-05/",
+      "guid": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-07-05/",
+      "pubDate": "Sun, 05 Jul 2026 13:00:00 +0000",
+      "dateStr": "2026-07-05",
+      "day": "05",
+      "month": "JUL",
+      "description": "Sun, 5 July 2026 - 15:00 - 17:00",
+      "image": "images/events/On-SHow.jpeg"
+    },
+    {
+      "title": "Holiday Bible Club at  JBay Baptist Church in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/holiday-bible-club/",
+      "guid": "https://9ty9.co.za/events/holiday-bible-club/",
+      "pubDate": "Mon, 06 Jul 2026 06:00:00 +0000",
+      "dateStr": "2026-07-06",
+      "day": "06",
+      "month": "JUL",
+      "description": "Mon, 6 July 2026 - Fri, 10 July 2026 - 08:00 - 12:00",
+      "image": "images/events/Holiday-Bible-Club-10July2026.jpg"
+    },
+    {
+      "title": "Bingo at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/bingo/",
+      "guid": "https://9ty9.co.za/events/bingo/",
+      "pubDate": "Mon, 06 Jul 2026 14:30:00 +0000",
+      "dateStr": "2026-07-06",
+      "day": "06",
+      "month": "JUL",
+      "description": "Mon, 6 July 2026 - 16:30 - 19:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/06/Bingo-6July2026.jfif"
+    },
+    {
+      "title": "Vic Bay Surf Pro at   in",
+      "link": "https://9ty9.co.za/events/vic-bay-surf-pro/",
+      "guid": "https://9ty9.co.za/events/vic-bay-surf-pro/",
+      "pubDate": "Tue, 07 Jul 2026 06:00:00 +0000",
+      "dateStr": "2026-07-07",
+      "day": "07",
+      "month": "JUL",
+      "description": "Tue, 7 July 2026 - Wed, 8 July 2026 - 08:00 - 17:00",
+      "image": "images/events/Surfing-South-Africa-16.png"
     }
   ]
 }
