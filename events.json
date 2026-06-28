@@ -1,195 +1,8 @@
 {
-  "lastUpdated": "2026-06-27T19:38:06.911Z",
+  "lastUpdated": "2026-06-28T04:25:28.216Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 59,
+  "count": 45,
   "events": [
-    {
-      "title": "AP Kerk Basaar at  Afrikaanse Protestantse Kerk Jefferysbaai (AP Kerk) in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/ap-kerk-basaar/",
-      "guid": "https://9ty9.co.za/events/ap-kerk-basaar/",
-      "pubDate": "Sat, 27 Jun 2026 06:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 08:00 - 13:00",
-      "image": "images/events/AP-Kerk-Basaar-27June2026.jpg"
-    },
-    {
-      "title": "Jeffreys Bay Car Boot Sale at  Die Werf - Fountains Mall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale/",
-      "guid": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale/",
-      "pubDate": "Sat, 27 Jun 2026 06:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 08:00 - 13:00",
-      "image": "images/events/Car-Boot-Sale-1.jpg"
-    },
-    {
-      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-20-2026-06-27/",
-      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-20-2026-06-27/",
-      "pubDate": "Sat, 27 Jun 2026 06:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 08:00 - 09:00",
-      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
-    },
-    {
-      "title": "St Francis Parkrun at  St Francis Links in St Francis Bay",
-      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-20-2026-06-27/",
-      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-20-2026-06-27/",
-      "pubDate": "Sat, 27 Jun 2026 06:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 08:00 - 09:00",
-      "image": "images/events/St-Francis-Parkrun.jpg"
-    },
-    {
-      "title": "Milkwood Farmers Market at  Milkwood Mark \\ Market in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/milkwood-farmers-market-2026-06-27/",
-      "guid": "https://9ty9.co.za/events/milkwood-farmers-market-2026-06-27/",
-      "pubDate": "Sat, 27 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 09:00 - 13:00",
-      "image": "images/events/Milkwood-Market-2-26Dec2026.jpg"
-    },
-    {
-      "title": "Norm-Hudlin Trails Country Market at  Norm Hudlin Trails in Kragga Kamma Rd",
-      "link": "https://9ty9.co.za/events/norm-hudlin-trails-country-market-2026-01-31-2026-02-28-2026-03-28-2026-04-25-2026-05-30-2026-06-27/",
-      "guid": "https://9ty9.co.za/events/norm-hudlin-trails-country-market-2026-01-31-2026-02-28-2026-03-28-2026-04-25-2026-05-30-2026-06-27/",
-      "pubDate": "Sat, 27 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 09:00 - 13:00",
-      "image": "images/events/Norm-Hudlin-Market-19Dec2026.jpg"
-    },
-    {
-      "title": "St Francis Market at  St Francis Market in St Francis Bay",
-      "link": "https://9ty9.co.za/events/st-francis-market-2026-06-27/",
-      "guid": "https://9ty9.co.za/events/st-francis-market-2026-06-27/",
-      "pubDate": "Sat, 27 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 09:00 - 13:00",
-      "image": "images/events/St-Francis-Market-26Dec2026.jpg"
-    },
-    {
-      "title": "Thrift &amp; Community Market at  Die Werf - Fountains Mall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/thrift-community-market/",
-      "guid": "https://9ty9.co.za/events/thrift-community-market/",
-      "pubDate": "Sat, 27 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 09:00 - 13:00",
-      "image": "images/events/Market-27June2026.jpg"
-    },
-    {
-      "title": "The Sea Exhibition at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/the-sea-exhibition-2/",
-      "guid": "https://9ty9.co.za/events/the-sea-exhibition-2/",
-      "pubDate": "Sat, 27 Jun 2026 08:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 10:00 - 15:00",
-      "image": "images/events/The-Sea-Exhibition-27June2026.jpg"
-    },
-    {
-      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-20-2026-06-27/",
-      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-20-2026-06-27/",
-      "pubDate": "Sat, 27 Jun 2026 13:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 15:00 - 18:00",
-      "image": "images/events/Backyard-Karaoke.jpg"
-    },
-    {
-      "title": "A Taste of Morocco – Food &amp; Cocktail Masterclass at  JBay TVET College in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/a-taste-of-morocco-food-cocktail-masterclass/",
-      "guid": "https://9ty9.co.za/events/a-taste-of-morocco-food-cocktail-masterclass/",
-      "pubDate": "Sat, 27 Jun 2026 15:30:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 17:30 - 20:00",
-      "image": "images/events/A-Taste-of-Morocco-27June2026.jpg"
-    },
-    {
-      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-20-2026-06-27/",
-      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-20-2026-06-27/",
-      "pubDate": "Sat, 27 Jun 2026 17:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 19:00 - 23:59",
-      "image": "images/events/Karaoke-Dec2026.jpeg"
-    },
-    {
-      "title": "Simon Shaw Band at  St Francis Links in St Francis Bay",
-      "link": "https://9ty9.co.za/events/simon-shaw-band/",
-      "guid": "https://9ty9.co.za/events/simon-shaw-band/",
-      "pubDate": "Sat, 27 Jun 2026 18:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 20:00 - 22:00",
-      "image": "images/events/Simon-Shaw-Band-27June2026.jpg"
-    },
-    {
-      "title": "Line Dancing Fun Day at  Fountains Mall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/line-dancing-fun-day/",
-      "guid": "https://9ty9.co.za/events/line-dancing-fun-day/",
-      "pubDate": "Sat, 27 Jun 2026 07:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 09:00 - 14:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/06/SPCA-31July2026-1.jpg"
-    },
-    {
-      "title": "Alcatraz at  The J-Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/alcatraz/",
-      "guid": "https://9ty9.co.za/events/alcatraz/",
-      "pubDate": "Sat, 27 Jun 2026 16:30:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 18:30 - 21:30",
-      "image": "images/events/Alcatraz-27June2026.jpg"
-    },
-    {
-      "title": "Hopeless Romantics at  Barney&#039;s Tavern in Gqeberha",
-      "link": "https://9ty9.co.za/events/hopeless-romantics/",
-      "guid": "https://9ty9.co.za/events/hopeless-romantics/",
-      "pubDate": "Sat, 27 Jun 2026 16:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 18:00 - 21:00",
-      "image": "images/events/Hopeless-Romantics-27June2026.jpg"
-    },
-    {
-      "title": "Chingadas Tequila Festival 2026 at  Chingadas Mexican Cantina in Gqeberha",
-      "link": "https://9ty9.co.za/events/chingadas-tequila-festival-2026/",
-      "guid": "https://9ty9.co.za/events/chingadas-tequila-festival-2026/",
-      "pubDate": "Sat, 27 Jun 2026 13:00:00 +0000",
-      "dateStr": "2026-06-27",
-      "day": "27",
-      "month": "JUN",
-      "description": "Sat, 27 June 2026 - 15:00 - 18:00",
-      "image": "images/events/Chingadas-Tequila-Festival-2026-27June2026.jpg"
-    },
     {
       "title": "MELK RUN at 3Rivers Trails at  3Rivers Trails in Thornhill",
       "link": "https://9ty9.co.za/events/melk-run-at-3rivers-trails/",
@@ -651,6 +464,39 @@
       "month": "JUL",
       "description": "Tue, 7 July 2026 - Wed, 8 July 2026 - 08:00 - 17:00",
       "image": "images/events/Surfing-South-Africa-16.png"
+    },
+    {
+      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07/",
+      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07/",
+      "pubDate": "Tue, 07 Jul 2026 08:00:00 +0000",
+      "dateStr": "2026-07-07",
+      "day": "07",
+      "month": "JUL",
+      "description": "Tue, 7 July 2026 - 10:00 - 12:00",
+      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Curry &amp; Quiz Night at  St Francis Links in St Francis Bay",
+      "link": "https://9ty9.co.za/events/curry-quiz-night-2026-03-31-2026-04-07-2026-04-14-2026-04-21-2026-04-28-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07/",
+      "guid": "https://9ty9.co.za/events/curry-quiz-night-2026-03-31-2026-04-07-2026-04-14-2026-04-21-2026-04-28-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07/",
+      "pubDate": "Tue, 07 Jul 2026 17:00:00 +0000",
+      "dateStr": "2026-07-07",
+      "day": "07",
+      "month": "JUL",
+      "description": "Tue, 7 July 2026 - 19:00 - 21:00",
+      "image": "images/events/CurryQuiz-28July2026.jpg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-03-2026-07-08/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-03-2026-07-08/",
+      "pubDate": "Wed, 08 Jul 2026 07:00:00 +0000",
+      "dateStr": "2026-07-08",
+      "day": "08",
+      "month": "JUL",
+      "description": "Wed, 8 July 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
     }
   ]
 }
