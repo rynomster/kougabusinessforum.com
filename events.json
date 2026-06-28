@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-28T04:25:28.216Z",
+  "lastUpdated": "2026-06-28T09:21:37.571Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 45,
+  "count": 46,
   "events": [
     {
       "title": "MELK RUN at 3Rivers Trails at  3Rivers Trails in Thornhill",
@@ -68,6 +68,17 @@
       "month": "JUN",
       "description": "Sun, 28 June 2026 - 15:00 - 17:00",
       "image": "images/events/On-SHow.jpeg"
+    },
+    {
+      "title": "Norm-Hudlin Trails Country Market at  Norm Hudlin Trails in Kragga Kamma Rd",
+      "link": "https://9ty9.co.za/events/norm-hudlin-trails-country-market-2026-01-31-2026-02-28-2026-03-28-2026-04-25-2026-05-30-2026-06-27/",
+      "guid": "https://9ty9.co.za/events/norm-hudlin-trails-country-market-2026-01-31-2026-02-28-2026-03-28-2026-04-25-2026-05-30-2026-06-27/",
+      "pubDate": "Sun, 28 Jun 2026 08:00:00 +0000",
+      "dateStr": "2026-06-28",
+      "day": "28",
+      "month": "JUN",
+      "description": "Sun, 28 June 2026 - 10:00 - 14:00",
+      "image": "images/events/Norm-Hudlin-Trails-Country-Market-28June2026.jpg"
     },
     {
       "title": "June Holiday Junior Fishing Workshop at  Port St Francis Ski Boat and Yacht Club in Port St Francis",
