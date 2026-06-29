@@ -479,6 +479,26 @@ function initializeMembershipForm() {
 
   if (!detailsForm) return;
 
+  // Handle "Proceed to Select Plan" button
+  const proceedBtn = document.getElementById('btn-proceed-to-plans');
+  if (proceedBtn) {
+    proceedBtn.addEventListener('click', function() {
+      if (detailsForm.reportValidity()) {
+        const targetId = '#membership-plans';
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          const headerOffset = 100;
+          const elementPosition = targetElement.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.scrollY - headerOffset;
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      }
+    });
+  }
+
   payfastForms.forEach(form => {
     if (!form) return;
 
