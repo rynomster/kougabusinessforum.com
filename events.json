@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-29T15:59:10.236Z",
+  "lastUpdated": "2026-06-29T20:11:55.905Z",
   "source": "https://new.kougabusinessforum.com/rss",
-  "count": 48,
+  "count": 51,
   "events": [
     {
       "title": "June Holiday Junior Fishing Workshop at  Port St Francis Ski Boat and Yacht Club in Port St Francis",
@@ -103,6 +103,17 @@
       "image": "images/events/Quiz-Night-1July2026.jpg"
     },
     {
+      "title": "Once upon a Wednesday: Story Hour with Mandy at  St Francis Brewing Co. in St Francis Bay",
+      "link": "https://9ty9.co.za/events/once-upon-a-wednesday-story-hour-with-mandy/",
+      "guid": "https://9ty9.co.za/events/once-upon-a-wednesday-story-hour-with-mandy/",
+      "pubDate": "Wed, 01 Jul 2026 13:00:00 +0000",
+      "dateStr": "2026-07-01",
+      "day": "01",
+      "month": "JUL",
+      "description": "Wed, 1 July 2026 - 15:00 - 16:00",
+      "image": "images/events/Once-upon-a-Wednesday-1July2026.jpg"
+    },
+    {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/kuns-klets-2026-07-02/",
       "guid": "https://9ty9.co.za/events/kuns-klets-2026-07-02/",
@@ -123,6 +134,17 @@
       "month": "JUL",
       "description": "Thu, 2 July 2026 - 18:00 - 21:00",
       "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "The Blonde &amp; The Beer at  St Francis Brewing Co. in St Francis Bay",
+      "link": "https://9ty9.co.za/events/the-blonde-the-beer/",
+      "guid": "https://9ty9.co.za/events/the-blonde-the-beer/",
+      "pubDate": "Thu, 02 Jul 2026 17:00:00 +0000",
+      "dateStr": "2026-07-02",
+      "day": "02",
+      "month": "JUL",
+      "description": "Thu, 2 July 2026 - 19:00 - 21:00",
+      "image": "images/events/The-Blonde-2July2026.jpg"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -321,6 +343,17 @@
       "month": "JUL",
       "description": "Sat, 4 July 2026 - 19:00 - 23:59",
       "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "BEER PONG TOURNAMENT at  FJ’s Sportsbar And Restaurant in St Francis Bay",
+      "link": "https://9ty9.co.za/events/beer-pong-tournament/",
+      "guid": "https://9ty9.co.za/events/beer-pong-tournament/",
+      "pubDate": "Sat, 04 Jul 2026 17:00:00 +0000",
+      "dateStr": "2026-07-04",
+      "day": "04",
+      "month": "JUL",
+      "description": "Sat, 4 July 2026 - 19:00 - 21:00",
+      "image": "images/events/BEER-PONG-TOURNAMENT-4July2026.jpg"
     },
     {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
