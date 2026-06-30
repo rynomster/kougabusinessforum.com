@@ -1,30 +1,8 @@
 {
-  "lastUpdated": "2026-06-29T20:11:55.905Z",
+  "lastUpdated": "2026-06-30T04:11:47.656Z",
   "source": "https://new.kougabusinessforum.com/rss",
   "count": 51,
   "events": [
-    {
-      "title": "June Holiday Junior Fishing Workshop at  Port St Francis Ski Boat and Yacht Club in Port St Francis",
-      "link": "https://9ty9.co.za/events/june-holiday-junior-fishing-workshop/",
-      "guid": "https://9ty9.co.za/events/june-holiday-junior-fishing-workshop/",
-      "pubDate": "Mon, 29 Jun 2026 09:30:00 +0000",
-      "dateStr": "2026-06-29",
-      "day": "29",
-      "month": "JUN",
-      "description": "Mon, 29 June 2026 - Fri, 17 July 2026 - 11:30 - 14:00",
-      "image": "images/events/June-Holiday-Junior-Fishing-Workshop-30July2026.jpg"
-    },
-    {
-      "title": "Hockey Clinic at  Victory Christian School in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/hockey-clinic/",
-      "guid": "https://9ty9.co.za/events/hockey-clinic/",
-      "pubDate": "Mon, 29 Jun 2026 06:00:00 +0000",
-      "dateStr": "2026-06-29",
-      "day": "29",
-      "month": "JUN",
-      "description": "Mon, 29 June 2026 - Fri, 17 July 2026 - 08:00 - 10:55",
-      "image": "images/events/Hockey-Clinic-17July2026.jpg"
-    },
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30/",
@@ -114,6 +92,17 @@
       "image": "images/events/Once-upon-a-Wednesday-1July2026.jpg"
     },
     {
+      "title": "Chase at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/chase/",
+      "guid": "https://9ty9.co.za/events/chase/",
+      "pubDate": "Wed, 01 Jul 2026 16:00:00 +0000",
+      "dateStr": "2026-07-01",
+      "day": "01",
+      "month": "JUL",
+      "description": "Wed, 1 July 2026 - 18:00 - 21:00",
+      "image": "images/events/Chase-1July2026.jpg"
+    },
+    {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/kuns-klets-2026-07-02/",
       "guid": "https://9ty9.co.za/events/kuns-klets-2026-07-02/",
@@ -189,6 +178,17 @@
       "month": "JUL",
       "description": "Fri, 3 July 2026 - 18:00 - 21:00",
       "image": "images/events/5-Course-Tasting-Evening-3July2026.jpg"
+    },
+    {
+      "title": "Just Jane at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/just-jane/",
+      "guid": "https://9ty9.co.za/events/just-jane/",
+      "pubDate": "Fri, 03 Jul 2026 16:00:00 +0000",
+      "dateStr": "2026-07-03",
+      "day": "03",
+      "month": "JUL",
+      "description": "Fri, 3 July 2026 - 18:00 - 21:00",
+      "image": "images/events/Just-Jane-3July2026.jpg"
     },
     {
       "title": "Baviaans Mountain Marathon at  Doringkloof 4x4 Bush Camp in Baviaanskloof",
