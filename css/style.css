@@ -1716,6 +1716,16 @@ textarea {
   align-items: center;
   justify-content: center;
   font-size: 1.75rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.business-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
+  background: white;
 }
 
 .business-name h3 {

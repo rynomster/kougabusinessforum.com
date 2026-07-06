@@ -198,10 +198,19 @@ function renderDirectory() {
         const icon = document.createElement('div');
         icon.className = 'business-icon';
         icon.setAttribute('aria-hidden', 'true');
-        const iconName = categoryIcons[b.category] || 'building';
-        const iconEl = document.createElement('i');
-        iconEl.setAttribute('data-lucide', iconName);
-        icon.appendChild(iconEl);
+
+        if (b.logo) {
+            const img = document.createElement('img');
+            img.src = b.logo;
+            img.alt = `${b.name} logo`;
+            img.className = 'business-logo-img';
+            icon.appendChild(img);
+        } else {
+            const iconName = categoryIcons[b.category] || 'building';
+            const iconEl = document.createElement('i');
+            iconEl.setAttribute('data-lucide', iconName);
+            icon.appendChild(iconEl);
+        }
 
         const nameContainer = document.createElement('div');
         nameContainer.className = 'business-name';
