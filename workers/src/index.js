@@ -135,7 +135,16 @@ Please review in the admin dashboard.`;
 /**
  * Handle RSS proxy - fetches from 9ty9.co.za to bypass local Cloudflare restrictions
  */
-async function handleRssProxy(method, env) {
+async function handleRssProxy(req, env) {
+  const method = req.method;
+
+  // Security check: Only allow if the secret matches (if configured)
+  const rssSecret = env?.RSS_PROXY_SECRET;
+  if (rssSecret && req.headers.get('x-rss-secret') !== rssSecret) {
+    log('RSS proxy unauthorized access attempt', 'warn');
+    return errorResponse('Unauthorized', 401, env);
+  }
+
   if (method !== 'GET') {
     return errorResponse('Method not allowed', 405, env);
   }
@@ -292,7 +301,7 @@ async function handleRequest(req, env) {
         return await handleNewsletter(method, body, env);
       case '/api/rss':
       case '/rss':
-        return await handleRssProxy(method, env);
+        return await handleRssProxy(req, env);
       default:
         return errorResponse('Not found', 404, env);
     }

@@ -25,6 +25,8 @@ jobs:
         run: npm install
 
       - name: Fetch and sync events
+        env:
+          RSS_PROXY_SECRET: ${{ secrets.RSS_PROXY_SECRET }}
         run: HUSKY=0 node js/rss-sync.js
 
       - name: Commit changes
