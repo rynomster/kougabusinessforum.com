@@ -7,14 +7,14 @@ compatibility_flags = ["nodejs_compat"]
 [vars]
 ADMIN_EMAIL = "office@kougabusinessforum.com"
 ADMIN_PHONE = "063 902 1597"
-KBF_WEBSITE = "https://new.kougabusinessforum.com"
+KBF_WEBSITE = "https://kougabusinessforum.com"
 
 # HTTP routes must include a full hostname pattern.
 # zone_name should be the Cloudflare DNS zone (apex), not a subdomain.
 [[routes]]
-pattern = "new.kougabusinessforum.com/api/*"
+pattern = "kougabusinessforum.com/api/*"
 zone_name = "kougabusinessforum.com"
 
 [[routes]]
-pattern = "new.kougabusinessforum.com/rss"
+pattern = "kougabusinessforum.com/rss"
 zone_name = "kougabusinessforum.com"

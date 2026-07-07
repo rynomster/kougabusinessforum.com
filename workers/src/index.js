@@ -1,7 +1,7 @@
 // Configuration
 const ADMIN_EMAIL = 'office@kougabusinessforum.com';
 const ADMIN_PHONE = '063 902 1597';
-const KBF_WEBSITE = 'https://new.kougabusinessforum.com';
+const KBF_WEBSITE = 'https://kougabusinessforum.com';
 
 /**
  * Helper to get CORS headers

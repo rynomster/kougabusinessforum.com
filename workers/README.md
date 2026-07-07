@@ -161,7 +161,7 @@ compatibility_date = "2024-01-01"
 [vars]
 ADMIN_EMAIL = "office@kougabusinessforum.com"
 ADMIN_PHONE = "063 902 1597"
-KBF_WEBSITE = "https://new.kougabusinessforum.com"
+KBF_WEBSITE = "https://kougabusinessforum.com"
 MEMBERSHIP_PRICING = "R200 one-time + R100/month OR R1200 annual"
 
 [[routes]]

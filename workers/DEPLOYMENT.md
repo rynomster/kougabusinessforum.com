@@ -86,6 +86,6 @@ curl -X POST http://localhost:8787/api/newsletter \
 ---
 
 ## 📝 Technical Notes
-- **CORS:** Allowed origins are restricted to `KBF_WEBSITE` (default: `https://new.kougabusinessforum.com`).
+- **CORS:** Allowed origins are restricted to `KBF_WEBSITE` (default: `https://kougabusinessforum.com`).
 - **Rate Limiting:** Default is 20 requests per minute per IP.
 - **Routes:** Handled via the `api/*` wildcard in `wrangler.toml`.
