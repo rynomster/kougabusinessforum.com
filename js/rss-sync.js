@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const RSS_URL = 'https://new.kougabusinessforum.com/rss';
+const RSS_URL = 'https://kougabusinessforum.com/rss';
 const IMAGES_DIR = 'images/events';
 
 // Prune events that ended more than this many days ago
@@ -203,22 +203,22 @@ async function syncEvents() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Community Events | Kouga Business Forum</title>
   <meta name="description" content="Discover events in Jeffreys Bay, St Francis Bay & the Kouga Region. Community events, markets, sports, music, and more.">
-  <link rel="canonical" href="https://new.kougabusinessforum.com/events.html">
+  <link rel="canonical" href="https://kougabusinessforum.com/events.html">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://new.kougabusinessforum.com/events.html">
+  <meta property="og:url" content="https://kougabusinessforum.com/events.html">
   <meta property="og:title" content="Community Events | Kouga Business Forum">
   <meta property="og:description" content="Discover local events, markets, and gatherings across the Kouga region. See what's happening near you.">
-  <meta property="og:image" content="https://new.kougabusinessforum.com/images/jbay-coastal-hero.jpg">
+  <meta property="og:image" content="https://kougabusinessforum.com/images/jbay-coastal-hero.jpg">
   <meta property="og:site_name" content="Kouga Business Forum">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://new.kougabusinessforum.com/events.html">
+  <meta name="twitter:url" content="https://kougabusinessforum.com/events.html">
   <meta name="twitter:title" content="Community Events | Kouga Business Forum">
   <meta name="twitter:description" content="Discover local events, markets, and gatherings across the Kouga region. See what's happening near you.">
-  <meta name="twitter:image" content="https://new.kougabusinessforum.com/images/jbay-coastal-hero.jpg">
+  <meta name="twitter:image" content="https://kougabusinessforum.com/images/jbay-coastal-hero.jpg">
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/events.css">

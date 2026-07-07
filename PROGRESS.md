@@ -63,7 +63,7 @@
 
 ---
 
-**Live site:** https://new.kougabusinessforum.com/
+**Live site:** https://kougabusinessforum.com/
 **GitHub:** https://github.com/rynomster/kougabusinessforum.com/
 
 *Built with ❤️ for the Kouga Business Community*

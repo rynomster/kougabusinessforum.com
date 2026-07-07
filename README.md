@@ -4,7 +4,7 @@ A modern, fast, and fully responsive website for the Kouga Business Forum (KBF),
 
 ## 🌐 Live Site
 
-**https://new.kougabusinessforum.com/**
+**https://kougabusinessforum.com/**
 
 **GitHub:** https://github.com/rynomster/kbf-web-2026
 

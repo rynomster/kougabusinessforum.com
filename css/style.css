@@ -1708,14 +1708,14 @@ textarea {
 }
 
 .business-icon {
-  width: 64px;
-  height: 64px;
+  width: 96px;
+  height: 96px;
   border-radius: var(--radius-md);
   background: linear-gradient(135deg, var(--primary-light), var(--secondary));
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -1724,7 +1724,7 @@ textarea {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  padding: 4px;
+  padding: 6px;
   background: white;
 }
 
