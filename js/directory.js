@@ -10,6 +10,7 @@ const DIRECTORY_JSON_URL = 'directory.json';
 let allBusinesses = [];
 let categoryFilter = 'all';
 let locationFilter = 'all';
+let isDataLoaded = false;
 
 const categoryNames = {
     'construction': 'Construction & Building',
@@ -62,6 +63,7 @@ async function loadDirectoryData() {
         }
         const data = await response.json();
         allBusinesses = data.listings || [];
+        isDataLoaded = true;
 
         updateFilterButtonStates();
         renderDirectory();
@@ -127,6 +129,7 @@ function updateFilterButtonStates() {
  */
 function getDisplayName(loc) {
     const names = {
+        'kouga-wide': 'Kouga-wide',
         'jeffreys-bay': 'Jeffreys Bay',
         'humansdorp': 'Humansdorp',
         'st-francis-bay': 'St. Francis Bay',
@@ -155,7 +158,7 @@ function getFilteredBusinesses() {
                            locationName.includes(query) ||
                            categoryName.includes(query);
         const matchCategory = categoryFilter === 'all' || b.category === categoryFilter;
-        const matchLocation = locationFilter === 'all' || b.location === locationFilter;
+        const matchLocation = locationFilter === 'all' || b.location === locationFilter || b.location === 'kouga-wide';
         return matchQuery && matchCategory && matchLocation;
     });
 }
@@ -174,8 +177,13 @@ function renderDirectory() {
 
     if (filtered.length === 0) {
         container.style.display = 'none';
-        if (emptyState) emptyState.style.display = 'block';
-        if (countEl) countEl.textContent = 'No businesses found';
+        if (isDataLoaded) {
+            if (emptyState) emptyState.style.display = 'block';
+            if (countEl) countEl.textContent = 'No businesses found';
+        } else {
+            if (emptyState) emptyState.style.display = 'none';
+            if (countEl) countEl.textContent = 'Loading businesses...';
+        }
         return;
     }
 
