@@ -148,7 +148,7 @@ function generateHTML(eventList) {
   <meta property="og:url" content="https://new.kougabusinessforum.com/kbevents.html">
   <meta property="og:title" content="KBF Events | Kouga Business Forum">
   <meta property="og:description" content="Official KBF events, meetings, and workshops for Kouga business leaders.">
-  <meta property="og:image" content="https://new.kougabusinessforum.com/images/kouga-tourism-hero.jpg">
+  <meta property="og:image" content="https://new.kougabusinessforum.com/images/jbay-coastal-hero.jpg">
   <meta property="og:site_name" content="Kouga Business Forum">
 
   <!-- Twitter -->
@@ -156,7 +156,7 @@ function generateHTML(eventList) {
   <meta name="twitter:url" content="https://new.kougabusinessforum.com/kbevents.html">
   <meta name="twitter:title" content="KBF Events | Kouga Business Forum">
   <meta name="twitter:description" content="Official KBF events, meetings, and workshops for Kouga business leaders.">
-  <meta name="twitter:image" content="https://new.kougabusinessforum.com/images/kouga-tourism-hero.jpg">
+  <meta name="twitter:image" content="https://new.kougabusinessforum.com/images/jbay-coastal-hero.jpg">
 
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">

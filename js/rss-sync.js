@@ -210,7 +210,7 @@ async function syncEvents() {
   <meta property="og:url" content="https://new.kougabusinessforum.com/events.html">
   <meta property="og:title" content="Community Events | Kouga Business Forum">
   <meta property="og:description" content="Discover local events, markets, and gatherings across the Kouga region. See what's happening near you.">
-  <meta property="og:image" content="https://new.kougabusinessforum.com/images/kouga-tourism-hero.jpg">
+  <meta property="og:image" content="https://new.kougabusinessforum.com/images/jbay-coastal-hero.jpg">
   <meta property="og:site_name" content="Kouga Business Forum">
 
   <!-- Twitter -->
@@ -218,7 +218,7 @@ async function syncEvents() {
   <meta name="twitter:url" content="https://new.kougabusinessforum.com/events.html">
   <meta name="twitter:title" content="Community Events | Kouga Business Forum">
   <meta name="twitter:description" content="Discover local events, markets, and gatherings across the Kouga region. See what's happening near you.">
-  <meta name="twitter:image" content="https://new.kougabusinessforum.com/images/kouga-tourism-hero.jpg">
+  <meta name="twitter:image" content="https://new.kougabusinessforum.com/images/jbay-coastal-hero.jpg">
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/events.css">
