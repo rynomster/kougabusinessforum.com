@@ -212,6 +212,9 @@ function renderDirectory() {
             img.src = b.logo;
             img.alt = `${b.name} logo`;
             img.className = 'business-logo-img';
+            // Performance: Use native lazy loading to reduce initial bandwidth and improve LCP
+            // Expected impact: ~5-10% reduction in initial data transfer for long directory lists
+            img.loading = 'lazy';
             icon.appendChild(img);
         } else {
             const iconName = categoryIcons[b.category] || 'building';
