@@ -284,14 +284,27 @@ p {
   min-height: 80vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(26, 26, 46, 0.4), rgba(26, 26, 46, 0.4)), url('../images/kbf-hero-poster.png');
-  background-size: cover;
-  background-position: center;
   padding: var(--spacing-xl) 0 var(--spacing-lg);
   overflow: hidden;
 }
 
-/* Hero video background — desktop */
+/* Solid dark fallback before image/video load */
+.video-hero {
+  background: #0b2f45;
+}
+
+/* Light image layer — visible immediately, provides base until video is ready */
+.hero-image-fallback {
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/jbay-coastal-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  transform: scale(1.01); /* prevents edge aliasing during scale */
+}
+
+/* Hero video — starts hidden, fades in when ready */
 .hero-video {
   position: absolute;
   top: 0;
@@ -299,27 +312,41 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1.4s ease-in-out;
   display: block;
+  filter: brightness(1.07) saturate(1.14) contrast(1.04);
 }
 
-/* Subtle dark overlay for text readability */
+/* Video fade-in trigger */
+.video-hero.video-ready .hero-video {
+  opacity: 1;
+}
+
+/* Left-to-right gradient overlay — text is left-aligned, stronger on the left */
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 35, 60, 0.35);
-  z-index: 1;
+  z-index: 2;
   pointer-events: none;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0, 30, 50, 0.46) 0%,
+      rgba(0, 30, 50, 0.28) 45%,
+      rgba(0, 30, 50, 0.16) 100%
+    );
 }
 
 .hero-container {
   position: relative;
-  z-index: 10;
+  z-index: 3;
 }
 
 .hero-content {
   position: relative;
-  z-index: 10;
+  z-index: 3;
   max-width: 800px;
 }
 
@@ -352,24 +379,22 @@ p {
   right: 2rem;
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.5);
-  z-index: 10;
+  z-index: 3;
   pointer-events: none;
 }
 
-/* Mobile / tablet: hide video, use static poster image */
+/* Mobile / tablet: hide video, show static image only */
 @media (max-width: 768px) {
   .hero-video {
     display: none;
   }
 
-  .hero {
-    background-image: url('../images/kbf-hero-poster.png');
-    background-size: cover;
-    background-position: center;
+  .hero-image-fallback {
+    z-index: 1;
   }
 }
 
-/* Reduced-motion: disable video for accessibility */
+/* Reduced-motion: disable video, static image only */
 @media (prefers-reduced-motion: reduce) {
   .hero-video {
     display: none;

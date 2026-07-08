@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initializeIcons();
   handleInitialHash();
   initializeMembershipForm();
+  initializeHeroVideo();
 });
 
 /**
@@ -51,6 +52,26 @@ function initializeIcons() {
       if (typeof lucide !== 'undefined') lucide.createIcons();
     });
   }
+}
+
+/**
+ * Hero video fade-in transition.
+ * Shows the light static image immediately, then fades the darker video in
+ * once it has enough data to play smoothly.
+ */
+function initializeHeroVideo() {
+  const hero = document.getElementById('home-hero');
+  const video = hero?.querySelector('.hero-video');
+
+  if (!hero || !video) return;
+
+  const markReady = () => {
+    hero.classList.add('video-ready');
+  };
+
+  // Fire as soon as the first frame is decoded and ready
+  video.addEventListener('loadeddata', markReady, { once: true });
+  video.addEventListener('canplay', markReady, { once: true });
 }
 
 /**
