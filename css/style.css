@@ -297,7 +297,7 @@ p {
 .hero-image-fallback {
   position: absolute;
   inset: 0;
-  background-image: url('../images/jbay-coastal-hero.jpg');
+  background-image: url('../images/kbf-hero-poster.png');
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -361,7 +361,7 @@ p {
 
 .hero-subtitle {
   font-size: clamp(1.1rem, 2vw, 1.3rem);
-  color: var(--text-light);
+  color: rgba(255, 255, 255, 0.92);
   margin-bottom: var(--spacing-md);
   max-width: 650px;
 }
