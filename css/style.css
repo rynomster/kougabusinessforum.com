@@ -284,23 +284,37 @@ p {
   min-height: 80vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(26, 26, 46, 0.4), rgba(26, 26, 46, 0.4)), url('../images/jbay-coastal-hero.jpg');
+  background: linear-gradient(rgba(26, 26, 46, 0.4), rgba(26, 26, 46, 0.4)), url('../images/kbf-hero-poster.png');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   padding: var(--spacing-xl) 0 var(--spacing-lg);
   overflow: hidden;
 }
 
-.hero::before {
-  content: '';
+/* Hero video background — desktop */
+.hero-video {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 60%;
+  left: 0;
+  width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, transparent 0%, rgba(6, 200, 255, 0.05) 100%);
+  object-fit: cover;
+  z-index: 0;
+  display: block;
+}
+
+/* Subtle dark overlay for text readability */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 35, 60, 0.35);
+  z-index: 1;
   pointer-events: none;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 10;
 }
 
 .hero-content {
@@ -320,7 +334,7 @@ p {
 
 .hero-subtitle {
   font-size: clamp(1.1rem, 2vw, 1.3rem);
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.9);
   margin-bottom: var(--spacing-md);
   max-width: 650px;
 }
@@ -340,6 +354,26 @@ p {
   color: rgba(255, 255, 255, 0.5);
   z-index: 10;
   pointer-events: none;
+}
+
+/* Mobile / tablet: hide video, use static poster image */
+@media (max-width: 768px) {
+  .hero-video {
+    display: none;
+  }
+
+  .hero {
+    background-image: url('../images/kbf-hero-poster.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* Reduced-motion: disable video for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .hero-video {
+    display: none;
+  }
 }
 
 /* Category Cards Grid */
