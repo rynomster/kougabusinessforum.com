@@ -320,7 +320,7 @@ p {
 
 .hero-subtitle {
   font-size: clamp(1.1rem, 2vw, 1.3rem);
-  color: var(--text-muted);
+  color: var(--text-light);
   margin-bottom: var(--spacing-md);
   max-width: 650px;
 }
