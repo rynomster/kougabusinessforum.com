@@ -13,8 +13,8 @@
   --secondary: #533483;
   --text-dark: #1a1a2e;
   --text-main: #1a1a2e;
-  --text-light: #eaeaea;
-  --text-muted: #a0a0a0;
+  --text-light: #ffffff;
+  --text-muted: #d1d1d1;
   --bg-light: #f8f9fa;
   --bg-white: #ffffff;
   --bg-gradient: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
@@ -250,16 +250,17 @@ p {
 }
 
 .nav a:not(.btn) {
-  color: var(--text-muted);
+  color: white;
   text-decoration: none;
-  font-weight: 500;
-  transition: color var(--transition-fast);
+  font-weight: 600;
+  transition: color var(--transition-fast), text-shadow var(--transition-fast);
   position: relative;
 }
 
 .nav a:not(.btn):hover,
 .nav a.active:not(.btn) {
   color: white;
+  text-shadow: 0 0 10px rgba(6, 200, 255, 0.4);
 }
 
 .nav a:not(.btn)::after {
@@ -357,13 +358,15 @@ p {
   letter-spacing: -0.03em;
   color: white;
   margin-bottom: 1.5rem;
+  text-shadow: 0 0 15px rgba(6, 200, 255, 0.5);
 }
 
 .hero-subtitle {
   font-size: clamp(1.1rem, 2vw, 1.3rem);
-  color: rgba(255, 255, 255, 0.92);
+  color: #ffffff;
   margin-bottom: var(--spacing-md);
   max-width: 650px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero-cta-group {
@@ -907,9 +910,9 @@ p {
 }
 
 .nav a:not(.btn) {
-  color: rgba(255, 255, 255, 0.85);
+  color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0.95rem;
   transition: all 0.3s ease;
   position: relative;
@@ -1685,6 +1688,7 @@ textarea {
   background: var(--accent-cyan);
   border-color: var(--accent-cyan);
   color: white;
+  text-shadow: 0 0 10px rgba(6, 200, 255, 0.4);
 }
 
 .directory-content {
