@@ -51,130 +51,114 @@ async function syncEvents() {
   }
 
   try {
-    // Use curl instead of axios - Cloudflare trusts curl more than Node.js
-    const rssSecret = process.env.RSS_PROXY_SECRET || '';
-    const authHeader = rssSecret ? `-H "x-rss-secret: ${rssSecret}"` : '';
+    // Attempt RSS fetch and parsing
+    try {
+      // Use curl instead of axios - Cloudflare trusts curl more than Node.js
+      const rssSecret = process.env.RSS_PROXY_SECRET || '';
+      const authHeader = rssSecret ? `-H "x-rss-secret: ${rssSecret}"` : '';
 
-    const curlCmd = `curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" ${authHeader} -H "Accept: application/rss+xml, application/xml, text/xml, */*" -H "Referer: https://9ty9.co.za/" -w "\\n%{http_code}" "${RSS_URL}"`;
-    const curlOutput = execSync(curlCmd, { timeout: 15000, encoding: 'utf8' });
-    const lines = curlOutput.trim().split('\n');
-    const httpCode = lines.pop();
-    const xml = lines.join('\n');
+      const curlCmd = `curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" ${authHeader} -H "Accept: application/rss+xml, application/xml, text/xml, */*" -H "Referer: https://9ty9.co.za/" -w "\\n%{http_code}" "${RSS_URL}"`;
+      const curlOutput = execSync(curlCmd, { timeout: 15000, encoding: 'utf8' });
+      const lines = curlOutput.trim().split('\n');
+      const httpCode = lines.pop();
+      const xml = lines.join('\n');
 
-    console.log(`RSS fetch HTTP status: ${httpCode}, content length: ${xml.length}`);
+      console.log(`RSS fetch HTTP status: ${httpCode}, content length: ${xml.length}`);
 
-    // Fail on HTTP errors
-    if (httpCode === '403' || httpCode === '429') {
-      console.error(`ERROR: Cloudflare blocked request (HTTP ${httpCode}). Keeping existing events.`);
-      process.exit(1);
-    }
+      if (httpCode === '200' && xml && xml.includes('<item>')) {
+        const itemMatches = xml.match(/<item>([\s\S]*?)<\/item>/g) || [];
+        console.log(`Found ${itemMatches.length} items in feed.`);
 
-    if (httpCode !== '200') {
-      throw new Error(`RSS feed returned HTTP ${httpCode}`);
-    }
+        let newEventsAdded = 0;
+        let newEventsSkipped = 0;
 
-    if (!xml || xml.trim() === '') {
-      throw new Error(`Empty response from RSS feed (HTTP ${httpCode})`);
-    }
+        for (const itemXml of itemMatches) {
+          const title = (itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) || itemXml.match(/<title>(.*?)<\/title>/))?.[1] || 'Untitled';
+          const link = (itemXml.match(/<link>(.*?)<\/link>/))?.[1] || '';
+          const guid = (itemXml.match(/<guid>(.*?)<\/guid>/))?.[1] || link;
+          const pubDate = (itemXml.match(/<pubDate>(.*?)<\/pubDate>/))?.[1] || '';
+          const description = (itemXml.match(/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/s) || itemXml.match(/<description>([\s\S]*?)<\/description>/s))?.[1] || '';
 
-    if (!xml.includes('<item>')) {
-      console.log('Response does not contain <item> tags. Keeping existing events.');
-      console.log('First 500 chars:', xml.substring(0, 500));
-      // Don't exit with error - keep what we have
-    }
+          // Improved image extraction regex
+          const imgMatch = description.match(/<img[^>]+src=['"]([^'"]+)['"]/i);
+          const imageUrl = imgMatch ? imgMatch[1] : null;
 
-    const itemMatches = xml.match(/<item>([\s\S]*?)<\/item>/g) || [];
-    console.log(`Found ${itemMatches.length} items in feed.`);
+          const cleanDesc = description.replace(/<[^>]+>/g, '').trim();
+          const date = new Date(pubDate);
 
-    let newEventsAdded = 0;
-    let newEventsSkipped = 0;
-
-    for (const itemXml of itemMatches) {
-      const title = (itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) || itemXml.match(/<title>(.*?)<\/title>/))?.[1] || 'Untitled';
-      const link = (itemXml.match(/<link>(.*?)<\/link>/))?.[1] || '';
-      const guid = (itemXml.match(/<guid>(.*?)<\/guid>/))?.[1] || link;
-      const pubDate = (itemXml.match(/<pubDate>(.*?)<\/pubDate>/))?.[1] || '';
-      const description = (itemXml.match(/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/s) || itemXml.match(/<description>([\s\S]*?)<\/description>/s))?.[1] || '';
-
-      // Improved image extraction regex
-      const imgMatch = description.match(/<img[^>]+src=['"]([^'"]+)['"]/i);
-      const imageUrl = imgMatch ? imgMatch[1] : null;
-
-      const cleanDesc = description.replace(/<[^>]+>/g, '').trim();
-      const date = new Date(pubDate);
-
-      // Skip if no valid date
-      if (isNaN(date.getTime())) {
-        console.log(`Skipping event without valid date: ${title}`);
-        continue;
-      }
-
-      // Check for duplicate by GUID
-      if (guid && eventsByGuid.has(guid)) {
-        newEventsSkipped++;
-        continue; // Already have this event, skip
-      }
-
-      // Download image locally
-      let localImage = null;
-      if (imageUrl) {
-        const filename = imageUrl.split('/').pop().split('?')[0]; // Remove query params
-        const localPath = `${IMAGES_DIR}/${filename}`;
-
-        if (!fs.existsSync(localPath)) {
-          try {
-            const imgResponse = await axios.get(imageUrl, { responseType: 'arraybuffer', timeout: 10000 });
-            fs.writeFileSync(localPath, Buffer.from(imgResponse.data));
-            console.log(`Downloaded: ${filename}`);
-            localImage = localPath;
-          } catch (err) {
-            console.log(`Failed to download: ${imageUrl} - ${err.message}`);
-            localImage = imageUrl; // fallback to original
+          // Skip if no valid date
+          if (isNaN(date.getTime())) {
+            console.log(`Skipping event without valid date: ${title}`);
+            continue;
           }
-        } else {
-          localImage = localPath;
+
+          // Check for duplicate by GUID
+          if (guid && eventsByGuid.has(guid)) {
+            newEventsSkipped++;
+            continue; // Already have this event, skip
+          }
+
+          // Download image locally
+          let localImage = null;
+          if (imageUrl) {
+            const filename = imageUrl.split('/').pop().split('?')[0]; // Remove query params
+            const localPath = `${IMAGES_DIR}/${filename}`;
+
+            if (!fs.existsSync(localPath)) {
+              try {
+                const imgResponse = await axios.get(imageUrl, { responseType: 'arraybuffer', timeout: 10000 });
+                fs.writeFileSync(localPath, Buffer.from(imgResponse.data));
+                console.log(`Downloaded: ${filename}`);
+                localImage = localPath;
+              } catch (err) {
+                console.log(`Failed to download: ${imageUrl} - ${err.message}`);
+                localImage = imageUrl; // fallback to original
+              }
+            } else {
+              localImage = localPath;
+            }
+          }
+
+          const event = {
+            title: title.trim(),
+            link,
+            guid,
+            pubDate,
+            dateStr: date.toISOString().split('T')[0],
+            day: date.toLocaleDateString('en-ZA', { day: '2-digit' }),
+            month: date.toLocaleDateString('en-ZA', { month: 'short' }).toUpperCase(),
+            description: cleanDesc.substring(0, 200),
+            image: localImage
+          };
+
+          // Add to map and array
+          eventsByGuid.set(guid, event);
+          existingEvents.push(event);
+          newEventsAdded++;
         }
+        console.log(`✓ New events added: ${newEventsAdded}, duplicates skipped: ${newEventsSkipped}`);
+      } else {
+        console.warn(`Warning: Could not fetch new events (HTTP ${httpCode}). Proceeding with pruning and existing data.`);
       }
-
-      const event = {
-        title: title.trim(),
-        link,
-        guid,
-        pubDate,
-        dateStr: date.toISOString().split('T')[0],
-        day: date.toLocaleDateString('en-ZA', { day: '2-digit' }),
-        month: date.toLocaleDateString('en-ZA', { month: 'short' }).toUpperCase(),
-        description: cleanDesc.substring(0, 200),
-        image: localImage
-      };
-
-      // Add to map and array
-      eventsByGuid.set(guid, event);
-      existingEvents.push(event);
-      newEventsAdded++;
+    } catch (fetchErr) {
+      console.warn(`Warning: Error during RSS fetch: ${fetchErr.message}. Proceeding with pruning and existing data.`);
     }
 
-    console.log(`✓ New events added: ${newEventsAdded}, duplicates skipped: ${newEventsSkipped}`);
+    // ALWAYS prune old events
+    const pruneThreshold = new Date();
+    pruneThreshold.setHours(0, 0, 0, 0); // Start of today
+    pruneThreshold.setDate(pruneThreshold.getDate() - PRUNE_PAST_DAYS);
+    console.log(`Pruning events with dates before: ${pruneThreshold.toISOString().split('T')[0]}`);
 
-    // NOW prune old events - after successful fetch, only if we got new data
-    if (newEventsAdded > 0 || newEventsSkipped > 0) {
-      const pruneThreshold = new Date();
-      pruneThreshold.setHours(0, 0, 0, 0); // Start of today
-      pruneThreshold.setDate(pruneThreshold.getDate() - PRUNE_PAST_DAYS);
-      console.log(`Pruning events with dates before: ${pruneThreshold.toISOString().split('T')[0]}`);
+    const originalCount = existingEvents.length;
+    existingEvents = existingEvents.filter(event => {
+      if (!event.dateStr) return true; // Keep events without dates
+      const eventDate = new Date(event.dateStr);
+      return eventDate >= pruneThreshold;
+    });
 
-      const originalCount = existingEvents.length;
-      existingEvents = existingEvents.filter(event => {
-        if (!event.dateStr) return true; // Keep events without dates
-        const eventDate = new Date(event.dateStr);
-        return eventDate >= pruneThreshold;
-      });
-
-      const prunedCount = originalCount - existingEvents.length;
-      console.log(`Pruned ${prunedCount} old events (${PRUNE_PAST_DAYS}+ days past)`);
-    } else {
-      console.log('No new events from feed, skipping prune to preserve existing data');
-    }
+    const prunedCount = originalCount - existingEvents.length;
+    console.log(`Pruned ${prunedCount} old events (${PRUNE_PAST_DAYS}+ days past)`);
 
     // Sort by date ascending (oldest first for display)
     existingEvents.sort((a, b) => new Date(a.dateStr) - new Date(b.dateStr));
@@ -182,8 +166,7 @@ async function syncEvents() {
     console.log(`✓ Total events after sync: ${existingEvents.length}`);
 
     if (existingEvents.length === 0) {
-      console.error('ERROR: No events remaining. Aborting to avoid data loss.');
-      process.exit(1);
+      console.warn('Warning: No events remaining. Still saving to reflect state.');
     }
 
     // Save events.json
