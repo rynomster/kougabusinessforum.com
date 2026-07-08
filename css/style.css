@@ -14,7 +14,7 @@
   --text-dark: #1a1a2e;
   --text-main: #1a1a2e;
   --text-light: #ffffff;
-  --text-muted: #d1d1d1;
+  --text-muted: #a0a0a0;
   --bg-light: #f8f9fa;
   --bg-white: #ffffff;
   --bg-gradient: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
@@ -334,9 +334,9 @@ p {
   background:
     linear-gradient(
       90deg,
-      rgba(0, 30, 50, 0.46) 0%,
-      rgba(0, 30, 50, 0.28) 45%,
-      rgba(0, 30, 50, 0.16) 100%
+      rgba(0, 30, 50, 0.6) 0%,
+      rgba(0, 30, 50, 0.4) 45%,
+      rgba(0, 30, 50, 0.25) 100%
     );
 }
 
