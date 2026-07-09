@@ -1,63 +1,8 @@
 {
-  "lastUpdated": "2026-07-08T19:43:58.115Z",
+  "lastUpdated": "2026-07-09T03:55:46.826Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 44,
+  "count": 39,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-03-2026-07-08/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-03-2026-07-08/",
-      "pubDate": "Wed, 08 Jul 2026 07:00:00 +0000",
-      "dateStr": "2026-07-08",
-      "day": "08",
-      "month": "JUL",
-      "description": "Wed, 8 July 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Pensioners Day at  Fountains Mall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/pensioners-day/",
-      "guid": "https://9ty9.co.za/events/pensioners-day/",
-      "pubDate": "Wed, 08 Jul 2026 07:00:00 +0000",
-      "dateStr": "2026-07-08",
-      "day": "08",
-      "month": "JUL",
-      "description": "Wed, 8 July 2026 - 09:00 - 13:00",
-      "image": "images/events/Pensioners-Day-8July2026.jpg"
-    },
-    {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-07-08/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-07-08/",
-      "pubDate": "Wed, 08 Jul 2026 09:00:00 +0000",
-      "dateStr": "2026-07-08",
-      "day": "08",
-      "month": "JUL",
-      "description": "Wed, 8 July 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
-    },
-    {
-      "title": "Bingo at  Arthur Fennell Hall in Aston Bay",
-      "link": "https://9ty9.co.za/events/bingo-2/",
-      "guid": "https://9ty9.co.za/events/bingo-2/",
-      "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
-      "dateStr": "2026-07-08",
-      "day": "08",
-      "month": "JUL",
-      "description": "Wed, 8 July 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Bingo-8July2026.jfif"
-    },
-    {
-      "title": "Gabriel Quinn at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/gabriel-quinn/",
-      "guid": "https://9ty9.co.za/events/gabriel-quinn/",
-      "pubDate": "Wed, 08 Jul 2026 16:00:00 +0000",
-      "dateStr": "2026-07-08",
-      "day": "08",
-      "month": "JUL",
-      "description": "Wed, 8 July 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Gabriel-Quinn-8July2026.jfif"
-    },
     {
       "title": "Wintermark at  NG Gemeente Jeffreysbaai - Da Gama kampus in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/wintermark/",
