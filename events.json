@@ -1,52 +1,8 @@
 {
-  "lastUpdated": "2026-07-09T19:55:41.131Z",
+  "lastUpdated": "2026-07-10T03:56:24.727Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 39,
+  "count": 35,
   "events": [
-    {
-      "title": "Wintermark at  NG Gemeente Jeffreysbaai - Da Gama kampus in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/wintermark/",
-      "guid": "https://9ty9.co.za/events/wintermark/",
-      "pubDate": "Thu, 09 Jul 2026 07:00:00 +0000",
-      "dateStr": "2026-07-09",
-      "day": "09",
-      "month": "JUL",
-      "description": "Thu, 9 July 2026 - Fri, 10 July 2026 - 09:00 - 16:00",
-      "image": "images/events/Wintermark-11July2026.jpg"
-    },
-    {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-07-09/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-07-09/",
-      "pubDate": "Thu, 09 Jul 2026 09:00:00 +0000",
-      "dateStr": "2026-07-09",
-      "day": "09",
-      "month": "JUL",
-      "description": "Thu, 9 July 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
-    },
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-07-09/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-07-09/",
-      "pubDate": "Thu, 09 Jul 2026 16:00:00 +0000",
-      "dateStr": "2026-07-09",
-      "day": "09",
-      "month": "JUL",
-      "description": "Thu, 9 July 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "All Things Soccer Quiz Fundraiser at  St Francis Brewing Co. in St Francis Bay",
-      "link": "https://9ty9.co.za/events/all-things-soccer-quiz-fundraiser/",
-      "guid": "https://9ty9.co.za/events/all-things-soccer-quiz-fundraiser/",
-      "pubDate": "Thu, 09 Jul 2026 16:30:00 +0000",
-      "dateStr": "2026-07-09",
-      "day": "09",
-      "month": "JUL",
-      "description": "Thu, 9 July 2026 - 18:30 - 21:00",
-      "image": "images/events/All-Things-Soccer-9July2026.jpg"
-    },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-08-2026-07-10/",
