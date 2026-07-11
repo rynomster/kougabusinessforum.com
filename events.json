@@ -1,63 +1,8 @@
 {
-  "lastUpdated": "2026-07-10T19:41:58.710Z",
+  "lastUpdated": "2026-07-11T03:22:51.398Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 35,
+  "count": 30,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-08-2026-07-10/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-08-2026-07-10/",
-      "pubDate": "Fri, 10 Jul 2026 07:00:00 +0000",
-      "dateStr": "2026-07-10",
-      "day": "10",
-      "month": "JUL",
-      "description": "Fri, 10 July 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Acoustic Legends- Strings &amp; Stories at  St Francis Brewing Co. in St Francis Bay",
-      "link": "https://9ty9.co.za/events/acoustic-legends-strings-stories/",
-      "guid": "https://9ty9.co.za/events/acoustic-legends-strings-stories/",
-      "pubDate": "Fri, 10 Jul 2026 17:30:00 +0000",
-      "dateStr": "2026-07-10",
-      "day": "10",
-      "month": "JUL",
-      "description": "Fri, 10 July 2026 - 19:30 - 21:30",
-      "image": "images/events/Acoustic-Legends-10July2026.jpg"
-    },
-    {
-      "title": "Tori Amos Tribute at  Nineteen33 in Gqeberha",
-      "link": "https://9ty9.co.za/events/tori-amos-tribute/",
-      "guid": "https://9ty9.co.za/events/tori-amos-tribute/",
-      "pubDate": "Fri, 10 Jul 2026 17:00:00 +0000",
-      "dateStr": "2026-07-10",
-      "day": "10",
-      "month": "JUL",
-      "description": "Fri, 10 July 2026 - 19:00 - 21:00",
-      "image": "images/events/Tori-Amos-Tribute-10July2026.jpg"
-    },
-    {
-      "title": "Therese and Dave at  Island Vibe Backpackers in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/therese-and-dave/",
-      "guid": "https://9ty9.co.za/events/therese-and-dave/",
-      "pubDate": "Fri, 10 Jul 2026 16:00:00 +0000",
-      "dateStr": "2026-07-10",
-      "day": "10",
-      "month": "JUL",
-      "description": "Fri, 10 July 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Therese-and-Dave-10July2026.jfif"
-    },
-    {
-      "title": "Bingo Beats Live! at  St Francis Links in St Francis Bay",
-      "link": "https://9ty9.co.za/events/bingo-beats-live/",
-      "guid": "https://9ty9.co.za/events/bingo-beats-live/",
-      "pubDate": "Fri, 10 Jul 2026 16:30:00 +0000",
-      "dateStr": "2026-07-10",
-      "day": "10",
-      "month": "JUL",
-      "description": "Fri, 10 July 2026 - 18:30 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Bingo-Beats-Live-10July2026.jfif"
-    },
     {
       "title": "Baviaanskloof Kerk Basaar at  Beacosnek Stoor in Baviaanskloof",
       "link": "https://9ty9.co.za/events/baviaanskloof-kerk-basaar/",
