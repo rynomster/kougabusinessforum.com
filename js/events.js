@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function initializeCommunityEvents() {
   const JSON_URL = 'events.json';
-  const PAGE_SIZE = 6;
+  const PAGE_SIZE = 9;
 
   // DOM Elements
   const container = document.getElementById('community-events-container');
