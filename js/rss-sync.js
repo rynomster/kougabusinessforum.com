@@ -50,27 +50,47 @@ async function syncEvents() {
     console.warn('Warning: Could not read header/footer templates. Using empty placeholders.', err.message);
   }
 
+  const MAX_PAGES = 5;
+  let hasMorePages = true;
+  let totalNewEventsAdded = 0;
+  let totalNewEventsSkipped = 0;
+
   try {
-    // Attempt RSS fetch and parsing
-    try {
-      // Use curl instead of axios - Cloudflare trusts curl more than Node.js
-      const rssSecret = process.env.RSS_PROXY_SECRET || '';
-      const authHeader = rssSecret ? `-H "x-rss-secret: ${rssSecret}"` : '';
+    // Attempt RSS fetch and parsing with pagination
+    for (let page = 1; page <= MAX_PAGES && hasMorePages; page++) {
+      try {
+        // Use curl instead of axios - Cloudflare trusts curl more than Node.js
+        const rssSecret = process.env.RSS_PROXY_SECRET || '';
+        const authHeader = rssSecret ? `-H "x-rss-secret: ${rssSecret}"` : '';
+        const targetUrl = page === 1 ? RSS_URL : `${RSS_URL}?paged=${page}`;
 
-      const curlCmd = `curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" ${authHeader} -H "Accept: application/rss+xml, application/xml, text/xml, */*" -H "Referer: https://9ty9.co.za/" -w "\\n%{http_code}" "${RSS_URL}"`;
-      const curlOutput = execSync(curlCmd, { timeout: 15000, encoding: 'utf8' });
-      const lines = curlOutput.trim().split('\n');
-      const httpCode = lines.pop();
-      const xml = lines.join('\n');
+        console.log(`[Page ${page}/${MAX_PAGES}] Fetching ${targetUrl}...`);
 
-      console.log(`RSS fetch HTTP status: ${httpCode}, content length: ${xml.length}`);
+        const curlCmd = `curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" ${authHeader} -H "Accept: application/rss+xml, application/xml, text/xml, */*" -H "Referer: https://9ty9.co.za/" -w "\\n%{http_code}" "${targetUrl}"`;
+        const curlOutput = execSync(curlCmd, { timeout: 15000, encoding: 'utf8' });
+        const lines = curlOutput.trim().split('\n');
+        const httpCode = lines.pop();
+        const xml = lines.join('\n');
 
-      if (httpCode === '200' && xml && xml.includes('<item>')) {
+        console.log(`[Page ${page}] RSS fetch HTTP status: ${httpCode}, content length: ${xml.length}`);
+
+        if (httpCode !== '200') {
+          console.warn(`[Page ${page}] Non-200 HTTP response. Stopping pagination.`);
+          hasMorePages = false;
+          break;
+        }
+
+        if (!xml || !xml.includes('<item>')) {
+          console.log(`[Page ${page}] No items found in feed. Stopping pagination.`);
+          hasMorePages = false;
+          break;
+        }
+
         const itemMatches = xml.match(/<item>([\s\S]*?)<\/item>/g) || [];
-        console.log(`Found ${itemMatches.length} items in feed.`);
+        console.log(`[Page ${page}] Found ${itemMatches.length} items in feed.`);
 
-        let newEventsAdded = 0;
-        let newEventsSkipped = 0;
+        let pageEventsAdded = 0;
+        let pageEventsSkipped = 0;
 
         for (const itemXml of itemMatches) {
           const title = (itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) || itemXml.match(/<title>(.*?)<\/title>/))?.[1] || 'Untitled';
@@ -88,13 +108,14 @@ async function syncEvents() {
 
           // Skip if no valid date
           if (isNaN(date.getTime())) {
-            console.log(`Skipping event without valid date: ${title}`);
+            console.log(`[Page ${page}] Skipping event without valid date: ${title}`);
             continue;
           }
 
           // Check for duplicate by GUID
           if (guid && eventsByGuid.has(guid)) {
-            newEventsSkipped++;
+            pageEventsSkipped++;
+            totalNewEventsSkipped++;
             continue; // Already have this event, skip
           }
 
@@ -108,10 +129,10 @@ async function syncEvents() {
               try {
                 const imgResponse = await axios.get(imageUrl, { responseType: 'arraybuffer', timeout: 10000 });
                 fs.writeFileSync(localPath, Buffer.from(imgResponse.data));
-                console.log(`Downloaded: ${filename}`);
+                console.log(`[Page ${page}] Downloaded: ${filename}`);
                 localImage = localPath;
               } catch (err) {
-                console.log(`Failed to download: ${imageUrl} - ${err.message}`);
+                console.log(`[Page ${page}] Failed to download: ${imageUrl} - ${err.message}`);
                 localImage = imageUrl; // fallback to original
               }
             } else {
@@ -134,15 +155,16 @@ async function syncEvents() {
           // Add to map and array
           eventsByGuid.set(guid, event);
           existingEvents.push(event);
-          newEventsAdded++;
+          pageEventsAdded++;
+          totalNewEventsAdded++;
         }
-        console.log(`✓ New events added: ${newEventsAdded}, duplicates skipped: ${newEventsSkipped}`);
-      } else {
-        console.warn(`Warning: Could not fetch new events (HTTP ${httpCode}). Proceeding with pruning and existing data.`);
+        console.log(`[Page ${page}] ✓ Events added on page: ${pageEventsAdded}, duplicates skipped: ${pageEventsSkipped}`);
+      } catch (pageErr) {
+        console.warn(`[Page ${page}] Warning: Error during page fetch: ${pageErr.message}`);
+        hasMorePages = false;
       }
-    } catch (fetchErr) {
-      console.warn(`Warning: Error during RSS fetch: ${fetchErr.message}. Proceeding with pruning and existing data.`);
     }
+    console.log(`✓ Sync complete: total new events added: ${totalNewEventsAdded}, total duplicates skipped: ${totalNewEventsSkipped}`);
 
     // ALWAYS prune old events
     const pruneThreshold = new Date();
