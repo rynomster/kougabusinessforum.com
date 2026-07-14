@@ -1934,23 +1934,31 @@ textarea {
   text-align: center;
   border: 1px solid var(--border-color);
   transition: all var(--transition-normal);
+  display: block;
+  text-decoration: none;
 }
 
 .town-card:hover {
   border-color: var(--accent-cyan);
   transform: translateY(-4px);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-hover);
 }
 
 .town-card h4 {
   color: var(--primary-dark);
   margin-bottom: 0.5rem;
+  transition: color var(--transition-fast);
+}
+
+.town-card:hover h4 {
+  color: var(--accent-teal);
 }
 
 .town-card p {
   font-size: 0.85rem;
   color: var(--text-muted);
   line-height: 1.5;
+  margin-bottom: 1.5rem;
 }
 
 @media (max-width: 768px) {
