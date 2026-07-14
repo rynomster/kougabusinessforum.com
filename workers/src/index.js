@@ -149,11 +149,19 @@ async function handleRssProxy(req, env) {
     return errorResponse('Method not allowed', 405, env);
   }
 
-  const RSS_URL = 'https://9ty9.co.za/event/feed';
-  log(`🔄 Proxying RSS from ${RSS_URL}`, 'info');
+  const incomingUrl = new URL(req.url);
+  const paged = incomingUrl.searchParams.get('paged');
+  let targetUrl = 'https://9ty9.co.za/event/feed';
+  if (paged) {
+    const pageNum = parseInt(paged, 10);
+    if (!isNaN(pageNum) && pageNum > 0) {
+      targetUrl += `?paged=${pageNum}`;
+    }
+  }
+  log(`🔄 Proxying RSS from ${targetUrl}`, 'info');
 
   try {
-    const response = await fetch(RSS_URL, {
+    const response = await fetch(targetUrl, {
       headers: {
         'User-Agent': 'KBF-RSS-Proxy/1.0',
         'Accept': 'application/rss+xml, application/xml, text/xml, */*',
