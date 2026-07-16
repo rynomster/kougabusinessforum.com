@@ -50,10 +50,10 @@ async function syncCalendar() {
           const googleCalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.summary || '')}&dates=${formatDateForGoogle(ev.start)}/${formatDateForGoogle(ev.end)}&details=${encodeURIComponent(ev.description || '')}&location=${encodeURIComponent(ev.location || '')}`;
 
           eventList.push({
-            summary: ev.summary || 'Untitled Event',
-            description: ev.description || '',
-            descriptionClean: (ev.description || '').replace(/<[^>]+>/g, '').trim(),
-            location: ev.location || '',
+            summary: (ev.summary || 'Untitled Event').replace(/St Francis/g, 'St. Francis'),
+            description: (ev.description || '').replace(/St Francis/g, 'St. Francis'),
+            descriptionClean: (ev.description || '').replace(/<[^>]+>/g, '').trim().replace(/St Francis/g, 'St. Francis'),
+            location: (ev.location || '').replace(/St Francis/g, 'St. Francis'),
             link: googleCalLink,
             start: ev.start,
             end: ev.end,
