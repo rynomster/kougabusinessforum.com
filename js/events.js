@@ -3,6 +3,24 @@
  * Loads and displays community events with calendar date picking, search, category, location filtering and pagination.
  */
 
+/**
+ * Debounce helper function to delay execution of a function
+ * until after a specified number of milliseconds have elapsed
+ * since the last time it was invoked. This optimizes typing and prevents
+ * expensive re-renders and lucide icon re-creations on every keystroke.
+ */
+function debounce(func, wait) {
+  let timeout;
+  return function executedFunction(...args) {
+    const later = () => {
+      clearTimeout(timeout);
+      func(...args);
+    };
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+  };
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initializeCommunityEvents();
 });
@@ -298,7 +316,9 @@ function initializeCommunityEvents() {
 
   // Event Listeners for Filters
   if (searchInput) {
-    searchInput.addEventListener('input', applyFilters);
+    // Performance: Debounce search input to avoid triggering heavy DOM updates,
+    // custom filtering calculations, and lucide icon generation on every single keystroke.
+    searchInput.addEventListener('input', debounce(applyFilters, 250));
   }
   if (locationSelect) {
     locationSelect.addEventListener('change', applyFilters);
