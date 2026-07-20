@@ -262,6 +262,17 @@ function initializeForms() {
       }, 500);
     });
   }
+
+  // Business Submission Form
+  const submitBusinessForm = document.getElementById('submitBusinessForm');
+  if (submitBusinessForm) {
+    submitBusinessForm.addEventListener('submit', function() {
+      // Small delay to allow the mailto: action to trigger before showing feedback
+      setTimeout(() => {
+        alert('Thank you! Your email client should now open with your business listing details. Please make sure to click \'Send\' in your mail client to complete your KBF listing submission.');
+      }, 500);
+    });
+  }
 }
 
 // Scroll Animations
