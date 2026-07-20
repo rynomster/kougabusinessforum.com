@@ -6,6 +6,24 @@
 // Configuration
 const DIRECTORY_JSON_URL = 'directory.json';
 
+/**
+ * Debounce helper function to delay execution of a function
+ * until after a specified number of milliseconds have elapsed
+ * since the last time it was invoked. This optimizes typing and prevents
+ * expensive re-renders and lucide icon re-creations on every keystroke.
+ */
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
 // State
 let allBusinesses = [];
 let categoryFilter = 'all';
@@ -82,9 +100,11 @@ async function loadDirectoryData() {
 function initializeFilters() {
     const searchInput = document.getElementById('searchInput');
     if (searchInput) {
-        searchInput.addEventListener('input', () => {
+        // Performance: Debounce search input to avoid triggering heavy DOM updates
+        // and lucide icon generation on every single keystroke.
+        searchInput.addEventListener('input', debounce(() => {
             renderDirectory();
-        });
+        }, 250));
     }
 
     // Category filters
