@@ -23,6 +23,11 @@ function escapeHTML(str) {
   });
 }
 
+function sanitizeStFrancis(text) {
+  if (!text) return '';
+  return text.replace(/St\.?\s+Francis/g, 'St. Francis');
+}
+
 function formatDateForGoogle(date) {
   if (!date) return '';
   return new Date(date).toISOString().replace(/-|:|\.\d\d\d/g, "");
@@ -47,13 +52,18 @@ async function syncCalendar() {
           const monthFull = new Intl.DateTimeFormat('en-ZA', { month: 'long', timeZone: TZ }).format(startDate);
           const year = new Intl.DateTimeFormat('en-ZA', { year: 'numeric', timeZone: TZ }).format(startDate);
 
-          const googleCalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.summary || '')}&dates=${formatDateForGoogle(ev.start)}/${formatDateForGoogle(ev.end)}&details=${encodeURIComponent(ev.description || '')}&location=${encodeURIComponent(ev.location || '')}`;
+          const sanitizedSummary = sanitizeStFrancis(ev.summary || 'Untitled Event');
+          const sanitizedDescription = sanitizeStFrancis(ev.description || '');
+          const sanitizedLocation = sanitizeStFrancis(ev.location || '');
+          const sanitizedDescriptionClean = sanitizeStFrancis((ev.description || '').replace(/<[^>]+>/g, '').trim());
+
+          const googleCalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(sanitizedSummary)}&dates=${formatDateForGoogle(ev.start)}/${formatDateForGoogle(ev.end)}&details=${encodeURIComponent(sanitizedDescription)}&location=${encodeURIComponent(sanitizedLocation)}`;
 
           eventList.push({
-            summary: ev.summary || 'Untitled Event',
-            description: ev.description || '',
-            descriptionClean: (ev.description || '').replace(/<[^>]+>/g, '').trim(),
-            location: ev.location || '',
+            summary: sanitizedSummary,
+            description: sanitizedDescription,
+            descriptionClean: sanitizedDescriptionClean,
+            location: sanitizedLocation,
             link: googleCalLink,
             start: ev.start,
             end: ev.end,
