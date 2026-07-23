@@ -47,13 +47,18 @@ async function syncCalendar() {
           const monthFull = new Intl.DateTimeFormat('en-ZA', { month: 'long', timeZone: TZ }).format(startDate);
           const year = new Intl.DateTimeFormat('en-ZA', { year: 'numeric', timeZone: TZ }).format(startDate);
 
-          const googleCalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.summary || '')}&dates=${formatDateForGoogle(ev.start)}/${formatDateForGoogle(ev.end)}&details=${encodeURIComponent(ev.description || '')}&location=${encodeURIComponent(ev.location || '')}`;
+          const cleanSummary = (ev.summary || 'Untitled Event').replace(/\bSt\s+Francis\b(?!(\.))/g, 'St. Francis');
+          const cleanDesc = (ev.description || '').replace(/\bSt\s+Francis\b(?!(\.))/g, 'St. Francis');
+          const cleanDescClean = cleanDesc.replace(/<[^>]+>/g, '').trim();
+          const cleanLocation = (ev.location || '').replace(/\bSt\s+Francis\b(?!(\.))/g, 'St. Francis');
+
+          const googleCalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(cleanSummary)}&dates=${formatDateForGoogle(ev.start)}/${formatDateForGoogle(ev.end)}&details=${encodeURIComponent(cleanDesc)}&location=${encodeURIComponent(cleanLocation)}`;
 
           eventList.push({
-            summary: ev.summary || 'Untitled Event',
-            description: ev.description || '',
-            descriptionClean: (ev.description || '').replace(/<[^>]+>/g, '').trim(),
-            location: ev.location || '',
+            summary: cleanSummary,
+            description: cleanDesc,
+            descriptionClean: cleanDescClean,
+            location: cleanLocation,
             link: googleCalLink,
             start: ev.start,
             end: ev.end,
