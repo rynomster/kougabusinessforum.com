@@ -12,9 +12,9 @@ KBF_WEBSITE = "https://kougabusinessforum.com"
 # HTTP routes must include a full hostname pattern.
 # zone_name should be the Cloudflare DNS zone (apex), not a subdomain.
 [[routes]]
-pattern = "kougabusinessforum.com/api/*"
+pattern = "*kougabusinessforum.com/api/*"
 zone_name = "kougabusinessforum.com"
 
 [[routes]]
-pattern = "kougabusinessforum.com/rss"
+pattern = "*kougabusinessforum.com/rss*"
 zone_name = "kougabusinessforum.com"

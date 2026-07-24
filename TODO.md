@@ -11,13 +11,13 @@
 
 | ID | Task | Priority | Status | Notes |
 |----|------|----------|--------|-------|
-| P1a | Update `CLOUDFLARE_ACCOUNT_ID` | 🔴 High | ⏳ Waiting on client | Fix error 7003 by providing correct Account ID |
-| P1b | Verify Worker Deployment | 🟡 Medium | ⏳ Pending | Run deploy workflow after P1a is resolved |
+| P1a | Update `CLOUDFLARE_ACCOUNT_ID` | 🔴 High | ⏳ Waiting on client | Fix error 7003 by providing correct 32-character hex ID in GitHub Secrets |
+| P1b | Verify Worker Deployment | 🟡 Medium | 🔧 Code ready | Deployment workflow optimized with local wrangler and validation checks; ready for P1a |
 | P2a | Contact client for 2021-2022 AGM minutes | 🔴 High | ⏳ Waiting on client | Essential for 5-year legal compliance |
 | P2b | Upload & link 2021-2022 AGM minutes | 🟢 Low | ⏳ Pending | Depends on P2a |
 | P3a | Request 2026 Member Payment List | 🔴 High | ⏳ Waiting on client | Necessary to update directory badges (🔵/⚪) |
 | P3b | Update `directory.json` with 2026 status | 🟡 Medium | ⏳ Pending | Depends on P3a |
-| P4 | Deploy RSS worker proxy | 🟡 Medium | 🔧 Code ready | Bypass 403 for event sync; depends on P1b |
+| P4 | Deploy RSS worker proxy | 🟡 Medium | 🛡️ Configured | Wildcard routes configured to prevent 404s; ready to run once P1b is deployed |
 | P5a | Research PayFast API for member sync | 🟡 Medium | ⏳ Pending | For automated badge updates |
 | P5b | Implement PayFast webhook/sync | 🟡 Medium | ⏳ Pending | Depends on P5a |
 | P6 | Confirm real social media URLs | 🟢 Low | ⏳ Waiting on client | Replace placeholders in footer |
