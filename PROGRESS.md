@@ -33,7 +33,7 @@
 
 | Item | Status | Root Cause |
 |------|--------|----------|
-| Cloudflare Worker deploy | ❌ Failing (error 7003) | `CLOUDFLARE_ACCOUNT_ID` secret is invalid. **Action:** Update secret in GitHub Settings with ID from Cloudflare Dashboard. |
+| Cloudflare Worker deploy | ❌ Pending Secret | `CLOUDFLARE_ACCOUNT_ID` secret is invalid. **Action:** Update secret in GitHub Settings with the correct 32-character hex ID from Cloudflare Dashboard. |
 
 ---
 
@@ -41,7 +41,7 @@
 
 | Item | Status | Notes |
 |------|--------|-------|
-| RSS worker proxy | 🔧 Code ready | Unblocks event sync; depends on Worker deploy fix. |
+| RSS worker proxy | 🛡️ Configured | Route wildcard patterns optimized; ready to deploy once `CLOUDFLARE_ACCOUNT_ID` is updated. |
 | AGM Compliance | ⚠️ Partial | Have 2023-2024; waiting on client for 2021-2022. |
 | Member Verification | ⏳ Pending | Waiting on 2026 paid list for directory badge updates. |
 | GOOGLE_SHEET_ID | ⏳ Pending | Waiting on Sheet ID to activate directory auto-sync. |
