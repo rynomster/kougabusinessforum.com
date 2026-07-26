@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-26T08:34:56.839Z",
+  "lastUpdated": "2026-07-26T13:42:38.818Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 92,
+  "count": 99,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1014,6 +1014,83 @@
       "month": "AUG",
       "description": "Thu, 6 August 2026 - 18:00 - 21:00",
       "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "All Out Country! - Live at Nineteen33 at  Nineteen33 in Gqeberha",
+      "link": "https://9ty9.co.za/events/all-out-country-live-at-nineteen33/",
+      "guid": "https://9ty9.co.za/events/all-out-country-live-at-nineteen33/",
+      "pubDate": "Thu, 06 Aug 2026 17:00:00 +0000",
+      "dateStr": "2026-08-06",
+      "day": "06",
+      "month": "AUG",
+      "description": "Thu, 6 August 2026 - 19:00 - 22:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/All-Out-Country2-6Aug2026.jpg"
+    },
+    {
+      "title": "Rock Quiz - Thyspunt Alliance Fundraiser at  St Francis Brewing Co. in St Francis Bay",
+      "link": "https://9ty9.co.za/events/rock-quiz-thyspunt-alliance-fundraiser/",
+      "guid": "https://9ty9.co.za/events/rock-quiz-thyspunt-alliance-fundraiser/",
+      "pubDate": "Thu, 06 Aug 2026 17:00:00 +0000",
+      "dateStr": "2026-08-06",
+      "day": "06",
+      "month": "AUG",
+      "description": "Thu, 6 August 2026 - 19:00 - 22:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Rock-Quiz-6Aug2026.jfif"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-05-2026-08-07/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-05-2026-08-07/",
+      "pubDate": "Fri, 07 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-07",
+      "day": "07",
+      "month": "AUG",
+      "description": "Fri, 7 August 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Collagraph Printmaking Workshop at Cats Art Studio at  Cats Art Studio in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/collagraph-printmaking-workshop-at-cats-art-studio-2/",
+      "guid": "https://9ty9.co.za/events/collagraph-printmaking-workshop-at-cats-art-studio-2/",
+      "pubDate": "Fri, 07 Aug 2026 07:15:00 +0000",
+      "dateStr": "2026-08-07",
+      "day": "07",
+      "month": "AUG",
+      "description": "Fri, 7 August 2026 - 09:15 - 12:30",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Cats-Art-Studio-7Aug2026.jfif"
+    },
+    {
+      "title": "What&#039;s Good In The Hood at  What&#039;s Good In The Hood in Gqeberha",
+      "link": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31-2026-08-07/",
+      "guid": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31-2026-08-07/",
+      "pubDate": "Fri, 07 Aug 2026 15:00:00 +0000",
+      "dateStr": "2026-08-07",
+      "day": "07",
+      "month": "AUG",
+      "description": "Fri, 7 August 2026 - 17:00 - 21:00",
+      "image": "images/events/Whats-Good-In-The-Hood-31Dec2026.jpg"
+    },
+    {
+      "title": "Chef&#039;s Table: Trip to Spain at Ember and Tide at  Ember &amp; Tide in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/chefs-table-trip-to-spain-at-ember-and-tide/",
+      "guid": "https://9ty9.co.za/events/chefs-table-trip-to-spain-at-ember-and-tide/",
+      "pubDate": "Fri, 07 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-07",
+      "day": "07",
+      "month": "AUG",
+      "description": "Fri, 7 August 2026 - 18:00 - 22:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Trip-to-Spain-7Aug2026.jfif"
+    },
+    {
+      "title": "Dual Frequency live at Three Legged Pig at  Three Legged Pig in Gqeberha",
+      "link": "https://9ty9.co.za/events/dual-frequency-live-at-three-legged-pig/",
+      "guid": "https://9ty9.co.za/events/dual-frequency-live-at-three-legged-pig/",
+      "pubDate": "Fri, 07 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-07",
+      "day": "07",
+      "month": "AUG",
+      "description": "Fri, 7 August 2026 - 18:00 - 22:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Dual-Frequency-7Aug2026.jfif"
     }
   ]
 }
