@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-26T13:42:38.818Z",
+  "lastUpdated": "2026-07-26T19:20:49.879Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 99,
+  "count": 103,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1091,6 +1091,50 @@
       "month": "AUG",
       "description": "Fri, 7 August 2026 - 18:00 - 22:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Dual-Frequency-7Aug2026.jfif"
+    },
+    {
+      "title": "Trans Baviaans 24HR MTB Race at  Trans Baviaans Start in Willowmore",
+      "link": "https://9ty9.co.za/events/trans-baviaans-24hr-mtb-race/",
+      "guid": "https://9ty9.co.za/events/trans-baviaans-24hr-mtb-race/",
+      "pubDate": "Fri, 07 Aug 2026 22:00:00 +0000",
+      "dateStr": "2026-08-07",
+      "day": "07",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 00:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2025/09/Trans-Baviaans-2025.jpg"
+    },
+    {
+      "title": "Chokka Trail Run at  Cape St. Francis Resort in Cape St Francis",
+      "link": "https://9ty9.co.za/events/chokka-trail-run/",
+      "guid": "https://9ty9.co.za/events/chokka-trail-run/",
+      "pubDate": "Sat, 08 Aug 2026 05:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - Sun, 9 August 2026 - 07:00 - 15:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2025/12/Chokka-Trail-Run-9Aug2026.jfif"
+    },
+    {
+      "title": "Greater Garden Route Tidebreaker Classic at  Main Beach (Dolphin Beach) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/greater-garden-route-tidebreaker-classic/",
+      "guid": "https://9ty9.co.za/events/greater-garden-route-tidebreaker-classic/",
+      "pubDate": "Sat, 08 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - Sun, 9 August 2026 - 08:00 - 17:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/05/Greater-Garden-Route-Tidebreaker-Classic-9August2026.jpg"
+    },
+    {
+      "title": "La Muse Classic supported by the Department of Sport, Arts &amp; Culture at   in",
+      "link": "https://9ty9.co.za/events/la-muse-classic-supported-by-the-department-of-sport-arts-culture/",
+      "guid": "https://9ty9.co.za/events/la-muse-classic-supported-by-the-department-of-sport-arts-culture/",
+      "pubDate": "Sat, 08 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - Tue, 11 August 2026 - 08:00 - 17:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/01/Surfing-South-Africa-14.png"
     }
   ]
 }
