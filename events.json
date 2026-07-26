@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-25T19:17:54.458Z",
+  "lastUpdated": "2026-07-26T03:36:46.878Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 88,
+  "count": 92,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -970,6 +970,50 @@
       "month": "AUG",
       "description": "Sun, 2 August 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04/",
+      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04/",
+      "pubDate": "Tue, 04 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-04",
+      "day": "04",
+      "month": "AUG",
+      "description": "Tue, 4 August 2026 - 10:00 - 12:00",
+      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-31-2026-08-05/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-31-2026-08-05/",
+      "pubDate": "Wed, 05 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-05",
+      "day": "05",
+      "month": "AUG",
+      "description": "Wed, 5 August 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Eagle&#039;s Nest Wine Tasting at  Unwind Tapa Restaurant in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/eagles-nest-wine-tasting/",
+      "guid": "https://9ty9.co.za/events/eagles-nest-wine-tasting/",
+      "pubDate": "Wed, 05 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-05",
+      "day": "05",
+      "month": "AUG",
+      "description": "Wed, 5 August 2026 - 18:00 - 21:00",
+      "image": "images/events/Eagles-Nest-Wine-Tasting-5Aug2026.jpg"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-08-06/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-06/",
+      "pubDate": "Thu, 06 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-06",
+      "day": "06",
+      "month": "AUG",
+      "description": "Thu, 6 August 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
     }
   ]
 }
