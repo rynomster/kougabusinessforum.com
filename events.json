@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-27T03:45:36.378Z",
+  "lastUpdated": "2026-07-27T10:02:31.095Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 103,
+  "count": 107,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -609,6 +609,17 @@
       "image": "images/events/CurryQuiz-28July2026.jpg"
     },
     {
+      "title": "Live Music at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/live-music-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/live-music-at-the-backyard/",
+      "pubDate": "Tue, 28 Jul 2026 16:00:00 +0000",
+      "dateStr": "2026-07-28",
+      "day": "28",
+      "month": "JUL",
+      "description": "Tue, 28 July 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Backyard-28July2026.jfif"
+    },
+    {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-24-2026-07-29/",
       "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-24-2026-07-29/",
@@ -629,6 +640,17 @@
       "month": "JUL",
       "description": "Wed, 29 July 2026 - 11:00 - 13:00",
       "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
+    },
+    {
+      "title": "Just Jane Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/just-jane-live-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/just-jane-live-at-the-backyard/",
+      "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
+      "dateStr": "2026-07-29",
+      "day": "29",
+      "month": "JUL",
+      "description": "Wed, 29 July 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Backyard-29July2026.jfif"
     },
     {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
@@ -774,6 +796,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Double-Play-30July2926.jfif"
     },
     {
+      "title": "Just Us Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/just-us-live-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/just-us-live-at-the-backyard/",
+      "pubDate": "Fri, 31 Jul 2026 16:00:00 +0000",
+      "dateStr": "2026-07-31",
+      "day": "31",
+      "month": "JUL",
+      "description": "Fri, 31 July 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Backyard-31July2026.jfif"
+    },
+    {
       "title": "7th Heaven Golf Day at Jeffreys Bay Golf Club at  Jeffreys Bay Golf Club in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/7th-heaven-golf-day-at-jeffreys-bay-golf-club/",
       "guid": "https://9ty9.co.za/events/7th-heaven-golf-day-at-jeffreys-bay-golf-club/",
@@ -915,6 +948,17 @@
       "month": "AUG",
       "description": "Sat, 1 August 2026 - 19:00 - 21:00",
       "image": "images/events/Country-1Aug2026.jpeg"
+    },
+    {
+      "title": "The Grassroot Sessions - Jbay July Jam Winter-Storm Fundraiser at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/the-grassroot-sessions-jbay-july-jam-winter-storm-fundraiser/",
+      "guid": "https://9ty9.co.za/events/the-grassroot-sessions-jbay-july-jam-winter-storm-fundraiser/",
+      "pubDate": "Sat, 01 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-01",
+      "day": "01",
+      "month": "AUG",
+      "description": "Sat, 1 August 2026 - 18:00 - 23:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Backyard-1Aug2026.jfif"
     },
     {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
