@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-28T03:16:12.143Z",
+  "lastUpdated": "2026-07-28T08:45:27.374Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 107,
+  "count": 108,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -706,6 +706,17 @@
       "month": "JUL",
       "description": "Thu, 30 July 2026 - 19:00 - 21:00",
       "image": "images/events/Quiz-Night-17Dec2026.jpg"
+    },
+    {
+      "title": "Mixed Media Monoprint Workshop at  Marta at Art in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mixed-media-monoprint-workshop/",
+      "guid": "https://9ty9.co.za/events/mixed-media-monoprint-workshop/",
+      "pubDate": "Thu, 30 Jul 2026 10:00:00 +0000",
+      "dateStr": "2026-07-30",
+      "day": "30",
+      "month": "JUL",
+      "description": "Thu, 30 July 2026 - 12:00 - 15:00",
+      "image": "images/events/Marta-30July2026.jpg"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
