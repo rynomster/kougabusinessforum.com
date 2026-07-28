@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-28T08:45:27.374Z",
+  "lastUpdated": "2026-07-28T14:25:12.310Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 108,
+  "count": 110,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -719,6 +719,17 @@
       "image": "images/events/Marta-30July2026.jpg"
     },
     {
+      "title": "Bingo Night at Uncle Charlie&#039;s Pub at  Uncle Charlies Pub in Paradise Beach",
+      "link": "https://9ty9.co.za/events/bingo-night-at-uncle-charlies-pub/",
+      "guid": "https://9ty9.co.za/events/bingo-night-at-uncle-charlies-pub/",
+      "pubDate": "Thu, 30 Jul 2026 16:00:00 +0000",
+      "dateStr": "2026-07-30",
+      "day": "30",
+      "month": "JUL",
+      "description": "Thu, 30 July 2026 - 18:00 - 20:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/UC-Bingo-30July2026.jfif"
+    },
+    {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-29-2026-07-31/",
       "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-29-2026-07-31/",
@@ -1036,6 +1047,17 @@
       "month": "AUG",
       "description": "Tue, 4 August 2026 - 10:00 - 12:00",
       "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Tuinbouklub: Onderwater Geheime van Jeffreysbaai at  NG Gemeente Jeffreysbaai - Da Gama kampus in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/tuinbouklub-onderwater-geheime-van-jeffreysbaai/",
+      "guid": "https://9ty9.co.za/events/tuinbouklub-onderwater-geheime-van-jeffreysbaai/",
+      "pubDate": "Tue, 04 Aug 2026 12:30:00 +0000",
+      "dateStr": "2026-08-04",
+      "day": "04",
+      "month": "AUG",
+      "description": "Tue, 4 August 2026 - 14:30 - 16:30",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Tuinbouklub-4Aug2026.jfif"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
