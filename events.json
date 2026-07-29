@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-29T14:23:40.768Z",
+  "lastUpdated": "2026-07-29T19:26:55.258Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 111,
+  "count": 112,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1036,6 +1036,17 @@
       "month": "AUG",
       "description": "Sun, 2 August 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Just Jane live at Legends at  Legends Sports Bar, Pizzeria and Grill in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/just-jane-live-at-legends/",
+      "guid": "https://9ty9.co.za/events/just-jane-live-at-legends/",
+      "pubDate": "Sun, 02 Aug 2026 15:00:00 +0000",
+      "dateStr": "2026-08-02",
+      "day": "02",
+      "month": "AUG",
+      "description": "Sun, 2 August 2026 - 17:00 - 20:00",
+      "image": "images/events/IMG-20260729-WA0242.jpg"
     },
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
