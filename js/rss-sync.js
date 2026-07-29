@@ -93,17 +93,21 @@ async function syncEvents() {
         let pageEventsSkipped = 0;
 
         for (const itemXml of itemMatches) {
-          const title = (itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) || itemXml.match(/<title>(.*?)<\/title>/))?.[1] || 'Untitled';
+          let title = (itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) || itemXml.match(/<title>(.*?)<\/title>/))?.[1] || 'Untitled';
           const link = (itemXml.match(/<link>(.*?)<\/link>/))?.[1] || '';
           const guid = (itemXml.match(/<guid>(.*?)<\/guid>/))?.[1] || link;
           const pubDate = (itemXml.match(/<pubDate>(.*?)<\/pubDate>/))?.[1] || '';
           const description = (itemXml.match(/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/s) || itemXml.match(/<description>([\s\S]*?)<\/description>/s))?.[1] || '';
 
+          // Standardize 'St. Francis Bay' and 'St. Francis' spelling
+          title = title.replace(/\bSt\s+Francis\b/g, 'St. Francis');
+
           // Improved image extraction regex
           const imgMatch = description.match(/<img[^>]+src=['"]([^'"]+)['"]/i);
           const imageUrl = imgMatch ? imgMatch[1] : null;
 
-          const cleanDesc = description.replace(/<[^>]+>/g, '').trim();
+          let cleanDesc = description.replace(/<[^>]+>/g, '').trim();
+          cleanDesc = cleanDesc.replace(/\bSt\s+Francis\b/g, 'St. Francis');
           const date = new Date(pubDate);
 
           // Skip if no valid date
@@ -207,7 +211,7 @@ async function syncEvents() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Community Events | Kouga Business Forum</title>
-  <meta name="description" content="Discover events in Jeffreys Bay, St Francis Bay & the Kouga Region. Community events, markets, sports, music, and more.">
+  <meta name="description" content="Discover events in Jeffreys Bay, St. Francis Bay & the Kouga Region. Community events, markets, sports, music, and more.">
   <link rel="canonical" href="https://kougabusinessforum.com/events.html">
 
   <!-- Open Graph / Facebook -->
@@ -233,7 +237,7 @@ async function syncEvents() {
 
   <section class="page-hero">
     <h1>Community Events</h1>
-    <p>Discover what's happening in Jeffreys Bay, St Francis Bay & the Kouga Region</p>
+    <p>Discover what's happening in Jeffreys Bay, St. Francis Bay & the Kouga Region</p>
   </section>
 
   <section class="section">
