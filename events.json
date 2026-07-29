@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-29T03:19:14.808Z",
+  "lastUpdated": "2026-07-29T08:49:55.022Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 110,
+  "count": 111,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1179,6 +1179,17 @@
       "month": "AUG",
       "description": "Sat, 8 August 2026 - 00:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2025/09/Trans-Baviaans-2025.jpg"
+    },
+    {
+      "title": "Wine and Yoga - Round Table Jeffreys Bay/Humansdorp 252 at  Hybrid FitClub in Humansdorp",
+      "link": "https://9ty9.co.za/events/wine-and-yoga-round-table-jeffreys-bay-humansdorp-252/",
+      "guid": "https://9ty9.co.za/events/wine-and-yoga-round-table-jeffreys-bay-humansdorp-252/",
+      "pubDate": "Fri, 07 Aug 2026 15:30:00 +0000",
+      "dateStr": "2026-08-07",
+      "day": "07",
+      "month": "AUG",
+      "description": "Fri, 7 August 2026 - 17:30 - 20:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/WineYoga-7Aug2026.jfif"
     },
     {
       "title": "Chokka Trail Run at  Cape St. Francis Resort in Cape St Francis",
