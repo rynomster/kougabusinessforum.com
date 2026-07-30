@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-30T02:52:08.707Z",
+  "lastUpdated": "2026-07-30T08:38:55.304Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 112,
+  "count": 113,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -728,6 +728,17 @@
       "month": "JUL",
       "description": "Thu, 30 July 2026 - 18:00 - 20:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/07/UC-Bingo-30July2026.jfif"
+    },
+    {
+      "title": "Pub Lunch at FJ&#039;s at  FJ’s Sportsbar And Restaurant in St Francis Bay",
+      "link": "https://9ty9.co.za/events/pub-lunch-special-at-fjs/",
+      "guid": "https://9ty9.co.za/events/pub-lunch-special-at-fjs/",
+      "pubDate": "Thu, 30 Jul 2026 09:00:00 +0000",
+      "dateStr": "2026-07-30",
+      "day": "30",
+      "month": "JUL",
+      "description": "Thu, 30 July 2026 - Mon, 31 August 2026 - 11:00 - 15:00",
+      "image": "images/events/FJLunch-31Aug2026.jpg"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
