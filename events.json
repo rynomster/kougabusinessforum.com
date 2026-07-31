@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-31T14:23:25.531Z",
+  "lastUpdated": "2026-07-31T19:44:04.624Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 115,
+  "count": 120,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1267,6 +1267,61 @@
       "month": "AUG",
       "description": "Sat, 8 August 2026 - Tue, 11 August 2026 - 08:00 - 17:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/01/Surfing-South-Africa-14.png"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-01-2026-08-08/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-01-2026-08-08/",
+      "pubDate": "Sat, 08 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St Francis Parkrun at  St Francis Links in St Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-01-2026-08-08/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-01-2026-08-08/",
+      "pubDate": "Sat, 08 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 08:00 - 09:00",
+      "image": "images/events/St-Francis-Parkrun.jpg"
+    },
+    {
+      "title": "Milkwood Farmers Market at  Milkwood Mark \\ Market in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/milkwood-farmers-market-2026-08-08/",
+      "guid": "https://9ty9.co.za/events/milkwood-farmers-market-2026-08-08/",
+      "pubDate": "Sat, 08 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 09:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2025/12/Milkwood-8Aug2026.jfif"
+    },
+    {
+      "title": "St Francis Market at  St Francis Market in St Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-market-2026-08-08/",
+      "guid": "https://9ty9.co.za/events/st-francis-market-2026-08-08/",
+      "pubDate": "Sat, 08 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 09:00 - 13:00",
+      "image": "images/events/St-Francis-Market-26Dec2026.jpg"
+    },
+    {
+      "title": "Elements of Nature Market at  Elements of Nature Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/elements-of-nature-market-2026-08-08/",
+      "guid": "https://9ty9.co.za/events/elements-of-nature-market-2026-08-08/",
+      "pubDate": "Sat, 08 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 10:00 - 15:00",
+      "image": "images/events/Elements-of-Nature-Market-20Dec2026.jpg"
     }
   ]
 }
