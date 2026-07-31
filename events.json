@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-30T19:42:18.098Z",
+  "lastUpdated": "2026-07-31T03:34:32.993Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 113,
+  "count": 115,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1060,6 +1060,17 @@
       "image": "images/events/IMG-20260729-WA0242.jpg"
     },
     {
+      "title": "Oppi Spektrum Bingo Night at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/oppi-spektrum-bingo-night/",
+      "guid": "https://9ty9.co.za/events/oppi-spektrum-bingo-night/",
+      "pubDate": "Mon, 03 Aug 2026 14:30:00 +0000",
+      "dateStr": "2026-08-03",
+      "day": "03",
+      "month": "AUG",
+      "description": "Mon, 3 August 2026 - 16:30 - 19:00",
+      "image": "images/events/0276f112a1fe41dea40b68c8633723fd.jpg"
+    },
+    {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04/",
       "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04/",
@@ -1102,6 +1113,17 @@
       "month": "AUG",
       "description": "Wed, 5 August 2026 - 18:00 - 21:00",
       "image": "images/events/Eagles-Nest-Wine-Tasting-5Aug2026.jpg"
+    },
+    {
+      "title": "Jazz Band Music Performance at Cape St. Francis Resort at  Cape St. Francis Resort in Cape St Francis",
+      "link": "https://9ty9.co.za/events/jazz-band-music-performance-at-cape-st-francis-resort/",
+      "guid": "https://9ty9.co.za/events/jazz-band-music-performance-at-cape-st-francis-resort/",
+      "pubDate": "Wed, 05 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-05",
+      "day": "05",
+      "month": "AUG",
+      "description": "Wed, 5 August 2026 - 18:00 - 20:00",
+      "image": "images/events/0960054_0.jpeg"
     },
     {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
