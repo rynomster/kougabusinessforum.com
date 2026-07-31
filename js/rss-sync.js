@@ -182,6 +182,20 @@ async function syncEvents() {
     const prunedCount = originalCount - existingEvents.length;
     console.log(`Pruned ${prunedCount} old events (${PRUNE_PAST_DAYS}+ days past)`);
 
+    // Sanitize event titles and descriptions to standardize 'St. Francis' (with period and space)
+    existingEvents.forEach(event => {
+      if (event.title) {
+        event.title = event.title
+          .replace(/[Ss]t\s+Francis/g, 'St. Francis')
+          .replace(/[Ss]t\.\s*Francis/g, 'St. Francis');
+      }
+      if (event.description) {
+        event.description = event.description
+          .replace(/[Ss]t\s+Francis/g, 'St. Francis')
+          .replace(/[Ss]t\.\s*Francis/g, 'St. Francis');
+      }
+    });
+
     // Sort by date ascending (oldest first for display)
     existingEvents.sort((a, b) => new Date(a.dateStr) - new Date(b.dateStr));
 
@@ -207,7 +221,7 @@ async function syncEvents() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Community Events | Kouga Business Forum</title>
-  <meta name="description" content="Discover events in Jeffreys Bay, St Francis Bay & the Kouga Region. Community events, markets, sports, music, and more.">
+  <meta name="description" content="Discover events in Jeffreys Bay, St. Francis Bay & the Kouga Region. Community events, markets, sports, music, and more.">
   <link rel="canonical" href="https://kougabusinessforum.com/events.html">
 
   <!-- Open Graph / Facebook -->
@@ -233,7 +247,7 @@ async function syncEvents() {
 
   <section class="page-hero">
     <h1>Community Events</h1>
-    <p>Discover what's happening in Jeffreys Bay, St Francis Bay & the Kouga Region</p>
+    <p>Discover what's happening in Jeffreys Bay, St. Francis Bay & the Kouga Region</p>
   </section>
 
   <section class="section">
