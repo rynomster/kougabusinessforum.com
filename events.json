@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-01T03:34:17.645Z",
+  "lastUpdated": "2026-08-01T08:29:39.770Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 120,
+  "count": 126,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1093,6 +1093,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Tuinbouklub-4Aug2026.jfif"
     },
     {
+      "title": "Paint Dot Mandala Class at Oppi Spektrum at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/paint-dot-mandala-class-at-oppi-spektrum/",
+      "guid": "https://9ty9.co.za/events/paint-dot-mandala-class-at-oppi-spektrum/",
+      "pubDate": "Tue, 04 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-04",
+      "day": "04",
+      "month": "AUG",
+      "description": "Tue, 4 August 2026 - 09:00 - 11:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/OppiPaint-4Aug2026.jfif"
+    },
+    {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-31-2026-08-05/",
       "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-31-2026-08-05/",
@@ -1322,6 +1333,61 @@
       "month": "AUG",
       "description": "Sat, 8 August 2026 - 10:00 - 15:00",
       "image": "images/events/Elements-of-Nature-Market-20Dec2026.jpg"
+    },
+    {
+      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-01-2026-08-08/",
+      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-01-2026-08-08/",
+      "pubDate": "Sat, 08 Aug 2026 13:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 15:00 - 18:00",
+      "image": "images/events/Backyard-Karaoke.jpg"
+    },
+    {
+      "title": "Riana Nel Vroueaand at  Oase Gemeente in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/riana-nel-vroueaand/",
+      "guid": "https://9ty9.co.za/events/riana-nel-vroueaand/",
+      "pubDate": "Sat, 08 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 18:00 - 20:30",
+      "image": "images/events/Riana-Nel-Vroueaand-8Aug2026.jpg"
+    },
+    {
+      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-01-2026-08-08/",
+      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-01-2026-08-08/",
+      "pubDate": "Sat, 08 Aug 2026 17:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 19:00 - 23:59",
+      "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Sami Hall - Why I&#039;m Still Single at  Centrestage in Gqeberha",
+      "link": "https://9ty9.co.za/events/sami-hall-why-im-still-single/",
+      "guid": "https://9ty9.co.za/events/sami-hall-why-im-still-single/",
+      "pubDate": "Sat, 08 Aug 2026 17:30:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 19:30 - 21:30",
+      "image": "images/events/Sami-Hall-8Aug2026.jpg"
+    },
+    {
+      "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19-2026-04-26-2026-05-03-20-02-2026-08-09/",
+      "guid": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19-2026-04-26-2026-05-03-20-02-2026-08-09/",
+      "pubDate": "Sun, 09 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-09",
+      "day": "09",
+      "month": "AUG",
+      "description": "Sun, 9 August 2026 - 09:00 - 18:00",
+      "image": "images/events/Quintes-Sunday.jpg"
     }
   ]
 }
