@@ -9,6 +9,11 @@ const IMAGES_DIR = 'images/events';
 // Prune events that ended more than this many days ago
 const PRUNE_PAST_DAYS = 30;
 
+function sanitizeLocationSpelling(str) {
+  if (!str) return '';
+  return str.replace(/\bSt\s+Francis\b/gi, 'St. Francis');
+}
+
 async function syncEvents() {
   console.log('Starting RSS sync...');
   console.log(`Pruning events older than ${PRUNE_PAST_DAYS} days past their date`);
@@ -141,14 +146,14 @@ async function syncEvents() {
           }
 
           const event = {
-            title: title.trim(),
+            title: sanitizeLocationSpelling(title.trim()),
             link,
             guid,
             pubDate,
             dateStr: date.toISOString().split('T')[0],
             day: date.toLocaleDateString('en-ZA', { day: '2-digit' }),
             month: date.toLocaleDateString('en-ZA', { month: 'short' }).toUpperCase(),
-            description: cleanDesc.substring(0, 200),
+            description: sanitizeLocationSpelling(cleanDesc.substring(0, 200)),
             image: localImage
           };
 
@@ -207,7 +212,7 @@ async function syncEvents() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Community Events | Kouga Business Forum</title>
-  <meta name="description" content="Discover events in Jeffreys Bay, St Francis Bay & the Kouga Region. Community events, markets, sports, music, and more.">
+  <meta name="description" content="Discover events in Jeffreys Bay, St. Francis Bay & the Kouga Region. Community events, markets, sports, music, and more.">
   <link rel="canonical" href="https://kougabusinessforum.com/events.html">
 
   <!-- Open Graph / Facebook -->
@@ -233,7 +238,7 @@ async function syncEvents() {
 
   <section class="page-hero">
     <h1>Community Events</h1>
-    <p>Discover what's happening in Jeffreys Bay, St Francis Bay & the Kouga Region</p>
+    <p>Discover what's happening in Jeffreys Bay, St. Francis Bay & the Kouga Region</p>
   </section>
 
   <section class="section">

@@ -23,6 +23,11 @@ function escapeHTML(str) {
   });
 }
 
+function sanitizeLocationSpelling(str) {
+  if (!str) return '';
+  return str.replace(/\bSt\s+Francis\b/gi, 'St. Francis');
+}
+
 function formatDateForGoogle(date) {
   if (!date) return '';
   return new Date(date).toISOString().replace(/-|:|\.\d\d\d/g, "");
@@ -49,11 +54,16 @@ async function syncCalendar() {
 
           const googleCalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.summary || '')}&dates=${formatDateForGoogle(ev.start)}/${formatDateForGoogle(ev.end)}&details=${encodeURIComponent(ev.description || '')}&location=${encodeURIComponent(ev.location || '')}`;
 
+          const cleanSummary = sanitizeLocationSpelling(ev.summary || 'Untitled Event');
+          const cleanDescription = sanitizeLocationSpelling(ev.description || '');
+          const cleanDescriptionClean = sanitizeLocationSpelling((ev.description || '').replace(/<[^>]+>/g, '').trim());
+          const cleanLocation = sanitizeLocationSpelling(ev.location || '');
+
           eventList.push({
-            summary: ev.summary || 'Untitled Event',
-            description: ev.description || '',
-            descriptionClean: (ev.description || '').replace(/<[^>]+>/g, '').trim(),
-            location: ev.location || '',
+            summary: cleanSummary,
+            description: cleanDescription,
+            descriptionClean: cleanDescriptionClean,
+            location: cleanLocation,
             link: googleCalLink,
             start: ev.start,
             end: ev.end,
