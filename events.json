@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-01T08:29:39.770Z",
+  "lastUpdated": "2026-08-01T13:42:16.393Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 126,
+  "count": 131,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1388,6 +1388,61 @@
       "month": "AUG",
       "description": "Sun, 9 August 2026 - 09:00 - 18:00",
       "image": "images/events/Quintes-Sunday.jpg"
+    },
+    {
+      "title": "The Gorge Artisans Market at  The Gorge Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/the-gorge-artisans-market-2026-08-09/",
+      "guid": "https://9ty9.co.za/events/the-gorge-artisans-market-2026-08-09/",
+      "pubDate": "Sun, 09 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-09",
+      "day": "09",
+      "month": "AUG",
+      "description": "Sun, 9 August 2026 - 09:00 - 14:00",
+      "image": "images/events/Gorge-13Dec2026.jpg"
+    },
+    {
+      "title": "Elements of Nature Market at  Elements of Nature Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/elements-of-nature-market-2026-08-09/",
+      "guid": "https://9ty9.co.za/events/elements-of-nature-market-2026-08-09/",
+      "pubDate": "Sun, 09 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-09",
+      "day": "09",
+      "month": "AUG",
+      "description": "Sun, 9 August 2026 - 10:00 - 15:00",
+      "image": "images/events/Elements-of-Nature-Market-20Dec2026.jpg"
+    },
+    {
+      "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
+      "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-02-2026-08-09/",
+      "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-02-2026-08-09/",
+      "pubDate": "Sun, 09 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-09",
+      "day": "09",
+      "month": "AUG",
+      "description": "Sun, 9 August 2026 - 11:00 - 15:00",
+      "image": "images/events/Vernon-Thornhill2.jpg"
+    },
+    {
+      "title": "Doek &amp; Denim Picnic at  Twisters in Humansdorp",
+      "link": "https://9ty9.co.za/events/doek-denim-picnic/",
+      "guid": "https://9ty9.co.za/events/doek-denim-picnic/",
+      "pubDate": "Sun, 09 Aug 2026 10:00:00 +0000",
+      "dateStr": "2026-08-09",
+      "day": "09",
+      "month": "AUG",
+      "description": "Sun, 9 August 2026 - 12:00 - 22:00",
+      "image": "images/events/Doek-Denim-Picnic-9August2026.jpg"
+    },
+    {
+      "title": "Properties on Show in Jeffreys Bay and Surrounds at   in",
+      "link": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-08-09/",
+      "guid": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-08-09/",
+      "pubDate": "Sun, 09 Aug 2026 13:00:00 +0000",
+      "dateStr": "2026-08-09",
+      "day": "09",
+      "month": "AUG",
+      "description": "Sun, 9 August 2026 - 15:00 - 17:00",
+      "image": "images/events/PropOnShowEvent.jpg"
     }
   ]
 }
