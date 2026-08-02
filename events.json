@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-02T08:31:57.339Z",
+  "lastUpdated": "2026-08-02T13:42:20.231Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 131,
+  "count": 142,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1137,6 +1137,17 @@
       "image": "images/events/0960054_0.jpeg"
     },
     {
+      "title": "Eb Flo: Around the Globe in 80 Minutes - A Symphony of Flowers at  Newton Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/eb-flo-around-the-globe-in-80-minutes-a-symphony-of-flowers/",
+      "guid": "https://9ty9.co.za/events/eb-flo-around-the-globe-in-80-minutes-a-symphony-of-flowers/",
+      "pubDate": "Wed, 05 Aug 2026 12:30:00 +0000",
+      "dateStr": "2026-08-05",
+      "day": "05",
+      "month": "AUG",
+      "description": "Wed, 5 August 2026 - 14:30 - 16:30",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Eb-Flo-9Aug2026.jfif"
+    },
+    {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/acoustic-night-2026-08-06/",
       "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-06/",
@@ -1245,6 +1256,17 @@
       "month": "AUG",
       "description": "Fri, 7 August 2026 - 17:30 - 20:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/07/WineYoga-7Aug2026.jfif"
+    },
+    {
+      "title": "Glass Painting Workshop with Mart Leeuwner at  Marta at Art in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/glass-painting-workshop-with-mart-leeuwner/",
+      "guid": "https://9ty9.co.za/events/glass-painting-workshop-with-mart-leeuwner/",
+      "pubDate": "Fri, 07 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-07",
+      "day": "07",
+      "month": "AUG",
+      "description": "Fri, 7 August 2026 - 11:00 - 14:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Glass-Painting-7Aug2026.jfif"
     },
     {
       "title": "Chokka Trail Run at  Cape St. Francis Resort in Cape St Francis",
@@ -1379,6 +1401,17 @@
       "image": "images/events/Sami-Hall-8Aug2026.jpg"
     },
     {
+      "title": "Ocean Gelli Printing - Monthly Art Club at  Island Vibe Backpackers in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/ocean-gelli-printing-monthly-art-club/",
+      "guid": "https://9ty9.co.za/events/ocean-gelli-printing-monthly-art-club/",
+      "pubDate": "Sat, 08 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 18:00 - 20:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Ocean-Gelli-8Aug2026.jfif"
+    },
+    {
       "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19-2026-04-26-2026-05-03-20-02-2026-08-09/",
       "guid": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19-2026-04-26-2026-05-03-20-02-2026-08-09/",
@@ -1443,6 +1476,94 @@
       "month": "AUG",
       "description": "Sun, 9 August 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Wendy Oldfield at  St Francis Brewing Co. in St Francis Bay",
+      "link": "https://9ty9.co.za/events/wendy-oldfield/",
+      "guid": "https://9ty9.co.za/events/wendy-oldfield/",
+      "pubDate": "Sun, 09 Aug 2026 16:30:00 +0000",
+      "dateStr": "2026-08-09",
+      "day": "09",
+      "month": "AUG",
+      "description": "Sun, 9 August 2026 - 18:30 - 21:00",
+      "image": "images/events/Wendy-Oldfield-9Aug2026.jpg"
+    },
+    {
+      "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
+      "link": "https://9ty9.co.za/events/crossways-village-market-2026-08-10/",
+      "guid": "https://9ty9.co.za/events/crossways-village-market-2026-08-10/",
+      "pubDate": "Mon, 10 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-10",
+      "day": "10",
+      "month": "AUG",
+      "description": "Mon, 10 August 2026 - 09:00 - 14:00",
+      "image": "images/events/Crossways-Village-Markets-27Dec2026.jpg"
+    },
+    {
+      "title": "Thrift Market at Savages Conservatory at  Savages Conservatory in Gqeberha Central",
+      "link": "https://9ty9.co.za/events/thrift-market-at-savages-conservatory/",
+      "guid": "https://9ty9.co.za/events/thrift-market-at-savages-conservatory/",
+      "pubDate": "Mon, 10 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-10",
+      "day": "10",
+      "month": "AUG",
+      "description": "Mon, 10 August 2026 - 09:00 - 14:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Savages-Conservatory-10Aug2026.jfif"
+    },
+    {
+      "title": "Winter Blooms and Artisan Coffee Experience at  Infood Coffee Roastery in Jeffrey’s Bay",
+      "link": "https://9ty9.co.za/events/winter-blooms-and-artisan-coffee-experience/",
+      "guid": "https://9ty9.co.za/events/winter-blooms-and-artisan-coffee-experience/",
+      "pubDate": "Mon, 10 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-10",
+      "day": "10",
+      "month": "AUG",
+      "description": "Mon, 10 August 2026 - 10:00 - 12:00",
+      "image": "images/events/Winter-Blooms-10Aug2026.webp"
+    },
+    {
+      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-2026-08-11/",
+      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-2026-08-11/",
+      "pubDate": "Tue, 11 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-11",
+      "day": "11",
+      "month": "AUG",
+      "description": "Tue, 11 August 2026 - 10:00 - 12:00",
+      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-07-2026-08-12/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-07-2026-08-12/",
+      "pubDate": "Wed, 12 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-12",
+      "day": "12",
+      "month": "AUG",
+      "description": "Wed, 12 August 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Grease Dinner &amp; Show at  Port St Francis Ski Boat and Yacht Club in Port St Francis",
+      "link": "https://9ty9.co.za/events/grease-dinner-show/",
+      "guid": "https://9ty9.co.za/events/grease-dinner-show/",
+      "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-12",
+      "day": "12",
+      "month": "AUG",
+      "description": "Wed, 12 August 2026 - 18:00 - 22:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Grease-Dinner-12Aug2026.jfif"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-08-13/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-13/",
+      "pubDate": "Thu, 13 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-13",
+      "day": "13",
+      "month": "AUG",
+      "description": "Thu, 13 August 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
     }
   ]
 }
