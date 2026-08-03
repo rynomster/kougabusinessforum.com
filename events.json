@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-03T03:36:03.678Z",
+  "lastUpdated": "2026-08-03T09:58:12.522Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 142,
+  "count": 145,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1269,6 +1269,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Glass-Painting-7Aug2026.jfif"
     },
     {
+      "title": "Therese and Dave at Ember and Tide - Chef&#039;s Table: Trip to Spain at  Ember &amp; Tide in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/therese-and-dave-at-ember-and-tide-chefs-table-trip-to-spain/",
+      "guid": "https://9ty9.co.za/events/therese-and-dave-at-ember-and-tide-chefs-table-trip-to-spain/",
+      "pubDate": "Fri, 07 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-07",
+      "day": "07",
+      "month": "AUG",
+      "description": "Fri, 7 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Therese-and-Dave-30Aug2026.jfif"
+    },
+    {
       "title": "Chokka Trail Run at  Cape St. Francis Resort in Cape St Francis",
       "link": "https://9ty9.co.za/events/chokka-trail-run/",
       "guid": "https://9ty9.co.za/events/chokka-trail-run/",
@@ -1410,6 +1421,17 @@
       "month": "AUG",
       "description": "Sat, 8 August 2026 - 18:00 - 20:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Ocean-Gelli-8Aug2026.jfif"
+    },
+    {
+      "title": "Women&#039;s Day Weekend Special - Salted Surf School at  Main Beach (Dolphin Beach) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/womens-day-weekend-special-salted-surf-school/",
+      "guid": "https://9ty9.co.za/events/womens-day-weekend-special-salted-surf-school/",
+      "pubDate": "Sat, 08 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - Mon, 10 August 2026 - 08:00 - 16:00",
+      "image": "images/events/Salted-Surf-School-10Aug2026.jpg"
     },
     {
       "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
@@ -1564,6 +1586,17 @@
       "month": "AUG",
       "description": "Thu, 13 August 2026 - 18:00 - 21:00",
       "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Far from a Dance: A Story by Michael Charton at  St Francis Brewing Co. in St Francis Bay",
+      "link": "https://9ty9.co.za/events/far-from-a-dance-a-story-by-michael-charton/",
+      "guid": "https://9ty9.co.za/events/far-from-a-dance-a-story-by-michael-charton/",
+      "pubDate": "Thu, 13 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-13",
+      "day": "13",
+      "month": "AUG",
+      "description": "Thu, 13 August 2026 - 18:00 - 20:00",
+      "image": "images/events/Far-from-a-Dance-13Aug2026.jpg"
     }
   ]
 }
