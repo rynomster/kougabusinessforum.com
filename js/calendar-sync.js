@@ -49,11 +49,15 @@ async function syncCalendar() {
 
           const googleCalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.summary || '')}&dates=${formatDateForGoogle(ev.start)}/${formatDateForGoogle(ev.end)}&details=${encodeURIComponent(ev.description || '')}&location=${encodeURIComponent(ev.location || '')}`;
 
+          const cleanSummary = (ev.summary || 'Untitled Event').replace(/St\s+Francis/gi, 'St. Francis').replace(/St\.\s+Francis/gi, 'St. Francis');
+          const cleanDescriptionRaw = (ev.description || '').replace(/St\s+Francis/gi, 'St. Francis').replace(/St\.\s+Francis/gi, 'St. Francis');
+          const cleanLocation = (ev.location || '').replace(/St\s+Francis/gi, 'St. Francis').replace(/St\.\s+Francis/gi, 'St. Francis');
+
           eventList.push({
-            summary: ev.summary || 'Untitled Event',
-            description: ev.description || '',
-            descriptionClean: (ev.description || '').replace(/<[^>]+>/g, '').trim(),
-            location: ev.location || '',
+            summary: cleanSummary,
+            description: cleanDescriptionRaw,
+            descriptionClean: cleanDescriptionRaw.replace(/<[^>]+>/g, '').trim(),
+            location: cleanLocation,
             link: googleCalLink,
             start: ev.start,
             end: ev.end,
