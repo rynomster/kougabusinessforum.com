@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-04T14:30:42.961Z",
+  "lastUpdated": "2026-08-04T19:45:30.609Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 153,
+  "count": 156,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1192,6 +1192,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-5Aug2026.jfif"
     },
     {
+      "title": "Wagyu Wednesday at Ember and Tide at  Ember &amp; Tide in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/wagyu-wednesday-at-ember-and-tide/",
+      "guid": "https://9ty9.co.za/events/wagyu-wednesday-at-ember-and-tide/",
+      "pubDate": "Wed, 05 Aug 2026 13:00:00 +0000",
+      "dateStr": "2026-08-05",
+      "day": "05",
+      "month": "AUG",
+      "description": "Wed, 5 August 2026 - 15:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Ember-and-Tide-Wagyu-Wednesday.jfif"
+    },
+    {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/acoustic-night-2026-08-06/",
       "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-06/",
@@ -1630,6 +1641,28 @@
       "month": "AUG",
       "description": "Tue, 11 August 2026 - 10:00 - 12:00",
       "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Black Sheep Bistro - Monday Specials at  Black Sheep Bistro in Aston Bay",
+      "link": "https://9ty9.co.za/events/black-sheep-bistro-monday-specials/",
+      "guid": "https://9ty9.co.za/events/black-sheep-bistro-monday-specials/",
+      "pubDate": "Tue, 11 Aug 2026 10:00:00 +0000",
+      "dateStr": "2026-08-11",
+      "day": "11",
+      "month": "AUG",
+      "description": "Tue, 11 August 2026 - 12:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Monday-Specials.jfif"
+    },
+    {
+      "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai/",
+      "guid": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai/",
+      "pubDate": "Tue, 11 Aug 2026 15:15:00 +0000",
+      "dateStr": "2026-08-11",
+      "day": "11",
+      "month": "AUG",
+      "description": "Tue, 11 August 2026 - 17:15 - 18:15",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Voortrekkers.jfif"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
