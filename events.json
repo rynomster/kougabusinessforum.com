@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-05T14:23:27.248Z",
+  "lastUpdated": "2026-08-05T19:44:52.763Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 157,
+  "count": 158,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1729,6 +1729,17 @@
       "month": "AUG",
       "description": "Fri, 14 August 2026 - 09:00 - 12:00",
       "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Gqeberha String Trio presents ARIA at  11 Aldabara Run in St Francis Bay",
+      "link": "https://9ty9.co.za/events/gqeberha-string-trio-presents-aria/",
+      "guid": "https://9ty9.co.za/events/gqeberha-string-trio-presents-aria/",
+      "pubDate": "Fri, 14 Aug 2026 15:30:00 +0000",
+      "dateStr": "2026-08-14",
+      "day": "14",
+      "month": "AUG",
+      "description": "Fri, 14 August 2026 - 17:30 - 19:30",
+      "image": "images/events/String-Trio-14Aug2026.jpeg"
     }
   ]
 }
