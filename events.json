@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-06T14:27:06.559Z",
+  "lastUpdated": "2026-08-07T00:08:08.069Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 158,
+  "count": 164,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1740,6 +1740,72 @@
       "month": "AUG",
       "description": "Fri, 14 August 2026 - 17:30 - 19:30",
       "image": "images/events/String-Trio-14Aug2026.jpeg"
+    },
+    {
+      "title": "Unshaken  - -GLA School Production at  Global Leadership Academy (GLA) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/unshaken-gla-school-production/",
+      "guid": "https://9ty9.co.za/events/unshaken-gla-school-production/",
+      "pubDate": "Fri, 14 Aug 2026 16:30:00 +0000",
+      "dateStr": "2026-08-14",
+      "day": "14",
+      "month": "AUG",
+      "description": "Fri, 14 August 2026 - 18:30 - 20:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Unshaken-14Aug2026.jfif"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-08-2026-08-15/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-08-2026-08-15/",
+      "pubDate": "Sat, 15 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-15",
+      "day": "15",
+      "month": "AUG",
+      "description": "Sat, 15 August 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St Francis Parkrun at  St Francis Links in St Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-08-2026-08-15/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-08-2026-08-15/",
+      "pubDate": "Sat, 15 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-15",
+      "day": "15",
+      "month": "AUG",
+      "description": "Sat, 15 August 2026 - 08:00 - 09:00",
+      "image": "images/events/St-Francis-Parkrun.jpg"
+    },
+    {
+      "title": "Our Market at  Our Market in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/our-market-2026-07-04-2026-08-15/",
+      "guid": "https://9ty9.co.za/events/our-market-2026-07-04-2026-08-15/",
+      "pubDate": "Sat, 15 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-15",
+      "day": "15",
+      "month": "AUG",
+      "description": "Sat, 15 August 2026 - 09:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/05/Our-Market-15Aug2026.jfif"
+    },
+    {
+      "title": "Ski Boat Club Potjie Challenge 2026 at  Port St Francis Ski Boat and Yacht Club in Port St Francis",
+      "link": "https://9ty9.co.za/events/ski-boat-club-potjie-challenge-2026/",
+      "guid": "https://9ty9.co.za/events/ski-boat-club-potjie-challenge-2026/",
+      "pubDate": "Sat, 15 Aug 2026 11:00:00 +0000",
+      "dateStr": "2026-08-15",
+      "day": "15",
+      "month": "AUG",
+      "description": "Sat, 15 August 2026 - 13:00 - 18:00",
+      "image": "images/events/Potjie-Challenge-15Aug2026.jpeg"
+    },
+    {
+      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-08-2026-08-15/",
+      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-08-2026-08-15/",
+      "pubDate": "Sat, 15 Aug 2026 13:00:00 +0000",
+      "dateStr": "2026-08-15",
+      "day": "15",
+      "month": "AUG",
+      "description": "Sat, 15 August 2026 - 15:00 - 18:00",
+      "image": "images/events/Backyard-Karaoke.jpg"
     }
   ]
 }
