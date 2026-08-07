@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-07T00:08:08.069Z",
+  "lastUpdated": "2026-08-07T07:25:55.839Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 164,
+  "count": 169,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1610,6 +1610,28 @@
       "image": "images/events/Wendy-Oldfield-9Aug2026.jpg"
     },
     {
+      "title": "Irish Pub and Grill - Sunday Lunch Special at  Irish Pub and Grill in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/irish-pub-and-grill-sunday-lunch-special/",
+      "guid": "https://9ty9.co.za/events/irish-pub-and-grill-sunday-lunch-special/",
+      "pubDate": "Sun, 09 Aug 2026 10:00:00 +0000",
+      "dateStr": "2026-08-09",
+      "day": "09",
+      "month": "AUG",
+      "description": "Sun, 9 August 2026 - 12:00 - 15:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Irish-Pub-Sunday-Lunch-9Aug2026.jfif"
+    },
+    {
+      "title": "Women&#039;s Day Lunch at The Wave Barrel at  The Wave Barrel in Jeffrey's Bay",
+      "link": "https://9ty9.co.za/events/womens-day-lunch-at-the-wave-barrel/",
+      "guid": "https://9ty9.co.za/events/womens-day-lunch-at-the-wave-barrel/",
+      "pubDate": "Sun, 09 Aug 2026 10:00:00 +0000",
+      "dateStr": "2026-08-09",
+      "day": "09",
+      "month": "AUG",
+      "description": "Sun, 9 August 2026 - 12:00 - 14:00",
+      "image": "images/events/Wave-Barrel-9Aug2026.jpg"
+    },
+    {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
       "link": "https://9ty9.co.za/events/crossways-village-market-2026-08-10/",
       "guid": "https://9ty9.co.za/events/crossways-village-market-2026-08-10/",
@@ -1676,6 +1698,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Voortrekkers.jfif"
     },
     {
+      "title": "Cocktails and Tacos at The Mexican - Tuesdays &amp; Thursdays at  The Mexican in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican-tuesdays-thursdays/",
+      "guid": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican-tuesdays-thursdays/",
+      "pubDate": "Tue, 11 Aug 2026 10:00:00 +0000",
+      "dateStr": "2026-08-11",
+      "day": "11",
+      "month": "AUG",
+      "description": "Tue, 11 August 2026 - 12:00 - 18:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Mexican-Taco-Special.jfif"
+    },
+    {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-07-2026-08-12/",
       "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-07-2026-08-12/",
@@ -1718,6 +1751,28 @@
       "month": "AUG",
       "description": "Thu, 13 August 2026 - 18:00 - 20:00",
       "image": "images/events/Far-from-a-Dance-13Aug2026.jpg"
+    },
+    {
+      "title": "Thursday Burger Special at JBay Bru Co. at  J-Bay Bru Co. in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/thursday-burger-special-at-jbay-bru-co/",
+      "guid": "https://9ty9.co.za/events/thursday-burger-special-at-jbay-bru-co/",
+      "pubDate": "Thu, 13 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-13",
+      "day": "13",
+      "month": "AUG",
+      "description": "Thu, 13 August 2026 - 09:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Thursday-Burger-Special-at-JBay-Bru-Co.jfif"
+    },
+    {
+      "title": "Cocktails and Tacos at The Mexican - Tuesdays &amp; Thursdays at  The Mexican in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican/",
+      "guid": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican/",
+      "pubDate": "Thu, 13 Aug 2026 10:00:00 +0000",
+      "dateStr": "2026-08-13",
+      "day": "13",
+      "month": "AUG",
+      "description": "Thu, 13 August 2026 - 12:00 - 18:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Mexican-Taco-Special.jfif"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
