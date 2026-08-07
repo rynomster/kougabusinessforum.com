@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-07T07:25:55.839Z",
+  "lastUpdated": "2026-08-07T13:17:39.617Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 169,
+  "count": 170,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1366,6 +1366,17 @@
       "month": "AUG",
       "description": "Fri, 7 August 2026 - 19:00 - 22:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Fergos-7Aug2026.jfif"
+    },
+    {
+      "title": "Friday Braai Day at The J-Bar at  The J-Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friday-braai-day-at-the-j-bar/",
+      "guid": "https://9ty9.co.za/events/friday-braai-day-at-the-j-bar/",
+      "pubDate": "Fri, 07 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-07",
+      "day": "07",
+      "month": "AUG",
+      "description": "Fri, 7 August 2026 - 11:00 - 21:00",
+      "image": "images/events/IMG-20260807-WA0040.jpg"
     },
     {
       "title": "Chokka Trail Run at  Cape St. Francis Resort in Cape St Francis",
