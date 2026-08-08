@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-08T12:35:03.818Z",
+  "lastUpdated": "2026-08-08T13:01:30.767Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 176,
+  "count": 177,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1883,6 +1883,17 @@
       "month": "AUG",
       "description": "Fri, 14 August 2026 - 18:30 - 20:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Unshaken-14Aug2026.jfif"
+    },
+    {
+      "title": "Weekend Platter Dinner Deal at De Viswijf at  De Viswijf in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/weekend-platter-dinner-deal-at-de-viswijf/",
+      "guid": "https://9ty9.co.za/events/weekend-platter-dinner-deal-at-de-viswijf/",
+      "pubDate": "Fri, 14 Aug 2026 15:00:00 +0000",
+      "dateStr": "2026-08-14",
+      "day": "14",
+      "month": "AUG",
+      "description": "Fri, 14 August 2026 - Sat, 15 August 2026 - 17:00 - 21:00",
+      "image": "images/events/IMG-20260725-WA0016.jpg"
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
