@@ -141,14 +141,14 @@ async function syncEvents() {
           }
 
           const event = {
-            title: title.trim(),
+            title: title.trim().replace(/St\s+Francis/g, 'St. Francis'),
             link,
             guid,
             pubDate,
             dateStr: date.toISOString().split('T')[0],
             day: date.toLocaleDateString('en-ZA', { day: '2-digit' }),
             month: date.toLocaleDateString('en-ZA', { month: 'short' }).toUpperCase(),
-            description: cleanDesc.substring(0, 200),
+            description: cleanDesc.substring(0, 200).replace(/St\s+Francis/g, 'St. Francis'),
             image: localImage
           };
 
