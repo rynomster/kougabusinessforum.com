@@ -103,11 +103,13 @@
             <div class="form-group" style="margin-bottom: 1rem;">
               <label for="eventDateRange" style="font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem; display: block;">Timeframe</label>
               <select id="eventDateRange" style="padding: 0.75rem; font-size: 0.9rem; border: 1px solid var(--border-color); border-radius: var(--radius-sm); width: 100%; background: white;">
+                <option value="upcoming" selected>Upcoming</option>
                 <option value="all">Any Date</option>
                 <option value="today">Today</option>
                 <option value="week">This Week</option>
                 <option value="month">This Month</option>
                 <option value="custom" id="custom-date-option" style="display: none;">Selected Date</option>
+                <option value="custom-forward" id="custom-forward-option" style="display: none;">Selected Date Forwards</option>
               </select>
             </div>
 

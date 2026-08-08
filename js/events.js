@@ -36,6 +36,7 @@ function initializeCommunityEvents() {
   const locationSelect = document.getElementById('eventLocation');
   const dateRangeSelect = document.getElementById('eventDateRange');
   const customDateOption = document.getElementById('custom-date-option');
+  const customForwardOption = document.getElementById('custom-forward-option');
   const resetBtn = document.getElementById('resetFilters');
 
   const btnPrevPage = document.getElementById('btn-prev-page');
@@ -82,7 +83,7 @@ function initializeCommunityEvents() {
   function applyFilters() {
     const keyword = searchInput ? searchInput.value.trim().toLowerCase() : '';
     const locVal = locationSelect ? locationSelect.value : 'all';
-    const dateRangeVal = dateRangeSelect ? dateRangeSelect.value : 'all';
+    const dateRangeVal = dateRangeSelect ? dateRangeSelect.value : 'upcoming';
 
     filteredEvents = allEvents.filter(ev => {
       // 1. Keyword search (title, description, raw details)
@@ -113,7 +114,9 @@ function initializeCommunityEvents() {
       let matchDate = true;
       const todayStr = getLocalDateStr(new Date());
 
-      if (dateRangeVal === 'today') {
+      if (dateRangeVal === 'upcoming') {
+        matchDate = ev.dateStr >= todayStr;
+      } else if (dateRangeVal === 'today') {
         matchDate = ev.dateStr === todayStr;
       } else if (dateRangeVal === 'week') {
         const evDate = new Date(ev.dateStr);
@@ -126,6 +129,8 @@ function initializeCommunityEvents() {
         matchDate = evDate.getFullYear() === now.getFullYear() && evDate.getMonth() === now.getMonth();
       } else if (dateRangeVal === 'custom' && selectedDateStr) {
         matchDate = ev.dateStr === selectedDateStr;
+      } else if (dateRangeVal === 'custom-forward' && selectedDateStr) {
+        matchDate = ev.dateStr >= selectedDateStr;
       }
 
       return matchKeyword && matchLocation && matchDate;
@@ -240,12 +245,14 @@ function initializeCommunityEvents() {
         // Toggle selected date
         if (selectedDateStr === dateStr) {
           selectedDateStr = null;
-          if (dateRangeSelect) dateRangeSelect.value = 'all';
+          if (dateRangeSelect) dateRangeSelect.value = 'upcoming';
           if (customDateOption) customDateOption.style.display = 'none';
+          if (customForwardOption) customForwardOption.style.display = 'none';
         } else {
           selectedDateStr = dateStr;
           if (customDateOption && dateRangeSelect) {
             customDateOption.style.display = 'block';
+            if (customForwardOption) customForwardOption.style.display = 'block';
             dateRangeSelect.value = 'custom';
           }
         }
@@ -325,9 +332,10 @@ function initializeCommunityEvents() {
   }
   if (dateRangeSelect) {
     dateRangeSelect.addEventListener('change', () => {
-      if (dateRangeSelect.value !== 'custom') {
+      if (dateRangeSelect.value !== 'custom' && dateRangeSelect.value !== 'custom-forward') {
         selectedDateStr = null;
         if (customDateOption) customDateOption.style.display = 'none';
+        if (customForwardOption) customForwardOption.style.display = 'none';
       }
       applyFilters();
     });
@@ -337,9 +345,10 @@ function initializeCommunityEvents() {
     resetBtn.addEventListener('click', () => {
       if (searchInput) searchInput.value = '';
       if (locationSelect) locationSelect.value = 'all';
-      if (dateRangeSelect) dateRangeSelect.value = 'all';
+      if (dateRangeSelect) dateRangeSelect.value = 'upcoming';
       selectedDateStr = null;
       if (customDateOption) customDateOption.style.display = 'none';
+      if (customForwardOption) customForwardOption.style.display = 'none';
       applyFilters();
     });
   }
