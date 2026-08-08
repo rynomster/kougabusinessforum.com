@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-07T19:05:25.920Z",
+  "lastUpdated": "2026-08-08T02:03:20.246Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 170,
+  "count": 171,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1542,6 +1542,17 @@
       "month": "AUG",
       "description": "Sat, 8 August 2026 - 12:00 - 21:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Saturday-Specials.jfif"
+    },
+    {
+      "title": "STASIS Live Show at  Black Sheep Bistro in Aston Bay",
+      "link": "https://9ty9.co.za/events/stasis-live-show/",
+      "guid": "https://9ty9.co.za/events/stasis-live-show/",
+      "pubDate": "Sat, 08 Aug 2026 16:30:00 +0000",
+      "dateStr": "2026-08-08",
+      "day": "08",
+      "month": "AUG",
+      "description": "Sat, 8 August 2026 - 18:30 - 21:30",
+      "image": "images/events/IMG-20260807-WA0076.jpg"
     },
     {
       "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
