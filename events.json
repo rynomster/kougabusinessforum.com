@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-09T07:05:20.293Z",
+  "lastUpdated": "2026-08-09T13:04:23.073Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 182,
+  "count": 188,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2004,6 +2004,72 @@
       "month": "AUG",
       "description": "Sun, 16 August 2026 - 09:00 - 18:00",
       "image": "images/events/Quintes-Sunday.jpg"
+    },
+    {
+      "title": "Mingle Market at  Mr Pell&#039;s House in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mingle-market/",
+      "guid": "https://9ty9.co.za/events/mingle-market/",
+      "pubDate": "Sun, 16 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-16",
+      "day": "16",
+      "month": "AUG",
+      "description": "Sun, 16 August 2026 - 10:00 - 14:00",
+      "image": "images/events/IMG-20260809-WA0014.jpg"
+    },
+    {
+      "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
+      "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-09-2026-08-16/",
+      "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-09-2026-08-16/",
+      "pubDate": "Sun, 16 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-16",
+      "day": "16",
+      "month": "AUG",
+      "description": "Sun, 16 August 2026 - 11:00 - 15:00",
+      "image": "images/events/Vernon-Thornhill2.jpg"
+    },
+    {
+      "title": "Sunday Roast Beef at the St. Francis Brewery Co. at  St. Francis Brewing Co. in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/sunday-roast-beef-at-the-st-francis-brewery-co/",
+      "guid": "https://9ty9.co.za/events/sunday-roast-beef-at-the-st-francis-brewery-co/",
+      "pubDate": "Sun, 16 Aug 2026 10:00:00 +0000",
+      "dateStr": "2026-08-16",
+      "day": "16",
+      "month": "AUG",
+      "description": "Sun, 16 August 2026 - 12:00 - 14:00",
+      "image": "images/events/Sunday-Roast-16Aug2026.jpg"
+    },
+    {
+      "title": "Robin Auld - Legendary Surf Rocker at  St. Francis Brewing Co. in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/robin-auld-legendary-surf-rocker/",
+      "guid": "https://9ty9.co.za/events/robin-auld-legendary-surf-rocker/",
+      "pubDate": "Sun, 16 Aug 2026 11:30:00 +0000",
+      "dateStr": "2026-08-16",
+      "day": "16",
+      "month": "AUG",
+      "description": "Sun, 16 August 2026 - 13:30 - 15:00",
+      "image": "images/events/Robin-Auld-16Aug2026.jpg"
+    },
+    {
+      "title": "Properties on Show in Jeffreys Bay and Surrounds at   in",
+      "link": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-08-16/",
+      "guid": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-08-16/",
+      "pubDate": "Sun, 16 Aug 2026 13:00:00 +0000",
+      "dateStr": "2026-08-16",
+      "day": "16",
+      "month": "AUG",
+      "description": "Sun, 16 August 2026 - 15:00 - 17:00",
+      "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "JBay FUNDURO 2026 at  Papiesfontein in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jbay-funduro-2026/",
+      "guid": "https://9ty9.co.za/events/jbay-funduro-2026/",
+      "pubDate": "Tue, 18 Aug 2026 06:45:00 +0000",
+      "dateStr": "2026-08-18",
+      "day": "18",
+      "month": "AUG",
+      "description": "Tue, 18 August 2026 - 08:45 - 15:00",
+      "image": "images/events/JBay-FUNDURO-18July2026.jpg"
     }
   ]
 }
