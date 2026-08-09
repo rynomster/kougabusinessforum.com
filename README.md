@@ -140,6 +140,26 @@ node js/rss-sync.js
 # Configured in .github/workflows/sync-directory.yml
 ```
 
+## 📊 Google Analytics 4 (GA4) & Conversion Tracking
+
+The Kouga Business Forum website includes optimized GA4 event tracking configured under the Measurement ID `G-FBBQQLDESS`. These events track critical user interactions and are designed to be used as conversion goals in the Google Ad Grants program.
+
+The tracking uses a robust, lightweight helper `trackEvent(eventName, eventParams)` in `js/main.js` that fails silently if analytics is unavailable and strictly filters out any personally identifiable information (PII) to comply with POPIA data privacy.
+
+### GA4 Events & Conversions Catalog
+
+| Event Name | Action Trigger | Conversion Role | PII Cleaned? |
+| :--- | :--- | :--- | :--- |
+| `membership_application` | Successful membership application completion (redirection to `thank-you.html` from PayFast, or successful Cloudflare Workers API response) | Primary Conversion | Yes (no PII sent) |
+| `generate_lead` | Successful submission of the contact enquiry form on `contact.html` (fired on form submit handler) | Primary Conversion | Yes (no PII sent) |
+| `event_registration` | *Not currently implemented.* (Dedicated event registration is not present; all RSVPs are routed through the pre-filled contact form and tracked via `generate_lead`) | Primary Conversion | - |
+| `sign_up` | Successful newsletter subscription submission on the homepage | Secondary Event | Yes |
+| `contact_whatsapp` | Clicks on any WhatsApp contact link/button (e.g., `wa.me`) | Secondary Event | Yes |
+| `contact_email` | Clicks on any `mailto:` link | Secondary Event | Yes |
+| `contact_phone` | Clicks on any `tel:` link | Secondary Event | Yes |
+
+*Note: Duplicate prevention is built in using `sessionStorage` for the `membership_application` event on the thank-you page.*
+
 ## 📞 Contact
 
 **Kouga Business Forum**
