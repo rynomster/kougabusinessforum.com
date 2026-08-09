@@ -677,7 +677,7 @@ p {
 /* Footer */
 .footer {
   background: var(--primary-dark);
-  color: var(--text-muted);
+  color: #c0c0c0;
   padding: var(--spacing-lg) 0 var(--spacing-sm);
 }
 
@@ -702,7 +702,7 @@ p {
 }
 
 .footer-links a {
-  color: var(--text-muted);
+  color: #c0c0c0;
   text-decoration: none;
   transition: color var(--transition-fast);
 }
@@ -718,7 +718,7 @@ p {
 }
 
 .social-link {
-  color: var(--text-muted);
+  color: #c0c0c0;
   transition: all var(--transition-fast);
   display: flex;
   align-items: center;

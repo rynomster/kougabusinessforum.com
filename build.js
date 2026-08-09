@@ -18,7 +18,10 @@ const googleTag = `  <!-- Google tag (gtag.js) -->
     gtag('js', new Date());
 
     gtag('config', 'G-FBBQQLDESS');
-  </script>`;
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com">`;
 
 const files = fs.readdirSync(__dirname).filter(f => f.endsWith('.html') && !f.includes('shared-'));
 
@@ -37,6 +40,10 @@ files.forEach(file => {
     if (googleTagPattern.test(content)) {
         content = content.replace(googleTagPattern, '');
     }
+
+    // Clean up any existing preconnect links for fonts & unpkg to avoid duplicates
+    const preconnectPattern = /\s*<link rel="preconnect" href="https:\/\/(?:fonts\.googleapis\.com|fonts\.gstatic\.com|unpkg\.com)"[^>]*>/gi;
+    content = content.replace(preconnectPattern, '');
 
     // Insert the Google Tag right after the <head> tag opening
     content = content.replace(/<head\b([^>]*)>/gi, `<head$1>\n${googleTag}`);

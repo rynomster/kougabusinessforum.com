@@ -347,6 +347,26 @@ function displayEvents(events) {
 
   // Display the first 3 upcoming events
   const featuredEvents = upcomingEvents.slice(0, 3);
+
+  if (featuredEvents.length === 0) {
+    container.innerHTML = `
+      <div class="card" style="grid-column: 1 / -1; text-align: center; padding: var(--spacing-lg);">
+        <div style="display: inline-flex; justify-content: center; align-items: center; background: rgba(0, 172, 193, 0.1); color: var(--accent-teal); border-radius: 50%; width: 4rem; height: 4rem; margin-bottom: var(--spacing-md);">
+          <i data-lucide="calendar" width="32" height="32"></i>
+        </div>
+        <h3 style="margin-bottom: var(--spacing-xs);">No Upcoming Events Scheduled</h3>
+        <p style="color: var(--text-muted); max-width: 500px; margin: 0 auto var(--spacing-md);">We are currently planning our next events, networking sessions, and workshops. Please check back soon or view our past events in the calendar.</p>
+        <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+          <a href="kbevents.html" class="btn btn-outline" style="padding: 0.75rem 1.5rem;">View Calendar</a>
+          <a href="contact.html?enquiry=events#contact-form" class="btn btn-primary" style="padding: 0.75rem 1.5rem;">Enquire About Events</a>
+        </div>
+      </div>
+    `;
+    if (typeof lucide !== 'undefined') {
+      lucide.createIcons();
+    }
+    return;
+  }
   
   featuredEvents.forEach((event, index) => {
     const eventCard = document.createElement('div');
