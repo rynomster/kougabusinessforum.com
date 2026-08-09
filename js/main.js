@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   handleInitialHash();
   initializeMembershipForm();
   initializeHeroVideo();
+  initializeAnalytics();
 });
 
 /**
@@ -191,6 +192,8 @@ function initializeForms() {
         });
 
         if (response.ok) {
+          // Track newsletter signup
+          trackEvent('sign_up');
           // Show success message
           if (newsletterSuccess) {
             newsletterForm.style.display = 'none';
@@ -256,6 +259,8 @@ function initializeForms() {
     }
 
     contactForm.addEventListener('submit', function() {
+      // Track contact enquiry
+      trackEvent('generate_lead', { form_name: 'contact' });
       // Small delay to allow the mailto: action to trigger before showing feedback
       setTimeout(() => {
         alert('Thank you! Your email client should now open with your message. If not, please email us directly at office@kougabusinessforum.com');
@@ -598,3 +603,49 @@ function initializeMembershipForm() {
   });
 }
 
+/**
+ * Global Analytics Event Helper (fails silently without PII)
+ */
+function trackEvent(eventName, eventParams) {
+  if (typeof gtag === 'function') {
+    try {
+      gtag('event', eventName, eventParams);
+      console.log(`[Analytics] Tracked event: ${eventName}`, eventParams);
+    } catch (e) {
+      console.error('[Analytics] Error tracking event:', e);
+    }
+  } else {
+    console.log(`[Analytics] gtag not defined. Event ${eventName} skipped.`);
+  }
+}
+
+/**
+ * Initialize Analytics page-load tracking and link delegation
+ */
+function initializeAnalytics() {
+  // 1. Membership Application (on thank-you.html load, preventing duplicates)
+  const isThankYouPage = window.location.pathname.endsWith('/thank-you.html') ||
+                          window.location.pathname === '/thank-you' ||
+                          window.location.pathname.endsWith('thank-you.html');
+  if (isThankYouPage) {
+    if (!sessionStorage.getItem('kbf_membership_application_tracked')) {
+      trackEvent('membership_application');
+      sessionStorage.setItem('kbf_membership_application_tracked', 'true');
+    }
+  }
+
+  // 2. Global click tracking for secondary events (tel, mailto, whatsapp)
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a');
+    if (!link) return;
+    const href = link.getAttribute('href') || '';
+
+    if (href.startsWith('mailto:')) {
+      trackEvent('contact_email');
+    } else if (href.startsWith('tel:')) {
+      trackEvent('contact_phone');
+    } else if (href.includes('wa.me/') || href.includes('whatsapp.com/')) {
+      trackEvent('contact_whatsapp');
+    }
+  });
+}
