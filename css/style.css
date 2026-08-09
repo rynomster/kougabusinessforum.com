@@ -790,6 +790,126 @@ p {
   }
 }
 
+/* ==========================================================================
+   PRIVACY POLICY PAGE STYLES
+   ========================================================================== */
+
+/* Page-specific layout for privacy-policy to offset fixed header */
+.privacy-policy-body .main-content {
+  padding-top: 100px;
+}
+
+.privacy-policy-body .section-header h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  color: var(--primary-dark);
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.privacy-policy-body .last-updated {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+}
+
+.content-block {
+  background: var(--bg-white);
+  padding: 3.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+  max-width: 900px;
+  margin: 0 auto 4rem;
+}
+
+.content-block h2 {
+  font-size: 1.6rem;
+  color: var(--primary-dark);
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 2px solid rgba(14, 121, 150, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+.content-block h3 {
+  font-size: 1.25rem;
+  color: var(--accent-teal);
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.content-block p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333333;
+  margin-bottom: 1.5rem;
+}
+
+.content-block ul {
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.content-block ul li {
+  position: relative;
+  font-size: 0.975rem;
+  line-height: 1.7;
+  color: #444444;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.content-block ul li::before {
+  content: "•";
+  color: var(--accent-cyan);
+  font-weight: bold;
+  font-size: 1.25rem;
+  position: absolute;
+  left: 0;
+  top: -0.1rem;
+}
+
+.content-block strong {
+  color: var(--primary-dark);
+}
+
+.content-block a {
+  color: var(--accent-teal);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all var(--transition-fast);
+}
+
+.content-block a:hover {
+  color: var(--accent-cyan);
+  border-bottom-color: var(--accent-cyan);
+}
+
+/* Adjust padding on smaller screens */
+@media (max-width: 768px) {
+  .privacy-policy-body .main-content {
+    padding-top: 80px;
+  }
+
+  .content-block {
+    padding: 2.5rem 1.5rem;
+    border-radius: var(--radius-md);
+    margin-bottom: 2.5rem;
+  }
+
+  .content-block h2 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }
+
+  .content-block h3 {
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+  }
+}
+
 /* Utility Classes */
 .text-center { text-align: center; }
 .mt-1 { margin-top: var(--spacing-xs); }
