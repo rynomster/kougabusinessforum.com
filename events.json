@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-10T02:19:10.624Z",
+  "lastUpdated": "2026-08-10T07:53:02.548Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 188,
+  "count": 191,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1797,6 +1797,28 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/J-Bar-Wednesday-Special.jfif"
     },
     {
+      "title": "ClearExit Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/clearexit-live-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/clearexit-live-at-the-backyard/",
+      "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-12",
+      "day": "12",
+      "month": "AUG",
+      "description": "Wed, 12 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-12Aug2026.jfif"
+    },
+    {
+      "title": "Karaoke with Devine Entertainment at The J-Bar at  The J-Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-with-devine-entertainment-at-the-j-bar/",
+      "guid": "https://9ty9.co.za/events/karaoke-with-devine-entertainment-at-the-j-bar/",
+      "pubDate": "Wed, 12 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-12",
+      "day": "12",
+      "month": "AUG",
+      "description": "Wed, 12 August 2026 - 18:00 - 22:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/JBar-Karaoke-12Aug2026.jfif"
+    },
+    {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/acoustic-night-2026-08-13/",
       "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-13/",
@@ -1894,6 +1916,17 @@
       "month": "AUG",
       "description": "Fri, 14 August 2026 - Sat, 15 August 2026 - 17:00 - 21:00",
       "image": "images/events/IMG-20260725-WA0016.jpg"
+    },
+    {
+      "title": "Acoustica Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustica-live-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/acoustica-live-at-the-backyard/",
+      "pubDate": "Fri, 14 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-14",
+      "day": "14",
+      "month": "AUG",
+      "description": "Fri, 14 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-14Aug2026.jfif"
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
