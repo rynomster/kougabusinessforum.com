@@ -298,7 +298,7 @@ p {
 .hero-image-fallback {
   position: absolute;
   inset: 0;
-  background-image: url('../images/kbf-hero-firstframe.png');
+  background-image: url('../images/kbf-hero-firstframe.webp');
   background-size: cover;
   background-position: center;
   z-index: 0;
