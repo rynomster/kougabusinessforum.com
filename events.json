@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-10T13:22:53.957Z",
+  "lastUpdated": "2026-08-10T19:04:58.911Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 194,
+  "count": 198,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1764,6 +1764,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/J-Bar-Tuesday-Special.jfif"
     },
     {
+      "title": "Surf Boertjie Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/surf-boertjie-live-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/surf-boertjie-live-at-the-backyard/",
+      "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-11",
+      "day": "11",
+      "month": "AUG",
+      "description": "Tue, 11 August 2026 - 18:00 - 21:00",
+      "image": "images/events/img_1_1786386609935.jpg"
+    },
+    {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-07-2026-08-12/",
       "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-07-2026-08-12/",
@@ -2028,6 +2039,17 @@
       "image": "images/events/Karaoke-Dec2026.jpeg"
     },
     {
+      "title": "Dual Frequency Live at Quayside Pub at  Quayside Pub in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/dual-frequency-live-at-quayside-pub/",
+      "guid": "https://9ty9.co.za/events/dual-frequency-live-at-quayside-pub/",
+      "pubDate": "Sat, 15 Aug 2026 17:00:00 +0000",
+      "dateStr": "2026-08-15",
+      "day": "15",
+      "month": "AUG",
+      "description": "Sat, 15 August 2026 - 19:00 - 23:00",
+      "image": "images/events/Quayside-15Aug2026.jpg"
+    },
+    {
       "title": "Collective Market at  Collective Market in Gqeberha",
       "link": "https://9ty9.co.za/events/collective-market-2026-06-14-2026-07-12-2026-08-16/",
       "guid": "https://9ty9.co.za/events/collective-market-2026-06-14-2026-07-12-2026-08-16/",
@@ -2103,6 +2125,28 @@
       "month": "AUG",
       "description": "Sun, 16 August 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/sunday-funday-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/sunday-funday-at-the-backyard/",
+      "pubDate": "Sun, 16 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-16",
+      "day": "16",
+      "month": "AUG",
+      "description": "Sun, 16 August 2026 - 09:00 - 18:00",
+      "image": "images/events/Quintes-Sunday.jpg"
+    },
+    {
+      "title": "Spekboomlapa - 16 Augustus 2026 at  Spekboomlapa in Loerieheuwel",
+      "link": "https://9ty9.co.za/events/spekboomlapa-16-augustus-2026/",
+      "guid": "https://9ty9.co.za/events/spekboomlapa-16-augustus-2026/",
+      "pubDate": "Sun, 16 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-16",
+      "day": "16",
+      "month": "AUG",
+      "description": "Sun, 16 August 2026 - 11:00 - 16:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Spekboomlapa-16Aug2026.jfif"
     },
     {
       "title": "JBay FUNDURO 2026 at  Papiesfontein in Jeffreys Bay",
