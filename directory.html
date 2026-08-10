@@ -109,6 +109,36 @@
     <div class="directory-content">
       <div class="directory-results" id="resultsContainer">
         <div class="result-count" id="resultCount" aria-live="polite">Loading businesses...</div>
+
+        <!-- Directory Trust & Member Upgrade Guide -->
+        <div class="directory-trust-banner" style="background: var(--bg-white); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-teal); padding: 1.5rem; margin-bottom: 2rem; border-radius: var(--radius-sm); box-shadow: var(--shadow-sm); animation: fadeIn 0.6s ease forwards;">
+          <div style="display: flex; gap: 1.5rem; align-items: flex-start; flex-wrap: wrap;">
+            <div style="flex: 2; min-width: 280px;">
+              <h3 style="font-size: 1.15rem; margin-top: 0; margin-bottom: 0.5rem; color: var(--primary-dark); display: flex; align-items: center; gap: 8px;">
+                <i data-lucide="shield-check" style="color: var(--accent-teal); width: 20px; height: 20px;"></i>
+                Kouga Business Directory Trust Guide
+              </h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">
+                KBF supports local business integrity. Use this directory to connect with verified suppliers and services across the Kouga region.
+                Our badge system distinguishes member levels to guarantee trust.
+              </p>
+            </div>
+            <div style="flex: 1.5; display: flex; flex-direction: column; gap: 0.75rem; min-width: 250px;">
+              <div style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem;">
+                <span class="badge badge-verified" style="pointer-events: none; white-space: nowrap;"><i data-lucide="check-circle" width="12" height="12" style="margin-right: 4px;"></i>KBF Verified</span>
+                <span style="color: var(--text-muted);">Paid 2026 members with full verified contact details.</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem;">
+                <span class="badge badge-basic" style="pointer-events: none; white-space: nowrap;"><i data-lucide="circle" width="12" height="12" style="margin-right: 4px;"></i>Basic</span>
+                <span style="color: var(--text-muted);">Registered local businesses (request details via KBF).</span>
+              </div>
+            </div>
+            <div style="flex: 1; display: flex; align-items: center; justify-content: flex-start; min-width: 180px; align-self: center;">
+              <a href="membership.html#pricing" class="btn btn-primary btn-sm" style="font-size: 0.8rem; width: 100%; text-align: center; white-space: nowrap;">Get Verified Badge</a>
+            </div>
+          </div>
+        </div>
+
         <div class="grid">
           <!-- Dynamic businesses will be loaded here via js/directory.js -->
         </div>
