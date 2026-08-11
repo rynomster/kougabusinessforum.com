@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-11T13:19:49.119Z",
+  "lastUpdated": "2026-08-11T19:10:43.985Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 199,
+  "count": 201,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1830,6 +1830,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/JBar-Karaoke-12Aug2026.jfif"
     },
     {
+      "title": "Wednesday Bingo Night at Irish Pub and Grill at  Irish Pub and Grill in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/wednesday-bingo-night-at-irish-pub-and-grill/",
+      "guid": "https://9ty9.co.za/events/wednesday-bingo-night-at-irish-pub-and-grill/",
+      "pubDate": "Wed, 12 Aug 2026 17:00:00 +0000",
+      "dateStr": "2026-08-12",
+      "day": "12",
+      "month": "AUG",
+      "description": "Wed, 12 August 2026 - 19:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Irish-Bingo-Wednesday.jfif"
+    },
+    {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/acoustic-night-2026-08-13/",
       "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-13/",
@@ -2059,6 +2070,17 @@
       "month": "AUG",
       "description": "Sat, 15 August 2026 - 19:00 - 23:00",
       "image": "images/events/Quayside-15Aug2026.jpg"
+    },
+    {
+      "title": "Eddie Collin Performing Live at The J-Bar at  The J-Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/eddie-collin-performing-live-at-the-j-bar/",
+      "guid": "https://9ty9.co.za/events/eddie-collin-performing-live-at-the-j-bar/",
+      "pubDate": "Sat, 15 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-15",
+      "day": "15",
+      "month": "AUG",
+      "description": "Sat, 15 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/J-Bar-15Aug2026.jfif"
     },
     {
       "title": "Collective Market at  Collective Market in Gqeberha",
