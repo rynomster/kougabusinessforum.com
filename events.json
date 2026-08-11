@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-11T02:09:47.522Z",
+  "lastUpdated": "2026-08-11T07:17:45.911Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 198,
+  "count": 199,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1949,6 +1949,17 @@
       "month": "AUG",
       "description": "Fri, 14 August 2026 - 18:00 - 21:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-14Aug2026.jfif"
+    },
+    {
+      "title": "Kerry Hiles Live at Quayside Pub at  Quayside Pub in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/kerry-hiles-live-at-quayside-pub/",
+      "guid": "https://9ty9.co.za/events/kerry-hiles-live-at-quayside-pub/",
+      "pubDate": "Fri, 14 Aug 2026 18:00:00 +0000",
+      "dateStr": "2026-08-14",
+      "day": "14",
+      "month": "AUG",
+      "description": "Fri, 14 August 2026 - 20:00 - 23:00",
+      "image": "images/events/Quayside-14Aug2026.jpg"
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
