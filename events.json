@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-12T07:41:29.531Z",
+  "lastUpdated": "2026-08-12T13:23:43.176Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 204,
+  "count": 205,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1971,6 +1971,17 @@
       "month": "AUG",
       "description": "Fri, 14 August 2026 - 20:00 - 23:00",
       "image": "images/events/Quayside-14Aug2026.jpg"
+    },
+    {
+      "title": "Rob Thompson and Edward Allen Live at Fergo&#039;s at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/rob-thompson-and-edward-allen-live-at-fergos/",
+      "guid": "https://9ty9.co.za/events/rob-thompson-and-edward-allen-live-at-fergos/",
+      "pubDate": "Fri, 14 Aug 2026 17:30:00 +0000",
+      "dateStr": "2026-08-14",
+      "day": "14",
+      "month": "AUG",
+      "description": "Fri, 14 August 2026 - 19:30 - 22:30",
+      "image": "images/events/Fergos-14Aug2026.jpeg"
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
