@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-12T13:23:43.176Z",
+  "lastUpdated": "2026-08-12T19:10:04.537Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 205,
+  "count": 209,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2257,6 +2257,50 @@
       "month": "AUG",
       "description": "Thu, 20 August 2026 - 18:30 - 20:30",
       "image": "images/events/The-Village-Voices-20Aug2026.jpg"
+    },
+    {
+      "title": "Sea Harvest SA Surfing Championships – 60th Edition at   in",
+      "link": "https://9ty9.co.za/events/sea-harvest-sa-surfing-championships-60th-edition/",
+      "guid": "https://9ty9.co.za/events/sea-harvest-sa-surfing-championships-60th-edition/",
+      "pubDate": "Fri, 21 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - Sun, 23 August 2026 - 08:00 - 17:00",
+      "image": "images/events/Surfing-South-Africa-13.png"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-19-2026-08-21/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-19-2026-08-21/",
+      "pubDate": "Fri, 21 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Belinda and Amy Performing Live at The J-Bar at  The J-Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/belinda-and-amy-performing-live-at-the-j-bar/",
+      "guid": "https://9ty9.co.za/events/belinda-and-amy-performing-live-at-the-j-bar/",
+      "pubDate": "Fri, 21 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 18:00 - 21:00",
+      "image": "images/events/JBar-Belinda-22Aug2026.jfif"
+    },
+    {
+      "title": "Francois Bouwer Performing Live at The J-Bar at  The J-Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/francois-bouwer-performing-live-at-the-j-bar/",
+      "guid": "https://9ty9.co.za/events/francois-bouwer-performing-live-at-the-j-bar/",
+      "pubDate": "Fri, 21 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 18:00 - 21:00",
+      "image": "images/events/JBar-Francois-22Aug2026.jfif"
     }
   ]
 }
