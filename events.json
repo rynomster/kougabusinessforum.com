@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-11T19:10:43.985Z",
+  "lastUpdated": "2026-08-12T02:27:58.806Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 201,
+  "count": 204,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2213,6 +2213,39 @@
       "month": "AUG",
       "description": "Tue, 18 August 2026 - 17:15 - 18:15",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Voortrekkers.jfif"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-14-2026-08-19/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-14-2026-08-19/",
+      "pubDate": "Wed, 19 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-19",
+      "day": "19",
+      "month": "AUG",
+      "description": "Wed, 19 August 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-08-20/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-20/",
+      "pubDate": "Thu, 20 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-20",
+      "day": "20",
+      "month": "AUG",
+      "description": "Thu, 20 August 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "The Village Voices - St. Francis Brewery at  St. Francis Brewing Co. in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/the-village-voices-st-francis-brewery/",
+      "guid": "https://9ty9.co.za/events/the-village-voices-st-francis-brewery/",
+      "pubDate": "Thu, 20 Aug 2026 16:30:00 +0000",
+      "dateStr": "2026-08-20",
+      "day": "20",
+      "month": "AUG",
+      "description": "Thu, 20 August 2026 - 18:30 - 20:30",
+      "image": "images/events/The-Village-Voices-20Aug2026.jpg"
     }
   ]
 }
