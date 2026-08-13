@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-13T13:25:28.953Z",
+  "lastUpdated": "2026-08-13T19:10:29.627Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 211,
+  "count": 217,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2204,6 +2204,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Spekboomlapa-16Aug2026.jfif"
     },
     {
+      "title": "Black River Gypsy Live at Quayside Pub at  Quayside Pub in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/black-river-gypsy-live-at-quayside-pub/",
+      "guid": "https://9ty9.co.za/events/black-river-gypsy-live-at-quayside-pub/",
+      "pubDate": "Sun, 16 Aug 2026 12:00:00 +0000",
+      "dateStr": "2026-08-16",
+      "day": "16",
+      "month": "AUG",
+      "description": "Sun, 16 August 2026 - 14:00 - 17:00",
+      "image": "images/events/Quayside-16Aug2026.jpg"
+    },
+    {
       "title": "JBay FUNDURO 2026 at  Papiesfontein in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/jbay-funduro-2026/",
       "guid": "https://9ty9.co.za/events/jbay-funduro-2026/",
@@ -2323,6 +2334,61 @@
       "month": "AUG",
       "description": "Fri, 21 August 2026 - 18:00 - 21:00",
       "image": "images/events/JBar-Francois-22Aug2026.jfif"
+    },
+    {
+      "title": "Hoërskool Despatch Trivia Aand at  Hoërskool Despatch / Despatch High School in Despatch",
+      "link": "https://9ty9.co.za/events/hoerskool-despatch-trivia-aand/",
+      "guid": "https://9ty9.co.za/events/hoerskool-despatch-trivia-aand/",
+      "pubDate": "Fri, 21 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 18:00 - 21:00",
+      "image": "images/events/Despatch-High-Trivia-21Aug2026.jfif"
+    },
+    {
+      "title": "Koos Kombuis live at The Music Kitchen - Fri 21st Aug at  The Music Kitchen in Gqeberha",
+      "link": "https://9ty9.co.za/events/koos-kombuis-live-at-the-music-kitchen-fri-21st-aug/",
+      "guid": "https://9ty9.co.za/events/koos-kombuis-live-at-the-music-kitchen-fri-21st-aug/",
+      "pubDate": "Fri, 21 Aug 2026 17:30:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 19:30 - 22:30",
+      "image": "images/events/Koos-Kombuis-21Aug2926.jpg"
+    },
+    {
+      "title": "Body Balance at Lavender Thyme at  Lavender Thyme in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/body-balance-at-lavender-thyme/",
+      "guid": "https://9ty9.co.za/events/body-balance-at-lavender-thyme/",
+      "pubDate": "Sat, 22 Aug 2026 05:15:00 +0000",
+      "dateStr": "2026-08-22",
+      "day": "22",
+      "month": "AUG",
+      "description": "Sat, 22 August 2026 - 07:15 - 10:00",
+      "image": "images/events/BODY-BALANCE-22Aug2026-1.jpg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-15-2026-08-22/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-15-2026-08-22/",
+      "pubDate": "Sat, 22 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-22",
+      "day": "22",
+      "month": "AUG",
+      "description": "Sat, 22 August 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-08-22/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-08-22/",
+      "pubDate": "Sat, 22 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-22",
+      "day": "22",
+      "month": "AUG",
+      "description": "Sat, 22 August 2026 - 08:00 - 09:00",
+      "image": "images/events/img_3_1786246960707.jpg"
     }
   ]
 }
