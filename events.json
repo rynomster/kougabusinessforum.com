@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-13T02:29:09.182Z",
+  "lastUpdated": "2026-08-13T07:43:17.680Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 209,
+  "count": 211,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -1984,6 +1984,17 @@
       "image": "images/events/Fergos-14Aug2026.jpeg"
     },
     {
+      "title": "Friday Bunnychow Special at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friday-bunnychow-special/",
+      "guid": "https://9ty9.co.za/events/friday-bunnychow-special/",
+      "pubDate": "Fri, 14 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-14",
+      "day": "14",
+      "month": "AUG",
+      "description": "Fri, 14 August 2026 - 11:00 - 15:00",
+      "image": "images/events/Oppi-Friday-Specials.jfif"
+    },
+    {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-08-2026-08-15/",
       "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-08-2026-08-15/",
@@ -2257,6 +2268,17 @@
       "month": "AUG",
       "description": "Thu, 20 August 2026 - 18:30 - 20:30",
       "image": "images/events/The-Village-Voices-20Aug2026.jpg"
+    },
+    {
+      "title": "Creative Art Morning at The Studio at  The Studio at 106 Da Gama in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/creative-art-morning-at-the-studio/",
+      "guid": "https://9ty9.co.za/events/creative-art-morning-at-the-studio/",
+      "pubDate": "Thu, 20 Aug 2026 07:30:00 +0000",
+      "dateStr": "2026-08-20",
+      "day": "20",
+      "month": "AUG",
+      "description": "Thu, 20 August 2026 - 09:30 - 12:30",
+      "image": "images/events/The-Studio-20Aug2026.jfif"
     },
     {
       "title": "Sea Harvest SA Surfing Championships – 60th Edition at   in",
