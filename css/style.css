@@ -1821,6 +1821,80 @@ textarea {
   margin-top: 2rem;
 }
 
+/* Directory Trust Banner */
+.directory-trust-banner {
+  background: var(--bg-white);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--shadow-sm);
+}
+
+.trust-banner-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+.trust-badge-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.trust-badge-info p {
+  font-size: 0.85rem;
+  color: #333333; /* High-contrast charcoal text styling for WCAG compliance */
+  line-height: 1.5;
+  margin: 0;
+}
+
+.trust-banner-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  padding-left: 2rem;
+  border-left: 1px solid var(--border-color);
+  min-width: 220px;
+}
+
+.trust-banner-cta p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .directory-trust-banner {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+  .trust-banner-cta {
+    border-left: none;
+    border-top: 1px solid var(--border-color);
+    padding-left: 0;
+    padding-top: 1.5rem;
+    min-width: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .trust-banner-info {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
 .result-count {
   color: var(--text-muted);
   margin-bottom: 1.5rem;
