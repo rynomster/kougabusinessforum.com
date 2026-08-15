@@ -1,30 +1,8 @@
 {
-  "lastUpdated": "2026-08-14T19:02:27.810Z",
+  "lastUpdated": "2026-08-15T01:38:26.171Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 221,
+  "count": 220,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-10-2026-07-15/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-10-2026-07-15/",
-      "pubDate": "Wed, 15 Jul 2026 07:00:00 +0000",
-      "dateStr": "2026-07-15",
-      "day": "15",
-      "month": "JUL",
-      "description": "Wed, 15 July 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-07-15/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-07-15/",
-      "pubDate": "Wed, 15 Jul 2026 09:00:00 +0000",
-      "dateStr": "2026-07-15",
-      "day": "15",
-      "month": "JUL",
-      "description": "Wed, 15 July 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
-    },
     {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/kuns-klets-2026-07-16/",
@@ -2433,6 +2411,17 @@
       "month": "AUG",
       "description": "Sun, 23 August 2026 - 11:00 - 15:00",
       "image": "images/events/Vernon-Thornhill2.jpg"
+    },
+    {
+      "title": "Properties on Show in Jeffreys Bay and Surrounds at   in",
+      "link": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-08-23/",
+      "guid": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-08-23/",
+      "pubDate": "Sun, 23 Aug 2026 13:00:00 +0000",
+      "dateStr": "2026-08-23",
+      "day": "23",
+      "month": "AUG",
+      "description": "Sun, 23 August 2026 - 15:00 - 17:00",
+      "image": "images/events/PropOnShowEvent.jpg"
     }
   ]
 }
