@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-16T01:45:14.799Z",
+  "lastUpdated": "2026-08-16T06:50:18.476Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 229,
+  "count": 231,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2411,6 +2411,28 @@
       "month": "AUG",
       "description": "Fri, 21 August 2026 - 19:30 - 22:30",
       "image": "images/events/Koos-Kombuis-21Aug2926.jpg"
+    },
+    {
+      "title": "Art Journaling with Mandy at  The Studio at 106 Da Gama in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/art-journaling-with-mandy/",
+      "guid": "https://9ty9.co.za/events/art-journaling-with-mandy/",
+      "pubDate": "Fri, 21 Aug 2026 07:30:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 09:30 - 12:30",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/The-Studio-26Aug2026.jfif"
+    },
+    {
+      "title": "Friday Steak Night at  Ember &amp; Tide in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friday-steak-night/",
+      "guid": "https://9ty9.co.za/events/friday-steak-night/",
+      "pubDate": "Fri, 21 Aug 2026 15:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 17:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Ember-Friday-Special.jfif"
     },
     {
       "title": "Body Balance at Lavender Thyme at  Lavender Thyme in St. Francis Bay",
