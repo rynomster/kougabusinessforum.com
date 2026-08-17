@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-17T01:43:17.125Z",
+  "lastUpdated": "2026-08-17T07:07:00.218Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 229,
+  "count": 231,
   "events": [
     {
       "title": "JBay Winter Skins Fishing Competition at  Kabeljous Beach in Jeffreys Bay",
@@ -2237,6 +2237,17 @@
       "image": "images/events/DFV-Tue-Deal.jpeg"
     },
     {
+      "title": "Escape to the Music of Alcatraz at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/escape-to-the-music-of-alcatraz-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/escape-to-the-music-of-alcatraz-at-the-backyard/",
+      "pubDate": "Tue, 18 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-18",
+      "day": "18",
+      "month": "AUG",
+      "description": "Tue, 18 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-18Aug2026.jfif"
+    },
+    {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-14-2026-08-19/",
       "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-14-2026-08-19/",
@@ -2279,6 +2290,17 @@
       "month": "AUG",
       "description": "Wed, 19 August 2026 - 17:00 - 21:00",
       "image": "images/events/J-Bay-Bru-Co-Pizza-Special.jpg"
+    },
+    {
+      "title": "Terri-Leigh Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/terri-leigh-live-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/terri-leigh-live-at-the-backyard/",
+      "pubDate": "Wed, 19 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-19",
+      "day": "19",
+      "month": "AUG",
+      "description": "Wed, 19 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-19Aug2026.jfif"
     },
     {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
