@@ -1,41 +1,8 @@
 {
-  "lastUpdated": "2026-08-16T18:36:52.761Z",
+  "lastUpdated": "2026-08-17T01:43:17.125Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 231,
+  "count": 229,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-15-2026-07-17/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-15-2026-07-17/",
-      "pubDate": "Fri, 17 Jul 2026 07:00:00 +0000",
-      "dateStr": "2026-07-17",
-      "day": "17",
-      "month": "JUL",
-      "description": "Fri, 17 July 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Dual Frequency at  Quayside Pub in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/dual-frequency-2/",
-      "guid": "https://9ty9.co.za/events/dual-frequency-2/",
-      "pubDate": "Fri, 17 Jul 2026 17:00:00 +0000",
-      "dateStr": "2026-07-17",
-      "day": "17",
-      "month": "JUL",
-      "description": "Fri, 17 July 2026 - 19:00 - 22:00",
-      "image": "images/events/Dual-Frequency-17July2026.jpg"
-    },
-    {
-      "title": "Pietman Geldenhuys at  St. Francis Brewing Co. in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/pietman-geldenhuys/",
-      "guid": "https://9ty9.co.za/events/pietman-geldenhuys/",
-      "pubDate": "Fri, 17 Jul 2026 17:30:00 +0000",
-      "dateStr": "2026-07-17",
-      "day": "17",
-      "month": "JUL",
-      "description": "Fri, 17 July 2026 - 19:30 - 22:00",
-      "image": "images/events/Pietman-Geldenhuys-17July2026.jpg"
-    },
     {
       "title": "JBay Winter Skins Fishing Competition at  Kabeljous Beach in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/jbay-winter-skins-fishing-competition/",
@@ -2521,6 +2488,17 @@
       "month": "AUG",
       "description": "Sat, 22 August 2026 - 19:00 - 23:59",
       "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Market Day at The Studio at  The Studio at 106 Da Gama in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/market-day-at-the-studio/",
+      "guid": "https://9ty9.co.za/events/market-day-at-the-studio/",
+      "pubDate": "Sat, 22 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-22",
+      "day": "22",
+      "month": "AUG",
+      "description": "Sat, 22 August 2026 - 09:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/The-Studio-26Aug2026.jfif"
     },
     {
       "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
