@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-19T06:54:28.696Z",
+  "lastUpdated": "2026-08-19T12:58:25.086Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 230,
+  "count": 231,
   "events": [
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
@@ -2378,6 +2378,17 @@
       "month": "AUG",
       "description": "Fri, 21 August 2026 - 17:00 - 21:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Ember-Friday-Special.jfif"
+    },
+    {
+      "title": "Chaos Quinn and Friends Live at Fergo&#039;s at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/chaos-quinn-and-friends-live-at-fergos/",
+      "guid": "https://9ty9.co.za/events/chaos-quinn-and-friends-live-at-fergos/",
+      "pubDate": "Fri, 21 Aug 2026 17:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 19:00 - 22:00",
+      "image": "images/events/IMG-20260819-WA0129.jpg"
     },
     {
       "title": "Body Balance at Lavender Thyme at  Lavender Thyme in St. Francis Bay",
