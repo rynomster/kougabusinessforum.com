@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-18T18:47:39.470Z",
+  "lastUpdated": "2026-08-19T01:40:36.246Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 227,
+  "count": 230,
   "events": [
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
@@ -2499,6 +2499,39 @@
       "month": "AUG",
       "description": "Sun, 23 August 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Want to transform your garden but don&#039;t know where to start at  Jeffreys Bay in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/want-to-transform-your-garden-but-dont-know-where-to-start/",
+      "guid": "https://9ty9.co.za/events/want-to-transform-your-garden-but-dont-know-where-to-start/",
+      "pubDate": "Tue, 25 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-25",
+      "day": "25",
+      "month": "AUG",
+      "description": "Tue, 25 August 2026 - Wed, 26 August 2026 - 09:00 - 16:00",
+      "image": "images/events/Kunskoors-26Aug2026.jpg"
+    },
+    {
+      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-18-2026-08-25/",
+      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-18-2026-08-25/",
+      "pubDate": "Tue, 25 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-25",
+      "day": "25",
+      "month": "AUG",
+      "description": "Tue, 25 August 2026 - 10:00 - 12:00",
+      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Scrapbook and Cardmaking Classes with Priscilla at  The Studio at 106 Da Gama in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/scrapbook-and-cardmaking-classes-with-priscilla-2/",
+      "guid": "https://9ty9.co.za/events/scrapbook-and-cardmaking-classes-with-priscilla-2/",
+      "pubDate": "Tue, 25 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-25",
+      "day": "25",
+      "month": "AUG",
+      "description": "Tue, 25 August 2026 - 10:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/The-Studio-26Aug2026.jfif"
     }
   ]
 }
