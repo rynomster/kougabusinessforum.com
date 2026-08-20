@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-20T13:00:43.610Z",
+  "lastUpdated": "2026-08-20T18:49:37.629Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 233,
+  "count": 235,
   "events": [
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
@@ -2400,6 +2400,28 @@
       "month": "AUG",
       "description": "Fri, 21 August 2026 - 18:00 - 21:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-21Aug2026.jfif"
+    },
+    {
+      "title": "Die Kospot – 400g Lamstjops Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-400g-lamstjops-special/",
+      "guid": "https://9ty9.co.za/events/die-kospot-400g-lamstjops-special/",
+      "pubDate": "Fri, 21 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 11:00 - 14:00",
+      "image": "images/events/Kospot-21Aug2026.jfif"
+    },
+    {
+      "title": "Die Kospot – Soet-suur Varknek en Beesstert Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-soet-suur-varknek-en-beesstert-special/",
+      "guid": "https://9ty9.co.za/events/die-kospot-soet-suur-varknek-en-beesstert-special/",
+      "pubDate": "Fri, 21 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 11:00 - 14:00",
+      "image": "images/events/Kospot2-21Aug2026.jfif"
     },
     {
       "title": "Body Balance at Lavender Thyme at  Lavender Thyme in St. Francis Bay",
