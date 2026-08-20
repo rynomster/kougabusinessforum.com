@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-20T01:39:00.378Z",
+  "lastUpdated": "2026-08-20T06:55:49.028Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 231,
+  "count": 233,
   "events": [
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
@@ -2391,6 +2391,17 @@
       "image": "images/events/IMG-20260819-WA0129.jpg"
     },
     {
+      "title": "Edward Allen Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/edward-allen-live-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/edward-allen-live-at-the-backyard/",
+      "pubDate": "Fri, 21 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-21Aug2026.jfif"
+    },
+    {
       "title": "Body Balance at Lavender Thyme at  Lavender Thyme in St. Francis Bay",
       "link": "https://9ty9.co.za/events/body-balance-at-lavender-thyme/",
       "guid": "https://9ty9.co.za/events/body-balance-at-lavender-thyme/",
@@ -2488,6 +2499,17 @@
       "month": "AUG",
       "description": "Sat, 22 August 2026 - 09:00 - 13:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/The-Studio-26Aug2026.jfif"
+    },
+    {
+      "title": "Pig Spit Braai and Birthday Party for Telly and Kaige at  Uncle Charlies Pub in Paradise Beach",
+      "link": "https://9ty9.co.za/events/pig-spit-braai-and-birthday-party-for-telly-and-kaige/",
+      "guid": "https://9ty9.co.za/events/pig-spit-braai-and-birthday-party-for-telly-and-kaige/",
+      "pubDate": "Sat, 22 Aug 2026 10:00:00 +0000",
+      "dateStr": "2026-08-22",
+      "day": "22",
+      "month": "AUG",
+      "description": "Sat, 22 August 2026 - 12:00 - 23:59",
+      "image": "images/events/Uncle-Charlies-22Aug2026.jpeg"
     },
     {
       "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
