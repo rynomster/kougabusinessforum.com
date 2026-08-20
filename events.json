@@ -1,52 +1,8 @@
 {
-  "lastUpdated": "2026-08-17T01:43:17.125Z",
+  "lastUpdated": "2026-08-20T06:55:49.028Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 229,
+  "count": 233,
   "events": [
-    {
-      "title": "JBay Winter Skins Fishing Competition at  Kabeljous Beach in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/jbay-winter-skins-fishing-competition/",
-      "guid": "https://9ty9.co.za/events/jbay-winter-skins-fishing-competition/",
-      "pubDate": "Sat, 18 Jul 2026 05:00:00 +0000",
-      "dateStr": "2026-07-18",
-      "day": "18",
-      "month": "JUL",
-      "description": "Sat, 18 July 2026 - 07:00 - 17:00",
-      "image": "images/events/JBay-Winter-Skins-Fishing-Competition-18July2026.jpg"
-    },
-    {
-      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-11-2026-07-18/",
-      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-11-2026-07-18/",
-      "pubDate": "Sat, 18 Jul 2026 06:00:00 +0000",
-      "dateStr": "2026-07-18",
-      "day": "18",
-      "month": "JUL",
-      "description": "Sat, 18 July 2026 - 08:00 - 09:00",
-      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
-    },
-    {
-      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-11-2026-07-18/",
-      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-11-2026-07-18/",
-      "pubDate": "Sat, 18 Jul 2026 06:00:00 +0000",
-      "dateStr": "2026-07-18",
-      "day": "18",
-      "month": "JUL",
-      "description": "Sat, 18 July 2026 - 08:00 - 09:00",
-      "image": "images/events/St-Francis-Parkrun.jpg"
-    },
-    {
-      "title": "Mister and Miss Jolly Dolphin 2026 at  Jolly Dolphin in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/mister-and-miss-jolly-dolphin-2026/",
-      "guid": "https://9ty9.co.za/events/mister-and-miss-jolly-dolphin-2026/",
-      "pubDate": "Sat, 18 Jul 2026 11:00:00 +0000",
-      "dateStr": "2026-07-18",
-      "day": "18",
-      "month": "JUL",
-      "description": "Sat, 18 July 2026 - 13:00 - 15:30",
-      "image": "images/events/Mister-and-Miss-Jolly-Dolphin-18July2026.jpg"
-    },
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/more-mark-at-ng-kompleks-kampus/",
@@ -2237,6 +2193,17 @@
       "image": "images/events/DFV-Tue-Deal.jpeg"
     },
     {
+      "title": "Escape to the Music of Alcatraz at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/escape-to-the-music-of-alcatraz-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/escape-to-the-music-of-alcatraz-at-the-backyard/",
+      "pubDate": "Tue, 18 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-18",
+      "day": "18",
+      "month": "AUG",
+      "description": "Tue, 18 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-18Aug2026.jfif"
+    },
+    {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-14-2026-08-19/",
       "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-14-2026-08-19/",
@@ -2279,6 +2246,17 @@
       "month": "AUG",
       "description": "Wed, 19 August 2026 - 17:00 - 21:00",
       "image": "images/events/J-Bay-Bru-Co-Pizza-Special.jpg"
+    },
+    {
+      "title": "Terri-Leigh Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/terri-leigh-live-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/terri-leigh-live-at-the-backyard/",
+      "pubDate": "Wed, 19 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-19",
+      "day": "19",
+      "month": "AUG",
+      "description": "Wed, 19 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-19Aug2026.jfif"
     },
     {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
@@ -2402,6 +2380,28 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Ember-Friday-Special.jfif"
     },
     {
+      "title": "Chaos Quinn and Friends Live at Fergo&#039;s at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/chaos-quinn-and-friends-live-at-fergos/",
+      "guid": "https://9ty9.co.za/events/chaos-quinn-and-friends-live-at-fergos/",
+      "pubDate": "Fri, 21 Aug 2026 17:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 19:00 - 22:00",
+      "image": "images/events/IMG-20260819-WA0129.jpg"
+    },
+    {
+      "title": "Edward Allen Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/edward-allen-live-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/edward-allen-live-at-the-backyard/",
+      "pubDate": "Fri, 21 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-21",
+      "day": "21",
+      "month": "AUG",
+      "description": "Fri, 21 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-21Aug2026.jfif"
+    },
+    {
       "title": "Body Balance at Lavender Thyme at  Lavender Thyme in St. Francis Bay",
       "link": "https://9ty9.co.za/events/body-balance-at-lavender-thyme/",
       "guid": "https://9ty9.co.za/events/body-balance-at-lavender-thyme/",
@@ -2501,6 +2501,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/The-Studio-26Aug2026.jfif"
     },
     {
+      "title": "Pig Spit Braai and Birthday Party for Telly and Kaige at  Uncle Charlies Pub in Paradise Beach",
+      "link": "https://9ty9.co.za/events/pig-spit-braai-and-birthday-party-for-telly-and-kaige/",
+      "guid": "https://9ty9.co.za/events/pig-spit-braai-and-birthday-party-for-telly-and-kaige/",
+      "pubDate": "Sat, 22 Aug 2026 10:00:00 +0000",
+      "dateStr": "2026-08-22",
+      "day": "22",
+      "month": "AUG",
+      "description": "Sat, 22 August 2026 - 12:00 - 23:59",
+      "image": "images/events/Uncle-Charlies-22Aug2026.jpeg"
+    },
+    {
       "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
       "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-16-2026-08-23/",
       "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-16-2026-08-23/",
@@ -2521,6 +2532,39 @@
       "month": "AUG",
       "description": "Sun, 23 August 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Want to transform your garden but don&#039;t know where to start at  Jeffreys Bay in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/want-to-transform-your-garden-but-dont-know-where-to-start/",
+      "guid": "https://9ty9.co.za/events/want-to-transform-your-garden-but-dont-know-where-to-start/",
+      "pubDate": "Tue, 25 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-25",
+      "day": "25",
+      "month": "AUG",
+      "description": "Tue, 25 August 2026 - Wed, 26 August 2026 - 09:00 - 16:00",
+      "image": "images/events/Kunskoors-26Aug2026.jpg"
+    },
+    {
+      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-18-2026-08-25/",
+      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-18-2026-08-25/",
+      "pubDate": "Tue, 25 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-25",
+      "day": "25",
+      "month": "AUG",
+      "description": "Tue, 25 August 2026 - 10:00 - 12:00",
+      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Scrapbook and Cardmaking Classes with Priscilla at  The Studio at 106 Da Gama in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/scrapbook-and-cardmaking-classes-with-priscilla-2/",
+      "guid": "https://9ty9.co.za/events/scrapbook-and-cardmaking-classes-with-priscilla-2/",
+      "pubDate": "Tue, 25 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-25",
+      "day": "25",
+      "month": "AUG",
+      "description": "Tue, 25 August 2026 - 10:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/The-Studio-26Aug2026.jfif"
     }
   ]
 }
