@@ -94,7 +94,7 @@
           </div>
 
           <div class="form-container" id="contact-form">
-            <form action="mailto:office@kougabusinessforum.com?subject=KBF Website Enquiry" method="post" enctype="text/plain" id="contactForm">
+            <form action="/api/contact" method="post" id="contactForm">
               <div class="form-row">
                 <div class="form-group">
                   <label for="name">Full Name *</label>
@@ -138,6 +138,20 @@
                 <i data-lucide="send" width="20" height="20"></i>
               </button>
             </form>
+
+            <div id="contactSuccess" style="display: none; padding: 1.5rem; background: rgba(37, 211, 102, 0.1); border-left: 4px solid #25D366; border-radius: var(--radius-sm); margin-top: 1rem;">
+              <h3 style="margin-top: 0; margin-bottom: 0.5rem; color: var(--primary-dark); display: flex; align-items: center; gap: 8px;">
+                <i data-lucide="check-circle" width="20" height="20" style="color: #25D366;"></i>
+                Enquiry Sent Successfully!
+              </h3>
+              <p style="margin: 0; color: var(--text-main); font-size: 0.95rem; line-height: 1.6;">
+                Thank you for contacting the Kouga Business Forum. A member of our team will review your message and respond within 1 business day.
+              </p>
+            </div>
+
+            <div id="contactError" style="display: none; padding: 1rem; background: rgba(220, 53, 69, 0.1); border-left: 4px solid #dc3545; border-radius: var(--radius-sm); margin-top: 1rem; color: #dc3545; font-size: 0.9rem;">
+              ❌ <span id="contactErrorMessage">An error occurred while sending your enquiry. Please check your connection and try again, or email us directly at office@kougabusinessforum.com</span>
+            </div>
 
             <!-- Secure Transmission & Response Expectation Note -->
             <div style="margin-top: 1.5rem; padding: 1rem; background: var(--bg-light); border-radius: var(--radius-sm); border-left: 3px solid var(--accent-teal); font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">

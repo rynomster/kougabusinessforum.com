@@ -267,6 +267,40 @@ async function handleNewsletter(method, body, env) {
   return jsonResponse({ success: true, message: 'Subscribed successfully' }, 201, env);
 }
 
+/**
+ * Handle contact form submission
+ */
+async function handleContactSubmission(method, body, env) {
+  if (method !== 'POST') return errorResponse('Method not allowed', 405, env);
+
+  const requiredFields = ['name', 'email', 'subject', 'message'];
+  for (const field of requiredFields) {
+    if (!body || !body[field] || (typeof body[field] === 'string' && !body[field].trim())) {
+      return errorResponse(`Missing required field: ${field}`, 400, env);
+    }
+  }
+
+  const sanitized = sanitizeObject(body, ['name', 'email', 'phone', 'subject', 'message']);
+  const submissionId = generateSubmissionId('contact');
+
+  const submission = {
+    submissionId,
+    type: 'contact',
+    data: sanitized,
+    status: 'received',
+    submittedAt: new Date().toISOString()
+  };
+
+  log(`📩 New contact enquiry from ${sanitized.name} (${sanitized.email}): ${sanitized.subject}`, 'success');
+  await sendAdminNotification(submission, env);
+
+  return jsonResponse({
+    success: true,
+    message: 'Thank you! Your enquiry has been received and a member of our team will get back to you shortly.',
+    submissionId
+  }, 201, env);
+}
+
 // --- Main Handler ---
 
 async function handleRequest(req, env) {
@@ -307,6 +341,9 @@ async function handleRequest(req, env) {
         return await handleDirectorySubmission(method, body, env);
       case '/api/newsletter':
         return await handleNewsletter(method, body, env);
+      case '/api/contact':
+      case '/api/enquiry':
+        return await handleContactSubmission(method, body, env);
       case '/api/rss':
       case '/rss':
         return await handleRssProxy(req, env);
