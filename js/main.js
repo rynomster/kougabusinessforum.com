@@ -258,13 +258,91 @@ function initializeForms() {
       }
     }
 
-    contactForm.addEventListener('submit', function() {
-      // Track contact enquiry
-      trackEvent('generate_lead', { form_name: 'contact' });
-      // Small delay to allow the mailto: action to trigger before showing feedback
-      setTimeout(() => {
-        alert('Thank you! Your email client should now open with your message. If not, please email us directly at office@kougabusinessforum.com');
-      }, 500);
+    contactForm.addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      const submitBtn = contactForm.querySelector('button[type="submit"]');
+      const contactSuccess = document.getElementById('contactSuccess');
+      const contactError = document.getElementById('contactError');
+      const contactErrorMessage = document.getElementById('contactErrorMessage');
+
+      // Hide previous status messages
+      if (contactSuccess) contactSuccess.style.display = 'none';
+      if (contactError) contactError.style.display = 'none';
+
+      // HTML5 Form Validation check
+      if (!contactForm.checkValidity()) {
+        contactForm.reportValidity();
+        return;
+      }
+
+      // Collect form data
+      const formData = {
+        name: contactForm.querySelector('#name')?.value.trim() || '',
+        email: contactForm.querySelector('#email')?.value.trim() || '',
+        phone: contactForm.querySelector('#phone')?.value.trim() || '',
+        subject: contactForm.querySelector('#subject')?.value || '',
+        message: contactForm.querySelector('#message')?.value.trim() || ''
+      };
+
+      const originalBtnHtml = submitBtn ? submitBtn.innerHTML : 'Send Enquiry';
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = 'Sending... <i data-lucide="loader" width="20" height="20"></i>';
+        if (typeof lucide !== 'undefined') lucide.createIcons();
+      }
+
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(formData)
+        });
+
+        const result = await response.json().catch(() => null);
+
+        if (response.ok && result && result.success) {
+          // Fire GA4 generate_lead conversion event ONLY after successful server confirmation
+          const submissionId = result.submissionId || `contact_${Date.now()}`;
+          const storageKey = `kbf_lead_tracked_${submissionId}`;
+
+          if (!sessionStorage.getItem(storageKey)) {
+            // No PII passed to GA4 - only form_name
+            trackEvent('generate_lead', { form_name: 'contact' });
+            sessionStorage.setItem(storageKey, 'true');
+          }
+
+          if (contactSuccess) {
+            contactSuccess.style.display = 'block';
+            contactForm.reset();
+            contactForm.style.display = 'none';
+          } else {
+            alert('Thank you! Your enquiry has been sent successfully.');
+            contactForm.reset();
+          }
+        } else {
+          const errMsg = (result && result.error) ? result.error : 'Failed to send enquiry. Please try again.';
+          throw new Error(errMsg);
+        }
+      } catch (err) {
+        console.error('Contact form submission error:', err);
+        if (contactError) {
+          if (contactErrorMessage) {
+            contactErrorMessage.textContent = err.message || 'An error occurred while sending your enquiry. Please try again.';
+          }
+          contactError.style.display = 'block';
+        } else {
+          alert('Failed to send enquiry: ' + err.message);
+        }
+      } finally {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = originalBtnHtml;
+          if (typeof lucide !== 'undefined') lucide.createIcons();
+        }
+      }
     });
   }
 
