@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-21T06:56:58.205Z",
+  "lastUpdated": "2026-08-21T12:59:56.799Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 236,
+  "count": 240,
   "events": [
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
@@ -2598,6 +2598,50 @@
       "month": "AUG",
       "description": "Tue, 25 August 2026 - 17:15 - 18:15",
       "image": "images/events/Voortrekkers.jfif"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-21-2026-08-26/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-21-2026-08-26/",
+      "pubDate": "Wed, 26 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-26",
+      "day": "26",
+      "month": "AUG",
+      "description": "Wed, 26 August 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Scrap and Chat at The Studio at  The Studio at 106 Da Gama in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/scrap-and-chat-at-the-studio-2/",
+      "guid": "https://9ty9.co.za/events/scrap-and-chat-at-the-studio-2/",
+      "pubDate": "Wed, 26 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-26",
+      "day": "26",
+      "month": "AUG",
+      "description": "Wed, 26 August 2026 - 10:00 - 13:00",
+      "image": "images/events/The-Studio-26Aug2026.jfif"
+    },
+    {
+      "title": "Art Mornings with Johlize at  The Studio at 106 Da Gama in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/art-mornings-with-johlize/",
+      "guid": "https://9ty9.co.za/events/art-mornings-with-johlize/",
+      "pubDate": "Thu, 27 Aug 2026 07:30:00 +0000",
+      "dateStr": "2026-08-27",
+      "day": "27",
+      "month": "AUG",
+      "description": "Thu, 27 August 2026 - 09:30 - 12:30",
+      "image": "images/events/The-Studio-26Aug2026.jfif"
+    },
+    {
+      "title": "The List Is Empty at  Dolphins Leap Conference and Events Centre in Gqeberha",
+      "link": "https://9ty9.co.za/events/the-list-is-empty/",
+      "guid": "https://9ty9.co.za/events/the-list-is-empty/",
+      "pubDate": "Thu, 27 Aug 2026 14:00:00 +0000",
+      "dateStr": "2026-08-27",
+      "day": "27",
+      "month": "AUG",
+      "description": "Thu, 27 August 2026 - 16:00 - 22:00",
+      "image": "images/events/The-List-Is-Empty-27Aug2026.jpeg"
     }
   ]
 }
