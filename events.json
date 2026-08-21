@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-21T12:59:56.799Z",
+  "lastUpdated": "2026-08-21T18:45:48.374Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 240,
+  "count": 241,
   "events": [
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
@@ -2642,6 +2642,17 @@
       "month": "AUG",
       "description": "Thu, 27 August 2026 - 16:00 - 22:00",
       "image": "images/events/The-List-Is-Empty-27Aug2026.jpeg"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-08-27/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-27/",
+      "pubDate": "Thu, 27 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-27",
+      "day": "27",
+      "month": "AUG",
+      "description": "Thu, 27 August 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
     }
   ]
 }
