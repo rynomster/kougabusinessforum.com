@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-20T18:49:37.629Z",
+  "lastUpdated": "2026-08-21T01:44:11.859Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 235,
+  "count": 236,
   "events": [
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
@@ -2587,6 +2587,17 @@
       "month": "AUG",
       "description": "Tue, 25 August 2026 - 10:00 - 13:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/The-Studio-26Aug2026.jfif"
+    },
+    {
+      "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-3/",
+      "guid": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-3/",
+      "pubDate": "Tue, 25 Aug 2026 15:15:00 +0000",
+      "dateStr": "2026-08-25",
+      "day": "25",
+      "month": "AUG",
+      "description": "Tue, 25 August 2026 - 17:15 - 18:15",
+      "image": "images/events/Voortrekkers.jfif"
     }
   ]
 }
