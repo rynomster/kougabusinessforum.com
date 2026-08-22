@@ -138,6 +138,38 @@ function generateHTML(eventList) {
         </div>`;
   }).join('\n');
 
+  const jsonLdEvents = eventList.map(ev => ({
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": ev.summary,
+    "description": ev.descriptionClean || ev.summary,
+    "startDate": ev.start,
+    "endDate": ev.end,
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": ev.location || "Kouga Business Forum Hub",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kouga",
+        "addressRegion": "Eastern Cape",
+        "addressCountry": "ZA"
+      }
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Kouga Business Forum",
+      "url": "https://kougabusinessforum.com"
+    }
+  }));
+
+  const jsonLdScript = jsonLdEvents.length > 0 ? `
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  ${JSON.stringify(jsonLdEvents, null, 2)}
+  </script>` : '';
+
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -171,6 +203,7 @@ function generateHTML(eventList) {
   <meta name="twitter:title" content="KBF Events | Kouga Business Forum">
   <meta name="twitter:description" content="Official KBF events, meetings, and workshops for Kouga business leaders.">
   <meta name="twitter:image" content="https://kougabusinessforum.com/images/jbay-coastal-hero.jpg">
+${jsonLdScript}
 
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
