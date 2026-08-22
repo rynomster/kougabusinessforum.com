@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-21T18:45:48.374Z",
+  "lastUpdated": "2026-08-22T01:37:44.822Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 241,
+  "count": 248,
   "events": [
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
@@ -2534,6 +2534,39 @@
       "image": "images/events/Uncle-Charlies-22Aug2026.jpeg"
     },
     {
+      "title": "Saterdag by Die Kospot at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/saterdag-by-die-kospot/",
+      "guid": "https://9ty9.co.za/events/saterdag-by-die-kospot/",
+      "pubDate": "Sat, 22 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-22",
+      "day": "22",
+      "month": "AUG",
+      "description": "Sat, 22 August 2026 - 11:00 - 15:00",
+      "image": "images/events/IMG-20260822-WA0005.jpg"
+    },
+    {
+      "title": "Your Saturday Sushi Fix at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/your-saturday-sushi-fix/",
+      "guid": "https://9ty9.co.za/events/your-saturday-sushi-fix/",
+      "pubDate": "Sat, 22 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-22",
+      "day": "22",
+      "month": "AUG",
+      "description": "Sat, 22 August 2026 - 11:00 - 21:00",
+      "image": "images/events/img_2_1787359189364.jpg"
+    },
+    {
+      "title": "Saturday Vibes with Hopeless Romantics at Pili Pili at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/saturday-vibes-with-hopeless-romantics-at-pili-pili/",
+      "guid": "https://9ty9.co.za/events/saturday-vibes-with-hopeless-romantics-at-pili-pili/",
+      "pubDate": "Sat, 22 Aug 2026 11:00:00 +0000",
+      "dateStr": "2026-08-22",
+      "day": "22",
+      "month": "AUG",
+      "description": "Sat, 22 August 2026 - 13:00 - 16:00",
+      "image": "images/events/img_1_1787359003441.jpg"
+    },
+    {
       "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
       "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-16-2026-08-23/",
       "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-16-2026-08-23/",
@@ -2554,6 +2587,17 @@
       "month": "AUG",
       "description": "Sun, 23 August 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Attie Live at Pili Pili at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/attie-live-at-pili-pili/",
+      "guid": "https://9ty9.co.za/events/attie-live-at-pili-pili/",
+      "pubDate": "Sun, 23 Aug 2026 12:00:00 +0000",
+      "dateStr": "2026-08-23",
+      "day": "23",
+      "month": "AUG",
+      "description": "Sun, 23 August 2026 - 14:00 - 17:00",
+      "image": "images/events/img_1_1787359127892.jpg"
     },
     {
       "title": "Want to transform your garden but don&#039;t know where to start at  Jeffreys Bay in Jeffreys Bay",
@@ -2653,6 +2697,39 @@
       "month": "AUG",
       "description": "Thu, 27 August 2026 - 18:00 - 21:00",
       "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Quiz Night at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/quiz-night-a-the-backyard-2026-08-27/",
+      "guid": "https://9ty9.co.za/events/quiz-night-a-the-backyard-2026-08-27/",
+      "pubDate": "Thu, 27 Aug 2026 17:00:00 +0000",
+      "dateStr": "2026-08-27",
+      "day": "27",
+      "month": "AUG",
+      "description": "Thu, 27 August 2026 - 19:00 - 21:00",
+      "image": "images/events/Quiz-Night-17Dec2026.jpg"
+    },
+    {
+      "title": "Besigheid Fokus: Christelike Beginsels vir Jou Besigheid at  Oase Gemeente in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/besigheid-fokus-christelike-beginsels-vir-jou-besigheid/",
+      "guid": "https://9ty9.co.za/events/besigheid-fokus-christelike-beginsels-vir-jou-besigheid/",
+      "pubDate": "Fri, 28 Aug 2026 05:00:00 +0000",
+      "dateStr": "2026-08-28",
+      "day": "28",
+      "month": "AUG",
+      "description": "Fri, 28 August 2026 - 07:00 - 08:00",
+      "image": "images/events/Besigheidsforum-28Aug2026.jfif"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-26-2026-08-28/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-26-2026-08-28/",
+      "pubDate": "Fri, 28 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-28",
+      "day": "28",
+      "month": "AUG",
+      "description": "Fri, 28 August 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
     }
   ]
 }
