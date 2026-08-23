@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-22T18:38:27.131Z",
+  "lastUpdated": "2026-08-23T01:47:27.997Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 248,
+  "count": 263,
   "events": [
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
@@ -2730,6 +2730,171 @@
       "month": "AUG",
       "description": "Fri, 28 August 2026 - 09:00 - 12:00",
       "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "What&#039;s Good In The Hood at  What&#039;s Good In The Hood in Gqeberha",
+      "link": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31-2026-08-07-2026-08-28/",
+      "guid": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31-2026-08-07-2026-08-28/",
+      "pubDate": "Fri, 28 Aug 2026 15:00:00 +0000",
+      "dateStr": "2026-08-28",
+      "day": "28",
+      "month": "AUG",
+      "description": "Fri, 28 August 2026 - 17:00 - 21:00",
+      "image": "images/events/Whats-Good-In-The-Hood-31Dec2026.jpg"
+    },
+    {
+      "title": "Chicago Horror Musical live at Nineteen33 at  Nineteen33 in Gqeberha",
+      "link": "https://9ty9.co.za/events/chicago-horror-musical-live-at-nineteen33/",
+      "guid": "https://9ty9.co.za/events/chicago-horror-musical-live-at-nineteen33/",
+      "pubDate": "Fri, 28 Aug 2026 17:00:00 +0000",
+      "dateStr": "2026-08-28",
+      "day": "28",
+      "month": "AUG",
+      "description": "Fri, 28 August 2026 - 19:00 - 22:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Chicago-Horror-Musical-28Aug2026.jfif"
+    },
+    {
+      "title": "Crous and Carstens: Springbok Nude Girls Unplugged at  St. Francis Brewing Co. in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/crous-and-carstens-springbok-nude-girls-unplugged/",
+      "guid": "https://9ty9.co.za/events/crous-and-carstens-springbok-nude-girls-unplugged/",
+      "pubDate": "Fri, 28 Aug 2026 17:30:00 +0000",
+      "dateStr": "2026-08-28",
+      "day": "28",
+      "month": "AUG",
+      "description": "Fri, 28 August 2026 - 19:30 - 21:00",
+      "image": "images/events/Crous-and-Carstens-28Aug2026.jpg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-22-2026-08-29/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-22-2026-08-29/",
+      "pubDate": "Sat, 29 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-08-29/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-08-29/",
+      "pubDate": "Sat, 29 Aug 2026 06:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 08:00 - 09:00",
+      "image": "images/events/img_3_1786246960707.jpg"
+    },
+    {
+      "title": "2026 Greater Garden Route Wedding EXPO at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2026-greater-garden-route-wedding-expo/",
+      "guid": "https://9ty9.co.za/events/2026-greater-garden-route-wedding-expo/",
+      "pubDate": "Sat, 29 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - Sun, 30 August 2026 - 09:00 - 16:00",
+      "image": "images/events/Wedding-EXPO-30Aug2026.jpeg"
+    },
+    {
+      "title": "2026 Greater Garden Route Wedding EXPO - Sunday at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2026-greater-garden-route-wedding-expo-sunday/",
+      "guid": "https://9ty9.co.za/events/2026-greater-garden-route-wedding-expo-sunday/",
+      "pubDate": "Sat, 29 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - Sun, 30 August 2026 - 09:00 - 16:00",
+      "image": "images/events/2026-Greater-Garden-Route-Wedding-EXPO-30Aug2026.jpg"
+    },
+    {
+      "title": "Gelprinting Workshop with Hannetjie Malan at  The Studio at 106 Da Gama in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/gelprinting-workshop-with-hannetjie-malan/",
+      "guid": "https://9ty9.co.za/events/gelprinting-workshop-with-hannetjie-malan/",
+      "pubDate": "Sat, 29 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 09:00 - 13:00",
+      "image": "images/events/The-Studio-26Aug2026.jfif"
+    },
+    {
+      "title": "Milkwood Farmers Market at  Milkwood Mark \\ Market in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/milkwood-farmers-market-2026-08-29/",
+      "guid": "https://9ty9.co.za/events/milkwood-farmers-market-2026-08-29/",
+      "pubDate": "Sat, 29 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 09:00 - 13:00",
+      "image": "images/events/Milkwood-Market-2-26Dec2026.jpg"
+    },
+    {
+      "title": "Norm-Hudlin Trails Country Market at  Norm Hudlin Trails in Kragga Kamma Rd",
+      "link": "https://9ty9.co.za/events/norm-hudlin-trails-country-market-2026-01-31-2026-02-28-2026-03-28-2026-04-25-2026-05-30-2026-06-27-2026-07-25-2026-08-29/",
+      "guid": "https://9ty9.co.za/events/norm-hudlin-trails-country-market-2026-01-31-2026-02-28-2026-03-28-2026-04-25-2026-05-30-2026-06-27-2026-07-25-2026-08-29/",
+      "pubDate": "Sat, 29 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 09:00 - 13:00",
+      "image": "images/events/Norm-Hudlin-Market-19Dec2026.jpg"
+    },
+    {
+      "title": "St. Francis Market at  St. Francis Market in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-market-2026-08-29/",
+      "guid": "https://9ty9.co.za/events/st-francis-market-2026-08-29/",
+      "pubDate": "Sat, 29 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 09:00 - 13:00",
+      "image": "images/events/St-Francis-Market-26Dec2026.jpg"
+    },
+    {
+      "title": "A Just Property Lifestyle Charity Event CELEBRATING WOMEN at  The Quays Restaurant in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/a-just-property-lifestyle-charity-event-celebrating-women/",
+      "guid": "https://9ty9.co.za/events/a-just-property-lifestyle-charity-event-celebrating-women/",
+      "pubDate": "Sat, 29 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 10:00 - 13:00",
+      "image": "images/events/CELEBRATING-WOMEN-29Aug2026.jpg"
+    },
+    {
+      "title": "Bingo Fundraiser at  Aston Bay Community Hall in Aston Bay",
+      "link": "https://9ty9.co.za/events/bingo-fundraiser/",
+      "guid": "https://9ty9.co.za/events/bingo-fundraiser/",
+      "pubDate": "Sat, 29 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 10:00 - 13:00",
+      "image": "images/events/Bingo-29August2026.jpg"
+    },
+    {
+      "title": "Forever Rhino Rally Junior Amazing Adventure Race at  African Dawn Bird and Wildlife Sanctuary in Thornhill",
+      "link": "https://9ty9.co.za/events/forever-rhino-rally-junior-amazing-adventure-race/",
+      "guid": "https://9ty9.co.za/events/forever-rhino-rally-junior-amazing-adventure-race/",
+      "pubDate": "Sat, 29 Aug 2026 08:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 10:00 - 16:00",
+      "image": "images/events/Forever-Rhino-Ralle-Junior-Amazing-Adventure-Race-29Aug2026.jpg"
+    },
+    {
+      "title": "Therese and Dave at Frankie&#039;s GQ at  Frankie&#039;s in Gqeberha",
+      "link": "https://9ty9.co.za/events/therese-and-dave-at-frankies-gq/",
+      "guid": "https://9ty9.co.za/events/therese-and-dave-at-frankies-gq/",
+      "pubDate": "Sat, 29 Aug 2026 10:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 12:00 - 15:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Therese-and-Dave-30Aug2026.jfif"
     }
   ]
 }
