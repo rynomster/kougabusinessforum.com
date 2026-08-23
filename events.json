@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-23T06:51:17.792Z",
+  "lastUpdated": "2026-08-23T12:52:36.103Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 263,
+  "count": 266,
   "events": [
     {
       "title": "Môre Mark at NG Kompleks Kampus at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
@@ -2895,6 +2895,39 @@
       "month": "AUG",
       "description": "Sat, 29 August 2026 - 12:00 - 15:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Therese-and-Dave-30Aug2026.jfif"
+    },
+    {
+      "title": "The Heart of a Woman - Unmask your Heart at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/the-heart-of-a-woman-unmask-your-heart/",
+      "guid": "https://9ty9.co.za/events/the-heart-of-a-woman-unmask-your-heart/",
+      "pubDate": "Sat, 29 Aug 2026 12:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 14:00 - 18:00",
+      "image": "images/events/Unmask-your-Heart-29Aug2026.jpg"
+    },
+    {
+      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-22-2026-08-29/",
+      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-22-2026-08-29/",
+      "pubDate": "Sat, 29 Aug 2026 13:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 15:00 - 18:00",
+      "image": "images/events/Backyard-Karaoke.jpg"
+    },
+    {
+      "title": "Elements of Nature Night Market at  Elements of Nature Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/elements-of-nature-night-market-2026-07-25-2026-08-29/",
+      "guid": "https://9ty9.co.za/events/elements-of-nature-night-market-2026-07-25-2026-08-29/",
+      "pubDate": "Sat, 29 Aug 2026 14:00:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 16:00 - 20:00",
+      "image": "images/events/Elements-of-Nature-Night-Market-19Dec2026.jpg"
     }
   ]
 }
