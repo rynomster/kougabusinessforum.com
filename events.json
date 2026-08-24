@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-24T13:02:30.352Z",
+  "lastUpdated": "2026-08-24T18:49:42.993Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 256,
+  "count": 257,
   "events": [
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
@@ -2653,6 +2653,17 @@
       "month": "AUG",
       "description": "Fri, 28 August 2026 - 19:30 - 21:00",
       "image": "images/events/Crous-and-Carstens-28Aug2026.jpg"
+    },
+    {
+      "title": "JJ Pieterse Live at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jj-pieterse-live-at-fergos-rhythm-bar/",
+      "guid": "https://9ty9.co.za/events/jj-pieterse-live-at-fergos-rhythm-bar/",
+      "pubDate": "Fri, 28 Aug 2026 17:00:00 +0000",
+      "dateStr": "2026-08-28",
+      "day": "28",
+      "month": "AUG",
+      "description": "Fri, 28 August 2026 - 19:00 - 22:00",
+      "image": null
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
