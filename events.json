@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-24T01:44:49.022Z",
+  "lastUpdated": "2026-08-24T07:10:07.549Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 255,
+  "count": 256,
   "events": [
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
@@ -2543,6 +2543,17 @@
       "month": "AUG",
       "description": "Wed, 26 August 2026 - 10:00 - 13:00",
       "image": "images/events/The-Studio-26Aug2026.jfif"
+    },
+    {
+      "title": "Surf Boertjie Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/surf-boertje-live-at-the-backyard/",
+      "guid": "https://9ty9.co.za/events/surf-boertje-live-at-the-backyard/",
+      "pubDate": "Wed, 26 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-26",
+      "day": "26",
+      "month": "AUG",
+      "description": "Wed, 26 August 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-26Aug2026.jfif"
     },
     {
       "title": "Art Mornings with Johlize at  The Studio at 106 Da Gama in Jeffreys Bay",
