@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-25T01:39:31.020Z",
+  "lastUpdated": "2026-08-25T06:57:40.625Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 239,
+  "count": 240,
   "events": [
     {
       "title": "Collective Market at  Collective Market in Gqeberha",
@@ -2466,6 +2466,17 @@
       "month": "AUG",
       "description": "Fri, 28 August 2026 - 19:00 - 22:00",
       "image": null
+    },
+    {
+      "title": "ELANDRÉ Live at Centrestage at Baywest at  Centrestage in Gqeberha",
+      "link": "https://9ty9.co.za/events/elandre-live-at-centrestage-at-baywest/",
+      "guid": "https://9ty9.co.za/events/elandre-live-at-centrestage-at-baywest/",
+      "pubDate": "Fri, 28 Aug 2026 17:30:00 +0000",
+      "dateStr": "2026-08-28",
+      "day": "28",
+      "month": "AUG",
+      "description": "Fri, 28 August 2026 - 19:30 - 22:00",
+      "image": "images/events/0934583_0.jpg"
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
