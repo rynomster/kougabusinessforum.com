@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-26T06:59:00.264Z",
+  "lastUpdated": "2026-08-26T13:04:15.419Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 233,
+  "count": 235,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2303,6 +2303,17 @@
       "image": "images/events/Quiz-Night-17Dec2026.jpg"
     },
     {
+      "title": "Throwback Thursday Quiz Night at Legends at  Legends Sports Bar, Pizzeria and Grill in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/throwback-thursday-quiz-night-at-legends/",
+      "guid": "https://9ty9.co.za/events/throwback-thursday-quiz-night-at-legends/",
+      "pubDate": "Thu, 27 Aug 2026 16:00:00 +0000",
+      "dateStr": "2026-08-27",
+      "day": "27",
+      "month": "AUG",
+      "description": "Thu, 27 August 2026 - 18:00 - 21:00",
+      "image": "images/events/Legends-27Aug2026.jfif"
+    },
+    {
       "title": "Besigheid Fokus: Christelike Beginsels vir Jou Besigheid at  Oase Gemeente in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/besigheid-fokus-christelike-beginsels-vir-jou-besigheid/",
       "guid": "https://9ty9.co.za/events/besigheid-fokus-christelike-beginsels-vir-jou-besigheid/",
@@ -2565,6 +2576,17 @@
       "month": "AUG",
       "description": "Sat, 29 August 2026 - 20:00 - 23:00",
       "image": "images/events/Quayside-29Aug2026.jpg"
+    },
+    {
+      "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
+      "link": "https://9ty9.co.za/events/crossways-village-market-2026-08-30/",
+      "guid": "https://9ty9.co.za/events/crossways-village-market-2026-08-30/",
+      "pubDate": "Sun, 30 Aug 2026 07:00:00 +0000",
+      "dateStr": "2026-08-30",
+      "day": "30",
+      "month": "AUG",
+      "description": "Sun, 30 August 2026 - 09:00 - 14:00",
+      "image": "images/events/Crossways-Village-Markets-27Dec2026.jpg"
     }
   ]
 }
