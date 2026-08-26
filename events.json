@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-26T01:45:22.121Z",
+  "lastUpdated": "2026-08-26T06:59:00.264Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 231,
+  "count": 233,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2235,6 +2235,28 @@
       "month": "AUG",
       "description": "Wed, 26 August 2026 - 18:00 - 21:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-26Aug2026.jfif"
+    },
+    {
+      "title": "Wednesday Meal of the Day at Oppi Spektrum at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/wednesday-meal-of-the-day-at-oppi-spektrum/",
+      "guid": "https://9ty9.co.za/events/wednesday-meal-of-the-day-at-oppi-spektrum/",
+      "pubDate": "Wed, 26 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-26",
+      "day": "26",
+      "month": "AUG",
+      "description": "Wed, 26 August 2026 - 11:00 - 15:00",
+      "image": "images/events/Oppi-Wednesday-Specials.jfif"
+    },
+    {
+      "title": "Woensdag by Die Kospot at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/woensdag-by-die-kospot/",
+      "guid": "https://9ty9.co.za/events/woensdag-by-die-kospot/",
+      "pubDate": "Wed, 26 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-26",
+      "day": "26",
+      "month": "AUG",
+      "description": "Wed, 26 August 2026 - 11:00 - 15:00",
+      "image": "images/events/Kospot-26Aug2026.jpeg"
     },
     {
       "title": "Art Mornings with Johlize at  The Studio at 106 Da Gama in Jeffreys Bay",
