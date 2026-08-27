@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-26T19:55:20.888Z",
+  "lastUpdated": "2026-08-27T08:46:39.189Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 240,
+  "count": 242,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2402,6 +2402,17 @@
       "image": "images/events/0934583_0.jpg"
     },
     {
+      "title": "Wine and Yoga at  Hybrid FitClub in Humansdorp",
+      "link": "https://9ty9.co.za/events/wine-and-yoga/",
+      "guid": "https://9ty9.co.za/events/wine-and-yoga/",
+      "pubDate": "Fri, 28 Aug 2026 15:30:00 +0000",
+      "dateStr": "2026-08-28",
+      "day": "28",
+      "month": "AUG",
+      "description": "Fri, 28 August 2026 - 17:30 - 20:00",
+      "image": "images/events/Hybrid-FitClub-28Aug2026.jpg"
+    },
+    {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-22-2026-08-29/",
       "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-22-2026-08-29/",
@@ -2587,6 +2598,17 @@
       "month": "AUG",
       "description": "Sat, 29 August 2026 - 20:00 - 23:00",
       "image": "images/events/Quayside-29Aug2026.jpg"
+    },
+    {
+      "title": "Lente Dans ten Bate van PAW at  Thornhill Hotel in Thornhill",
+      "link": "https://9ty9.co.za/events/lente-dans-ten-bate-van-paw/",
+      "guid": "https://9ty9.co.za/events/lente-dans-ten-bate-van-paw/",
+      "pubDate": "Sat, 29 Aug 2026 17:30:00 +0000",
+      "dateStr": "2026-08-29",
+      "day": "29",
+      "month": "AUG",
+      "description": "Sat, 29 August 2026 - 19:30 - 23:00",
+      "image": "images/events/PAW-29August.jpeg"
     },
     {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
