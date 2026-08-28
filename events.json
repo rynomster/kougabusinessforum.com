@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-28T10:59:38.195Z",
+  "lastUpdated": "2026-08-28T22:07:02.186Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 246,
+  "count": 249,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2708,6 +2708,39 @@
       "month": "SEPT",
       "description": "Tue, 1 September 2026 - 10:00 - 12:00",
       "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-4/",
+      "guid": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-4/",
+      "pubDate": "Tue, 01 Sep 2026 15:15:00 +0000",
+      "dateStr": "2026-09-01",
+      "day": "01",
+      "month": "SEPT",
+      "description": "Tue, 1 September 2026 - 17:15 - 18:15",
+      "image": "images/events/Voortrekkers.jfif"
+    },
+    {
+      "title": "Pizza Night - Tuesday Special at  Irish Pub and Grill in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/pizza-night-tuesday-special/",
+      "guid": "https://9ty9.co.za/events/pizza-night-tuesday-special/",
+      "pubDate": "Tue, 01 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-01",
+      "day": "01",
+      "month": "SEPT",
+      "description": "Tue, 1 September 2026 - 19:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Irish-Pub-Tue-Thurs-Specials.jfif"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-28-2026-09-02/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-28-2026-09-02/",
+      "pubDate": "Wed, 02 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-02",
+      "day": "02",
+      "month": "SEPT",
+      "description": "Wed, 2 September 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
     }
   ]
 }
