@@ -103,6 +103,32 @@
   margin-right: 1rem;
 }
 
+.event-rsvp-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.15rem 0.6rem;
+  background: rgba(6, 200, 255, 0.12);
+  color: var(--accent-teal);
+  border: 1px solid rgba(6, 200, 255, 0.3);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: 4px;
+  vertical-align: middle;
+  transition: all var(--transition-fast);
+  line-height: 1.2;
+}
+
+.event-rsvp-link:hover {
+  background: var(--accent-teal);
+  color: white;
+  border-color: var(--accent-teal);
+  transform: translateY(-1px);
+}
+
 /* Interactive Calendar Layout styling */
 .events-interactive-layout {
   display: grid;
