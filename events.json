@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-29T16:35:11.868Z",
+  "lastUpdated": "2026-08-29T20:48:11.572Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 246,
+  "count": 256,
   "events": [
     {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
@@ -2708,6 +2708,116 @@
       "month": "SEPT",
       "description": "Wed, 2 September 2026 - 09:00 - 12:00",
       "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Humane World for Animals: What Feeds Us at  St. Francis Brewing Co. in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/humane-world-for-animals-what-feeds-us/",
+      "guid": "https://9ty9.co.za/events/humane-world-for-animals-what-feeds-us/",
+      "pubDate": "Wed, 02 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-02",
+      "day": "02",
+      "month": "SEPT",
+      "description": "Wed, 2 September 2026 - 18:00 - 20:30",
+      "image": "images/events/What-Feeds-Us-2Sept2026.jpg"
+    },
+    {
+      "title": "Pasta Thursdays Dinner Deal - Thursday Special at  De Viswijf in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/pasta-thursdays-dinner-deal-thursday-special/",
+      "guid": "https://9ty9.co.za/events/pasta-thursdays-dinner-deal-thursday-special/",
+      "pubDate": "Thu, 03 Sep 2026 15:00:00 +0000",
+      "dateStr": "2026-09-03",
+      "day": "03",
+      "month": "SEPT",
+      "description": "Thu, 3 September 2026 - 17:00 - 21:00",
+      "image": "images/events/DFV-Thurs-Deal.jpeg"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-09-03/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-09-03/",
+      "pubDate": "Thu, 03 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-03",
+      "day": "03",
+      "month": "SEPT",
+      "description": "Thu, 3 September 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Pizza Night - Thursday Special at  Irish Pub and Grill in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/pizza-night-thursday-special/",
+      "guid": "https://9ty9.co.za/events/pizza-night-thursday-special/",
+      "pubDate": "Thu, 03 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-03",
+      "day": "03",
+      "month": "SEPT",
+      "description": "Thu, 3 September 2026 - 19:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Irish-Pub-Tue-Thurs-Specials.jfif"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-02-2026-09-04/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-02-2026-09-04/",
+      "pubDate": "Fri, 04 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-04",
+      "day": "04",
+      "month": "SEPT",
+      "description": "Fri, 4 September 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Quiz Night: Battle of the Brains at  Victory Church in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/quiz-night-battle-of-the-brains/",
+      "guid": "https://9ty9.co.za/events/quiz-night-battle-of-the-brains/",
+      "pubDate": "Fri, 04 Sep 2026 15:00:00 +0000",
+      "dateStr": "2026-09-04",
+      "day": "04",
+      "month": "SEPT",
+      "description": "Fri, 4 September 2026 - 17:00 - 19:30",
+      "image": "images/events/0972165_0.jpg"
+    },
+    {
+      "title": "What&#039;s Good In The Hood at  What&#039;s Good In The Hood in Gqeberha",
+      "link": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31-2026-08-07-2026-08-28-2026-09-04/",
+      "guid": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31-2026-08-07-2026-08-28-2026-09-04/",
+      "pubDate": "Fri, 04 Sep 2026 15:00:00 +0000",
+      "dateStr": "2026-09-04",
+      "day": "04",
+      "month": "SEPT",
+      "description": "Fri, 4 September 2026 - 17:00 - 21:00",
+      "image": "images/events/Whats-Good-In-The-Hood-31Dec2026.jpg"
+    },
+    {
+      "title": "Pizza Launch at  Grill and Company in Humansdorp",
+      "link": "https://9ty9.co.za/events/pizza-launch/",
+      "guid": "https://9ty9.co.za/events/pizza-launch/",
+      "pubDate": "Fri, 04 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-04",
+      "day": "04",
+      "month": "SEPT",
+      "description": "Fri, 4 September 2026 - 18:00 - 22:00",
+      "image": "images/events/Grill-Company-4Sept2026.jpeg"
+    },
+    {
+      "title": "Arise Women&#039;s Conference | Fearless 2026 at  Word of Faith Christian Centre in Gqeberha",
+      "link": "https://9ty9.co.za/events/arise-womens-conference-fearless-2026/",
+      "guid": "https://9ty9.co.za/events/arise-womens-conference-fearless-2026/",
+      "pubDate": "Fri, 04 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-04",
+      "day": "04",
+      "month": "SEPT",
+      "description": "Fri, 4 September 2026 - Sun, 6 September 2026 - 19:00 - 21:00",
+      "image": "images/events/Arise-5Sept2026.jpeg"
+    },
+    {
+      "title": "Country Through the Ages is Back by Popular Demand at  Centrestage in Gqeberha",
+      "link": "https://9ty9.co.za/events/country-through-the-ages-is-back-by-popular-demand/",
+      "guid": "https://9ty9.co.za/events/country-through-the-ages-is-back-by-popular-demand/",
+      "pubDate": "Fri, 04 Sep 2026 17:30:00 +0000",
+      "dateStr": "2026-09-04",
+      "day": "04",
+      "month": "SEPT",
+      "description": "Fri, 4 September 2026 - 19:30 - 22:00",
+      "image": "images/events/0942028_0.jpg"
     }
   ]
 }
