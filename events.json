@@ -1,41 +1,8 @@
 {
-  "lastUpdated": "2026-08-28T22:07:02.186Z",
+  "lastUpdated": "2026-08-29T06:45:05.178Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 249,
+  "count": 246,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-24-2026-07-29/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-24-2026-07-29/",
-      "pubDate": "Wed, 29 Jul 2026 07:00:00 +0000",
-      "dateStr": "2026-07-29",
-      "day": "29",
-      "month": "JUL",
-      "description": "Wed, 29 July 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-07-29/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-07-29/",
-      "pubDate": "Wed, 29 Jul 2026 09:00:00 +0000",
-      "dateStr": "2026-07-29",
-      "day": "29",
-      "month": "JUL",
-      "description": "Wed, 29 July 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
-    },
-    {
-      "title": "Just Jane Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/just-jane-live-at-the-backyard/",
-      "guid": "https://9ty9.co.za/events/just-jane-live-at-the-backyard/",
-      "pubDate": "Wed, 29 Jul 2026 16:00:00 +0000",
-      "dateStr": "2026-07-29",
-      "day": "29",
-      "month": "JUL",
-      "description": "Wed, 29 July 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Backyard-29July2026.jfif"
-    },
     {
       "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/kuns-klets-2026-07-30/",
