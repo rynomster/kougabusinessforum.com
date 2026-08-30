@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-30T11:42:53.079Z",
+  "lastUpdated": "2026-08-30T16:30:25.141Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 251,
+  "count": 256,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2578,6 +2578,17 @@
       "image": "images/events/Solario-4-30Aug2026.jpeg"
     },
     {
+      "title": "Maandag Menu - Monday Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/maandag-menu-monday-special/",
+      "guid": "https://9ty9.co.za/events/maandag-menu-monday-special/",
+      "pubDate": "Mon, 31 Aug 2026 09:00:00 +0000",
+      "dateStr": "2026-08-31",
+      "day": "31",
+      "month": "AUG",
+      "description": "Mon, 31 August 2026 - 11:00 - 13:00",
+      "image": "images/events/IMG-20260830-WA0126.jpg"
+    },
+    {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-25-2026-09-01/",
       "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-25-2026-09-01/",
@@ -2763,6 +2774,50 @@
       "month": "SEPT",
       "description": "Sat, 5 September 2026 - 08:00 - 09:00",
       "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-09-05/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-09-05/",
+      "pubDate": "Sat, 05 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 08:00 - 09:00",
+      "image": "images/events/img_3_1786246960707.jpg"
+    },
+    {
+      "title": "Basic First Aid and CPR at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/basic-first-aid-and-cpr/",
+      "guid": "https://9ty9.co.za/events/basic-first-aid-and-cpr/",
+      "pubDate": "Sat, 05 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 09:00 - 12:00",
+      "image": "images/events/Screenshot_20260819_120458.jpg"
+    },
+    {
+      "title": "Our Market at  Our Market in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/our-market-2026-07-04-2026-08-15-2026-09-05/",
+      "guid": "https://9ty9.co.za/events/our-market-2026-07-04-2026-08-15-2026-09-05/",
+      "pubDate": "Sat, 05 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 09:00 - 13:00",
+      "image": "images/events/Our-Market-20Dec2026.jpg"
+    },
+    {
+      "title": "The Van Stadens River Farmers Association 4th Annual Agricultural Show at  van Stadens River Farmers’ Association - Fitches Corner in Gqeberha",
+      "link": "https://9ty9.co.za/events/van-stadens-river-farmers-market-and-auction-2026-01-03-2026-02-07-2026-03-07-2026-04-04-2026-05-02-2026-06-06-2026-07-04-2026-08-01-2026-09-05/",
+      "guid": "https://9ty9.co.za/events/van-stadens-river-farmers-market-and-auction-2026-01-03-2026-02-07-2026-03-07-2026-04-04-2026-05-02-2026-06-06-2026-07-04-2026-08-01-2026-09-05/",
+      "pubDate": "Sat, 05 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - Sun, 6 September 2026 - 09:00 - 17:00",
+      "image": "images/events/Van-Stadens-River-Farmers-Association-6Sept2026.jpg"
     }
   ]
 }
