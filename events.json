@@ -1,96 +1,8 @@
 {
-  "lastUpdated": "2026-08-29T20:48:11.572Z",
+  "lastUpdated": "2026-08-30T04:57:49.993Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 256,
+  "count": 251,
   "events": [
-    {
-      "title": "Kuns &amp; Klets at  Fab - Ri creations in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-klets-2026-07-30/",
-      "guid": "https://9ty9.co.za/events/kuns-klets-2026-07-30/",
-      "pubDate": "Thu, 30 Jul 2026 09:00:00 +0000",
-      "dateStr": "2026-07-30",
-      "day": "30",
-      "month": "JUL",
-      "description": "Thu, 30 July 2026 - 11:00 - 13:00",
-      "image": "images/events/Kuns-en-Klets-Klub-25Dec2026.jpeg"
-    },
-    {
-      "title": "The Story of Goedgeloof and St. Francis Bay at  St. Francis Links in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/the-story-of-goedgeloof-and-st-francis-bay/",
-      "guid": "https://9ty9.co.za/events/the-story-of-goedgeloof-and-st-francis-bay/",
-      "pubDate": "Thu, 30 Jul 2026 15:30:00 +0000",
-      "dateStr": "2026-07-30",
-      "day": "30",
-      "month": "JUL",
-      "description": "Thu, 30 July 2026 - 17:30 - 19:51",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/The-Story-of-Goedgeloof-30July2026.jfif"
-    },
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-07-30/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-07-30/",
-      "pubDate": "Thu, 30 Jul 2026 16:00:00 +0000",
-      "dateStr": "2026-07-30",
-      "day": "30",
-      "month": "JUL",
-      "description": "Thu, 30 July 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "Michael Bublé and Josh Groban Tribute - Live at Nineteen33 at  Nineteen33 in Gqeberha",
-      "link": "https://9ty9.co.za/events/michael-buble-and-josh-groban-tribute-live-at-nineteen33/",
-      "guid": "https://9ty9.co.za/events/michael-buble-and-josh-groban-tribute-live-at-nineteen33/",
-      "pubDate": "Thu, 30 Jul 2026 17:00:00 +0000",
-      "dateStr": "2026-07-30",
-      "day": "30",
-      "month": "JUL",
-      "description": "Thu, 30 July 2026 - 19:00 - 22:00",
-      "image": "images/events/Groban-30July2026.jpeg"
-    },
-    {
-      "title": "Quiz Night at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/quiz-night-a-the-backyard-2026-07-30/",
-      "guid": "https://9ty9.co.za/events/quiz-night-a-the-backyard-2026-07-30/",
-      "pubDate": "Thu, 30 Jul 2026 17:00:00 +0000",
-      "dateStr": "2026-07-30",
-      "day": "30",
-      "month": "JUL",
-      "description": "Thu, 30 July 2026 - 19:00 - 21:00",
-      "image": "images/events/Quiz-Night-17Dec2026.jpg"
-    },
-    {
-      "title": "Mixed Media Monoprint Workshop at  Marta at Art in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/mixed-media-monoprint-workshop/",
-      "guid": "https://9ty9.co.za/events/mixed-media-monoprint-workshop/",
-      "pubDate": "Thu, 30 Jul 2026 10:00:00 +0000",
-      "dateStr": "2026-07-30",
-      "day": "30",
-      "month": "JUL",
-      "description": "Thu, 30 July 2026 - 12:00 - 15:00",
-      "image": "images/events/Marta-30July2026.jpg"
-    },
-    {
-      "title": "Bingo Night at Uncle Charlie&#039;s Pub at  Uncle Charlies Pub in Paradise Beach",
-      "link": "https://9ty9.co.za/events/bingo-night-at-uncle-charlies-pub/",
-      "guid": "https://9ty9.co.za/events/bingo-night-at-uncle-charlies-pub/",
-      "pubDate": "Thu, 30 Jul 2026 16:00:00 +0000",
-      "dateStr": "2026-07-30",
-      "day": "30",
-      "month": "JUL",
-      "description": "Thu, 30 July 2026 - 18:00 - 20:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/UC-Bingo-30July2026.jfif"
-    },
-    {
-      "title": "Pub Lunch at FJ&#039;s at  FJ’s Sportsbar And Restaurant in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/pub-lunch-special-at-fjs/",
-      "guid": "https://9ty9.co.za/events/pub-lunch-special-at-fjs/",
-      "pubDate": "Thu, 30 Jul 2026 09:00:00 +0000",
-      "dateStr": "2026-07-30",
-      "day": "30",
-      "month": "JUL",
-      "description": "Thu, 30 July 2026 - Mon, 31 August 2026 - 11:00 - 15:00",
-      "image": "images/events/FJLunch-31Aug2026.jpg"
-    },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-29-2026-07-31/",
@@ -2818,6 +2730,39 @@
       "month": "SEPT",
       "description": "Fri, 4 September 2026 - 19:30 - 22:00",
       "image": "images/events/0942028_0.jpg"
+    },
+    {
+      "title": "Jeffreys Bay Car Boot Sale at  Methodist Church of Jeffreys Bay in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale-2026-09-05/",
+      "guid": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale-2026-09-05/",
+      "pubDate": "Sat, 05 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 08:00 - 13:00",
+      "image": "images/events/Car-Boot-Sale.jpg"
+    },
+    {
+      "title": "Jeffreys Bay Primary Golf Day at  St. Francis Bay Golf Club in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/jeffreys-bay-primary-golf-day/",
+      "guid": "https://9ty9.co.za/events/jeffreys-bay-primary-golf-day/",
+      "pubDate": "Sat, 05 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 08:00 - 17:00",
+      "image": "images/events/JBP-5Sept2026.jpeg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-29-2026-09-05/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-29-2026-09-05/",
+      "pubDate": "Sat, 05 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
     }
   ]
 }
