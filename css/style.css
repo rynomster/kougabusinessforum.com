@@ -1607,6 +1607,48 @@ textarea {
   transition: border-color 0.2s;
 }
 
+.event-list li.event-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.event-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.event-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+.event-rsvp-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  background: rgba(6, 200, 255, 0.12);
+  border: 1px solid rgba(6, 200, 255, 0.35);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.event-rsvp-link:hover {
+  background: var(--accent-teal);
+  color: white;
+  border-color: var(--accent-teal);
+  transform: translateY(-1px);
+}
+
 .event-list li:hover {
   border-left-color: var(--accent-cyan);
 }
