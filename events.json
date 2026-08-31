@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-31T05:03:16.216Z",
+  "lastUpdated": "2026-08-31T13:20:59.562Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 249,
+  "count": 250,
   "events": [
     {
       "title": "7th Heaven Golf Day at Jeffreys Bay Golf Club at  Jeffreys Bay Golf Club in Jeffreys Bay",
@@ -2642,6 +2642,17 @@
       "month": "SEPT",
       "description": "Fri, 4 September 2026 - 19:30 - 22:00",
       "image": "images/events/0942028_0.jpg"
+    },
+    {
+      "title": "Bennie Vani Baai Live at Fergo&#039;s at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/bennie-vani-baai-live-at-fergos/",
+      "guid": "https://9ty9.co.za/events/bennie-vani-baai-live-at-fergos/",
+      "pubDate": "Fri, 04 Sep 2026 18:00:00 +0000",
+      "dateStr": "2026-09-04",
+      "day": "04",
+      "month": "SEPT",
+      "description": "Fri, 4 September 2026 - 20:00 - 23:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Fergos-4Sept2026.jfif"
     },
     {
       "title": "Jeffreys Bay Car Boot Sale at  Methodist Church of Jeffreys Bay in Jeffreys Bay",
