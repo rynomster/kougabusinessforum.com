@@ -1,107 +1,8 @@
 {
-  "lastUpdated": "2026-08-30T20:52:39.766Z",
+  "lastUpdated": "2026-08-31T05:03:16.216Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 256,
+  "count": 249,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-29-2026-07-31/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-29-2026-07-31/",
-      "pubDate": "Fri, 31 Jul 2026 07:00:00 +0000",
-      "dateStr": "2026-07-31",
-      "day": "31",
-      "month": "JUL",
-      "description": "Fri, 31 July 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Cats Art Studio Open Day at  Cats Art Studio in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/cats-art-studio-open-day/",
-      "guid": "https://9ty9.co.za/events/cats-art-studio-open-day/",
-      "pubDate": "Fri, 31 Jul 2026 07:30:00 +0000",
-      "dateStr": "2026-07-31",
-      "day": "31",
-      "month": "JUL",
-      "description": "Fri, 31 July 2026 - 09:30 - 16:30",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Cats-Art-Studio-2-31July2026.jpeg"
-    },
-    {
-      "title": "What&#039;s Good In The Hood at  What&#039;s Good In The Hood in Gqeberha",
-      "link": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31/",
-      "guid": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31/",
-      "pubDate": "Fri, 31 Jul 2026 15:00:00 +0000",
-      "dateStr": "2026-07-31",
-      "day": "31",
-      "month": "JUL",
-      "description": "Fri, 31 July 2026 - 17:00 - 21:00",
-      "image": "images/events/Whats-Good-In-The-Hood-31Dec2026.jpg"
-    },
-    {
-      "title": "Mr and Miss Winter Modelling  Show at  Pellsrus Hall in Pellsrus",
-      "link": "https://9ty9.co.za/events/mr-and-miss-winter-modelling-show/",
-      "guid": "https://9ty9.co.za/events/mr-and-miss-winter-modelling-show/",
-      "pubDate": "Fri, 31 Jul 2026 16:00:00 +0000",
-      "dateStr": "2026-07-31",
-      "day": "31",
-      "month": "JUL",
-      "description": "Fri, 31 July 2026 - 18:00 - 20:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Winter-31July2926.jfif"
-    },
-    {
-      "title": "Medieval Banquet at  Jeffreys Bay Bowling Club in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/medieval-banquet/",
-      "guid": "https://9ty9.co.za/events/medieval-banquet/",
-      "pubDate": "Fri, 31 Jul 2026 16:30:00 +0000",
-      "dateStr": "2026-07-31",
-      "day": "31",
-      "month": "JUL",
-      "description": "Fri, 31 July 2026 - 18:30 - 22:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/06/Medieval-31July2026.jfif"
-    },
-    {
-      "title": "Escape to the Music of Alcatraz at Fergo&#039;s at  Fergo’s Rhythm Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/escape-to-the-music-of-alcatraz-at-fergos/",
-      "guid": "https://9ty9.co.za/events/escape-to-the-music-of-alcatraz-at-fergos/",
-      "pubDate": "Fri, 31 Jul 2026 17:00:00 +0000",
-      "dateStr": "2026-07-31",
-      "day": "31",
-      "month": "JUL",
-      "description": "Fri, 31 July 2026 - 19:00 - 22:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Alcatraz-31July2026.jpeg"
-    },
-    {
-      "title": "The Adele Tribute Show Returns at  Nineteen33 in Gqeberha",
-      "link": "https://9ty9.co.za/events/the-adele-tribute-show-returns/",
-      "guid": "https://9ty9.co.za/events/the-adele-tribute-show-returns/",
-      "pubDate": "Fri, 31 Jul 2026 17:00:00 +0000",
-      "dateStr": "2026-07-31",
-      "day": "31",
-      "month": "JUL",
-      "description": "Fri, 31 July 2026 - 19:00 - 22:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Adele-31July2026.jpg"
-    },
-    {
-      "title": "Tribute to Fleetwood Mac and CCR live at Remo&#039;s Restaurant at  Remo&#039;s Restaurant in Gqeberha",
-      "link": "https://9ty9.co.za/events/tribute-to-fleetwood-mac-and-ccr-live-at-remos-restaurant/",
-      "guid": "https://9ty9.co.za/events/tribute-to-fleetwood-mac-and-ccr-live-at-remos-restaurant/",
-      "pubDate": "Fri, 31 Jul 2026 18:00:00 +0000",
-      "dateStr": "2026-07-31",
-      "day": "31",
-      "month": "JUL",
-      "description": "Fri, 31 July 2026 - 20:00 - 23:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Double-Play-30July2926.jfif"
-    },
-    {
-      "title": "Just Us Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/just-us-live-at-the-backyard/",
-      "guid": "https://9ty9.co.za/events/just-us-live-at-the-backyard/",
-      "pubDate": "Fri, 31 Jul 2026 16:00:00 +0000",
-      "dateStr": "2026-07-31",
-      "day": "31",
-      "month": "JUL",
-      "description": "Fri, 31 July 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Backyard-31July2026.jfif"
-    },
     {
       "title": "7th Heaven Golf Day at Jeffreys Bay Golf Club at  Jeffreys Bay Golf Club in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/7th-heaven-golf-day-at-jeffreys-bay-golf-club/",
@@ -2818,6 +2719,28 @@
       "month": "SEPT",
       "description": "Sat, 5 September 2026 - Sun, 6 September 2026 - 09:00 - 17:00",
       "image": "images/events/Van-Stadens-River-Farmers-Association-6Sept2026.jpg"
+    },
+    {
+      "title": "Windsong Bohemian Market at  Windsong Bohemian Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/windsong-bohemian-market-2026-09-05/",
+      "guid": "https://9ty9.co.za/events/windsong-bohemian-market-2026-09-05/",
+      "pubDate": "Sat, 05 Sep 2026 07:30:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 09:30 - 14:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2025/12/Windsong-6Sept2026.jfif"
+    },
+    {
+      "title": "Dreamcatcher Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/dreamcatcher-workshop/",
+      "guid": "https://9ty9.co.za/events/dreamcatcher-workshop/",
+      "pubDate": "Sat, 05 Sep 2026 08:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 10:00 - 12:00",
+      "image": "images/events/Oppi-Dream-5Sept2026.jpeg"
     }
   ]
 }
