@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-01T16:25:58.995Z",
+  "lastUpdated": "2026-09-01T20:54:31.963Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 242,
+  "count": 246,
   "events": [
     {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
@@ -2664,6 +2664,50 @@
       "month": "SEPT",
       "description": "Sat, 5 September 2026 - 10:00 - 12:00",
       "image": "images/events/Oppi-Dream-5Sept2026.jpeg"
+    },
+    {
+      "title": "Rhino Night Relay 2026 at  Algoa Kart &amp; Motorcycle Club in Gqeberha",
+      "link": "https://9ty9.co.za/events/rhino-night-relay-2026/",
+      "guid": "https://9ty9.co.za/events/rhino-night-relay-2026/",
+      "pubDate": "Sat, 05 Sep 2026 09:30:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 11:30 - 21:00",
+      "image": "images/events/Rhino-Night-Relay-5Sept2026.jpg"
+    },
+    {
+      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-29-2026-09-05/",
+      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-29-2026-09-05/",
+      "pubDate": "Sat, 05 Sep 2026 13:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 15:00 - 18:00",
+      "image": "images/events/Backyard-Karaoke.jpg"
+    },
+    {
+      "title": "Brendon Peel - mentalist and magician at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/brendon-peel-mentalist-and-magician/",
+      "guid": "https://9ty9.co.za/events/brendon-peel-mentalist-and-magician/",
+      "pubDate": "Sat, 05 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 18:00 - 20:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Brendon-Peel-5Sept2026.jfif"
+    },
+    {
+      "title": "Jan Blohm Live at Boardwalk Hotel and Casino at  Boardwalk Hotel &amp; Casino in Gqeberha",
+      "link": "https://9ty9.co.za/events/jan-blohm-live-at-boardwalk-hotel-and-casino/",
+      "guid": "https://9ty9.co.za/events/jan-blohm-live-at-boardwalk-hotel-and-casino/",
+      "pubDate": "Sat, 05 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 19:00 - 23:30",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Jan-Blohm-5Sep2026.jfif"
     }
   ]
 }
