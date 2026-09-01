@@ -121,6 +121,37 @@ function generateHTML(eventList) {
     grouped[key].push(ev);
   });
 
+  // Generate JSON-LD Event Schema
+  const jsonLdEvents = eventList.map(ev => ({
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": ev.summary,
+    "description": ev.descriptionClean || "Official Kouga Business Forum event.",
+    "startDate": ev.start,
+    "endDate": ev.end,
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": ev.location || "Kouga Region",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Jeffreys Bay",
+        "addressRegion": "EC",
+        "addressCountry": "ZA"
+      }
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Kouga Business Forum",
+      "url": "https://kougabusinessforum.com"
+    }
+  }));
+
+  const jsonLdScript = jsonLdEvents.length > 0
+    ? `\n  <!-- Event Structured Data -->\n  <script type="application/ld+json">\n${JSON.stringify(jsonLdEvents, null, 2)}\n  </script>`
+    : '';
+
   const calendarGridHtml = Object.keys(grouped).map(monthYear => {
     const monthEvents = grouped[monthYear];
     const monthName = monthYear.split(' ')[0];
@@ -129,9 +160,16 @@ function generateHTML(eventList) {
           <h3>${monthName}</h3>
           <ul class="event-list">
             ${monthEvents.map(ev => {
-              return `            <li>
-              <strong>${ev.day} ${ev.monthAbbr}</strong> ${escapeHTML(ev.summary)}
-              <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar">+</a>
+              const rsvpUrl = `contact.html?enquiry=events&event=${encodeURIComponent(ev.summary)}#contact-form`;
+              return `            <li class="event-item">
+              <div class="event-details">
+                <strong>${ev.day} ${ev.monthAbbr}</strong>
+                <span class="event-title">${escapeHTML(ev.summary)}</span>
+              </div>
+              <div class="event-actions">
+                <a href="${rsvpUrl}" class="event-rsvp-link" title="RSVP for ${escapeHTML(ev.summary)}">RSVP</a>
+                <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar">+</a>
+              </div>
             </li>`;
             }).join('\n')}
           </ul>
@@ -170,7 +208,7 @@ function generateHTML(eventList) {
   <meta name="twitter:url" content="https://kougabusinessforum.com/kbevents.html">
   <meta name="twitter:title" content="KBF Events | Kouga Business Forum">
   <meta name="twitter:description" content="Official KBF events, meetings, and workshops for Kouga business leaders.">
-  <meta name="twitter:image" content="https://kougabusinessforum.com/images/jbay-coastal-hero.jpg">
+  <meta name="twitter:image" content="https://kougabusinessforum.com/images/jbay-coastal-hero.jpg">${jsonLdScript}
 
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
