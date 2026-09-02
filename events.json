@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-02T04:02:52.477Z",
+  "lastUpdated": "2026-09-02T11:03:26.344Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 240,
+  "count": 242,
   "events": [
     {
       "title": "Oppi Spektrum Bingo Night at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2642,6 +2642,28 @@
       "month": "SEPT",
       "description": "Sat, 5 September 2026 - 19:00 - 23:30",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Jan-Blohm-5Sep2026.jfif"
+    },
+    {
+      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-29-2026-09-05/",
+      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-29-2026-09-05/",
+      "pubDate": "Sat, 05 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 19:00 - 23:59",
+      "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Belgium Beer Festival at  Cape St. Francis Resort in Cape St. Francis",
+      "link": "https://9ty9.co.za/events/belgium-beer-festival/",
+      "guid": "https://9ty9.co.za/events/belgium-beer-festival/",
+      "pubDate": "Sat, 05 Sep 2026 18:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 20:00 - 23:59",
+      "image": "images/events/Belgium-Beer-Festival-5Sept2026.jpg"
     }
   ]
 }
