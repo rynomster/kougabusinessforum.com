@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-02T11:03:26.344Z",
+  "lastUpdated": "2026-09-02T16:24:01.010Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 242,
+  "count": 243,
   "events": [
     {
       "title": "Oppi Spektrum Bingo Night at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2664,6 +2664,17 @@
       "month": "SEPT",
       "description": "Sat, 5 September 2026 - 20:00 - 23:59",
       "image": "images/events/Belgium-Beer-Festival-5Sept2026.jpg"
+    },
+    {
+      "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
+      "link": "https://9ty9.co.za/events/crossways-village-market-2026-09-06/",
+      "guid": "https://9ty9.co.za/events/crossways-village-market-2026-09-06/",
+      "pubDate": "Sun, 06 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-06",
+      "day": "06",
+      "month": "SEPT",
+      "description": "Sun, 6 September 2026 - 09:00 - 14:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/01/Crossways-6Sept2026.jfif"
     }
   ]
 }
