@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-03T16:14:25.329Z",
+  "lastUpdated": "2026-09-03T20:51:56.544Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 247,
+  "count": 250,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2490,6 +2490,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-4Sept2026.jfif"
     },
     {
+      "title": "2 Kerrie Lam Sosaties - Friday Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2-kerrie-lam-sosaties-friday-special/",
+      "guid": "https://9ty9.co.za/events/2-kerrie-lam-sosaties-friday-special/",
+      "pubDate": "Fri, 04 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-04",
+      "day": "04",
+      "month": "SEPT",
+      "description": "Fri, 4 September 2026 - 11:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Kospot2-4Sept2026.jfif"
+    },
+    {
       "title": "Jeffreys Bay Car Boot Sale at  Methodist Church of Jeffreys Bay in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale-2026-09-05/",
       "guid": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale-2026-09-05/",
@@ -2719,6 +2730,28 @@
       "month": "SEPT",
       "description": "Mon, 7 September 2026 - 16:30 - 19:00",
       "image": "images/events/Bingo-Oppi-7Sept2026.jpg"
+    },
+    {
+      "title": "SACBW Network Event with Dr Philippa Fabbri at  Centrestage in Gqeberha",
+      "link": "https://9ty9.co.za/events/sacbw-network-event-with-dr-philippa-fabbri/",
+      "guid": "https://9ty9.co.za/events/sacbw-network-event-with-dr-philippa-fabbri/",
+      "pubDate": "Tue, 08 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-08",
+      "day": "08",
+      "month": "SEPT",
+      "description": "Tue, 8 September 2026 - 09:00 - 11:00",
+      "image": "images/events/Centrestage-StragThink-8Sept2026.jpg"
+    },
+    {
+      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-01-2026-09-08/",
+      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-01-2026-09-08/",
+      "pubDate": "Tue, 08 Sep 2026 08:00:00 +0000",
+      "dateStr": "2026-09-08",
+      "day": "08",
+      "month": "SEPT",
+      "description": "Tue, 8 September 2026 - 10:00 - 12:00",
+      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
     }
   ]
 }
