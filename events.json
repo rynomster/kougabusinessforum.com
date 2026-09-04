@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-04T11:06:24.318Z",
+  "lastUpdated": "2026-09-04T16:09:36.480Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 246,
+  "count": 247,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2708,6 +2708,17 @@
       "month": "SEPT",
       "description": "Tue, 8 September 2026 - 12:00 - 21:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Tuesday-Specials.jfif"
+    },
+    {
+      "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-5/",
+      "guid": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-5/",
+      "pubDate": "Tue, 08 Sep 2026 15:15:00 +0000",
+      "dateStr": "2026-09-08",
+      "day": "08",
+      "month": "SEPT",
+      "description": "Tue, 8 September 2026 - 17:15 - 18:15",
+      "image": "images/events/Voortrekkers.jfif"
     }
   ]
 }
