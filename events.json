@@ -1,63 +1,8 @@
 {
-  "lastUpdated": "2026-09-03T20:51:56.544Z",
+  "lastUpdated": "2026-09-04T04:08:57.946Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 250,
+  "count": 245,
   "events": [
-    {
-      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04/",
-      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04/",
-      "pubDate": "Tue, 04 Aug 2026 08:00:00 +0000",
-      "dateStr": "2026-08-04",
-      "day": "04",
-      "month": "AUG",
-      "description": "Tue, 4 August 2026 - 10:00 - 12:00",
-      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
-    },
-    {
-      "title": "Tuinbouklub: Onderwater Geheime van Jeffreysbaai at  NG Gemeente Jeffreysbaai - Da Gama kampus in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/tuinbouklub-onderwater-geheime-van-jeffreysbaai/",
-      "guid": "https://9ty9.co.za/events/tuinbouklub-onderwater-geheime-van-jeffreysbaai/",
-      "pubDate": "Tue, 04 Aug 2026 12:30:00 +0000",
-      "dateStr": "2026-08-04",
-      "day": "04",
-      "month": "AUG",
-      "description": "Tue, 4 August 2026 - 14:30 - 16:30",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Tuinbouklub-4Aug2026.jfif"
-    },
-    {
-      "title": "Paint Dot Mandala Class at Oppi Spektrum at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/paint-dot-mandala-class-at-oppi-spektrum/",
-      "guid": "https://9ty9.co.za/events/paint-dot-mandala-class-at-oppi-spektrum/",
-      "pubDate": "Tue, 04 Aug 2026 07:00:00 +0000",
-      "dateStr": "2026-08-04",
-      "day": "04",
-      "month": "AUG",
-      "description": "Tue, 4 August 2026 - 09:00 - 11:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/OppiPaint-4Aug2026.jfif"
-    },
-    {
-      "title": "Black Sheep Bistro - Tuesday Specials at  Black Sheep Bistro in Aston Bay",
-      "link": "https://9ty9.co.za/events/black-sheep-bistro-tuesday-specials/",
-      "guid": "https://9ty9.co.za/events/black-sheep-bistro-tuesday-specials/",
-      "pubDate": "Tue, 04 Aug 2026 10:00:00 +0000",
-      "dateStr": "2026-08-04",
-      "day": "04",
-      "month": "AUG",
-      "description": "Tue, 4 August 2026 - 12:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Tuesday-Specials.jfif"
-    },
-    {
-      "title": "Just Jane Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/just-jane-live-at-the-backyard-2/",
-      "guid": "https://9ty9.co.za/events/just-jane-live-at-the-backyard-2/",
-      "pubDate": "Tue, 04 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-04",
-      "day": "04",
-      "month": "AUG",
-      "description": "Tue, 4 August 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-4Aug2026.jfif"
-    },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-31-2026-08-05/",
