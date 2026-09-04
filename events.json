@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-04T04:08:57.946Z",
+  "lastUpdated": "2026-09-04T11:06:24.318Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 245,
+  "count": 246,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2697,6 +2697,17 @@
       "month": "SEPT",
       "description": "Tue, 8 September 2026 - 10:00 - 12:00",
       "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
+    },
+    {
+      "title": "Black Sheep Bistro - Tuesday Specials at  Black Sheep Bistro in Aston Bay",
+      "link": "https://9ty9.co.za/events/black-sheep-bistro-tuesday-specials/",
+      "guid": "https://9ty9.co.za/events/black-sheep-bistro-tuesday-specials/",
+      "pubDate": "Tue, 08 Sep 2026 10:00:00 +0000",
+      "dateStr": "2026-09-08",
+      "day": "08",
+      "month": "SEPT",
+      "description": "Tue, 8 September 2026 - 12:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Tuesday-Specials.jfif"
     }
   ]
 }
