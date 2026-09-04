@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-04T16:09:36.480Z",
+  "lastUpdated": "2026-09-04T20:38:37.468Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 247,
+  "count": 252,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2611,6 +2611,17 @@
       "image": "images/events/Belgium-Beer-Festival-5Sept2026.jpg"
     },
     {
+      "title": "Saterdag Special - Die Kospot at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/saterdag-special-die-kospot/",
+      "guid": "https://9ty9.co.za/events/saterdag-special-die-kospot/",
+      "pubDate": "Sat, 05 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 11:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Kospot-5Sept2026.jfif"
+    },
+    {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
       "link": "https://9ty9.co.za/events/crossways-village-market-2026-09-06/",
       "guid": "https://9ty9.co.za/events/crossways-village-market-2026-09-06/",
@@ -2677,6 +2688,17 @@
       "image": "images/events/Bingo-Oppi-7Sept2026.jpg"
     },
     {
+      "title": "Oppi Spektrum Bingo Night at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/oppi-spektrum-bingo-night/",
+      "guid": "https://9ty9.co.za/events/oppi-spektrum-bingo-night/",
+      "pubDate": "Mon, 07 Sep 2026 14:30:00 +0000",
+      "dateStr": "2026-09-07",
+      "day": "07",
+      "month": "SEPT",
+      "description": "Mon, 7 September 2026 - 16:30 - 19:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Oppi-7Sept2026.jfif"
+    },
+    {
       "title": "SACBW Network Event with Dr Philippa Fabbri at  Centrestage in Gqeberha",
       "link": "https://9ty9.co.za/events/sacbw-network-event-with-dr-philippa-fabbri/",
       "guid": "https://9ty9.co.za/events/sacbw-network-event-with-dr-philippa-fabbri/",
@@ -2719,6 +2741,39 @@
       "month": "SEPT",
       "description": "Tue, 8 September 2026 - 17:15 - 18:15",
       "image": "images/events/Voortrekkers.jfif"
+    },
+    {
+      "title": "Curry and Rice - Wednesday Special at  Suikerbossie in Kabeljous",
+      "link": "https://9ty9.co.za/events/curry-and-rice-wednesday-special/",
+      "guid": "https://9ty9.co.za/events/curry-and-rice-wednesday-special/",
+      "pubDate": "Wed, 09 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-09",
+      "day": "09",
+      "month": "SEPT",
+      "description": "Wed, 9 September 2026 - 09:00 - 16:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Suikerbossie-Wednesday-Food-Specials.jfif"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-04-2026-09-09/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-04-2026-09-09/",
+      "pubDate": "Wed, 09 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-09",
+      "day": "09",
+      "month": "SEPT",
+      "description": "Wed, 9 September 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Wednesday Special at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/wednesday-special/",
+      "guid": "https://9ty9.co.za/events/wednesday-special/",
+      "pubDate": "Wed, 09 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-09",
+      "day": "09",
+      "month": "SEPT",
+      "description": "Wed, 9 September 2026 - 11:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Backyard-Wednesday-food-special.jfif"
     }
   ]
 }
