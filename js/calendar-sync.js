@@ -129,14 +129,54 @@ function generateHTML(eventList) {
           <h3>${monthName}</h3>
           <ul class="event-list">
             ${monthEvents.map(ev => {
-              return `            <li>
-              <strong>${ev.day} ${ev.monthAbbr}</strong> ${escapeHTML(ev.summary)}
-              <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar">+</a>
+              const rsvpUrl = `contact.html?enquiry=events&event=${encodeURIComponent(ev.summary)}#contact-form`;
+              return `            <li class="event-item">
+              <div class="event-details">
+                <strong>${ev.day} ${ev.monthAbbr}</strong>
+                <span>${escapeHTML(ev.summary)}</span>
+              </div>
+              <div class="event-actions">
+                <a href="${rsvpUrl}" class="btn btn-primary btn-sm event-rsvp-link" title="RSVP for ${escapeHTML(ev.summary)}">RSVP</a>
+                <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar">+ Cal</a>
+              </div>
             </li>`;
             }).join('\n')}
           </ul>
         </div>`;
   }).join('\n');
+
+  const eventSchemas = eventList.map(ev => ({
+    "@type": "Event",
+    "name": ev.summary,
+    "description": ev.descriptionClean || "Official Kouga Business Forum Event",
+    "startDate": ev.start,
+    "endDate": ev.end,
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": ev.location || "Kouga Business Forum, Jeffreys Bay / Humansdorp",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Jeffreys Bay",
+        "addressRegion": "Kouga",
+        "addressCountry": "ZA"
+      }
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Kouga Business Forum",
+      "url": "https://kougabusinessforum.com"
+    }
+  }));
+
+  const jsonLdScript = `  <!-- Structured Data (Schema.org Event) -->
+  <script type="application/ld+json">
+  ${JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": eventSchemas
+  }, null, 2)}
+  </script>`;
 
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -171,6 +211,8 @@ function generateHTML(eventList) {
   <meta name="twitter:title" content="KBF Events | Kouga Business Forum">
   <meta name="twitter:description" content="Official KBF events, meetings, and workshops for Kouga business leaders.">
   <meta name="twitter:image" content="https://kougabusinessforum.com/images/jbay-coastal-hero.jpg">
+
+${jsonLdScript}
 
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
