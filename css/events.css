@@ -64,6 +64,50 @@
   margin-top: 0.5rem;
 }
 
+/* Official KBF Calendar Event Items */
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.event-item:last-child {
+  border-bottom: none;
+}
+
+.event-details {
+  flex: 1;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.event-details strong {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--primary-light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+
+.event-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.event-rsvp-link {
+  padding: 0.35rem 0.75rem !important;
+  font-size: 0.8rem !important;
+  line-height: 1 !important;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
 /* Individual Event Page */
 .event-header {
   background: var(--bg-gradient);
