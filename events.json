@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-05T04:00:25.240Z",
+  "lastUpdated": "2026-09-05T10:23:47.219Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 245,
+  "count": 250,
   "events": [
     {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
@@ -2545,6 +2545,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Kospot-5Sept2026.jfif"
     },
     {
+      "title": "Attie - Live Music at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/attie-live-music/",
+      "guid": "https://9ty9.co.za/events/attie-live-music/",
+      "pubDate": "Sat, 05 Sep 2026 11:00:00 +0000",
+      "dateStr": "2026-09-05",
+      "day": "05",
+      "month": "SEPT",
+      "description": "Sat, 5 September 2026 - 13:00 - 16:00",
+      "image": "images/events/PiliPili-26Sept2026.jpg"
+    },
+    {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
       "link": "https://9ty9.co.za/events/crossways-village-market-2026-09-06/",
       "guid": "https://9ty9.co.za/events/crossways-village-market-2026-09-06/",
@@ -2598,6 +2609,17 @@
       "month": "SEPT",
       "description": "Sun, 6 September 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Humphrey - Live Music at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/humphrey-live-music/",
+      "guid": "https://9ty9.co.za/events/humphrey-live-music/",
+      "pubDate": "Sun, 06 Sep 2026 12:00:00 +0000",
+      "dateStr": "2026-09-06",
+      "day": "06",
+      "month": "SEPT",
+      "description": "Sun, 6 September 2026 - 14:00 - 17:00",
+      "image": "images/events/PiliPili-26Sept2026.jpg"
     },
     {
       "title": "Bingo Aand at Oppi Spektrum at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2697,6 +2719,39 @@
       "month": "SEPT",
       "description": "Wed, 9 September 2026 - 11:00 - 21:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Backyard-Wednesday-food-special.jfif"
+    },
+    {
+      "title": "Black Sheep Bistro - Wednesday Specials at  Black Sheep Bistro in Aston Bay",
+      "link": "https://9ty9.co.za/events/black-sheep-bistro-wednesday-specials/",
+      "guid": "https://9ty9.co.za/events/black-sheep-bistro-wednesday-specials/",
+      "pubDate": "Wed, 09 Sep 2026 10:00:00 +0000",
+      "dateStr": "2026-09-09",
+      "day": "09",
+      "month": "SEPT",
+      "description": "Wed, 9 September 2026 - 12:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Wednesday-Specials.jfif"
+    },
+    {
+      "title": "Wagyu Wednesday at Ember and Tide at  Ember &amp; Tide in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/wagyu-wednesday-at-ember-and-tide/",
+      "guid": "https://9ty9.co.za/events/wagyu-wednesday-at-ember-and-tide/",
+      "pubDate": "Wed, 09 Sep 2026 13:00:00 +0000",
+      "dateStr": "2026-09-09",
+      "day": "09",
+      "month": "SEPT",
+      "description": "Wed, 9 September 2026 - 15:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Ember-and-Tide-Wagyu-Wednesday.jfif"
+    },
+    {
+      "title": "De Kleine Wijn Koöp Wine Pairing Dinner at De Viswijf at  De Viswijf in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/de-kleine-wijn-koop-wine-pairing-dinner-at-de-viswijf/",
+      "guid": "https://9ty9.co.za/events/de-kleine-wijn-koop-wine-pairing-dinner-at-de-viswijf/",
+      "pubDate": "Wed, 09 Sep 2026 15:30:00 +0000",
+      "dateStr": "2026-09-09",
+      "day": "09",
+      "month": "SEPT",
+      "description": "Wed, 9 September 2026 - 17:30 - 22:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/DFV-Wine-9Sept2026.jfif"
     }
   ]
 }
