@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-05T10:23:47.219Z",
+  "lastUpdated": "2026-09-05T14:58:13.694Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 250,
+  "count": 254,
   "events": [
     {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
@@ -2622,6 +2622,17 @@
       "image": "images/events/PiliPili-26Sept2026.jpg"
     },
     {
+      "title": "Just Jane Live at Legends at  Legends Sports Bar, Pizzeria and Grill in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/just-jane-live-at-legends/",
+      "guid": "https://9ty9.co.za/events/just-jane-live-at-legends/",
+      "pubDate": "Sun, 06 Sep 2026 15:00:00 +0000",
+      "dateStr": "2026-09-06",
+      "day": "06",
+      "month": "SEPT",
+      "description": "Sun, 6 September 2026 - 17:00 - 20:00",
+      "image": "images/events/IMG-20260905-WA0110.jpg"
+    },
+    {
       "title": "Bingo Aand at Oppi Spektrum at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/bingo-aand-at-oppi-spektrum/",
       "guid": "https://9ty9.co.za/events/bingo-aand-at-oppi-spektrum/",
@@ -2752,6 +2763,39 @@
       "month": "SEPT",
       "description": "Wed, 9 September 2026 - 17:30 - 22:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/07/DFV-Wine-9Sept2026.jfif"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-09-10/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-09-10/",
+      "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-10",
+      "day": "10",
+      "month": "SEPT",
+      "description": "Thu, 10 September 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Anton Calitz - Songs and Stories Behind His Book &quot;Everyday&#039;s a Miracle&quot; at  The Music Kitchen in Gqeberha",
+      "link": "https://9ty9.co.za/events/anton-calitz-songs-and-stories-behind-his-book-everydays-a-miracle/",
+      "guid": "https://9ty9.co.za/events/anton-calitz-songs-and-stories-behind-his-book-everydays-a-miracle/",
+      "pubDate": "Thu, 10 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-10",
+      "day": "10",
+      "month": "SEPT",
+      "description": "Thu, 10 September 2026 - 19:00 - 22:00",
+      "image": "images/events/d6d508cbea88463386e0cbe0b2db5a3f.jpeg"
+    },
+    {
+      "title": "Sea Harvest Cape Crown at   in",
+      "link": "https://9ty9.co.za/events/sea-harvest-cape-crown/",
+      "guid": "https://9ty9.co.za/events/sea-harvest-cape-crown/",
+      "pubDate": "Fri, 11 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-11",
+      "day": "11",
+      "month": "SEPT",
+      "description": "Fri, 11 September 2026 - Sun, 13 September 2026 - 08:00 - 17:00",
+      "image": "images/events/Surfing-South-Africa-12.png"
     }
   ]
 }
