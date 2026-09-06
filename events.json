@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-06T15:18:56.902Z",
+  "lastUpdated": "2026-09-06T20:16:31.498Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 269,
+  "count": 272,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2611,6 +2611,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Oppi-7Sept2026.jfif"
     },
     {
+      "title": "Kodpot Maandag Menu - Monday Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kodpot-maandag-menu-monday-special/",
+      "guid": "https://9ty9.co.za/events/kodpot-maandag-menu-monday-special/",
+      "pubDate": "Mon, 07 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-07",
+      "day": "07",
+      "month": "SEPT",
+      "description": "Mon, 7 September 2026 - 11:00 - 13:00",
+      "image": "images/events/IMG-20260906-WA0128.jpg"
+    },
+    {
       "title": "SACBW Network Event with Dr Philippa Fabbri at  Centrestage in Gqeberha",
       "link": "https://9ty9.co.za/events/sacbw-network-event-with-dr-philippa-fabbri/",
       "guid": "https://9ty9.co.za/events/sacbw-network-event-with-dr-philippa-fabbri/",
@@ -2961,6 +2972,28 @@
       "month": "SEPT",
       "description": "Sun, 13 September 2026 - 14:00 - 17:00",
       "image": "images/events/PiliPili-26Sept2026.jpg"
+    },
+    {
+      "title": "Properties on Show in Jeffreys Bay and Surrounds at   in",
+      "link": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-09-13/",
+      "guid": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-09-13/",
+      "pubDate": "Sun, 13 Sep 2026 13:00:00 +0000",
+      "dateStr": "2026-09-13",
+      "day": "13",
+      "month": "SEPT",
+      "description": "Sun, 13 September 2026 - 15:00 - 17:00",
+      "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-08-2026-09-15/",
+      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-08-2026-09-15/",
+      "pubDate": "Tue, 15 Sep 2026 08:00:00 +0000",
+      "dateStr": "2026-09-15",
+      "day": "15",
+      "month": "SEPT",
+      "description": "Tue, 15 September 2026 - 10:00 - 12:00",
+      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
     }
   ]
 }
