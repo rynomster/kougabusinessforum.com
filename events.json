@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-06T10:42:24.278Z",
+  "lastUpdated": "2026-09-06T15:18:56.902Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 260,
+  "count": 269,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2862,6 +2862,105 @@
       "month": "SEPT",
       "description": "Sat, 12 September 2026 - 15:00 - 18:00",
       "image": "images/events/Backyard-Karaoke.jpg"
+    },
+    {
+      "title": "DJ Rip Torn at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/dj-rip-torn/",
+      "guid": "https://9ty9.co.za/events/dj-rip-torn/",
+      "pubDate": "Sat, 12 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 18:00 - 21:00",
+      "image": "images/events/PiliPili-26Sept2026.jpg"
+    },
+    {
+      "title": "The Botanical Table – Gin and Food Tasting Experience at  JBay TVET College in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/the-botanical-table-gin-and-food-tasting-experience/",
+      "guid": "https://9ty9.co.za/events/the-botanical-table-gin-and-food-tasting-experience/",
+      "pubDate": "Sat, 12 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Ferreira-Post-12Sept2026.jfif"
+    },
+    {
+      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-05-2026-09-12/",
+      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-05-2026-09-12/",
+      "pubDate": "Sat, 12 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 19:00 - 23:59",
+      "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Collective Market at  Collective Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/collective-market-2026-06-14-2026-07-12-2026-08-16-2026-09-13/",
+      "guid": "https://9ty9.co.za/events/collective-market-2026-06-14-2026-07-12-2026-08-16-2026-09-13/",
+      "pubDate": "Sun, 13 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-13",
+      "day": "13",
+      "month": "SEPT",
+      "description": "Sun, 13 September 2026 - 09:00 - 14:00",
+      "image": "images/events/Collective-Market-13Dec2026.jpg"
+    },
+    {
+      "title": "Live Music with DJ Dave at Mingle Market at  Gamtoos Ferry Hotel in Gamtoos",
+      "link": "https://9ty9.co.za/events/live-music-with-dj-dave-at-mingle-market/",
+      "guid": "https://9ty9.co.za/events/live-music-with-dj-dave-at-mingle-market/",
+      "pubDate": "Sun, 13 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-13",
+      "day": "13",
+      "month": "SEPT",
+      "description": "Sun, 13 September 2026 - 09:00 - 14:00",
+      "image": "images/events/DJ-Dave-20Dec2026.jpg"
+    },
+    {
+      "title": "Elements of Nature Market at  Elements of Nature Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/elements-of-nature-market-2026-09-13/",
+      "guid": "https://9ty9.co.za/events/elements-of-nature-market-2026-09-13/",
+      "pubDate": "Sun, 13 Sep 2026 08:00:00 +0000",
+      "dateStr": "2026-09-13",
+      "day": "13",
+      "month": "SEPT",
+      "description": "Sun, 13 September 2026 - 10:00 - 15:00",
+      "image": "images/events/Elements-of-Nature-Market-20Dec2026.jpg"
+    },
+    {
+      "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
+      "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-06-2026-09-13/",
+      "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-06-2026-09-13/",
+      "pubDate": "Sun, 13 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-13",
+      "day": "13",
+      "month": "SEPT",
+      "description": "Sun, 13 September 2026 - 11:00 - 15:00",
+      "image": "images/events/Vernon-Thornhill2.jpg"
+    },
+    {
+      "title": "Epoxy Resin Workshop and Coaster Pour at  Tiger&#039;s Milk Moffett on Main in Gqeberha",
+      "link": "https://9ty9.co.za/events/epoxy-resin-workshop-and-coaster-pour/",
+      "guid": "https://9ty9.co.za/events/epoxy-resin-workshop-and-coaster-pour/",
+      "pubDate": "Sun, 13 Sep 2026 10:00:00 +0000",
+      "dateStr": "2026-09-13",
+      "day": "13",
+      "month": "SEPT",
+      "description": "Sun, 13 September 2026 - 12:00 - 15:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Ultimate-Blue-13Sept2026.jfif"
+    },
+    {
+      "title": "Surfboertjie - Live Music at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/surfboertjie-live-music-2/",
+      "guid": "https://9ty9.co.za/events/surfboertjie-live-music-2/",
+      "pubDate": "Sun, 13 Sep 2026 12:00:00 +0000",
+      "dateStr": "2026-09-13",
+      "day": "13",
+      "month": "SEPT",
+      "description": "Sun, 13 September 2026 - 14:00 - 17:00",
+      "image": "images/events/PiliPili-26Sept2026.jpg"
     }
   ]
 }
