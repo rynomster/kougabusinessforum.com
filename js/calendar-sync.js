@@ -129,9 +129,11 @@ function generateHTML(eventList) {
           <h3>${monthName}</h3>
           <ul class="event-list">
             ${monthEvents.map(ev => {
+              const rsvpUrl = `contact.html?enquiry=events&event=${encodeURIComponent(ev.summary)}#contact-form`;
               return `            <li>
               <strong>${ev.day} ${ev.monthAbbr}</strong> ${escapeHTML(ev.summary)}
-              <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar">+</a>
+              <a href="${rsvpUrl}" class="event-rsvp-btn">RSVP</a>
+              <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar" aria-label="Add to Google Calendar">+</a>
             </li>`;
             }).join('\n')}
           </ul>
