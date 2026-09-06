@@ -1,52 +1,8 @@
 {
-  "lastUpdated": "2026-09-05T20:12:27.811Z",
+  "lastUpdated": "2026-09-06T04:08:04.618Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 254,
+  "count": 260,
   "events": [
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-08-06/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-06/",
-      "pubDate": "Thu, 06 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-06",
-      "day": "06",
-      "month": "AUG",
-      "description": "Thu, 6 August 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "All Out Country! - Live at Nineteen33 at  Nineteen33 in Gqeberha",
-      "link": "https://9ty9.co.za/events/all-out-country-live-at-nineteen33/",
-      "guid": "https://9ty9.co.za/events/all-out-country-live-at-nineteen33/",
-      "pubDate": "Thu, 06 Aug 2026 17:00:00 +0000",
-      "dateStr": "2026-08-06",
-      "day": "06",
-      "month": "AUG",
-      "description": "Thu, 6 August 2026 - 19:00 - 22:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/All-Out-Country2-6Aug2026.jpg"
-    },
-    {
-      "title": "Rock Quiz - Thyspunt Alliance Fundraiser at  St. Francis Brewing Co. in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/rock-quiz-thyspunt-alliance-fundraiser/",
-      "guid": "https://9ty9.co.za/events/rock-quiz-thyspunt-alliance-fundraiser/",
-      "pubDate": "Thu, 06 Aug 2026 17:00:00 +0000",
-      "dateStr": "2026-08-06",
-      "day": "06",
-      "month": "AUG",
-      "description": "Thu, 6 August 2026 - 19:00 - 22:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Rock-Quiz-6Aug2026.jfif"
-    },
-    {
-      "title": "Black Sheep Bistro - Thursday Specials at  Black Sheep Bistro in Aston Bay",
-      "link": "https://9ty9.co.za/events/black-sheep-bistro-thursday-specials/",
-      "guid": "https://9ty9.co.za/events/black-sheep-bistro-thursday-specials/",
-      "pubDate": "Thu, 06 Aug 2026 10:00:00 +0000",
-      "dateStr": "2026-08-06",
-      "day": "06",
-      "month": "AUG",
-      "description": "Thu, 6 August 2026 - 12:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Thursday-Specials.jfif"
-    },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-05-2026-08-07/",
@@ -2796,6 +2752,116 @@
       "month": "SEPT",
       "description": "Fri, 11 September 2026 - Sun, 13 September 2026 - 08:00 - 17:00",
       "image": "images/events/Surfing-South-Africa-12.png"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-09-2026-09-11/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-09-2026-09-11/",
+      "pubDate": "Fri, 11 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-11",
+      "day": "11",
+      "month": "SEPT",
+      "description": "Fri, 11 September 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Learn How to Paint with Watercolour at  The Studio at 106 Da Gama in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/learn-how-to-paint-with-watercolour/",
+      "guid": "https://9ty9.co.za/events/learn-how-to-paint-with-watercolour/",
+      "pubDate": "Fri, 11 Sep 2026 07:30:00 +0000",
+      "dateStr": "2026-09-11",
+      "day": "11",
+      "month": "SEPT",
+      "description": "Fri, 11 September 2026 - 09:30 - 12:30",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/TheStudio-11Sept2026.jfif"
+    },
+    {
+      "title": "Chef&#039;s Table at the Ember &amp; Tide: Trip to Greece at  Ember &amp; Tide in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/chefs-table-at-the-ember-tide-trip-to-greece/",
+      "guid": "https://9ty9.co.za/events/chefs-table-at-the-ember-tide-trip-to-greece/",
+      "pubDate": "Fri, 11 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-11",
+      "day": "11",
+      "month": "SEPT",
+      "description": "Fri, 11 September 2026 - 18:00 - 22:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Ember-Greece-11Sept2026.jfif"
+    },
+    {
+      "title": "A Bee Gees and UB40 Tribute at  Nineteen33 in Gqeberha",
+      "link": "https://9ty9.co.za/events/a-bee-gees-and-ub40-tribute/",
+      "guid": "https://9ty9.co.za/events/a-bee-gees-and-ub40-tribute/",
+      "pubDate": "Fri, 11 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-11",
+      "day": "11",
+      "month": "SEPT",
+      "description": "Fri, 11 September 2026 - 19:00 - 21:30",
+      "image": "images/events/Nineteen33-11Sept2026.jpeg"
+    },
+    {
+      "title": "The Return of Zeemixes at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/the-return-of-zeemixes/",
+      "guid": "https://9ty9.co.za/events/the-return-of-zeemixes/",
+      "pubDate": "Fri, 11 Sep 2026 18:00:00 +0000",
+      "dateStr": "2026-09-11",
+      "day": "11",
+      "month": "SEPT",
+      "description": "Fri, 11 September 2026 - 20:00 - 23:59",
+      "image": "images/events/IMG-20260828-WA0165.jpg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-05-2026-09-12/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-05-2026-09-12/",
+      "pubDate": "Sat, 12 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-09-12/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-09-12/",
+      "pubDate": "Sat, 12 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 08:00 - 09:00",
+      "image": "images/events/img_3_1786246960707.jpg"
+    },
+    {
+      "title": "Milkwood Farmers Market at  Milkwood Mark \\ Market in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/milkwood-farmers-market-2026-09-12/",
+      "guid": "https://9ty9.co.za/events/milkwood-farmers-market-2026-09-12/",
+      "pubDate": "Sat, 12 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 09:00 - 13:00",
+      "image": "images/events/Milkwood-Market-2-26Dec2026.jpg"
+    },
+    {
+      "title": "Oos-Kaapse Seniorburger-sangfees at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/oos-kaapse-seniorburger-sangfees/",
+      "guid": "https://9ty9.co.za/events/oos-kaapse-seniorburger-sangfees/",
+      "pubDate": "Sat, 12 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 11:00 - 13:00",
+      "image": "images/events/Seniorburger-Sangfees-12Sept2026.jpg"
+    },
+    {
+      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-05-2026-09-12/",
+      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-05-2026-09-12/",
+      "pubDate": "Sat, 12 Sep 2026 13:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 15:00 - 18:00",
+      "image": "images/events/Backyard-Karaoke.jpg"
     }
   ]
 }
