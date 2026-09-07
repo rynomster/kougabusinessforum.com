@@ -1694,6 +1694,36 @@ textarea {
   margin-bottom: 2rem;
 }
 
+.event-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.event-rsvp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.55rem;
+  background: var(--primary-dark);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  line-height: 1.2;
+}
+
+.event-rsvp-btn:hover {
+  background: var(--accent-teal);
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(0, 172, 193, 0.3);
+}
+
 .add-to-cal {
   display: inline-flex;
   align-items: center;
@@ -1705,7 +1735,6 @@ textarea {
   border-radius: 4px;
   font-size: 12px;
   text-decoration: none;
-  margin-left: 8px;
   vertical-align: middle;
   transition: all var(--transition-fast);
   line-height: 1;
