@@ -1,140 +1,8 @@
 {
-  "lastUpdated": "2026-09-06T20:16:31.498Z",
+  "lastUpdated": "2026-09-07T04:07:00.265Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 272,
+  "count": 263,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-05-2026-08-07/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-05-2026-08-07/",
-      "pubDate": "Fri, 07 Aug 2026 07:00:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Collagraph Printmaking Workshop at Cats Art Studio at  Cats Art Studio in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/collagraph-printmaking-workshop-at-cats-art-studio-2/",
-      "guid": "https://9ty9.co.za/events/collagraph-printmaking-workshop-at-cats-art-studio-2/",
-      "pubDate": "Fri, 07 Aug 2026 07:15:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 09:15 - 12:30",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Cats-Art-Studio-7Aug2026.jfif"
-    },
-    {
-      "title": "What&#039;s Good In The Hood at  What&#039;s Good In The Hood in Gqeberha",
-      "link": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31-2026-08-07/",
-      "guid": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31-2026-08-07/",
-      "pubDate": "Fri, 07 Aug 2026 15:00:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 17:00 - 21:00",
-      "image": "images/events/Whats-Good-In-The-Hood-31Dec2026.jpg"
-    },
-    {
-      "title": "Chef&#039;s Table: Trip to Spain at Ember and Tide at  Ember &amp; Tide in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/chefs-table-trip-to-spain-at-ember-and-tide/",
-      "guid": "https://9ty9.co.za/events/chefs-table-trip-to-spain-at-ember-and-tide/",
-      "pubDate": "Fri, 07 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 18:00 - 22:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Trip-to-Spain-7Aug2026.jfif"
-    },
-    {
-      "title": "Dual Frequency live at Three Legged Pig at  Three Legged Pig in Gqeberha",
-      "link": "https://9ty9.co.za/events/dual-frequency-live-at-three-legged-pig/",
-      "guid": "https://9ty9.co.za/events/dual-frequency-live-at-three-legged-pig/",
-      "pubDate": "Fri, 07 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 18:00 - 22:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Dual-Frequency-7Aug2026.jfif"
-    },
-    {
-      "title": "Trans Baviaans 24HR MTB Race at  Trans Baviaans Start in Willowmore",
-      "link": "https://9ty9.co.za/events/trans-baviaans-24hr-mtb-race/",
-      "guid": "https://9ty9.co.za/events/trans-baviaans-24hr-mtb-race/",
-      "pubDate": "Fri, 07 Aug 2026 22:00:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Sat, 8 August 2026 - 00:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2025/09/Trans-Baviaans-2025.jpg"
-    },
-    {
-      "title": "Wine and Yoga - Round Table Jeffreys Bay/Humansdorp 252 at  Hybrid FitClub in Humansdorp",
-      "link": "https://9ty9.co.za/events/wine-and-yoga-round-table-jeffreys-bay-humansdorp-252/",
-      "guid": "https://9ty9.co.za/events/wine-and-yoga-round-table-jeffreys-bay-humansdorp-252/",
-      "pubDate": "Fri, 07 Aug 2026 15:30:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 17:30 - 20:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/WineYoga-7Aug2026.jfif"
-    },
-    {
-      "title": "Glass Painting Workshop with Mart Leeuwner at  Marta at Art in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/glass-painting-workshop-with-mart-leeuwner/",
-      "guid": "https://9ty9.co.za/events/glass-painting-workshop-with-mart-leeuwner/",
-      "pubDate": "Fri, 07 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 11:00 - 14:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Glass-Painting-7Aug2026.jfif"
-    },
-    {
-      "title": "Therese and Dave at Ember and Tide - Chef&#039;s Table: Trip to Spain at  Ember &amp; Tide in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/therese-and-dave-at-ember-and-tide-chefs-table-trip-to-spain/",
-      "guid": "https://9ty9.co.za/events/therese-and-dave-at-ember-and-tide-chefs-table-trip-to-spain/",
-      "pubDate": "Fri, 07 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Therese-and-Dave-30Aug2026.jfif"
-    },
-    {
-      "title": "Black Sheep Bistro - Friday Specials at  Black Sheep Bistro in Aston Bay",
-      "link": "https://9ty9.co.za/events/black-sheep-bistro-friday-specials/",
-      "guid": "https://9ty9.co.za/events/black-sheep-bistro-friday-specials/",
-      "pubDate": "Fri, 07 Aug 2026 10:00:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 12:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Friday-Specials.jfif"
-    },
-    {
-      "title": "90s-2000s Grunge with Darren and Jane at Fergo&#039;s at  Fergo’s Rhythm Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/90s-2000s-grunge-with-darren-and-jane-at-fergos/",
-      "guid": "https://9ty9.co.za/events/90s-2000s-grunge-with-darren-and-jane-at-fergos/",
-      "pubDate": "Fri, 07 Aug 2026 17:00:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 19:00 - 22:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Fergos-7Aug2026.jfif"
-    },
-    {
-      "title": "Friday Braai Day at The J-Bar at  The J-Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friday-braai-day-at-the-j-bar/",
-      "guid": "https://9ty9.co.za/events/friday-braai-day-at-the-j-bar/",
-      "pubDate": "Fri, 07 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-07",
-      "day": "07",
-      "month": "AUG",
-      "description": "Fri, 7 August 2026 - 11:00 - 21:00",
-      "image": "images/events/IMG-20260807-WA0040.jpg"
-    },
     {
       "title": "Chokka Trail Run at  Cape St. Francis Resort in Cape St Francis",
       "link": "https://9ty9.co.za/events/chokka-trail-run/",
@@ -2622,6 +2490,17 @@
       "image": "images/events/IMG-20260906-WA0128.jpg"
     },
     {
+      "title": "Kospot Maandag Menu - Monday Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kospot-maandag-menu-monday-special/",
+      "guid": "https://9ty9.co.za/events/kospot-maandag-menu-monday-special/",
+      "pubDate": "Mon, 07 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-07",
+      "day": "07",
+      "month": "SEPT",
+      "description": "Mon, 7 September 2026 - 11:00 - 13:00",
+      "image": "images/events/IMG-20260906-WA0128.jpg"
+    },
+    {
       "title": "SACBW Network Event with Dr Philippa Fabbri at  Centrestage in Gqeberha",
       "link": "https://9ty9.co.za/events/sacbw-network-event-with-dr-philippa-fabbri/",
       "guid": "https://9ty9.co.za/events/sacbw-network-event-with-dr-philippa-fabbri/",
@@ -2752,6 +2631,28 @@
       "month": "SEPT",
       "description": "Thu, 10 September 2026 - 19:00 - 22:00",
       "image": "images/events/d6d508cbea88463386e0cbe0b2db5a3f.jpeg"
+    },
+    {
+      "title": "Kuns en Klets – Watercolour Techniques at  Tasty Table Cafe in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kuns-en-klets-watercolour-techniques/",
+      "guid": "https://9ty9.co.za/events/kuns-en-klets-watercolour-techniques/",
+      "pubDate": "Thu, 10 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-10",
+      "day": "10",
+      "month": "SEPT",
+      "description": "Thu, 10 September 2026 - 11:00 - 13:00",
+      "image": "images/events/Kund-Klets-26Nov2026.jpeg"
+    },
+    {
+      "title": "Lavender Ladies Guest Speaker: Where Two Biodiversity Hotspots Meet at  JBay Baptist Church in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/lavender-ladies-guest-speaker-where-two-biodiversity-hotspots-meet/",
+      "guid": "https://9ty9.co.za/events/lavender-ladies-guest-speaker-where-two-biodiversity-hotspots-meet/",
+      "pubDate": "Thu, 10 Sep 2026 12:30:00 +0000",
+      "dateStr": "2026-09-10",
+      "day": "10",
+      "month": "SEPT",
+      "description": "Thu, 10 September 2026 - 14:30 - 16:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Lavendar-10Sept2026.jfif"
     },
     {
       "title": "Sea Harvest Cape Crown at   in",
