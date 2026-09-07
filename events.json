@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-07T12:10:49.209Z",
+  "lastUpdated": "2026-09-07T21:23:49.108Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 265,
+  "count": 270,
   "events": [
     {
       "title": "Chokka Trail Run at  Cape St. Francis Resort in Cape St Francis",
@@ -2545,6 +2545,28 @@
       "image": "images/events/Voortrekkers.jfif"
     },
     {
+      "title": "Dinsdag Menu - Tuesday Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/dinsdag-menu-tuesday-special/",
+      "guid": "https://9ty9.co.za/events/dinsdag-menu-tuesday-special/",
+      "pubDate": "Tue, 08 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-08",
+      "day": "08",
+      "month": "SEPT",
+      "description": "Tue, 8 September 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-8Sept2026.jpeg"
+    },
+    {
+      "title": "Quiz Night at St. Francis Links at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/quiz-night-at-st-francis-links/",
+      "guid": "https://9ty9.co.za/events/quiz-night-at-st-francis-links/",
+      "pubDate": "Tue, 08 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-08",
+      "day": "08",
+      "month": "SEPT",
+      "description": "Tue, 8 September 2026 - 19:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/St-Francis-Links-8Sept2026.jfif"
+    },
+    {
       "title": "Curry and Rice - Wednesday Special at  Suikerbossie in Kabeljous",
       "link": "https://9ty9.co.za/events/curry-and-rice-wednesday-special/",
       "guid": "https://9ty9.co.za/events/curry-and-rice-wednesday-special/",
@@ -2743,6 +2765,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Friday-Specials2.jfif"
     },
     {
+      "title": "Garage Sale at First Light Coffee Bar at  First Light Coffee Bar in Jeffreys Bay,",
+      "link": "https://9ty9.co.za/events/garage-sale-at-first-light-coffee-bar/",
+      "guid": "https://9ty9.co.za/events/garage-sale-at-first-light-coffee-bar/",
+      "pubDate": "Fri, 11 Sep 2026 13:00:00 +0000",
+      "dateStr": "2026-09-11",
+      "day": "11",
+      "month": "SEPT",
+      "description": "Fri, 11 September 2026 - 15:00 - 19:00",
+      "image": "images/events/First-Light-11Sept2026.jpg"
+    },
+    {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-05-2026-09-12/",
       "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-05-2026-09-12/",
@@ -2831,6 +2864,17 @@
       "image": "images/events/Karaoke-Dec2026.jpeg"
     },
     {
+      "title": "King Kouga Hard Enduro at  Zwartenbosch Golf Club in Humansdorp",
+      "link": "https://9ty9.co.za/events/king-kouga-hard-enduro/",
+      "guid": "https://9ty9.co.za/events/king-kouga-hard-enduro/",
+      "pubDate": "Sat, 12 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 08:00 - 15:00",
+      "image": "images/events/King-Kouga-12Sept2026.jpg"
+    },
+    {
       "title": "Collective Market at  Collective Market in Gqeberha",
       "link": "https://9ty9.co.za/events/collective-market-2026-06-14-2026-07-12-2026-08-16-2026-09-13/",
       "guid": "https://9ty9.co.za/events/collective-market-2026-06-14-2026-07-12-2026-08-16-2026-09-13/",
@@ -2906,6 +2950,17 @@
       "month": "SEPT",
       "description": "Sun, 13 September 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Spekboomlapa at  Spekboomlapa in Loerieheuwel",
+      "link": "https://9ty9.co.za/events/spekboomlapa/",
+      "guid": "https://9ty9.co.za/events/spekboomlapa/",
+      "pubDate": "Sun, 13 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-13",
+      "day": "13",
+      "month": "SEPT",
+      "description": "Sun, 13 September 2026 - 11:00 - 16:00",
+      "image": "images/events/Spekboom-13Sept2026.jpg"
     },
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
