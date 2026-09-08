@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-08T16:26:54.322Z",
+  "lastUpdated": "2026-09-08T21:00:01.715Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 257,
+  "count": 258,
   "events": [
     {
       "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
@@ -2730,6 +2730,17 @@
       "month": "SEPT",
       "description": "Sat, 12 September 2026 - 18:00 - 20:00",
       "image": "images/events/Port-St-F-12Sept2026.jfif"
+    },
+    {
+      "title": "Building Strong Learners at  NG Gemeente Jeffreysbaai - Da Gama kampus in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/building-strong-learners/",
+      "guid": "https://9ty9.co.za/events/building-strong-learners/",
+      "pubDate": "Sat, 12 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 09:00 - 12:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Building-Strong-Learners-12Sept2026.jfif"
     },
     {
       "title": "Collective Market at  Collective Market in Gqeberha",
