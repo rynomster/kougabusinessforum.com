@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-08T11:01:31.512Z",
+  "lastUpdated": "2026-09-08T16:26:54.322Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 256,
+  "count": 257,
   "events": [
     {
       "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
@@ -2444,6 +2444,17 @@
       "month": "SEPT",
       "description": "Wed, 9 September 2026 - 17:30 - 22:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/07/DFV-Wine-9Sept2026.jfif"
+    },
+    {
+      "title": "Die Kospot Woensdag Menu - Wednesday Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/woensdag-menu-wednesday-special/",
+      "guid": "https://9ty9.co.za/events/woensdag-menu-wednesday-special/",
+      "pubDate": "Wed, 09 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-09",
+      "day": "09",
+      "month": "SEPT",
+      "description": "Wed, 9 September 2026 - 11:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Kospot-9Sept2026.jfif"
     },
     {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
