@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-08T04:08:39.340Z",
+  "lastUpdated": "2026-09-08T11:01:31.512Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 253,
+  "count": 256,
   "events": [
     {
       "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
@@ -2589,6 +2589,17 @@
       "image": "images/events/First-Light-11Sept2026.jpg"
     },
     {
+      "title": "Happy Hour - Fridays at Port St. Francis Ski Boat and Yacht Club at  Port St. Francis Ski Boat and Yacht Club in Port St. Francis",
+      "link": "https://9ty9.co.za/events/happy-hour-fridays-at-port-st-francis-ski-boat-and-yacht-club/",
+      "guid": "https://9ty9.co.za/events/happy-hour-fridays-at-port-st-francis-ski-boat-and-yacht-club/",
+      "pubDate": "Fri, 11 Sep 2026 15:00:00 +0000",
+      "dateStr": "2026-09-11",
+      "day": "11",
+      "month": "SEPT",
+      "description": "Fri, 11 September 2026 - 17:00 - 18:00",
+      "image": "images/events/Port-St-F-Friday-Drinks-Specials.jfif"
+    },
+    {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-05-2026-09-12/",
       "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-05-2026-09-12/",
@@ -2686,6 +2697,28 @@
       "month": "SEPT",
       "description": "Sat, 12 September 2026 - 08:00 - 15:00",
       "image": "images/events/King-Kouga-12Sept2026.jpg"
+    },
+    {
+      "title": "Black Sheep Bistro - Saturday Specials at  Black Sheep Bistro in Aston Bay",
+      "link": "https://9ty9.co.za/events/black-sheep-bistro-saturday-specials/",
+      "guid": "https://9ty9.co.za/events/black-sheep-bistro-saturday-specials/",
+      "pubDate": "Sat, 12 Sep 2026 10:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 12:00 - 21:00",
+      "image": "images/events/Blach-Sheep-Bistro-Saturday-Specials.jfif"
+    },
+    {
+      "title": "Music Bingo Night at  Port St. Francis Ski Boat and Yacht Club in Port St. Francis",
+      "link": "https://9ty9.co.za/events/music-bingo-night/",
+      "guid": "https://9ty9.co.za/events/music-bingo-night/",
+      "pubDate": "Sat, 12 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 18:00 - 20:00",
+      "image": "images/events/Port-St-F-12Sept2026.jfif"
     },
     {
       "title": "Collective Market at  Collective Market in Gqeberha",
