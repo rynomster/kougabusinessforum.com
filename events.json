@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-09T04:15:21.992Z",
+  "lastUpdated": "2026-09-09T11:06:33.193Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 250,
+  "count": 253,
   "events": [
     {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
@@ -2281,6 +2281,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/St-Francis-Links-8Sept2026.jfif"
     },
     {
+      "title": "Mauritian Chicken and Prawn Curry - Lunchtime Special at  Chokka Block Restaurant in Port St. Francis",
+      "link": "https://9ty9.co.za/events/mauritian-chicken-and-prawn-curry-lunchtime-special/",
+      "guid": "https://9ty9.co.za/events/mauritian-chicken-and-prawn-curry-lunchtime-special/",
+      "pubDate": "Tue, 08 Sep 2026 09:30:00 +0000",
+      "dateStr": "2026-09-08",
+      "day": "08",
+      "month": "SEPT",
+      "description": "Tue, 8 September 2026 - Fri, 11 September 2026 - 11:30 - 16:30",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Chokka-Block-11Sept2026.jfif"
+    },
+    {
       "title": "Curry and Rice - Wednesday Special at  Suikerbossie in Kabeljous",
       "link": "https://9ty9.co.za/events/curry-and-rice-wednesday-special/",
       "guid": "https://9ty9.co.za/events/curry-and-rice-wednesday-special/",
@@ -2356,6 +2367,17 @@
       "month": "SEPT",
       "description": "Wed, 9 September 2026 - 11:00 - 13:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Kospot-9Sept2026.jfif"
+    },
+    {
+      "title": "Woensdag Gebeds Tyd at  Oase Gemeente in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/woensdag-gebeds-tyd/",
+      "guid": "https://9ty9.co.za/events/woensdag-gebeds-tyd/",
+      "pubDate": "Wed, 09 Sep 2026 10:00:00 +0000",
+      "dateStr": "2026-09-09",
+      "day": "09",
+      "month": "SEPT",
+      "description": "Wed, 9 September 2026 - 12:00 - 14:00",
+      "image": "images/events/Oase-Woensdag-Gebeds.jpeg"
     },
     {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
@@ -2521,6 +2543,17 @@
       "month": "SEPT",
       "description": "Fri, 11 September 2026 - 20:00 - 23:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Quayside-11Sept2026.jfif"
+    },
+    {
+      "title": "Bouquet Garni — 100% Organic at  Cats Art Studio in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/bouquet-garni-100-organic/",
+      "guid": "https://9ty9.co.za/events/bouquet-garni-100-organic/",
+      "pubDate": "Fri, 11 Sep 2026 08:00:00 +0000",
+      "dateStr": "2026-09-11",
+      "day": "11",
+      "month": "SEPT",
+      "description": "Fri, 11 September 2026 - Sat, 12 September 2026 - 10:00 - 16:00",
+      "image": "images/events/Cats-12Sept2026.jpeg"
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
