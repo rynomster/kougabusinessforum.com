@@ -1,107 +1,8 @@
 {
-  "lastUpdated": "2026-09-08T21:00:01.715Z",
+  "lastUpdated": "2026-09-09T04:15:21.992Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 258,
+  "count": 250,
   "events": [
-    {
-      "title": "Sunday Funday at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19-2026-04-26-2026-05-03-20-02-2026-08-09/",
-      "guid": "https://9ty9.co.za/events/sunday-funday-at-the-backyard-2026-02-01-2026-02-08-2026-02-15-2026-02-22-2026-03-01-2026-03-08-2026-03-15-2026-03-22-2026-03-29-2026-04-05-2026-04-12-2026-04-19-2026-04-26-2026-05-03-20-02-2026-08-09/",
-      "pubDate": "Sun, 09 Aug 2026 07:00:00 +0000",
-      "dateStr": "2026-08-09",
-      "day": "09",
-      "month": "AUG",
-      "description": "Sun, 9 August 2026 - 09:00 - 18:00",
-      "image": "images/events/Quintes-Sunday.jpg"
-    },
-    {
-      "title": "The Gorge Artisans Market at  The Gorge Market in Gqeberha",
-      "link": "https://9ty9.co.za/events/the-gorge-artisans-market-2026-08-09/",
-      "guid": "https://9ty9.co.za/events/the-gorge-artisans-market-2026-08-09/",
-      "pubDate": "Sun, 09 Aug 2026 07:00:00 +0000",
-      "dateStr": "2026-08-09",
-      "day": "09",
-      "month": "AUG",
-      "description": "Sun, 9 August 2026 - 09:00 - 14:00",
-      "image": "images/events/Gorge-13Dec2026.jpg"
-    },
-    {
-      "title": "Elements of Nature Market at  Elements of Nature Market in Gqeberha",
-      "link": "https://9ty9.co.za/events/elements-of-nature-market-2026-08-09/",
-      "guid": "https://9ty9.co.za/events/elements-of-nature-market-2026-08-09/",
-      "pubDate": "Sun, 09 Aug 2026 08:00:00 +0000",
-      "dateStr": "2026-08-09",
-      "day": "09",
-      "month": "AUG",
-      "description": "Sun, 9 August 2026 - 10:00 - 15:00",
-      "image": "images/events/Elements-of-Nature-Market-20Dec2026.jpg"
-    },
-    {
-      "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
-      "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-02-2026-08-09/",
-      "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-02-2026-08-09/",
-      "pubDate": "Sun, 09 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-09",
-      "day": "09",
-      "month": "AUG",
-      "description": "Sun, 9 August 2026 - 11:00 - 15:00",
-      "image": "images/events/Vernon-Thornhill2.jpg"
-    },
-    {
-      "title": "Doek &amp; Denim Picnic at  Twisters in Humansdorp",
-      "link": "https://9ty9.co.za/events/doek-denim-picnic/",
-      "guid": "https://9ty9.co.za/events/doek-denim-picnic/",
-      "pubDate": "Sun, 09 Aug 2026 10:00:00 +0000",
-      "dateStr": "2026-08-09",
-      "day": "09",
-      "month": "AUG",
-      "description": "Sun, 9 August 2026 - 12:00 - 22:00",
-      "image": "images/events/Doek-Denim-Picnic-9August2026.jpg"
-    },
-    {
-      "title": "Properties on Show in Jeffreys Bay and Surrounds at   in",
-      "link": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-08-09/",
-      "guid": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-08-09/",
-      "pubDate": "Sun, 09 Aug 2026 13:00:00 +0000",
-      "dateStr": "2026-08-09",
-      "day": "09",
-      "month": "AUG",
-      "description": "Sun, 9 August 2026 - 15:00 - 17:00",
-      "image": "images/events/PropOnShowEvent.jpg"
-    },
-    {
-      "title": "Wendy Oldfield at  St. Francis Brewing Co. in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/wendy-oldfield/",
-      "guid": "https://9ty9.co.za/events/wendy-oldfield/",
-      "pubDate": "Sun, 09 Aug 2026 16:30:00 +0000",
-      "dateStr": "2026-08-09",
-      "day": "09",
-      "month": "AUG",
-      "description": "Sun, 9 August 2026 - 18:30 - 21:00",
-      "image": "images/events/Wendy-Oldfield-9Aug2026.jpg"
-    },
-    {
-      "title": "Irish Pub and Grill - Sunday Lunch Special at  Irish Pub and Grill in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/irish-pub-and-grill-sunday-lunch-special/",
-      "guid": "https://9ty9.co.za/events/irish-pub-and-grill-sunday-lunch-special/",
-      "pubDate": "Sun, 09 Aug 2026 10:00:00 +0000",
-      "dateStr": "2026-08-09",
-      "day": "09",
-      "month": "AUG",
-      "description": "Sun, 9 August 2026 - 12:00 - 15:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Irish-Pub-Sunday-Lunch-9Aug2026.jfif"
-    },
-    {
-      "title": "Women&#039;s Day Lunch at The Wave Barrel at  The Wave Barrel in Jeffrey's Bay",
-      "link": "https://9ty9.co.za/events/womens-day-lunch-at-the-wave-barrel/",
-      "guid": "https://9ty9.co.za/events/womens-day-lunch-at-the-wave-barrel/",
-      "pubDate": "Sun, 09 Aug 2026 10:00:00 +0000",
-      "dateStr": "2026-08-09",
-      "day": "09",
-      "month": "AUG",
-      "description": "Sun, 9 August 2026 - 12:00 - 14:00",
-      "image": "images/events/Wave-Barrel-9Aug2026.jpg"
-    },
     {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
       "link": "https://9ty9.co.za/events/crossways-village-market-2026-08-10/",
@@ -2609,6 +2510,17 @@
       "month": "SEPT",
       "description": "Fri, 11 September 2026 - 17:00 - 18:00",
       "image": "images/events/Port-St-F-Friday-Drinks-Specials.jfif"
+    },
+    {
+      "title": "Kerry Hiles Live at  Quayside Pub in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/kerry-hiles-live/",
+      "guid": "https://9ty9.co.za/events/kerry-hiles-live/",
+      "pubDate": "Fri, 11 Sep 2026 18:00:00 +0000",
+      "dateStr": "2026-09-11",
+      "day": "11",
+      "month": "SEPT",
+      "description": "Fri, 11 September 2026 - 20:00 - 23:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Quayside-11Sept2026.jfif"
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
