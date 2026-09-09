@@ -1599,6 +1599,10 @@ textarea {
 }
 
 .event-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
   font-size: 0.9rem;
   margin-bottom: 0.75rem;
   line-height: 1.4;
@@ -1609,6 +1613,11 @@ textarea {
 
 .event-list li:hover {
   border-left-color: var(--accent-cyan);
+}
+
+.event-info-text {
+  flex: 1;
+  min-width: 0;
 }
 
 .event-list li strong {
@@ -1694,6 +1703,35 @@ textarea {
   margin-bottom: 2rem;
 }
 
+.event-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+.event-rsvp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.55rem;
+  background: var(--primary-dark);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  line-height: 1.2;
+}
+
+.event-rsvp-btn:hover {
+  background: var(--accent-teal);
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(6, 200, 255, 0.3);
+}
+
 .add-to-cal {
   display: inline-flex;
   align-items: center;
@@ -1705,7 +1743,6 @@ textarea {
   border-radius: 4px;
   font-size: 12px;
   text-decoration: none;
-  margin-left: 8px;
   vertical-align: middle;
   transition: all var(--transition-fast);
   line-height: 1;
