@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-10T04:12:17.845Z",
+  "lastUpdated": "2026-09-10T11:02:46.327Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 253,
+  "count": 255,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2391,6 +2391,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Kospot-10Sept2026.jfif"
     },
     {
+      "title": "Black Sheep Bistro - Thursday Specials at  Black Sheep Bistro in Aston Bay",
+      "link": "https://9ty9.co.za/events/black-sheep-bistro-thursday-specials/",
+      "guid": "https://9ty9.co.za/events/black-sheep-bistro-thursday-specials/",
+      "pubDate": "Thu, 10 Sep 2026 10:00:00 +0000",
+      "dateStr": "2026-09-10",
+      "day": "10",
+      "month": "SEPT",
+      "description": "Thu, 10 September 2026 - 12:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Thursday-Specials.jfif"
+    },
+    {
       "title": "Sea Harvest Cape Crown at   in",
       "link": "https://9ty9.co.za/events/sea-harvest-cape-crown/",
       "guid": "https://9ty9.co.za/events/sea-harvest-cape-crown/",
@@ -2785,6 +2796,17 @@
       "month": "SEPT",
       "description": "Wed, 16 September 2026 - 09:00 - 12:00",
       "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Suikerbossie Curry and Rice - Wednesday Special at  Suikerbossie in Kabeljous",
+      "link": "https://9ty9.co.za/events/suikerbossie-curry-and-rice-wednesday-special/",
+      "guid": "https://9ty9.co.za/events/suikerbossie-curry-and-rice-wednesday-special/",
+      "pubDate": "Wed, 16 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-16",
+      "day": "16",
+      "month": "SEPT",
+      "description": "Wed, 16 September 2026 - 09:00 - 16:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Suikerbossie-Wednesday-Food-Specials.jfif"
     }
   ]
 }
