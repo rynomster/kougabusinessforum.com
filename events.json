@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-10T11:02:46.327Z",
+  "lastUpdated": "2026-09-10T16:13:26.022Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 255,
+  "count": 256,
   "events": [
     {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
@@ -2807,6 +2807,17 @@
       "month": "SEPT",
       "description": "Wed, 16 September 2026 - 09:00 - 16:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Suikerbossie-Wednesday-Food-Specials.jfif"
+    },
+    {
+      "title": "The Backyard Beer Garden Wednesday Special at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/the-backyard-beer-garden-wednesday-special/",
+      "guid": "https://9ty9.co.za/events/the-backyard-beer-garden-wednesday-special/",
+      "pubDate": "Wed, 16 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-16",
+      "day": "16",
+      "month": "SEPT",
+      "description": "Wed, 16 September 2026 - 11:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Backyard-Wednesday-food-special.jfif"
     }
   ]
 }
