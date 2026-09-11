@@ -1,74 +1,8 @@
 {
-  "lastUpdated": "2026-09-10T20:43:24.176Z",
+  "lastUpdated": "2026-09-11T04:11:52.561Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 257,
+  "count": 251,
   "events": [
-    {
-      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-2026-08-11/",
-      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-2026-08-11/",
-      "pubDate": "Tue, 11 Aug 2026 08:00:00 +0000",
-      "dateStr": "2026-08-11",
-      "day": "11",
-      "month": "AUG",
-      "description": "Tue, 11 August 2026 - 10:00 - 12:00",
-      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
-    },
-    {
-      "title": "Black Sheep Bistro - Monday Specials at  Black Sheep Bistro in Aston Bay",
-      "link": "https://9ty9.co.za/events/black-sheep-bistro-monday-specials/",
-      "guid": "https://9ty9.co.za/events/black-sheep-bistro-monday-specials/",
-      "pubDate": "Tue, 11 Aug 2026 10:00:00 +0000",
-      "dateStr": "2026-08-11",
-      "day": "11",
-      "month": "AUG",
-      "description": "Tue, 11 August 2026 - 12:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Monday-Specials.jfif"
-    },
-    {
-      "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai/",
-      "guid": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai/",
-      "pubDate": "Tue, 11 Aug 2026 15:15:00 +0000",
-      "dateStr": "2026-08-11",
-      "day": "11",
-      "month": "AUG",
-      "description": "Tue, 11 August 2026 - 17:15 - 18:15",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Voortrekkers.jfif"
-    },
-    {
-      "title": "Cocktails and Tacos at The Mexican - Tuesdays &amp; Thursdays at  The Mexican in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican-tuesdays-thursdays/",
-      "guid": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican-tuesdays-thursdays/",
-      "pubDate": "Tue, 11 Aug 2026 10:00:00 +0000",
-      "dateStr": "2026-08-11",
-      "day": "11",
-      "month": "AUG",
-      "description": "Tue, 11 August 2026 - 12:00 - 18:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Mexican-Taco-Special.jfif"
-    },
-    {
-      "title": "Tuesday Pizza Night at the J-Bar at  The J-Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/tuesday-pizza-night-at-the-j-bar/",
-      "guid": "https://9ty9.co.za/events/tuesday-pizza-night-at-the-j-bar/",
-      "pubDate": "Tue, 11 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-11",
-      "day": "11",
-      "month": "AUG",
-      "description": "Tue, 11 August 2026 - 11:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/J-Bar-Tuesday-Special.jfif"
-    },
-    {
-      "title": "Surf Boertjie Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/surf-boertjie-live-at-the-backyard/",
-      "guid": "https://9ty9.co.za/events/surf-boertjie-live-at-the-backyard/",
-      "pubDate": "Tue, 11 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-11",
-      "day": "11",
-      "month": "AUG",
-      "description": "Tue, 11 August 2026 - 18:00 - 21:00",
-      "image": "images/events/img_1_1786386609935.jpg"
-    },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-07-2026-08-12/",
