@@ -43,6 +43,49 @@
   <meta name="twitter:title" content="Membership 2026 | Kouga Business Forum">
   <meta name="twitter:description" content="Get listed, get connected, and get heard. Join KBF for 2026 and unlock exclusive networking and advocacy benefits.">
   <meta name="twitter:image" content="https://kougabusinessforum.com/images/jbay-coastal-hero.jpg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Who can join the Kouga Business Forum?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Membership is open to any registered business, entrepreneur, or professional operating within the Kouga region, including Jeffreys Bay, Humansdorp, St. Francis Bay, and surrounding areas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I receive my Verified badge?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Once your payment (Annual or Monthly) is processed and confirmed, our team will manually update your directory listing with the Verified Member badge within 48 hours."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between Annual and Monthly membership?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Annual membership is a one-time payment of R1,200 for the calendar year, offering maximum value. Monthly membership requires a registration fee and R100 per month via a PayFast subscription."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does KBF advocate for my business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We maintain active relationships with the Kouga Municipality and other key stakeholders. We attend relevant council meetings and economic development forums to represent our members' collective interests."
+        }
+      }
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 </head>
@@ -198,28 +241,28 @@
         <form id="membership-details-form">
           <div class="form-group">
             <label for="reg-business-name">Business Name *</label>
-            <input type="text" id="reg-business-name" name="business_name" required placeholder="Enter your business name" autocomplete="organization">
+            <input type="text" id="reg-business-name" name="business_name" required aria-required="true" placeholder="Enter your business name" autocomplete="organization">
           </div>
 
           <div class="form-row">
             <div class="form-group">
               <label for="reg-first-name">First Name *</label>
-              <input type="text" id="reg-first-name" name="first_name" required placeholder="John" autocomplete="given-name">
+              <input type="text" id="reg-first-name" name="first_name" required aria-required="true" placeholder="John" autocomplete="given-name">
             </div>
             <div class="form-group">
               <label for="reg-last-name">Last Name *</label>
-              <input type="text" id="reg-last-name" name="last_name" required placeholder="Doe" autocomplete="family-name">
+              <input type="text" id="reg-last-name" name="last_name" required aria-required="true" placeholder="Doe" autocomplete="family-name">
             </div>
           </div>
 
           <div class="form-row">
             <div class="form-group">
               <label for="reg-email">Email Address *</label>
-              <input type="email" id="reg-email" name="email" required placeholder="john@example.com" autocomplete="email">
+              <input type="email" id="reg-email" name="email" required aria-required="true" placeholder="john@example.com" autocomplete="email">
             </div>
             <div class="form-group">
               <label for="reg-phone">Phone Number *</label>
-              <input type="tel" id="reg-phone" name="phone" required placeholder="082 123 4567" autocomplete="tel">
+              <input type="tel" id="reg-phone" name="phone" required aria-required="true" placeholder="082 123 4567" autocomplete="tel">
             </div>
           </div>
 
