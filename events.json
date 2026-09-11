@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-11T16:16:52.622Z",
+  "lastUpdated": "2026-09-11T20:49:25.807Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 251,
+  "count": 253,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2600,6 +2600,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Building-Strong-Learners-12Sept2026.jfif"
     },
     {
+      "title": "Die Kospot: Saterdag Menu - Saturday Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-saterdag-menu-saturday-special/",
+      "guid": "https://9ty9.co.za/events/die-kospot-saterdag-menu-saturday-special/",
+      "pubDate": "Sat, 12 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-12",
+      "day": "12",
+      "month": "SEPT",
+      "description": "Sat, 12 September 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-12Sept2026.jpeg"
+    },
+    {
       "title": "Collective Market at  Collective Market in Gqeberha",
       "link": "https://9ty9.co.za/events/collective-market-2026-06-14-2026-07-12-2026-08-16-2026-09-13/",
       "guid": "https://9ty9.co.za/events/collective-market-2026-06-14-2026-07-12-2026-08-16-2026-09-13/",
@@ -2763,6 +2774,17 @@
       "month": "SEPT",
       "description": "Wed, 16 September 2026 - 12:00 - 14:00",
       "image": "images/events/Oase-Woensdag-Gebeds.jpeg"
+    },
+    {
+      "title": "De Viswijf Crusted Steak Wednesdays Dinner Deal at  De Viswijf in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/de-viswijf-crusted-steak-wednesdays-dinner-deal/",
+      "guid": "https://9ty9.co.za/events/de-viswijf-crusted-steak-wednesdays-dinner-deal/",
+      "pubDate": "Wed, 16 Sep 2026 15:00:00 +0000",
+      "dateStr": "2026-09-16",
+      "day": "16",
+      "month": "SEPT",
+      "description": "Wed, 16 September 2026 - 17:00 - 21:00",
+      "image": "images/events/DVW-Mon-Deal.jfif"
     }
   ]
 }
