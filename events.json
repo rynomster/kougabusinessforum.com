@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-12T15:23:16.595Z",
+  "lastUpdated": "2026-09-12T20:25:51.131Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 257,
+  "count": 264,
   "events": [
     {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
@@ -2829,6 +2829,83 @@
       "month": "SEPT",
       "description": "Fri, 18 September 2026 - 18:00 - 21:00",
       "image": "images/events/Cape-St-F-Resort-18Sept2026.jpg"
+    },
+    {
+      "title": "Dalin Oliver: Stuck in Dubai at St. Francis Brewery at   in",
+      "link": "https://9ty9.co.za/events/dalin-oliver-stuck-in-dubai-at-st-francis-brewery/",
+      "guid": "https://9ty9.co.za/events/dalin-oliver-stuck-in-dubai-at-st-francis-brewery/",
+      "pubDate": "Fri, 18 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-18",
+      "day": "18",
+      "month": "SEPT",
+      "description": "Fri, 18 September 2026 - 19:00 - 21:00",
+      "image": "images/events/Dalin-Oliver-18Sept2026.jpeg"
+    },
+    {
+      "title": "The Rising Women&#039;s Conference 2026 at  Victory Church in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/the-rising-womens-conference-2026/",
+      "guid": "https://9ty9.co.za/events/the-rising-womens-conference-2026/",
+      "pubDate": "Fri, 18 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-18",
+      "day": "18",
+      "month": "SEPT",
+      "description": "Fri, 18 September 2026 - Sun, 20 September 2026 - 19:00 - 21:00",
+      "image": "images/events/Rising-20Sept2026.webp"
+    },
+    {
+      "title": "REFENTSE live at The Music Kitchen at  The Music Kitchen in Gqeberha",
+      "link": "https://9ty9.co.za/events/refentse-live-at-the-music-kitchen/",
+      "guid": "https://9ty9.co.za/events/refentse-live-at-the-music-kitchen/",
+      "pubDate": "Fri, 18 Sep 2026 17:30:00 +0000",
+      "dateStr": "2026-09-18",
+      "day": "18",
+      "month": "SEPT",
+      "description": "Fri, 18 September 2026 - 19:30 - 22:00",
+      "image": "images/events/Music-Kitchen-18Sept2026.jpeg"
+    },
+    {
+      "title": "Dual Frequency Live at  Quayside Pub in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/dual-frequency-live/",
+      "guid": "https://9ty9.co.za/events/dual-frequency-live/",
+      "pubDate": "Fri, 18 Sep 2026 18:00:00 +0000",
+      "dateStr": "2026-09-18",
+      "day": "18",
+      "month": "SEPT",
+      "description": "Fri, 18 September 2026 - 20:00 - 23:00",
+      "image": "images/events/Quayside-18Sept2026.jpg"
+    },
+    {
+      "title": "Jimi Hendrix Tribute Show and Friends at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jimi-hendrix-tribute-show-and-friends/",
+      "guid": "https://9ty9.co.za/events/jimi-hendrix-tribute-show-and-friends/",
+      "pubDate": "Fri, 18 Sep 2026 18:00:00 +0000",
+      "dateStr": "2026-09-18",
+      "day": "18",
+      "month": "SEPT",
+      "description": "Fri, 18 September 2026 - 20:00 - 22:00",
+      "image": "images/events/Fergos-18Sept2026.jpeg"
+    },
+    {
+      "title": "Manie Jackson Live at The Wave Barrel at  The Wave Barrel in Jeffrey's Bay",
+      "link": "https://9ty9.co.za/events/manie-jackson-live-at-the-wave-barrel/",
+      "guid": "https://9ty9.co.za/events/manie-jackson-live-at-the-wave-barrel/",
+      "pubDate": "Fri, 18 Sep 2026 18:00:00 +0000",
+      "dateStr": "2026-09-18",
+      "day": "18",
+      "month": "SEPT",
+      "description": "Fri, 18 September 2026 - Sat, 19 September 2026 - 20:00 - 22:00",
+      "image": "images/events/Manie-Jackson-19Sept2026.jpg"
+    },
+    {
+      "title": "Fijnbosch Classic at  Zwartenbosch Golf Club in Humansdorp",
+      "link": "https://9ty9.co.za/events/fijnbosch-classic/",
+      "guid": "https://9ty9.co.za/events/fijnbosch-classic/",
+      "pubDate": "Sat, 19 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 08:00 - 17:00",
+      "image": "images/events/FIJNBOSCH-CLASSIC-19Sept2026.jpg"
     }
   ]
 }
