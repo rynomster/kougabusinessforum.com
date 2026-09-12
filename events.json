@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-12T04:10:52.504Z",
+  "lastUpdated": "2026-09-12T10:30:09.729Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 248,
+  "count": 252,
   "events": [
     {
       "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
@@ -2721,6 +2721,17 @@
       "image": "images/events/DVW-Mon-Deal.jfif"
     },
     {
+      "title": "Wednesday Bingo Night at Irish Pub and Grill at  Irish Pub and Grill in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/wednesday-bingo-night-at-irish-pub-and-grill/",
+      "guid": "https://9ty9.co.za/events/wednesday-bingo-night-at-irish-pub-and-grill/",
+      "pubDate": "Wed, 16 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-16",
+      "day": "16",
+      "month": "SEPT",
+      "description": "Wed, 16 September 2026 - 19:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Irish-Bingo-Wednesday.jfif"
+    },
+    {
       "title": "Cocktails and Tacos at The Mexican - Tuesdays &amp; Thursdays at  The Mexican in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican-tuesdays-thursdays-2/",
       "guid": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican-tuesdays-thursdays-2/",
@@ -2730,6 +2741,39 @@
       "month": "SEPT",
       "description": "Thu, 17 September 2026 - 12:00 - 18:00",
       "image": "images/events/Mexican-Taco-Special.jfif"
+    },
+    {
+      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/acoustic-night-2026-09-17/",
+      "guid": "https://9ty9.co.za/events/acoustic-night-2026-09-17/",
+      "pubDate": "Thu, 17 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-17",
+      "day": "17",
+      "month": "SEPT",
+      "description": "Thu, 17 September 2026 - 18:00 - 21:00",
+      "image": "images/events/Backyard-Acoustic-Night.jpg"
+    },
+    {
+      "title": "Chicago and Rocky Horror Dinner Show at  Port St. Francis Ski Boat and Yacht Club in Port St. Francis",
+      "link": "https://9ty9.co.za/events/chicago-and-rocky-horror-dinner-show/",
+      "guid": "https://9ty9.co.za/events/chicago-and-rocky-horror-dinner-show/",
+      "pubDate": "Thu, 17 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-17",
+      "day": "17",
+      "month": "SEPT",
+      "description": "Thu, 17 September 2026 - 18:00 - 22:00",
+      "image": "images/events/img_1_1787367694271.jpg"
+    },
+    {
+      "title": "Jeffreys Bay Primary Talent Show at  Jeffreys Bay Primary School in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jeffreys-bay-primary-talent-show/",
+      "guid": "https://9ty9.co.za/events/jeffreys-bay-primary-talent-show/",
+      "pubDate": "Thu, 17 Sep 2026 16:30:00 +0000",
+      "dateStr": "2026-09-17",
+      "day": "17",
+      "month": "SEPT",
+      "description": "Thu, 17 September 2026 - 18:30 - 20:30",
+      "image": "images/events/JBay-Primary-17Sept2026.jpeg"
     }
   ]
 }
