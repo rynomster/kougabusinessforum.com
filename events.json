@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-13T04:23:03.279Z",
+  "lastUpdated": "2026-09-13T11:32:44.908Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 259,
+  "count": 260,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2741,6 +2741,17 @@
       "month": "SEPT",
       "description": "Fri, 18 September 2026 - Sun, 20 September 2026 - All Day",
       "image": "images/events/Earthdance-20Sept2026.jpg"
+    },
+    {
+      "title": "Thursday Burger Special at JBay Bru Co. at  J-Bay Bru Co. in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/thursday-burger-special-at-jbay-bru-co/",
+      "guid": "https://9ty9.co.za/events/thursday-burger-special-at-jbay-bru-co/",
+      "pubDate": "Thu, 17 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-17",
+      "day": "17",
+      "month": "SEPT",
+      "description": "Thu, 17 September 2026 - 09:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Thursday-Burger-Special-at-JBay-Bru-Co.jfif"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
