@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-13T16:00:57.657Z",
+  "lastUpdated": "2026-09-13T20:36:48.892Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 260,
+  "count": 274,
   "events": [
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2862,6 +2862,160 @@
       "month": "SEPT",
       "description": "Sat, 19 September 2026 - 08:00 - 09:00",
       "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-09-19/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-09-19/",
+      "pubDate": "Sat, 19 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 08:00 - 09:00",
+      "image": "images/events/img_3_1786246960707.jpg"
+    },
+    {
+      "title": "ARK Animal Rescue Golf Day at  Langkloof Golf course in Joubertina",
+      "link": "https://9ty9.co.za/events/ark-animal-rescue-golf-day/",
+      "guid": "https://9ty9.co.za/events/ark-animal-rescue-golf-day/",
+      "pubDate": "Sat, 19 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 11:00 - 19:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Ark-Golf-Day-19Sep2026.jfif"
+    },
+    {
+      "title": "Man Braai — Special Winter Edition to Save our Rhinos at  Lombardini Game Farm in Paradise Beach",
+      "link": "https://9ty9.co.za/events/man-braai-special-winter-edition-to-save-our-rhinos/",
+      "guid": "https://9ty9.co.za/events/man-braai-special-winter-edition-to-save-our-rhinos/",
+      "pubDate": "Sat, 19 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 11:00 - 18:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Man-Braai-19Sept2026.jfif"
+    },
+    {
+      "title": "7th Heaven Children&#039;s Haven — 25th Birthday Bash! at  Lower Point in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/7th-heaven-childrens-haven-25th-birthday-bash/",
+      "guid": "https://9ty9.co.za/events/7th-heaven-childrens-haven-25th-birthday-bash/",
+      "pubDate": "Sat, 19 Sep 2026 12:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 14:00 - 18:00",
+      "image": "images/events/7th-Heaven-19Sept2026.jpg"
+    },
+    {
+      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-12-2026-09-19/",
+      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-12-2026-09-19/",
+      "pubDate": "Sat, 19 Sep 2026 13:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 15:00 - 18:00",
+      "image": "images/events/Backyard-Karaoke.jpg"
+    },
+    {
+      "title": "Alexander - Live Music at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/alexander-live-music/",
+      "guid": "https://9ty9.co.za/events/alexander-live-music/",
+      "pubDate": "Sat, 19 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 18:00 - 21:00",
+      "image": "images/events/PiliPili-26Sept2026.jpg"
+    },
+    {
+      "title": "Kunskoors bied aan Jak de Priester: Van Sally tot Somerset-Wes at  Oase Gemeente in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kunskoors-bied-aan-jak-de-priester-van-sally-tot-somerset-wes/",
+      "guid": "https://9ty9.co.za/events/kunskoors-bied-aan-jak-de-priester-van-sally-tot-somerset-wes/",
+      "pubDate": "Sat, 19 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 18:00 - 20:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Jak-19Sept2026.jfif"
+    },
+    {
+      "title": "It&#039;s All in Your Head - A Psychological Illusion Experience at  Isithatha Theatre in Gqeberha",
+      "link": "https://9ty9.co.za/events/its-all-in-your-head-a-psychological-illusion-experience/",
+      "guid": "https://9ty9.co.za/events/its-all-in-your-head-a-psychological-illusion-experience/",
+      "pubDate": "Sat, 19 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 19:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/In-Your-Head-19Sep2026.jfif"
+    },
+    {
+      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-12-2026-09-19/",
+      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-12-2026-09-19/",
+      "pubDate": "Sat, 19 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 19:00 - 23:59",
+      "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Salsa Evening at Elements at  Elements PE in Gqeberha",
+      "link": "https://9ty9.co.za/events/salsa-evening-at-elements/",
+      "guid": "https://9ty9.co.za/events/salsa-evening-at-elements/",
+      "pubDate": "Sat, 19 Sep 2026 17:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 19:00 - 23:59",
+      "image": "images/events/Elements-19Sept2026.jpg"
+    },
+    {
+      "title": "Nádine – Ladies of Rock at  Centrestage in Gqeberha",
+      "link": "https://9ty9.co.za/events/nadine-ladies-of-rock/",
+      "guid": "https://9ty9.co.za/events/nadine-ladies-of-rock/",
+      "pubDate": "Sat, 19 Sep 2026 17:30:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 19:30 - 22:00",
+      "image": "images/events/0944828_0.jpg"
+    },
+    {
+      "title": "Wildside at St. Francis Brewery at  St. Francis Brewing Co. in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/wildside-at-st-francis-brewery/",
+      "guid": "https://9ty9.co.za/events/wildside-at-st-francis-brewery/",
+      "pubDate": "Sat, 19 Sep 2026 17:30:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 19:30 - 21:30",
+      "image": "images/events/Wildside-19Sept2026.jpg"
+    },
+    {
+      "title": "Green Flag Trail Run 2026 at  Van Stadens Flower Reserve in Van Stadens",
+      "link": "https://9ty9.co.za/events/green-flag-trail-run-2026/",
+      "guid": "https://9ty9.co.za/events/green-flag-trail-run-2026/",
+      "pubDate": "Sun, 20 Sep 2026 04:30:00 +0000",
+      "dateStr": "2026-09-20",
+      "day": "20",
+      "month": "SEPT",
+      "description": "Sun, 20 September 2026 - 06:30 - 11:15",
+      "image": "images/events/Green-Flag-Trail-Run-20Sept2026.jpg"
+    },
+    {
+      "title": "Myan Subrayan – Gasspreker at  Oase Gemeente in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/myan-subrayan-gasspreker/",
+      "guid": "https://9ty9.co.za/events/myan-subrayan-gasspreker/",
+      "pubDate": "Sun, 20 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-20",
+      "day": "20",
+      "month": "SEPT",
+      "description": "Sun, 20 September 2026 - 09:00 - 10:30",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Myan-20Sept2026.jfif"
     }
   ]
 }
