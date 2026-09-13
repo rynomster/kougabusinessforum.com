@@ -1,74 +1,8 @@
 {
-  "lastUpdated": "2026-09-12T20:25:51.131Z",
+  "lastUpdated": "2026-09-13T04:23:03.279Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 264,
+  "count": 259,
   "events": [
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-08-13/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-13/",
-      "pubDate": "Thu, 13 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-13",
-      "day": "13",
-      "month": "AUG",
-      "description": "Thu, 13 August 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "Far from a Dance: A Story by Michael Charton at  St. Francis Brewing Co. in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/far-from-a-dance-a-story-by-michael-charton/",
-      "guid": "https://9ty9.co.za/events/far-from-a-dance-a-story-by-michael-charton/",
-      "pubDate": "Thu, 13 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-13",
-      "day": "13",
-      "month": "AUG",
-      "description": "Thu, 13 August 2026 - 18:00 - 20:00",
-      "image": "images/events/Far-from-a-Dance-13Aug2026.jpg"
-    },
-    {
-      "title": "Thursday Burger Special at JBay Bru Co. at  J-Bay Bru Co. in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/thursday-burger-special-at-jbay-bru-co/",
-      "guid": "https://9ty9.co.za/events/thursday-burger-special-at-jbay-bru-co/",
-      "pubDate": "Thu, 13 Aug 2026 07:00:00 +0000",
-      "dateStr": "2026-08-13",
-      "day": "13",
-      "month": "AUG",
-      "description": "Thu, 13 August 2026 - 09:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Thursday-Burger-Special-at-JBay-Bru-Co.jfif"
-    },
-    {
-      "title": "Cocktails and Tacos at The Mexican - Tuesdays &amp; Thursdays at  The Mexican in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican/",
-      "guid": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican/",
-      "pubDate": "Thu, 13 Aug 2026 10:00:00 +0000",
-      "dateStr": "2026-08-13",
-      "day": "13",
-      "month": "AUG",
-      "description": "Thu, 13 August 2026 - 12:00 - 18:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Mexican-Taco-Special.jfif"
-    },
-    {
-      "title": "Thirsty Thursday at the J-Bay at  The J-Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/thirsty-thursday-at-the-j-bay/",
-      "guid": "https://9ty9.co.za/events/thirsty-thursday-at-the-j-bay/",
-      "pubDate": "Thu, 13 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-13",
-      "day": "13",
-      "month": "AUG",
-      "description": "Thu, 13 August 2026 - 11:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/J-Bar-Thursday-Special.jfif"
-    },
-    {
-      "title": "Thirsty Thursday at the J-Bar at  The J-Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/thirsty-thursday-at-the-j-bar/",
-      "guid": "https://9ty9.co.za/events/thirsty-thursday-at-the-j-bar/",
-      "pubDate": "Thu, 13 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-13",
-      "day": "13",
-      "month": "AUG",
-      "description": "Thu, 13 August 2026 - 11:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/J-Bar-Thursday-Special.jfif"
-    },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-12-2026-08-14/",
@@ -2906,6 +2840,17 @@
       "month": "SEPT",
       "description": "Sat, 19 September 2026 - 08:00 - 17:00",
       "image": "images/events/FIJNBOSCH-CLASSIC-19Sept2026.jpg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-12-2026-09-19/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-12-2026-09-19/",
+      "pubDate": "Sat, 19 Sep 2026 06:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
     }
   ]
 }
