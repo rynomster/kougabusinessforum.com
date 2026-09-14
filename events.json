@@ -1,96 +1,8 @@
 {
-  "lastUpdated": "2026-09-13T20:36:48.892Z",
+  "lastUpdated": "2026-09-14T04:29:59.453Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 274,
+  "count": 270,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-12-2026-08-14/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-12-2026-08-14/",
-      "pubDate": "Fri, 14 Aug 2026 07:00:00 +0000",
-      "dateStr": "2026-08-14",
-      "day": "14",
-      "month": "AUG",
-      "description": "Fri, 14 August 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Gqeberha String Trio presents ARIA at  11 Aldabara Run in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/gqeberha-string-trio-presents-aria/",
-      "guid": "https://9ty9.co.za/events/gqeberha-string-trio-presents-aria/",
-      "pubDate": "Fri, 14 Aug 2026 15:30:00 +0000",
-      "dateStr": "2026-08-14",
-      "day": "14",
-      "month": "AUG",
-      "description": "Fri, 14 August 2026 - 17:30 - 19:30",
-      "image": "images/events/String-Trio-14Aug2026.jpeg"
-    },
-    {
-      "title": "Unshaken  - -GLA School Production at  Global Leadership Academy (GLA) in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/unshaken-gla-school-production/",
-      "guid": "https://9ty9.co.za/events/unshaken-gla-school-production/",
-      "pubDate": "Fri, 14 Aug 2026 16:30:00 +0000",
-      "dateStr": "2026-08-14",
-      "day": "14",
-      "month": "AUG",
-      "description": "Fri, 14 August 2026 - 18:30 - 20:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Unshaken-14Aug2026.jfif"
-    },
-    {
-      "title": "Weekend Platter Dinner Deal at De Viswijf at  De Viswijf in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/weekend-platter-dinner-deal-at-de-viswijf/",
-      "guid": "https://9ty9.co.za/events/weekend-platter-dinner-deal-at-de-viswijf/",
-      "pubDate": "Fri, 14 Aug 2026 15:00:00 +0000",
-      "dateStr": "2026-08-14",
-      "day": "14",
-      "month": "AUG",
-      "description": "Fri, 14 August 2026 - Sat, 15 August 2026 - 17:00 - 21:00",
-      "image": "images/events/IMG-20260725-WA0016.jpg"
-    },
-    {
-      "title": "Acoustica Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustica-live-at-the-backyard/",
-      "guid": "https://9ty9.co.za/events/acoustica-live-at-the-backyard/",
-      "pubDate": "Fri, 14 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-14",
-      "day": "14",
-      "month": "AUG",
-      "description": "Fri, 14 August 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-14Aug2026.jfif"
-    },
-    {
-      "title": "Kerry Hiles Live at Quayside Pub at  Quayside Pub in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/kerry-hiles-live-at-quayside-pub/",
-      "guid": "https://9ty9.co.za/events/kerry-hiles-live-at-quayside-pub/",
-      "pubDate": "Fri, 14 Aug 2026 18:00:00 +0000",
-      "dateStr": "2026-08-14",
-      "day": "14",
-      "month": "AUG",
-      "description": "Fri, 14 August 2026 - 20:00 - 23:00",
-      "image": "images/events/Quayside-14Aug2026.jpg"
-    },
-    {
-      "title": "Rob Thompson and Edward Allen Live at Fergo&#039;s at  Fergo’s Rhythm Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/rob-thompson-and-edward-allen-live-at-fergos/",
-      "guid": "https://9ty9.co.za/events/rob-thompson-and-edward-allen-live-at-fergos/",
-      "pubDate": "Fri, 14 Aug 2026 17:30:00 +0000",
-      "dateStr": "2026-08-14",
-      "day": "14",
-      "month": "AUG",
-      "description": "Fri, 14 August 2026 - 19:30 - 22:30",
-      "image": "images/events/Fergos-14Aug2026.jpeg"
-    },
-    {
-      "title": "Friday Bunnychow Special at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friday-bunnychow-special/",
-      "guid": "https://9ty9.co.za/events/friday-bunnychow-special/",
-      "pubDate": "Fri, 14 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-14",
-      "day": "14",
-      "month": "AUG",
-      "description": "Fri, 14 August 2026 - 11:00 - 15:00",
-      "image": "images/events/Oppi-Friday-Specials.jfif"
-    },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-08-2026-08-15/",
@@ -2578,6 +2490,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/kospot-13Sept2026.jfif"
     },
     {
+      "title": "Die Kospot: Maandag Menu - Monday Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-maandag-menu-monday-special/",
+      "guid": "https://9ty9.co.za/events/die-kospot-maandag-menu-monday-special/",
+      "pubDate": "Mon, 14 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-14",
+      "day": "14",
+      "month": "SEPT",
+      "description": "Mon, 14 September 2026 - 11:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/kospot-14Sept2026.jfif"
+    },
+    {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-08-2026-09-15/",
       "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-08-2026-09-15/",
@@ -2609,6 +2532,17 @@
       "month": "SEPT",
       "description": "Tue, 15 September 2026 - 18:30 - 19:30",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Bedieningsaand-15Sept2026.jfif"
+    },
+    {
+      "title": "Live Music in the Backyard — Chase Blaeser at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/live-music-in-the-backyard-chase-blaeser/",
+      "guid": "https://9ty9.co.za/events/live-music-in-the-backyard-chase-blaeser/",
+      "pubDate": "Tue, 15 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-15",
+      "day": "15",
+      "month": "SEPT",
+      "description": "Tue, 15 September 2026 - 18:00 - 20:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Backyard-15Sept2026.jfif"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
@@ -2842,6 +2776,17 @@
       "image": "images/events/Manie-Jackson-19Sept2026.jpg"
     },
     {
+      "title": "Kerry Hiles Live at  The Backyard Beer Garden in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/kerry-hiles-live-2/",
+      "guid": "https://9ty9.co.za/events/kerry-hiles-live-2/",
+      "pubDate": "Fri, 18 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-18",
+      "day": "18",
+      "month": "SEPT",
+      "description": "Fri, 18 September 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Backyard-18Sept2026.jfif"
+    },
+    {
       "title": "Fijnbosch Classic at  Zwartenbosch Golf Club in Humansdorp",
       "link": "https://9ty9.co.za/events/fijnbosch-classic/",
       "guid": "https://9ty9.co.za/events/fijnbosch-classic/",
@@ -2994,6 +2939,17 @@
       "month": "SEPT",
       "description": "Sat, 19 September 2026 - 19:30 - 21:30",
       "image": "images/events/Wildside-19Sept2026.jpg"
+    },
+    {
+      "title": "Christmas Bauble Decorations Class at  JBay Sewing Centre in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/christmas-bauble-decorations-class/",
+      "guid": "https://9ty9.co.za/events/christmas-bauble-decorations-class/",
+      "pubDate": "Sat, 19 Sep 2026 08:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 10:00 - 12:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/JBay-Sewing-Center-19Sept2026.jfif"
     },
     {
       "title": "Green Flag Trail Run 2026 at  Van Stadens Flower Reserve in Van Stadens",
