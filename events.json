@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-14T04:29:59.453Z",
+  "lastUpdated": "2026-09-14T12:26:46.917Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 270,
+  "count": 273,
   "events": [
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
@@ -2501,6 +2501,28 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/kospot-14Sept2026.jfif"
     },
     {
+      "title": "Spring Menu at De Viswijf at  De Viswijf in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/spring-menu-at-de-viswijf/",
+      "guid": "https://9ty9.co.za/events/spring-menu-at-de-viswijf/",
+      "pubDate": "Mon, 14 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-14",
+      "day": "14",
+      "month": "SEPT",
+      "description": "Mon, 14 September 2026 - Sat, 19 September 2026 - 11:00 - 15:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/DVW-Weekly-Lunch.jfif"
+    },
+    {
+      "title": "Black Sheep Bistro - Monday Specials at  Black Sheep Bistro in Aston Bay",
+      "link": "https://9ty9.co.za/events/black-sheep-bistro-monday-specials/",
+      "guid": "https://9ty9.co.za/events/black-sheep-bistro-monday-specials/",
+      "pubDate": "Mon, 14 Sep 2026 10:00:00 +0000",
+      "dateStr": "2026-09-14",
+      "day": "14",
+      "month": "SEPT",
+      "description": "Mon, 14 September 2026 - 12:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Monday-Specials2.jfif"
+    },
+    {
       "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-08-2026-09-15/",
       "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-08-2026-09-15/",
@@ -2785,6 +2807,17 @@
       "month": "SEPT",
       "description": "Fri, 18 September 2026 - 18:00 - 21:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Backyard-18Sept2026.jfif"
+    },
+    {
+      "title": "Friday Bunnychow Special at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friday-bunnychow-special/",
+      "guid": "https://9ty9.co.za/events/friday-bunnychow-special/",
+      "pubDate": "Fri, 18 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-18",
+      "day": "18",
+      "month": "SEPT",
+      "description": "Fri, 18 September 2026 - 11:00 - 15:00",
+      "image": "images/events/Oppi-Friday-Specials.jfif"
     },
     {
       "title": "Fijnbosch Classic at  Zwartenbosch Golf Club in Humansdorp",
