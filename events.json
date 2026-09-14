@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-14T12:26:46.917Z",
+  "lastUpdated": "2026-09-14T21:42:55.233Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 273,
+  "count": 275,
   "events": [
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
@@ -2567,6 +2567,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Backyard-15Sept2026.jfif"
     },
     {
+      "title": "Die Kospot: Dinsdag Menu - Tuesday Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-dinsdag-menu-tuesday-special/",
+      "guid": "https://9ty9.co.za/events/die-kospot-dinsdag-menu-tuesday-special/",
+      "pubDate": "Tue, 15 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-15",
+      "day": "15",
+      "month": "SEPT",
+      "description": "Tue, 15 September 2026 - 11:00 - 13:00",
+      "image": null
+    },
+    {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-11-2026-09-16/",
       "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-11-2026-09-16/",
@@ -2708,6 +2719,17 @@
       "month": "SEPT",
       "description": "Thu, 17 September 2026 - 09:00 - 21:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Thursday-Burger-Special-at-JBay-Bru-Co.jfif"
+    },
+    {
+      "title": "Paint and Sip - The Quays Restaurant at  The Quays Restaurant in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/paint-and-sip-the-quays-restaurant/",
+      "guid": "https://9ty9.co.za/events/paint-and-sip-the-quays-restaurant/",
+      "pubDate": "Thu, 17 Sep 2026 16:00:00 +0000",
+      "dateStr": "2026-09-17",
+      "day": "17",
+      "month": "SEPT",
+      "description": "Thu, 17 September 2026 - 18:00 - 20:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Quays-17Sept2026.jfif"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
