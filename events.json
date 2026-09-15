@@ -1,118 +1,8 @@
 {
-  "lastUpdated": "2026-09-14T21:42:55.233Z",
+  "lastUpdated": "2026-09-15T04:29:46.632Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 275,
+  "count": 266,
   "events": [
-    {
-      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-08-2026-08-15/",
-      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-08-2026-08-15/",
-      "pubDate": "Sat, 15 Aug 2026 06:00:00 +0000",
-      "dateStr": "2026-08-15",
-      "day": "15",
-      "month": "AUG",
-      "description": "Sat, 15 August 2026 - 08:00 - 09:00",
-      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
-    },
-    {
-      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-08-2026-08-15/",
-      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-2026-05-23-08-2026-08-15/",
-      "pubDate": "Sat, 15 Aug 2026 06:00:00 +0000",
-      "dateStr": "2026-08-15",
-      "day": "15",
-      "month": "AUG",
-      "description": "Sat, 15 August 2026 - 08:00 - 09:00",
-      "image": "images/events/St-Francis-Parkrun.jpg"
-    },
-    {
-      "title": "Our Market at  Our Market in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/our-market-2026-07-04-2026-08-15/",
-      "guid": "https://9ty9.co.za/events/our-market-2026-07-04-2026-08-15/",
-      "pubDate": "Sat, 15 Aug 2026 07:00:00 +0000",
-      "dateStr": "2026-08-15",
-      "day": "15",
-      "month": "AUG",
-      "description": "Sat, 15 August 2026 - 09:00 - 13:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/05/Our-Market-15Aug2026.jfif"
-    },
-    {
-      "title": "Ski Boat Club Potjie Challenge 2026 at  Port St. Francis Ski Boat and Yacht Club in Port St. Francis",
-      "link": "https://9ty9.co.za/events/ski-boat-club-potjie-challenge-2026/",
-      "guid": "https://9ty9.co.za/events/ski-boat-club-potjie-challenge-2026/",
-      "pubDate": "Sat, 15 Aug 2026 11:00:00 +0000",
-      "dateStr": "2026-08-15",
-      "day": "15",
-      "month": "AUG",
-      "description": "Sat, 15 August 2026 - 13:00 - 18:00",
-      "image": "images/events/Potjie-Challenge-15Aug2026.jpeg"
-    },
-    {
-      "title": "Karaoke and afternoon tunes at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-08-2026-08-15/",
-      "guid": "https://9ty9.co.za/events/karaoke-and-afternoon-tunes-at-the-backyard-2026-01-31-2026-02-07-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-08-2026-08-15/",
-      "pubDate": "Sat, 15 Aug 2026 13:00:00 +0000",
-      "dateStr": "2026-08-15",
-      "day": "15",
-      "month": "AUG",
-      "description": "Sat, 15 August 2026 - 15:00 - 18:00",
-      "image": "images/events/Backyard-Karaoke.jpg"
-    },
-    {
-      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-08-15/",
-      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-08-15/",
-      "pubDate": "Sat, 15 Aug 2026 06:00:00 +0000",
-      "dateStr": "2026-08-15",
-      "day": "15",
-      "month": "AUG",
-      "description": "Sat, 15 August 2026 - 08:00 - 09:00",
-      "image": "images/events/img_3_1786246960707.jpg"
-    },
-    {
-      "title": "Therese and Dave at Tapas GQ at  Tapas Bar and Restaurant - Walmer (GQ) in Gqeberha",
-      "link": "https://9ty9.co.za/events/therese-and-dave-at-tapas-gq-2/",
-      "guid": "https://9ty9.co.za/events/therese-and-dave-at-tapas-gq-2/",
-      "pubDate": "Sat, 15 Aug 2026 13:00:00 +0000",
-      "dateStr": "2026-08-15",
-      "day": "15",
-      "month": "AUG",
-      "description": "Sat, 15 August 2026 - 15:00 - 18:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Therese-and-Dave-30Aug2026.jfif"
-    },
-    {
-      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-08-2026-08-15/",
-      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-08-2026-08-15/",
-      "pubDate": "Sat, 15 Aug 2026 17:00:00 +0000",
-      "dateStr": "2026-08-15",
-      "day": "15",
-      "month": "AUG",
-      "description": "Sat, 15 August 2026 - 19:00 - 23:59",
-      "image": "images/events/Karaoke-Dec2026.jpeg"
-    },
-    {
-      "title": "Dual Frequency Live at Quayside Pub at  Quayside Pub in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/dual-frequency-live-at-quayside-pub/",
-      "guid": "https://9ty9.co.za/events/dual-frequency-live-at-quayside-pub/",
-      "pubDate": "Sat, 15 Aug 2026 17:00:00 +0000",
-      "dateStr": "2026-08-15",
-      "day": "15",
-      "month": "AUG",
-      "description": "Sat, 15 August 2026 - 19:00 - 23:00",
-      "image": "images/events/Quayside-15Aug2026.jpg"
-    },
-    {
-      "title": "Eddie Collin Performing Live at The J-Bar at  The J-Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/eddie-collin-performing-live-at-the-j-bar/",
-      "guid": "https://9ty9.co.za/events/eddie-collin-performing-live-at-the-j-bar/",
-      "pubDate": "Sat, 15 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-15",
-      "day": "15",
-      "month": "AUG",
-      "description": "Sat, 15 August 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/J-Bar-15Aug2026.jfif"
-    },
     {
       "title": "Collective Market at  Collective Market in Gqeberha",
       "link": "https://9ty9.co.za/events/collective-market-2026-06-14-2026-07-12-2026-08-16/",
@@ -3005,6 +2895,17 @@
       "month": "SEPT",
       "description": "Sat, 19 September 2026 - 10:00 - 12:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/JBay-Sewing-Center-19Sept2026.jfif"
+    },
+    {
+      "title": "Aston Bay Beach Indoor Market at  Aston Bay Community Hall in Aston Bay",
+      "link": "https://9ty9.co.za/events/aston-bay-beach-indoor-market/",
+      "guid": "https://9ty9.co.za/events/aston-bay-beach-indoor-market/",
+      "pubDate": "Sat, 19 Sep 2026 07:00:00 +0000",
+      "dateStr": "2026-09-19",
+      "day": "19",
+      "month": "SEPT",
+      "description": "Sat, 19 September 2026 - 09:00 - 14:00",
+      "image": null
     },
     {
       "title": "Green Flag Trail Run 2026 at  Van Stadens Flower Reserve in Van Stadens",
