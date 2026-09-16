@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-16T11:17:25.364Z",
+  "lastUpdated": "2026-09-16T16:38:12.731Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 254,
+  "count": 256,
   "events": [
     {
       "title": "Flavour Fusion Mondays Dinner Deal at  De Viswijf in Jeffreys Bay",
@@ -2402,6 +2402,17 @@
       "image": "images/events/Kospot-16Sept2026.jpeg"
     },
     {
+      "title": "The J Bar Wednesday Special: Kerrie and Rice at  The J-Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/the-j-bar-wednesday-special-kerrie-and-rice/",
+      "guid": "https://9ty9.co.za/events/the-j-bar-wednesday-special-kerrie-and-rice/",
+      "pubDate": "Wed, 16 Sep 2026 10:00:00 +0000",
+      "dateStr": "2026-09-16",
+      "day": "16",
+      "month": "SEPT",
+      "description": "Wed, 16 September 2026 - 12:00 - 20:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/J-Bar-Wednesday-Special.jfif"
+    },
+    {
       "title": "Cocktails and Tacos at The Mexican - Tuesdays &amp; Thursdays at  The Mexican in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican-tuesdays-thursdays-2/",
       "guid": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican-tuesdays-thursdays-2/",
@@ -2488,6 +2499,17 @@
       "month": "SEPT",
       "description": "Thu, 17 September 2026 - 18:00 - 20:00",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Quays-17Sept2026.jfif"
+    },
+    {
+      "title": "Die Kospot Thursday Special at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-thursday-special/",
+      "guid": "https://9ty9.co.za/events/die-kospot-thursday-special/",
+      "pubDate": "Thu, 17 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-17",
+      "day": "17",
+      "month": "SEPT",
+      "description": "Thu, 17 September 2026 - 11:00 - 13:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Kospot-17Sept2026.jfif"
     },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
