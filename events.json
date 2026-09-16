@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-16T16:38:12.731Z",
+  "lastUpdated": "2026-09-16T21:09:39.676Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 256,
+  "count": 261,
   "events": [
     {
       "title": "Flavour Fusion Mondays Dinner Deal at  De Viswijf in Jeffreys Bay",
@@ -2818,6 +2818,61 @@
       "month": "SEPT",
       "description": "Sun, 20 September 2026 - 09:00 - 10:30",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Myan-20Sept2026.jfif"
+    },
+    {
+      "title": "Lee-V&#039;s Coffee &amp; Eatery Sunday Lunch at  Lee-V&#039;s Coffee &amp; Eatery in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/lee-vs-coffee-eatery-sunday-lunch/",
+      "guid": "https://9ty9.co.za/events/lee-vs-coffee-eatery-sunday-lunch/",
+      "pubDate": "Sun, 20 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-20",
+      "day": "20",
+      "month": "SEPT",
+      "description": "Sun, 20 September 2026 - 11:00 - 14:00",
+      "image": "images/events/Lee-V-Sunday-Lunch.jpg"
+    },
+    {
+      "title": "Spekboomlapa - Sondag Ete at  Spekboomlapa in Loerieheuwel",
+      "link": "https://9ty9.co.za/events/spekboomlapa-sondag-ete/",
+      "guid": "https://9ty9.co.za/events/spekboomlapa-sondag-ete/",
+      "pubDate": "Sun, 20 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-20",
+      "day": "20",
+      "month": "SEPT",
+      "description": "Sun, 20 September 2026 - 11:00 - 15:00",
+      "image": "images/events/Spekboom-20Sept2026.jpg"
+    },
+    {
+      "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
+      "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-13-2026-09-20/",
+      "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-13-2026-09-20/",
+      "pubDate": "Sun, 20 Sep 2026 09:00:00 +0000",
+      "dateStr": "2026-09-20",
+      "day": "20",
+      "month": "SEPT",
+      "description": "Sun, 20 September 2026 - 11:00 - 15:00",
+      "image": "images/events/Vernon-Thornhill2.jpg"
+    },
+    {
+      "title": "Mellow &amp; Jive - Live Music at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mellow-jive-live-music/",
+      "guid": "https://9ty9.co.za/events/mellow-jive-live-music/",
+      "pubDate": "Sun, 20 Sep 2026 12:00:00 +0000",
+      "dateStr": "2026-09-20",
+      "day": "20",
+      "month": "SEPT",
+      "description": "Sun, 20 September 2026 - 14:00 - 17:00",
+      "image": "images/events/PiliPili-26Sept2026.jpg"
+    },
+    {
+      "title": "Properties on Show in Jeffreys Bay and Surrounds at   in",
+      "link": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-09-20/",
+      "guid": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-09-20/",
+      "pubDate": "Sun, 20 Sep 2026 13:00:00 +0000",
+      "dateStr": "2026-09-20",
+      "day": "20",
+      "month": "SEPT",
+      "description": "Sun, 20 September 2026 - 15:00 - 17:00",
+      "image": "images/events/PropOnShowEvent.jpg"
     }
   ]
 }
