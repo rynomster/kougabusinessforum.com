@@ -1,85 +1,8 @@
 {
-  "lastUpdated": "2026-09-17T21:11:36.203Z",
+  "lastUpdated": "2026-09-18T04:16:01.311Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 260,
+  "count": 253,
   "events": [
-    {
-      "title": "JBay FUNDURO 2026 at  Papiesfontein in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/jbay-funduro-2026/",
-      "guid": "https://9ty9.co.za/events/jbay-funduro-2026/",
-      "pubDate": "Tue, 18 Aug 2026 06:45:00 +0000",
-      "dateStr": "2026-08-18",
-      "day": "18",
-      "month": "AUG",
-      "description": "Tue, 18 August 2026 - 08:45 - 15:00",
-      "image": "images/events/JBay-FUNDURO-18July2026.jpg"
-    },
-    {
-      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-11-2026-08-18/",
-      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-11-2026-08-18/",
-      "pubDate": "Tue, 18 Aug 2026 08:00:00 +0000",
-      "dateStr": "2026-08-18",
-      "day": "18",
-      "month": "AUG",
-      "description": "Tue, 18 August 2026 - 10:00 - 12:00",
-      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
-    },
-    {
-      "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-2/",
-      "guid": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-2/",
-      "pubDate": "Tue, 18 Aug 2026 15:15:00 +0000",
-      "dateStr": "2026-08-18",
-      "day": "18",
-      "month": "AUG",
-      "description": "Tue, 18 August 2026 - 17:15 - 18:15",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Voortrekkers.jfif"
-    },
-    {
-      "title": "Scrapbook and Cardmaking Classes with Priscilla at  The Studio at 106 Da Gama in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/scrapbook-and-cardmaking-classes-with-priscilla/",
-      "guid": "https://9ty9.co.za/events/scrapbook-and-cardmaking-classes-with-priscilla/",
-      "pubDate": "Tue, 18 Aug 2026 08:00:00 +0000",
-      "dateStr": "2026-08-18",
-      "day": "18",
-      "month": "AUG",
-      "description": "Tue, 18 August 2026 - 10:00 - 13:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/The-Studio-26Aug2026.jfif"
-    },
-    {
-      "title": "Tuesday Food Specials at The Backyard Beer Garden at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/tuesday-food-specials-at-the-backyard-beer-garden/",
-      "guid": "https://9ty9.co.za/events/tuesday-food-specials-at-the-backyard-beer-garden/",
-      "pubDate": "Tue, 18 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-18",
-      "day": "18",
-      "month": "AUG",
-      "description": "Tue, 18 August 2026 - 11:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/07/Backyard-Tuesday-food-special.jfif"
-    },
-    {
-      "title": "Eisbein Tuesdays Dinner Deal at  De Viswijf in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/eisbein-tuesdays-dinner-deal/",
-      "guid": "https://9ty9.co.za/events/eisbein-tuesdays-dinner-deal/",
-      "pubDate": "Tue, 18 Aug 2026 15:00:00 +0000",
-      "dateStr": "2026-08-18",
-      "day": "18",
-      "month": "AUG",
-      "description": "Tue, 18 August 2026 - 17:00 - 21:00",
-      "image": "images/events/DFV-Tue-Deal.jpeg"
-    },
-    {
-      "title": "Escape to the Music of Alcatraz at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/escape-to-the-music-of-alcatraz-at-the-backyard/",
-      "guid": "https://9ty9.co.za/events/escape-to-the-music-of-alcatraz-at-the-backyard/",
-      "pubDate": "Tue, 18 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-18",
-      "day": "18",
-      "month": "AUG",
-      "description": "Tue, 18 August 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-18Aug2026.jfif"
-    },
     {
       "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-14-2026-08-19/",
