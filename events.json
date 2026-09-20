@@ -1,41 +1,8 @@
 {
-  "lastUpdated": "2026-09-19T20:24:46.968Z",
+  "lastUpdated": "2026-09-20T04:31:34.741Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 248,
+  "count": 245,
   "events": [
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-08-20/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-20/",
-      "pubDate": "Thu, 20 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-20",
-      "day": "20",
-      "month": "AUG",
-      "description": "Thu, 20 August 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "The Village Voices - St. Francis Brewery at  St. Francis Brewing Co. in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/the-village-voices-st-francis-brewery/",
-      "guid": "https://9ty9.co.za/events/the-village-voices-st-francis-brewery/",
-      "pubDate": "Thu, 20 Aug 2026 16:30:00 +0000",
-      "dateStr": "2026-08-20",
-      "day": "20",
-      "month": "AUG",
-      "description": "Thu, 20 August 2026 - 18:30 - 20:30",
-      "image": "images/events/The-Village-Voices-20Aug2026.jpg"
-    },
-    {
-      "title": "Creative Art Morning at The Studio at  The Studio at 106 Da Gama in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/creative-art-morning-at-the-studio/",
-      "guid": "https://9ty9.co.za/events/creative-art-morning-at-the-studio/",
-      "pubDate": "Thu, 20 Aug 2026 07:30:00 +0000",
-      "dateStr": "2026-08-20",
-      "day": "20",
-      "month": "AUG",
-      "description": "Thu, 20 August 2026 - 09:30 - 12:30",
-      "image": "images/events/The-Studio-20Aug2026.jfif"
-    },
     {
       "title": "Sea Harvest SA Surfing Championships – 60th Edition at   in",
       "link": "https://9ty9.co.za/events/sea-harvest-sa-surfing-championships-60th-edition/",
