@@ -19,61 +19,13 @@ jobs:
           # Use the CSV export URL with the secret Sheet ID
           curl -L "https://docs.google.com/spreadsheets/d/${{ secrets.GOOGLE_SHEET_ID }}/gviz/tq?tqx=out:csv" -o directory_raw.csv
 
-      - name: Convert CSV to JSON
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
-      - name: Run Conversion Script
-        run: |
-          node -e '
-          const fs = require("fs");
-          const csv = fs.readFileSync("directory_raw.csv", "utf8");
 
-          function splitCsv(line) {
-            const result = [];
-            let current = "";
-            let inQuotes = false;
-            for (let i = 0; i < line.length; i++) {
-              const char = line[i];
-              if (char === "\""") {
-                inQuotes = !inQuotes;
-              } else if (char === "," && !inQuotes) {
-                result.push(current);
-                current = "";
-              } else {
-                current += char;
-              }
-            }
-            result.push(current);
-            return result;
-          }
-
-          const lines = csv.split("\n").filter(l => l.trim());
-          const headers = splitCsv(lines[0]).map(h => h.replace(/"/g, "").trim());
-          const data = lines.slice(1).map(line => {
-            const values = splitCsv(line);
-            const obj = {};
-            headers.forEach((h, i) => {
-              const header = h.toLowerCase();
-              let val = (values[i] || "").replace(/^"|"$/g, "").trim();
-
-              if (val === "TRUE") val = true;
-              else if (val === "FALSE") val = false;
-
-              // Data normalization for filtering compatibility
-              if (header === "category") {
-                val = val.toLowerCase();
-              } else if (header === "location") {
-                val = val.toLowerCase().replace(/[\s.]+/g, "-").replace(/-+/g, "-");
-              }
-
-              obj[header] = val;
-            });
-            return obj;
-          });
-          fs.writeFileSync("directory.json", JSON.stringify({ listings: data }, null, 2));
-          '
+      - name: Run Directory Sync Script
+        run: HUSKY=0 node js/directory-sync.js
 
       - name: Commit and Push Changes
         env:
