@@ -713,6 +713,20 @@
       "icon": "building",
       "verified": true,
       "membership_year": "2026"
+    },
+    {
+      "id": "1052",
+      "name": "Edge Fitness",
+      "category": "services",
+      "location": "kouga-wide",
+      "description": "KBF Member since 2026.",
+      "contact": "",
+      "email": "",
+      "website": "https://edgefitness.co.za/",
+      "logo": "images/members/edge-fitness.png",
+      "icon": "building",
+      "verified": true,
+      "membership_year": "2026"
     }
   ]
 }
