@@ -1,63 +1,8 @@
 {
-  "lastUpdated": "2026-09-25T21:23:54.041Z",
+  "lastUpdated": "2026-09-26T04:34:45.065Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 212,
+  "count": 207,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-21-2026-08-26/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-21-2026-08-26/",
-      "pubDate": "Wed, 26 Aug 2026 07:00:00 +0000",
-      "dateStr": "2026-08-26",
-      "day": "26",
-      "month": "AUG",
-      "description": "Wed, 26 August 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Scrap and Chat at The Studio at  The Studio at 106 Da Gama in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/scrap-and-chat-at-the-studio-2/",
-      "guid": "https://9ty9.co.za/events/scrap-and-chat-at-the-studio-2/",
-      "pubDate": "Wed, 26 Aug 2026 08:00:00 +0000",
-      "dateStr": "2026-08-26",
-      "day": "26",
-      "month": "AUG",
-      "description": "Wed, 26 August 2026 - 10:00 - 13:00",
-      "image": "images/events/The-Studio-26Aug2026.jfif"
-    },
-    {
-      "title": "Surf Boertjie Live at The Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/surf-boertje-live-at-the-backyard/",
-      "guid": "https://9ty9.co.za/events/surf-boertje-live-at-the-backyard/",
-      "pubDate": "Wed, 26 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-26",
-      "day": "26",
-      "month": "AUG",
-      "description": "Wed, 26 August 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-26Aug2026.jfif"
-    },
-    {
-      "title": "Wednesday Meal of the Day at Oppi Spektrum at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/wednesday-meal-of-the-day-at-oppi-spektrum/",
-      "guid": "https://9ty9.co.za/events/wednesday-meal-of-the-day-at-oppi-spektrum/",
-      "pubDate": "Wed, 26 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-26",
-      "day": "26",
-      "month": "AUG",
-      "description": "Wed, 26 August 2026 - 11:00 - 15:00",
-      "image": "images/events/Oppi-Wednesday-Specials.jfif"
-    },
-    {
-      "title": "Woensdag by Die Kospot at  Die Kospot in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/woensdag-by-die-kospot/",
-      "guid": "https://9ty9.co.za/events/woensdag-by-die-kospot/",
-      "pubDate": "Wed, 26 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-26",
-      "day": "26",
-      "month": "AUG",
-      "description": "Wed, 26 August 2026 - 11:00 - 15:00",
-      "image": "images/events/Kospot-26Aug2026.jpeg"
-    },
     {
       "title": "Art Mornings with Johlize at  The Studio at 106 Da Gama in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/art-mornings-with-johlize/",
