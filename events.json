@@ -1,74 +1,8 @@
 {
-  "lastUpdated": "2026-09-26T20:55:28.451Z",
+  "lastUpdated": "2026-09-27T04:53:53.365Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 207,
+  "count": 201,
   "events": [
-    {
-      "title": "Art Mornings with Johlize at  The Studio at 106 Da Gama in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/art-mornings-with-johlize/",
-      "guid": "https://9ty9.co.za/events/art-mornings-with-johlize/",
-      "pubDate": "Thu, 27 Aug 2026 07:30:00 +0000",
-      "dateStr": "2026-08-27",
-      "day": "27",
-      "month": "AUG",
-      "description": "Thu, 27 August 2026 - 09:30 - 12:30",
-      "image": "images/events/The-Studio-26Aug2026.jfif"
-    },
-    {
-      "title": "The List Is Empty at  Dolphins Leap Conference and Events Centre in Gqeberha",
-      "link": "https://9ty9.co.za/events/the-list-is-empty/",
-      "guid": "https://9ty9.co.za/events/the-list-is-empty/",
-      "pubDate": "Thu, 27 Aug 2026 14:00:00 +0000",
-      "dateStr": "2026-08-27",
-      "day": "27",
-      "month": "AUG",
-      "description": "Thu, 27 August 2026 - 16:00 - 22:00",
-      "image": "images/events/The-List-Is-Empty-27Aug2026.jpeg"
-    },
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-08-27/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-08-27/",
-      "pubDate": "Thu, 27 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-27",
-      "day": "27",
-      "month": "AUG",
-      "description": "Thu, 27 August 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "Quiz Night at the Backyard at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/quiz-night-a-the-backyard-2026-08-27/",
-      "guid": "https://9ty9.co.za/events/quiz-night-a-the-backyard-2026-08-27/",
-      "pubDate": "Thu, 27 Aug 2026 17:00:00 +0000",
-      "dateStr": "2026-08-27",
-      "day": "27",
-      "month": "AUG",
-      "description": "Thu, 27 August 2026 - 19:00 - 21:00",
-      "image": "images/events/Quiz-Night-17Dec2026.jpg"
-    },
-    {
-      "title": "Throwback Thursday Quiz Night at Legends at  Legends Sports Bar, Pizzeria and Grill in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/throwback-thursday-quiz-night-at-legends/",
-      "guid": "https://9ty9.co.za/events/throwback-thursday-quiz-night-at-legends/",
-      "pubDate": "Thu, 27 Aug 2026 16:00:00 +0000",
-      "dateStr": "2026-08-27",
-      "day": "27",
-      "month": "AUG",
-      "description": "Thu, 27 August 2026 - 18:00 - 21:00",
-      "image": "images/events/Legends-27Aug2026.jfif"
-    },
-    {
-      "title": "Thursday Boerewors Rolls at Oppi Spektrum at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/thursday-boerewors-rolls-at-oppi-spektrum/",
-      "guid": "https://9ty9.co.za/events/thursday-boerewors-rolls-at-oppi-spektrum/",
-      "pubDate": "Thu, 27 Aug 2026 09:00:00 +0000",
-      "dateStr": "2026-08-27",
-      "day": "27",
-      "month": "AUG",
-      "description": "Thu, 27 August 2026 - 11:00 - 15:00",
-      "image": "images/events/Oppi-Thursday-Specials.jpeg"
-    },
     {
       "title": "Besigheid Fokus: Christelike Beginsels vir Jou Besigheid at  Oase Gemeente in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/besigheid-fokus-christelike-beginsels-vir-jou-besigheid/",
