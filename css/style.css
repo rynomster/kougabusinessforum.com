@@ -1694,18 +1694,40 @@ textarea {
   margin-bottom: 2rem;
 }
 
+.event-rsvp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.6rem;
+  background: var(--accent-gradient);
+  color: white !important;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 8px;
+  vertical-align: middle;
+  transition: all var(--transition-fast);
+  line-height: 1.2;
+}
+
+.event-rsvp-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(6, 200, 255, 0.4);
+}
+
 .add-to-cal {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   background: var(--accent-cyan);
   color: white;
   border-radius: 4px;
   font-size: 12px;
   text-decoration: none;
-  margin-left: 8px;
+  margin-left: 4px;
   vertical-align: middle;
   transition: all var(--transition-fast);
   line-height: 1;
