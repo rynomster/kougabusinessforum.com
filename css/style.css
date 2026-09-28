@@ -1694,6 +1694,15 @@ textarea {
   margin-bottom: 2rem;
 }
 
+.event-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 .add-to-cal {
   display: inline-flex;
   align-items: center;
@@ -1705,7 +1714,6 @@ textarea {
   border-radius: 4px;
   font-size: 12px;
   text-decoration: none;
-  margin-left: 8px;
   vertical-align: middle;
   transition: all var(--transition-fast);
   line-height: 1;
@@ -1715,6 +1723,29 @@ textarea {
   transform: scale(1.15);
   background: var(--accent-teal);
   box-shadow: 0 2px 5px rgba(6, 200, 255, 0.3);
+}
+
+.event-rsvp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  background: var(--accent-gradient);
+  color: white;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  vertical-align: middle;
+  transition: all var(--transition-fast);
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+
+.event-rsvp-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(6, 200, 255, 0.35);
+  opacity: 0.95;
 }
 
 /* ============================
