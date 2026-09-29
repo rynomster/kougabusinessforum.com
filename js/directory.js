@@ -235,6 +235,19 @@ function renderDirectory() {
             // Performance: Use native lazy loading to reduce initial bandwidth and improve LCP
             // Expected impact: ~5-10% reduction in initial data transfer for long directory lists
             img.loading = 'lazy';
+
+            // Robust fallback: if image fails to load (404/broken path), replace with category icon
+            img.onerror = () => {
+                icon.innerHTML = '';
+                const iconName = categoryIcons[b.category] || 'building';
+                const iconEl = document.createElement('i');
+                iconEl.setAttribute('data-lucide', iconName);
+                icon.appendChild(iconEl);
+                if (typeof lucide !== 'undefined') {
+                    lucide.createIcons();
+                }
+            };
+
             icon.appendChild(img);
         } else {
             const iconName = categoryIcons[b.category] || 'building';
