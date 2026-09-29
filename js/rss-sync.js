@@ -50,7 +50,7 @@ async function syncEvents() {
     console.warn('Warning: Could not read header/footer templates. Using empty placeholders.', err.message);
   }
 
-  const MAX_PAGES = 5;
+  const MAX_PAGES = 25;
   let hasMorePages = true;
   let totalNewEventsAdded = 0;
   let totalNewEventsSkipped = 0;
