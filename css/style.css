@@ -1609,6 +1609,10 @@ textarea {
   padding-left: 0.5rem;
   border-left: 2px solid transparent;
   transition: border-color 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .event-list li:hover {
@@ -1621,6 +1625,27 @@ textarea {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.event-rsvp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.55rem;
+  background: var(--primary-dark);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  line-height: 1.2;
+}
+
+.event-rsvp-btn:hover {
+  background: var(--accent-teal);
+  color: white;
+  transform: translateY(-1px);
 }
 
 /* Directory Call to Action */
