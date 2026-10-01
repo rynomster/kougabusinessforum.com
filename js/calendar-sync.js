@@ -129,9 +129,20 @@ function generateHTML(eventList) {
           <h3>${monthName}</h3>
           <ul class="event-list">
             ${monthEvents.map(ev => {
-              return `            <li>
-              <strong>${ev.day} ${ev.monthAbbr}</strong> ${escapeHTML(ev.summary)}
-              <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar">+</a>
+              const rsvpUrl = `contact.html?enquiry=events&event=${encodeURIComponent(ev.summary)}#contact-form`;
+              return `            <li style="display: flex; flex-direction: column; gap: 0.25rem;">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem;">
+                <div>
+                  <strong>${ev.day} ${ev.monthAbbr}</strong>
+                  <span>${escapeHTML(ev.summary)}</span>
+                </div>
+                <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar" style="flex-shrink: 0;">+</a>
+              </div>
+              <div style="margin-top: 0.25rem;">
+                <a href="${rsvpUrl}" class="event-rsvp-btn" style="display: inline-flex; align-items: center; gap: 4px; font-size: 0.75rem; color: var(--accent-teal); font-weight: 600; text-decoration: none;">
+                  <i data-lucide="send" width="12" height="12"></i> RSVP / Enquire
+                </a>
+              </div>
             </li>`;
             }).join('\n')}
           </ul>
