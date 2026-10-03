@@ -1,52 +1,8 @@
 {
-  "lastUpdated": "2026-10-02T22:02:36.982Z",
+  "lastUpdated": "2026-10-03T04:54:03.238Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 159,
+  "count": 155,
   "events": [
-    {
-      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-28-2026-09-02/",
-      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-28-2026-09-02/",
-      "pubDate": "Wed, 02 Sep 2026 07:00:00 +0000",
-      "dateStr": "2026-09-02",
-      "day": "02",
-      "month": "SEPT",
-      "description": "Wed, 2 September 2026 - 09:00 - 12:00",
-      "image": "images/events/Friends-of-the-Library.jpg"
-    },
-    {
-      "title": "Humane World for Animals: What Feeds Us at  St. Francis Brewing Co. in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/humane-world-for-animals-what-feeds-us/",
-      "guid": "https://9ty9.co.za/events/humane-world-for-animals-what-feeds-us/",
-      "pubDate": "Wed, 02 Sep 2026 16:00:00 +0000",
-      "dateStr": "2026-09-02",
-      "day": "02",
-      "month": "SEPT",
-      "description": "Wed, 2 September 2026 - 18:00 - 20:30",
-      "image": "images/events/What-Feeds-Us-2Sept2026.jpg"
-    },
-    {
-      "title": "Hani B Live at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/hani-b-live/",
-      "guid": "https://9ty9.co.za/events/hani-b-live/",
-      "pubDate": "Wed, 02 Sep 2026 16:00:00 +0000",
-      "dateStr": "2026-09-02",
-      "day": "02",
-      "month": "SEPT",
-      "description": "Wed, 2 September 2026 - 18:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Backyard-2Sept2026.jfif"
-    },
-    {
-      "title": "Woensdag Special - Die Kospot at  Die Kospot in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/woensdag-special-die-kospot/",
-      "guid": "https://9ty9.co.za/events/woensdag-special-die-kospot/",
-      "pubDate": "Wed, 02 Sep 2026 09:00:00 +0000",
-      "dateStr": "2026-09-02",
-      "day": "02",
-      "month": "SEPT",
-      "description": "Wed, 2 September 2026 - 11:00 - 13:00",
-      "image": "images/events/Kospot-2Sept2026.jpeg"
-    },
     {
       "title": "Pasta Thursdays Dinner Deal - Thursday Special at  De Viswijf in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/pasta-thursdays-dinner-deal-thursday-special/",
