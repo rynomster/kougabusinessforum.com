@@ -1,85 +1,8 @@
 {
-  "lastUpdated": "2026-10-08T23:11:05.204Z",
+  "lastUpdated": "2026-10-09T05:42:10.253Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 114,
+  "count": 107,
   "events": [
-    {
-      "title": "SACBW Network Event with Dr Philippa Fabbri at  Centrestage in Gqeberha",
-      "link": "https://9ty9.co.za/events/sacbw-network-event-with-dr-philippa-fabbri/",
-      "guid": "https://9ty9.co.za/events/sacbw-network-event-with-dr-philippa-fabbri/",
-      "pubDate": "Tue, 08 Sep 2026 07:00:00 +0000",
-      "dateStr": "2026-09-08",
-      "day": "08",
-      "month": "SEPT",
-      "description": "Tue, 8 September 2026 - 09:00 - 11:00",
-      "image": "images/events/Centrestage-StragThink-8Sept2026.jpg"
-    },
-    {
-      "title": "2 Hour Acrylic Painting Workshop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-01-2026-09-08/",
-      "guid": "https://9ty9.co.za/events/2-hour-acrylic-painting-workshop-2026-05-05-2026-05-12-2026-05-19-2026-05-26-2026-06-02-2026-06-09-2026-06-16-2026-06-23-2026-06-30-2026-07-07-2026-07-14-2026-07-21-2026-07-28-2026-08-04-01-2026-09-08/",
-      "pubDate": "Tue, 08 Sep 2026 08:00:00 +0000",
-      "dateStr": "2026-09-08",
-      "day": "08",
-      "month": "SEPT",
-      "description": "Tue, 8 September 2026 - 10:00 - 12:00",
-      "image": "images/events/Acrylic-Painting-Workshop-22Dec2026.jpg"
-    },
-    {
-      "title": "Black Sheep Bistro - Tuesday Specials at  Black Sheep Bistro in Aston Bay",
-      "link": "https://9ty9.co.za/events/black-sheep-bistro-tuesday-specials/",
-      "guid": "https://9ty9.co.za/events/black-sheep-bistro-tuesday-specials/",
-      "pubDate": "Tue, 08 Sep 2026 10:00:00 +0000",
-      "dateStr": "2026-09-08",
-      "day": "08",
-      "month": "SEPT",
-      "description": "Tue, 8 September 2026 - 12:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Tuesday-Specials.jfif"
-    },
-    {
-      "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-5/",
-      "guid": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-5/",
-      "pubDate": "Tue, 08 Sep 2026 15:15:00 +0000",
-      "dateStr": "2026-09-08",
-      "day": "08",
-      "month": "SEPT",
-      "description": "Tue, 8 September 2026 - 17:15 - 18:15",
-      "image": "images/events/Voortrekkers.jfif"
-    },
-    {
-      "title": "Dinsdag Menu - Tuesday Special at  Die Kospot in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/dinsdag-menu-tuesday-special/",
-      "guid": "https://9ty9.co.za/events/dinsdag-menu-tuesday-special/",
-      "pubDate": "Tue, 08 Sep 2026 09:00:00 +0000",
-      "dateStr": "2026-09-08",
-      "day": "08",
-      "month": "SEPT",
-      "description": "Tue, 8 September 2026 - 11:00 - 13:00",
-      "image": "images/events/Kospot-8Sept2026.jpeg"
-    },
-    {
-      "title": "Quiz Night at St. Francis Links at  St. Francis Links in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/quiz-night-at-st-francis-links/",
-      "guid": "https://9ty9.co.za/events/quiz-night-at-st-francis-links/",
-      "pubDate": "Tue, 08 Sep 2026 17:00:00 +0000",
-      "dateStr": "2026-09-08",
-      "day": "08",
-      "month": "SEPT",
-      "description": "Tue, 8 September 2026 - 19:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/St-Francis-Links-8Sept2026.jfif"
-    },
-    {
-      "title": "Mauritian Chicken and Prawn Curry - Lunchtime Special at  Chokka Block Restaurant in Port St. Francis",
-      "link": "https://9ty9.co.za/events/mauritian-chicken-and-prawn-curry-lunchtime-special/",
-      "guid": "https://9ty9.co.za/events/mauritian-chicken-and-prawn-curry-lunchtime-special/",
-      "pubDate": "Tue, 08 Sep 2026 09:30:00 +0000",
-      "dateStr": "2026-09-08",
-      "day": "08",
-      "month": "SEPT",
-      "description": "Tue, 8 September 2026 - Fri, 11 September 2026 - 11:30 - 16:30",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Chokka-Block-11Sept2026.jfif"
-    },
     {
       "title": "Curry and Rice - Wednesday Special at  Suikerbossie in Kabeljous",
       "link": "https://9ty9.co.za/events/curry-and-rice-wednesday-special/",
