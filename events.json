@@ -1,74 +1,8 @@
 {
-  "lastUpdated": "2026-10-10T21:27:13.628Z",
+  "lastUpdated": "2026-10-11T05:19:04.715Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 99,
+  "count": 93,
   "events": [
-    {
-      "title": "Acoustic Night at  The Backyard Beer Garden in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/acoustic-night-2026-09-10/",
-      "guid": "https://9ty9.co.za/events/acoustic-night-2026-09-10/",
-      "pubDate": "Thu, 10 Sep 2026 16:00:00 +0000",
-      "dateStr": "2026-09-10",
-      "day": "10",
-      "month": "SEPT",
-      "description": "Thu, 10 September 2026 - 18:00 - 21:00",
-      "image": "images/events/Backyard-Acoustic-Night.jpg"
-    },
-    {
-      "title": "Anton Calitz - Songs and Stories Behind His Book &quot;Everyday&#039;s a Miracle&quot; at  The Music Kitchen in Gqeberha",
-      "link": "https://9ty9.co.za/events/anton-calitz-songs-and-stories-behind-his-book-everydays-a-miracle/",
-      "guid": "https://9ty9.co.za/events/anton-calitz-songs-and-stories-behind-his-book-everydays-a-miracle/",
-      "pubDate": "Thu, 10 Sep 2026 17:00:00 +0000",
-      "dateStr": "2026-09-10",
-      "day": "10",
-      "month": "SEPT",
-      "description": "Thu, 10 September 2026 - 19:00 - 22:00",
-      "image": "images/events/d6d508cbea88463386e0cbe0b2db5a3f.jpeg"
-    },
-    {
-      "title": "Kuns en Klets – Watercolour Techniques at  Tasty Table Cafe in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/kuns-en-klets-watercolour-techniques/",
-      "guid": "https://9ty9.co.za/events/kuns-en-klets-watercolour-techniques/",
-      "pubDate": "Thu, 10 Sep 2026 09:00:00 +0000",
-      "dateStr": "2026-09-10",
-      "day": "10",
-      "month": "SEPT",
-      "description": "Thu, 10 September 2026 - 11:00 - 13:00",
-      "image": "images/events/Kund-Klets-26Nov2026.jpeg"
-    },
-    {
-      "title": "Lavender Ladies Guest Speaker: Where Two Biodiversity Hotspots Meet at  JBay Baptist Church in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/lavender-ladies-guest-speaker-where-two-biodiversity-hotspots-meet/",
-      "guid": "https://9ty9.co.za/events/lavender-ladies-guest-speaker-where-two-biodiversity-hotspots-meet/",
-      "pubDate": "Thu, 10 Sep 2026 12:30:00 +0000",
-      "dateStr": "2026-09-10",
-      "day": "10",
-      "month": "SEPT",
-      "description": "Thu, 10 September 2026 - 14:30 - 16:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Lavendar-10Sept2026.jfif"
-    },
-    {
-      "title": "Die Kospot: Donderdag Menu - Thursday Special at  Die Kospot in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/die-kospot-donderdag-menu-thursday-special/",
-      "guid": "https://9ty9.co.za/events/die-kospot-donderdag-menu-thursday-special/",
-      "pubDate": "Thu, 10 Sep 2026 09:00:00 +0000",
-      "dateStr": "2026-09-10",
-      "day": "10",
-      "month": "SEPT",
-      "description": "Thu, 10 September 2026 - 11:00 - 13:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Kospot-10Sept2026.jfif"
-    },
-    {
-      "title": "Black Sheep Bistro - Thursday Specials at  Black Sheep Bistro in Aston Bay",
-      "link": "https://9ty9.co.za/events/black-sheep-bistro-thursday-specials/",
-      "guid": "https://9ty9.co.za/events/black-sheep-bistro-thursday-specials/",
-      "pubDate": "Thu, 10 Sep 2026 10:00:00 +0000",
-      "dateStr": "2026-09-10",
-      "day": "10",
-      "month": "SEPT",
-      "description": "Thu, 10 September 2026 - 12:00 - 21:00",
-      "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Blach-Sheep-Bistro-Thursday-Specials.jfif"
-    },
     {
       "title": "Sea Harvest Cape Crown at   in",
       "link": "https://9ty9.co.za/events/sea-harvest-cape-crown/",
