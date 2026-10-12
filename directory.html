@@ -160,6 +160,27 @@
   <section class="section">
     <div class="directory-content">
       <div class="directory-results" id="resultsContainer">
+        <!-- Directory Trust & Badge Reassurance Banner -->
+        <div class="directory-trust-banner" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: white; padding: 1.5rem 2rem; border-radius: var(--radius-md); margin-bottom: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.25rem; box-shadow: var(--shadow-sm);">
+          <div style="flex: 1; min-width: 280px;">
+            <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+              <span class="badge badge-verified" style="display: inline-flex; align-items: center; gap: 4px; padding: 0.25rem 0.65rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 700; background: linear-gradient(135deg, #06c8ff, #0e7996); color: white;">
+                <i data-lucide="check-circle" width="14" height="14"></i> KBF Verified
+              </span>
+              <span style="font-size: 0.9rem; font-weight: 600; color: rgba(255, 255, 255, 0.95);">Official Member Listings</span>
+            </div>
+            <p style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.85); margin: 0; line-height: 1.5;">
+              Look for the <strong>KBF Verified</strong> badge for authenticated 2026 members with full contact details. Want your business verified with full contact details?
+            </p>
+          </div>
+          <div>
+            <a href="membership.html#pricing" class="btn btn-primary" style="white-space: nowrap; font-size: 0.9rem; padding: 0.65rem 1.25rem;">
+              <i data-lucide="shield-check" width="18" height="18" style="vertical-align: middle; margin-right: 4px;"></i>
+              Get Verified Membership
+            </a>
+          </div>
+        </div>
+
         <div class="result-count" id="resultCount" aria-live="polite">Loading businesses...</div>
         <div class="grid">
           <!-- Dynamic businesses will be loaded here via js/directory.js -->
