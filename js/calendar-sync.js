@@ -129,9 +129,15 @@ function generateHTML(eventList) {
           <h3>${monthName}</h3>
           <ul class="event-list">
             ${monthEvents.map(ev => {
+              const rsvpLink = `contact.html?enquiry=events&event=${encodeURIComponent(ev.summary)}#contact-form`;
               return `            <li>
-              <strong>${ev.day} ${ev.monthAbbr}</strong> ${escapeHTML(ev.summary)}
-              <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar">+</a>
+              <div>
+                <strong>${ev.day} ${ev.monthAbbr}</strong> ${escapeHTML(ev.summary)}
+              </div>
+              <div class="event-actions" style="display: flex; align-items: center; gap: 6px; flex-shrink: 0; white-space: nowrap;">
+                <a href="${rsvpLink}" class="event-rsvp-btn" title="RSVP for this event">RSVP</a>
+                <a href="${ev.link}" target="_blank" class="add-to-cal" title="Add to Google Calendar">+</a>
+              </div>
             </li>`;
             }).join('\n')}
           </ul>
@@ -171,6 +177,23 @@ function generateHTML(eventList) {
   <meta name="twitter:title" content="KBF Events | Kouga Business Forum">
   <meta name="twitter:description" content="Official KBF events, meetings, and workshops for Kouga business leaders.">
   <meta name="twitter:image" content="https://kougabusinessforum.com/images/jbay-coastal-hero.jpg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Official KBF Events Calendar",
+    "url": "https://kougabusinessforum.com/kbevents.html",
+    "description": "Official Kouga Business Forum (KBF) events, AGM meetings, networking sessions, and workshops for the Kouga business community.",
+    "provider": {
+      "@type": "NGO",
+      "name": "Kouga Business Forum",
+      "url": "https://kougabusinessforum.com",
+      "identifier": "250-595 NPO"
+    }
+  }
+  </script>
 
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
