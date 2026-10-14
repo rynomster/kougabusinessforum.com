@@ -1,21 +1,7 @@
 {
-  "lastUpdated": "2026-10-13T22:20:29.332Z",
-  "count": 4,
+  "lastUpdated": "2026-10-14T03:45:54.551Z",
+  "count": 3,
   "events": [
-    {
-      "summary": "Networking Function (Gala Evening?)",
-      "description": "Official KBF Event. Time and details TBA.",
-      "descriptionClean": "Official KBF Event. Time and details TBA.",
-      "location": "",
-      "link": "https://www.google.com/calendar/render?action=TEMPLATE&text=Networking%20Function%20(Gala%20Evening%3F)&dates=20261012T000000Z/20261013T000000Z&details=Official%20KBF%20Event.%20Time%20and%20details%20TBA.&location=",
-      "start": "2026-10-12T00:00:00.000Z",
-      "end": "2026-10-13T00:00:00.000Z",
-      "dateStr": "2026-10-12",
-      "day": "12",
-      "monthAbbr": "OCT",
-      "monthFull": "October",
-      "year": "2026"
-    },
     {
       "summary": "Committee Meeting",
       "description": "Official KBF Event. Time and details TBA.",
