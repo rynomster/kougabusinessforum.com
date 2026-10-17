@@ -1,21 +1,7 @@
 {
-  "lastUpdated": "2026-10-16T20:34:02.073Z",
-  "count": 3,
+  "lastUpdated": "2026-10-17T03:13:30.421Z",
+  "count": 2,
   "events": [
-    {
-      "summary": "Committee Meeting",
-      "description": "Official KBF Event. Time and details TBA.",
-      "descriptionClean": "Official KBF Event. Time and details TBA.",
-      "location": "",
-      "link": "https://www.google.com/calendar/render?action=TEMPLATE&text=Committee%20Meeting&dates=20261015T000000Z/20261016T000000Z&details=Official%20KBF%20Event.%20Time%20and%20details%20TBA.&location=",
-      "start": "2026-10-15T00:00:00.000Z",
-      "end": "2026-10-16T00:00:00.000Z",
-      "dateStr": "2026-10-15",
-      "day": "15",
-      "monthAbbr": "OCT",
-      "monthFull": "October",
-      "year": "2026"
-    },
     {
       "summary": "2027 Strategic Planning",
       "description": "Official KBF Event. Time and details TBA.",
