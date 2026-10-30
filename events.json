@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-30T12:36:00.810Z",
+  "lastUpdated": "2026-10-30T22:09:49.533Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 108,
+  "count": 120,
   "events": [
     {
       "title": "Oktoberfest Special – Joe Fish at  Joe Fish Restaurant and Bar in Cape St. Francis",
@@ -1060,6 +1060,17 @@
       "image": "images/events/0996007_0.jpeg"
     },
     {
+      "title": "Die Kospot Saturday Special - Lamskerrie, Beeskerrie, Lasagne, Spare Ribs and Curry Bunny at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-saturday-special-lamskerrie-beeskerrie-lasagne-spare-ribs-and-curry-bunny/",
+      "guid": "https://9ty9.co.za/events/die-kospot-saturday-special-lamskerrie-beeskerrie-lasagne-spare-ribs-and-curry-bunny/",
+      "pubDate": "Sat, 31 Oct 2026 09:00:00 +0000",
+      "dateStr": "2026-10-31",
+      "day": "31",
+      "month": "OCT",
+      "description": "Sat, 31 October 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-31Oct2026.jfif"
+    },
+    {
       "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
       "link": "https://9ty9.co.za/events/crossways-village-market-2026-11-01/",
       "guid": "https://9ty9.co.za/events/crossways-village-market-2026-11-01/",
@@ -1170,6 +1181,17 @@
       "image": "images/events/Oase-1Nov2026.jfif"
     },
     {
+      "title": "Sunday Lunch at the Irish Pub and Grill at  Irish Pub and Grill in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/sunday-lunch-at-the-irish-pub-and-grill-2/",
+      "guid": "https://9ty9.co.za/events/sunday-lunch-at-the-irish-pub-and-grill-2/",
+      "pubDate": "Sun, 01 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-01",
+      "day": "01",
+      "month": "NOV",
+      "description": "Sun, 1 November 2026 - 12:00 - 14:00",
+      "image": "images/events/Irsh-Pub-1Nov2026.jfif"
+    },
+    {
       "title": "A Travel Through Times: Solo Exhibition by Annette Kamfer at  Art on Target in Gqeberha",
       "link": "https://9ty9.co.za/events/a-travel-through-times-solo-exhibition-by-annette-kamfer-3/",
       "guid": "https://9ty9.co.za/events/a-travel-through-times-solo-exhibition-by-annette-kamfer-3/",
@@ -1190,6 +1212,116 @@
       "month": "NOV",
       "description": "Tue, 3 November 2026 - 12:00 - 14:00",
       "image": "images/events/Oppi-3Nov2026.jfif"
+    },
+    {
+      "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-12/",
+      "guid": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-12/",
+      "pubDate": "Tue, 03 Nov 2026 15:15:00 +0000",
+      "dateStr": "2026-11-03",
+      "day": "03",
+      "month": "NOV",
+      "description": "Tue, 3 November 2026 - 17:15 - 18:15",
+      "image": "images/events/Voortrekkers.jfif"
+    },
+    {
+      "title": "Quiz Night at St. Francis Links at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/quiz-night-at-st-francis-links/",
+      "guid": "https://9ty9.co.za/events/quiz-night-at-st-francis-links/",
+      "pubDate": "Tue, 03 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-03",
+      "day": "03",
+      "month": "NOV",
+      "description": "Tue, 3 November 2026 - 18:00 - 20:00",
+      "image": "images/events/St-Francis-Links-8Dec2026.jfif"
+    },
+    {
+      "title": "2026 Local Government Elections at  Kouga in Kouga",
+      "link": "https://9ty9.co.za/events/2026-local-government-elections/",
+      "guid": "https://9ty9.co.za/events/2026-local-government-elections/",
+      "pubDate": "Wed, 04 Nov 2026 05:00:00 +0000",
+      "dateStr": "2026-11-04",
+      "day": "04",
+      "month": "NOV",
+      "description": "Wed, 4 November 2026 - 07:00 - 21:00",
+      "image": "images/events/Election-2026.jpg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-30-2026-11-04/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-30-2026-11-04/",
+      "pubDate": "Wed, 04 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-04",
+      "day": "04",
+      "month": "NOV",
+      "description": "Wed, 4 November 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "esc — Launch of Escape Wines&#039; New Pinot Noir at  St. Francis Links Clubhouse in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/esc-launch-of-escape-wines-new-pinot-noir/",
+      "guid": "https://9ty9.co.za/events/esc-launch-of-escape-wines-new-pinot-noir/",
+      "pubDate": "Thu, 05 Nov 2026 16:30:00 +0000",
+      "dateStr": "2026-11-05",
+      "day": "05",
+      "month": "NOV",
+      "description": "Thu, 5 November 2026 - 18:30 - 22:00",
+      "image": "images/events/Links-ESC-5Nov2026.jfif"
+    },
+    {
+      "title": "Henry Ate at St. Francis Brewery at  St. Francis Brewing Co. in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/henry-ate-at-st-francis-brewery/",
+      "guid": "https://9ty9.co.za/events/henry-ate-at-st-francis-brewery/",
+      "pubDate": "Thu, 05 Nov 2026 17:30:00 +0000",
+      "dateStr": "2026-11-05",
+      "day": "05",
+      "month": "NOV",
+      "description": "Thu, 5 November 2026 - 19:30 - 21:30",
+      "image": "images/events/Henry8-5Nov2026.jpeg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-04-2026-11-06/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-04-2026-11-06/",
+      "pubDate": "Fri, 06 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-06",
+      "day": "06",
+      "month": "NOV",
+      "description": "Fri, 6 November 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Friday Sunset Session with DJ Rip Torn at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friday-sunset-session-with-dj-rip-torn/",
+      "guid": "https://9ty9.co.za/events/friday-sunset-session-with-dj-rip-torn/",
+      "pubDate": "Fri, 06 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-06",
+      "day": "06",
+      "month": "NOV",
+      "description": "Fri, 6 November 2026 - 17:00 - 20:00",
+      "image": "images/events/PiliPili-27Nov2026.jfif"
+    },
+    {
+      "title": "What&#039;s Good In The Hood at  What&#039;s Good In The Hood in Gqeberha",
+      "link": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31-2026-08-07-2026-08-28-2026-09-0-30-2026-11-06/",
+      "guid": "https://9ty9.co.za/events/whats-good-in-the-hood-2026-02-06-2026-02-27-2026-03-06-2026-03-27-2026-04-03-2026-04-24-2026-05-01-2026-05-29-2026-06-05-2026-06-26-2026-07-03-2026-07-31-2026-08-07-2026-08-28-2026-09-0-30-2026-11-06/",
+      "pubDate": "Fri, 06 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-06",
+      "day": "06",
+      "month": "NOV",
+      "description": "Fri, 6 November 2026 - 17:00 - 21:00",
+      "image": "images/events/Whats-Good-In-The-Hood-31Dec2026.jpg"
+    },
+    {
+      "title": "Stuck In Dubai - Dalin Oliver at  Centrestage in Gqeberha",
+      "link": "https://9ty9.co.za/events/stuck-in-dubai-dalin-oliver/",
+      "guid": "https://9ty9.co.za/events/stuck-in-dubai-dalin-oliver/",
+      "pubDate": "Fri, 06 Nov 2026 17:30:00 +0000",
+      "dateStr": "2026-11-06",
+      "day": "06",
+      "month": "NOV",
+      "description": "Fri, 6 November 2026 - 19:30 - 22:00",
+      "image": "images/events/0940240_0.jpg"
     }
   ]
 }
