@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-29T22:39:17.165Z",
+  "lastUpdated": "2026-10-30T05:21:54.146Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 102,
+  "count": 104,
   "events": [
     {
       "title": "Oktoberfest Special – Joe Fish at  Joe Fish Restaurant and Bar in Cape St. Francis",
@@ -783,6 +783,28 @@
       "month": "OCT",
       "description": "Fri, 30 October 2026 - Sat, 31 October 2026 - 20:00 - 02:00",
       "image": "images/events/Fergos-30Oct2026.jpeg"
+    },
+    {
+      "title": "Die Kospot Friday Braai Dag - 400g Kerrie Lamstjops at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-friday-braai-dag-400g-kerrie-lamstjops/",
+      "guid": "https://9ty9.co.za/events/die-kospot-friday-braai-dag-400g-kerrie-lamstjops/",
+      "pubDate": "Fri, 30 Oct 2026 09:00:00 +0000",
+      "dateStr": "2026-10-30",
+      "day": "30",
+      "month": "OCT",
+      "description": "Fri, 30 October 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot1-30Oct2026.jfif"
+    },
+    {
+      "title": "Die Kospot Friday Special - Hong Kong Hoender and Beef Lasagna at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-friday-special-hong-kong-hoender-and-beef-lasagna/",
+      "guid": "https://9ty9.co.za/events/die-kospot-friday-special-hong-kong-hoender-and-beef-lasagna/",
+      "pubDate": "Fri, 30 Oct 2026 09:00:00 +0000",
+      "dateStr": "2026-10-30",
+      "day": "30",
+      "month": "OCT",
+      "description": "Fri, 30 October 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot2-30Oct2026.jfif"
     },
     {
       "title": "JBGC 80 Years: President vs Captain – IPS at  Jeffreys Bay Golf Club in Jeffreys Bay",
