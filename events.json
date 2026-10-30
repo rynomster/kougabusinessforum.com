@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-30T05:21:54.146Z",
+  "lastUpdated": "2026-10-30T12:36:00.810Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 104,
+  "count": 108,
   "events": [
     {
       "title": "Oktoberfest Special – Joe Fish at  Joe Fish Restaurant and Bar in Cape St. Francis",
@@ -1146,6 +1146,50 @@
       "month": "NOV",
       "description": "Sun, 1 November 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Solário at Unwind Tapa Bar at  Unwind Tapa Restaurant in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/solario-at-unwind-tapa-bar/",
+      "guid": "https://9ty9.co.za/events/solario-at-unwind-tapa-bar/",
+      "pubDate": "Sun, 01 Nov 2026 13:00:00 +0000",
+      "dateStr": "2026-11-01",
+      "day": "01",
+      "month": "NOV",
+      "description": "Sun, 1 November 2026 - 15:00 - 18:00",
+      "image": "images/events/Solario-1Nov2026.jpg"
+    },
+    {
+      "title": "Oase Gemeente - Nuwe Familie Kuier at  Oase Gemeente in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/oase-gemeente-nuwe-familie-kuier/",
+      "guid": "https://9ty9.co.za/events/oase-gemeente-nuwe-familie-kuier/",
+      "pubDate": "Sun, 01 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-01",
+      "day": "01",
+      "month": "NOV",
+      "description": "Sun, 1 November 2026 - 17:00 - 20:00",
+      "image": "images/events/Oase-1Nov2026.jfif"
+    },
+    {
+      "title": "A Travel Through Times: Solo Exhibition by Annette Kamfer at  Art on Target in Gqeberha",
+      "link": "https://9ty9.co.za/events/a-travel-through-times-solo-exhibition-by-annette-kamfer-3/",
+      "guid": "https://9ty9.co.za/events/a-travel-through-times-solo-exhibition-by-annette-kamfer-3/",
+      "pubDate": "Mon, 02 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-02",
+      "day": "02",
+      "month": "NOV",
+      "description": "Mon, 2 November 2026 - Fri, 6 November 2026 - 09:00 - 16:00",
+      "image": "images/events/Art-on-Target-7Nov2026.jpg"
+    },
+    {
+      "title": "Welcome Sign Board Painting Workshop at Oppi Spektrum Coffee Shop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/welcome-sign-board-painting-workshop-at-oppi-spektrum-coffee-shop/",
+      "guid": "https://9ty9.co.za/events/welcome-sign-board-painting-workshop-at-oppi-spektrum-coffee-shop/",
+      "pubDate": "Tue, 03 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-03",
+      "day": "03",
+      "month": "NOV",
+      "description": "Tue, 3 November 2026 - 12:00 - 14:00",
+      "image": "images/events/Oppi-3Nov2026.jfif"
     }
   ]
 }
