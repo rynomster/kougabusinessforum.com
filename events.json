@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-30T22:09:49.533Z",
+  "lastUpdated": "2026-10-31T05:05:33.241Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 120,
+  "count": 121,
   "events": [
     {
       "title": "Oktoberfest Special – Joe Fish at  Joe Fish Restaurant and Bar in Cape St. Francis",
@@ -1322,6 +1322,17 @@
       "month": "NOV",
       "description": "Fri, 6 November 2026 - 19:30 - 22:00",
       "image": "images/events/0940240_0.jpg"
+    },
+    {
+      "title": "Jeffreys Bay Car Boot Sale at  Methodist Church of Jeffreys Bay in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale-2026-11-07/",
+      "guid": "https://9ty9.co.za/events/jeffreys-bay-car-boot-sale-2026-11-07/",
+      "pubDate": "Sat, 07 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 08:00 - 13:00",
+      "image": "images/events/Car-Boot-Sale.jpg"
     }
   ]
 }
