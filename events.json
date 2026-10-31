@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-31T05:05:33.241Z",
+  "lastUpdated": "2026-10-31T12:02:14.914Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 121,
+  "count": 134,
   "events": [
     {
       "title": "Oktoberfest Special – Joe Fish at  Joe Fish Restaurant and Bar in Cape St. Francis",
@@ -1333,6 +1333,149 @@
       "month": "NOV",
       "description": "Sat, 7 November 2026 - 08:00 - 13:00",
       "image": "images/events/Car-Boot-Sale.jpg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-31-2026-11-07/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-31-2026-11-07/",
+      "pubDate": "Sat, 07 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "Oasis FM 8th Birthday Potjiekos Competition and Community Fun Day at  Die Werf - Fountains Mall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/oasis-fm-8th-birthday-potjiekos-competition-and-community-fun-day/",
+      "guid": "https://9ty9.co.za/events/oasis-fm-8th-birthday-potjiekos-competition-and-community-fun-day/",
+      "pubDate": "Sat, 07 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 08:00 - 13:00",
+      "image": "images/events/OasisFM-7Nov2026.jpeg"
+    },
+    {
+      "title": "Scooby Dunes 4x4 Toy Collection Drive at  Brakkeduine 4x4 Trail in Oyster Bay",
+      "link": "https://9ty9.co.za/events/scooby-dunes-4x4-toy-collection-drive/",
+      "guid": "https://9ty9.co.za/events/scooby-dunes-4x4-toy-collection-drive/",
+      "pubDate": "Sat, 07 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 08:00 - 13:00",
+      "image": "images/events/SCOOBY-DUNES-7Nov2026.jpg"
+    },
+    {
+      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-11-07/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-11-07/",
+      "pubDate": "Sat, 07 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 08:00 - 09:00",
+      "image": "images/events/img_3_1786246960707.jpg"
+    },
+    {
+      "title": "Global Leadership Summit 2026 - Jeffreys Bay at  NG Gemeente Jeffreysbaai Kompleks - Kampus in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/global-leadership-summit-2026-jeffreys-bay/",
+      "guid": "https://9ty9.co.za/events/global-leadership-summit-2026-jeffreys-bay/",
+      "pubDate": "Sat, 07 Nov 2026 06:30:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 08:30 - 16:30",
+      "image": "images/events/GLS-2026-Jeffreys-Bay-7Nov2026.webp"
+    },
+    {
+      "title": "Basic First Aid and CPR at Oppi-Spektrum Coffee Shop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/basic-first-aid-and-cpr-at-oppi-spektrum-coffee-shop/",
+      "guid": "https://9ty9.co.za/events/basic-first-aid-and-cpr-at-oppi-spektrum-coffee-shop/",
+      "pubDate": "Sat, 07 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 09:00 - 12:00",
+      "image": "images/events/Oppi-7Nov2026.jfif"
+    },
+    {
+      "title": "Our Market at  Our Market in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/our-market-2026-07-04-2026-08-15-2026-09-05-2026-10-10-2026-11-07/",
+      "guid": "https://9ty9.co.za/events/our-market-2026-07-04-2026-08-15-2026-09-05-2026-10-10-2026-11-07/",
+      "pubDate": "Sat, 07 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 09:00 - 13:00",
+      "image": "images/events/Our-Market-7Nov2026.jpeg"
+    },
+    {
+      "title": "Sourdough and Wild Botanicals Workshop at Dune Ridge Country House at  Dune Ridge Country House in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/sourdough-and-wild-botanicals-workshop-at-dune-ridge-country-house/",
+      "guid": "https://9ty9.co.za/events/sourdough-and-wild-botanicals-workshop-at-dune-ridge-country-house/",
+      "pubDate": "Sat, 07 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - Sun, 8 November 2026 - 09:00 - 16:00",
+      "image": "images/events/Dune-Ridge-8Nov2026.jpg"
+    },
+    {
+      "title": "Van Stadens River Farmers Market and Auction at  van Stadens River Farmers’ Association - Fitches Corner in Gqeberha",
+      "link": "https://9ty9.co.za/events/van-stadens-river-farmers-market-and-auction-2026-01-03-2026-02-07-2026-03-07-2026-04-04-2026-05-02-2026-06-06-2026-07-04-2026-08-01-2026-09-05-2026-10-03-2026-11-07/",
+      "guid": "https://9ty9.co.za/events/van-stadens-river-farmers-market-and-auction-2026-01-03-2026-02-07-2026-03-07-2026-04-04-2026-05-02-2026-06-06-2026-07-04-2026-08-01-2026-09-05-2026-10-03-2026-11-07/",
+      "pubDate": "Sat, 07 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 09:00 - 15:00",
+      "image": "images/events/Farmers-Market-and-Auction.jpg"
+    },
+    {
+      "title": "Windsong Bohemian Market at  Windsong Bohemian Market in Gqeberha",
+      "link": "https://9ty9.co.za/events/windsong-bohemian-market-2026-11-07/",
+      "guid": "https://9ty9.co.za/events/windsong-bohemian-market-2026-11-07/",
+      "pubDate": "Sat, 07 Nov 2026 07:30:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 09:30 - 14:00",
+      "image": "images/events/Windsong-19Dec2026.jpg"
+    },
+    {
+      "title": "Funkee Monkee Farmers Market at  Funkee Monkee Farmers Market in Uitenhage",
+      "link": "https://9ty9.co.za/events/funkee-monkee-farmers-market-2/",
+      "guid": "https://9ty9.co.za/events/funkee-monkee-farmers-market-2/",
+      "pubDate": "Sat, 07 Nov 2026 08:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 10:00 - 16:00",
+      "image": "images/events/Funkee-Monkee-Farmers-Market.jpg"
+    },
+    {
+      "title": "Spekboomlapa Steak Night: Springboks vs Italy at  Spekboomlapa in Loerieheuwel",
+      "link": "https://9ty9.co.za/events/spekboomlapa-steak-night-springboks-vs-italy/",
+      "guid": "https://9ty9.co.za/events/spekboomlapa-steak-night-springboks-vs-italy/",
+      "pubDate": "Sat, 07 Nov 2026 11:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 13:00 - 21:00",
+      "image": "images/events/Spekboom-7Nov2026.jpg"
+    },
+    {
+      "title": "Surfboertjie Live at PiliPili at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/surfboertjie-live-at-pilipili/",
+      "guid": "https://9ty9.co.za/events/surfboertjie-live-at-pilipili/",
+      "pubDate": "Sat, 07 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 17:00 - 20:00",
+      "image": "images/events/PiliPili-27Nov2026.jfif"
     }
   ]
 }
