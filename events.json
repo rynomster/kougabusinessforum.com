@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-31T21:18:18.126Z",
+  "lastUpdated": "2026-11-01T05:37:14.232Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 144,
+  "count": 145,
   "events": [
     {
       "title": "Oktoberfest Special – Joe Fish at  Joe Fish Restaurant and Bar in Cape St. Francis",
@@ -1190,6 +1190,17 @@
       "month": "NOV",
       "description": "Sun, 1 November 2026 - 12:00 - 14:00",
       "image": "images/events/Irsh-Pub-1Nov2026.jfif"
+    },
+    {
+      "title": "Die Kospot Sunday Special - Lamsboud, Roast Beef, Tamatie Hoender and Spesiale Etes at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-sunday-special-lamsboud-roast-beef-tamatie-hoender-and-spesiale-etes/",
+      "guid": "https://9ty9.co.za/events/die-kospot-sunday-special-lamsboud-roast-beef-tamatie-hoender-and-spesiale-etes/",
+      "pubDate": "Sun, 01 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-01",
+      "day": "01",
+      "month": "NOV",
+      "description": "Sun, 1 November 2026 - 12:00 - 15:00",
+      "image": "images/events/IMG-20261101-WA0005.jpg"
     },
     {
       "title": "A Travel Through Times: Solo Exhibition by Annette Kamfer at  Art on Target in Gqeberha",
