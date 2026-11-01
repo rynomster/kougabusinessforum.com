@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-01T05:37:14.232Z",
+  "lastUpdated": "2026-11-01T13:02:19.072Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 145,
+  "count": 154,
   "events": [
     {
       "title": "Oktoberfest Special – Joe Fish at  Joe Fish Restaurant and Bar in Cape St. Francis",
@@ -1597,6 +1597,105 @@
       "month": "NOV",
       "description": "Thu, 12 November 2026 - Fri, 13 November 2026 - 09:30 - 12:30",
       "image": "images/events/Cats-13Nov2026.jpg"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-11-2026-11-13/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-11-2026-11-13/",
+      "pubDate": "Fri, 13 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-13",
+      "day": "13",
+      "month": "NOV",
+      "description": "Fri, 13 November 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Friday Sunset Session with DJ Rip Torn at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friday-sunset-session-with-dj-rip-torn-2/",
+      "guid": "https://9ty9.co.za/events/friday-sunset-session-with-dj-rip-torn-2/",
+      "pubDate": "Fri, 13 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-13",
+      "day": "13",
+      "month": "NOV",
+      "description": "Fri, 13 November 2026 - 17:00 - 20:00",
+      "image": "images/events/PiliPili-27Nov2026.jfif"
+    },
+    {
+      "title": "Chef&#039;s Table: Trip to Italy at Ember and Tide at  Ember &amp; Tide in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/chefs-table-trip-to-italy-at-ember-and-tide/",
+      "guid": "https://9ty9.co.za/events/chefs-table-trip-to-italy-at-ember-and-tide/",
+      "pubDate": "Fri, 13 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-13",
+      "day": "13",
+      "month": "NOV",
+      "description": "Fri, 13 November 2026 - 18:00 - 21:00",
+      "image": "images/events/Ember-13Nov2026.jfif"
+    },
+    {
+      "title": "Dr Philip Southey&#039;s Symphony and Science – A Musical Journey at  St. Francis Brewing Co. in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/dr-philip-southeys-symphony-and-science-a-musical-journey/",
+      "guid": "https://9ty9.co.za/events/dr-philip-southeys-symphony-and-science-a-musical-journey/",
+      "pubDate": "Fri, 13 Nov 2026 17:00:00 +0000",
+      "dateStr": "2026-11-13",
+      "day": "13",
+      "month": "NOV",
+      "description": "Fri, 13 November 2026 - 19:00 - 21:00",
+      "image": "images/events/1010068_0.jpeg"
+    },
+    {
+      "title": "Mythopia – Journey of a Soul at  Centrestage in Gqeberha",
+      "link": "https://9ty9.co.za/events/mythopia-journey-of-a-soul-2/",
+      "guid": "https://9ty9.co.za/events/mythopia-journey-of-a-soul-2/",
+      "pubDate": "Fri, 13 Nov 2026 17:30:00 +0000",
+      "dateStr": "2026-11-13",
+      "day": "13",
+      "month": "NOV",
+      "description": "Fri, 13 November 2026 - 19:30 - 22:00",
+      "image": "images/events/0961516_0.jpg"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-07-2026-11-14/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-07-2026-11-14/",
+      "pubDate": "Sat, 14 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-14",
+      "day": "14",
+      "month": "NOV",
+      "description": "Sat, 14 November 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-11-14/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-11-14/",
+      "pubDate": "Sat, 14 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-14",
+      "day": "14",
+      "month": "NOV",
+      "description": "Sat, 14 November 2026 - 08:00 - 09:00",
+      "image": "images/events/img_3_1786246960707.jpg"
+    },
+    {
+      "title": "Milkwood Farmers Market at  Milkwood Mark \\ Market in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/milkwood-farmers-market-2026-11-14/",
+      "guid": "https://9ty9.co.za/events/milkwood-farmers-market-2026-11-14/",
+      "pubDate": "Sat, 14 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-14",
+      "day": "14",
+      "month": "NOV",
+      "description": "Sat, 14 November 2026 - 09:00 - 13:00",
+      "image": "images/events/Milkwood-Market-2-26Dec2026.jpg"
+    },
+    {
+      "title": "Reformasie Konferensie: Die Vyf Sola&#039;s van die Reformasie at  Gereformeerde Kerk - Jeffreysbaai in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/reformasie-konferensie-die-vyf-solas-van-die-reformasie/",
+      "guid": "https://9ty9.co.za/events/reformasie-konferensie-die-vyf-solas-van-die-reformasie/",
+      "pubDate": "Sat, 14 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-14",
+      "day": "14",
+      "month": "NOV",
+      "description": "Sat, 14 November 2026 - 09:00 - 13:00",
+      "image": "images/events/Ger-Kerk-JBay-14Nov2026.jpeg"
     }
   ]
 }
