@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-01T13:02:19.072Z",
+  "lastUpdated": "2026-11-01T21:55:22.590Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 154,
+  "count": 157,
   "events": [
     {
       "title": "Oktoberfest Special – Joe Fish at  Joe Fish Restaurant and Bar in Cape St. Francis",
@@ -1696,6 +1696,39 @@
       "month": "NOV",
       "description": "Sat, 14 November 2026 - 09:00 - 13:00",
       "image": "images/events/Ger-Kerk-JBay-14Nov2026.jpeg"
+    },
+    {
+      "title": "Mellow and Jive Live at PiliPili at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mellow-and-jive-live-at-pilipili/",
+      "guid": "https://9ty9.co.za/events/mellow-and-jive-live-at-pilipili/",
+      "pubDate": "Sat, 14 Nov 2026 12:00:00 +0000",
+      "dateStr": "2026-11-14",
+      "day": "14",
+      "month": "NOV",
+      "description": "Sat, 14 November 2026 - 14:00 - 17:00",
+      "image": "images/events/PiliPili-27Nov2026.jfif"
+    },
+    {
+      "title": "&#039;n Romantiese Huweliksaand met Gretha Wiid at  Gamtoos Ferry Hotel in Gamtoos",
+      "link": "https://9ty9.co.za/events/n-romantiese-huweliksaand-met-gretha-wiid/",
+      "guid": "https://9ty9.co.za/events/n-romantiese-huweliksaand-met-gretha-wiid/",
+      "pubDate": "Sat, 14 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-14",
+      "day": "14",
+      "month": "NOV",
+      "description": "Sat, 14 November 2026 - 18:00 - 20:30",
+      "image": "images/events/Gretha-Wiid-14Nov2026.jpg"
+    },
+    {
+      "title": "Merlot and Menopause at  Nineteen33 in Gqeberha",
+      "link": "https://9ty9.co.za/events/merlot-and-menopause/",
+      "guid": "https://9ty9.co.za/events/merlot-and-menopause/",
+      "pubDate": "Sat, 14 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-14",
+      "day": "14",
+      "month": "NOV",
+      "description": "Sat, 14 November 2026 - 18:00 - 22:00",
+      "image": "images/events/Merlot-14Nov2026.jpg"
     }
   ]
 }
