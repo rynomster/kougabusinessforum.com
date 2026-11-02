@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-01T21:55:22.590Z",
+  "lastUpdated": "2026-11-02T05:33:52.003Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 157,
+  "count": 160,
   "events": [
     {
       "title": "Oktoberfest Special – Joe Fish at  Joe Fish Restaurant and Bar in Cape St. Francis",
@@ -1214,6 +1214,28 @@
       "image": "images/events/Art-on-Target-7Nov2026.jpg"
     },
     {
+      "title": "Die Kospot Monday Soup Special - Groentesop at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-monday-soup-special-groentesop/",
+      "guid": "https://9ty9.co.za/events/die-kospot-monday-soup-special-groentesop/",
+      "pubDate": "Mon, 02 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-02",
+      "day": "02",
+      "month": "NOV",
+      "description": "Mon, 2 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot2-2Nov2026.jfif"
+    },
+    {
+      "title": "Die Kospot Monday Special - Chicken Schnitzel, Frikkadelle met Mash and Tamatiebredie at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-monday-special-chicken-schnitzel-frikkadelle-met-mash-and-tamatiebredie/",
+      "guid": "https://9ty9.co.za/events/die-kospot-monday-special-chicken-schnitzel-frikkadelle-met-mash-and-tamatiebredie/",
+      "pubDate": "Mon, 02 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-02",
+      "day": "02",
+      "month": "NOV",
+      "description": "Mon, 2 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot1-2Nov2026.jfif"
+    },
+    {
       "title": "Welcome Sign Board Painting Workshop at Oppi Spektrum Coffee Shop at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/welcome-sign-board-painting-workshop-at-oppi-spektrum-coffee-shop/",
       "guid": "https://9ty9.co.za/events/welcome-sign-board-painting-workshop-at-oppi-spektrum-coffee-shop/",
@@ -1333,6 +1355,17 @@
       "month": "NOV",
       "description": "Fri, 6 November 2026 - 19:30 - 22:00",
       "image": "images/events/0940240_0.jpg"
+    },
+    {
+      "title": "Quayside Pub Friday Happy Hour at  Quayside Pub in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/quayside-pub-friday-happy-hour/",
+      "guid": "https://9ty9.co.za/events/quayside-pub-friday-happy-hour/",
+      "pubDate": "Fri, 06 Nov 2026 16:30:00 +0000",
+      "dateStr": "2026-11-06",
+      "day": "06",
+      "month": "NOV",
+      "description": "Fri, 6 November 2026 - 18:30 - 19:30",
+      "image": "images/events/Quayside-Friday-Happy-Hour.jpg"
     },
     {
       "title": "Jeffreys Bay Car Boot Sale at  Methodist Church of Jeffreys Bay in Jeffreys Bay",
