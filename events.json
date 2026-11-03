@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-03T13:57:56.230Z",
+  "lastUpdated": "2026-11-03T23:06:41.974Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 166,
+  "count": 170,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -1313,6 +1313,39 @@
       "image": "images/events/Savoy-4Nov2026.jfif"
     },
     {
+      "title": "Die Kospot Wednesday Special - Mayonnaise Hoender, Beesvleispastei and Gebakte Lamtjops at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-wednesday-special-mayonnaise-hoender-beesvleispastei-and-gebakte-lamtjops/",
+      "guid": "https://9ty9.co.za/events/die-kospot-wednesday-special-mayonnaise-hoender-beesvleispastei-and-gebakte-lamtjops/",
+      "pubDate": "Wed, 04 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-04",
+      "day": "04",
+      "month": "NOV",
+      "description": "Wed, 4 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-4Nov2026.jfif"
+    },
+    {
+      "title": "Quintes Live at The Grand Prix Sports Bar at  Grand Prix  Sports Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/quintes-live-at-the-grand-prix-sports-bar/",
+      "guid": "https://9ty9.co.za/events/quintes-live-at-the-grand-prix-sports-bar/",
+      "pubDate": "Wed, 04 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-04",
+      "day": "04",
+      "month": "NOV",
+      "description": "Wed, 4 November 2026 - 18:00 - 21:00",
+      "image": "images/events/Grandprix-4Nov2026.jfif"
+    },
+    {
+      "title": "Gabriel Quinn Live at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/gabriel-quinn-live-at-fergos-rhythm-bar/",
+      "guid": "https://9ty9.co.za/events/gabriel-quinn-live-at-fergos-rhythm-bar/",
+      "pubDate": "Wed, 04 Nov 2026 17:30:00 +0000",
+      "dateStr": "2026-11-04",
+      "day": "04",
+      "month": "NOV",
+      "description": "Wed, 4 November 2026 - 19:30 - 21:30",
+      "image": "images/events/Fergos-4Nov2026.jfif"
+    },
+    {
       "title": "esc — Launch of Escape Wines&#039; New Pinot Noir at  St. Francis Links Clubhouse in St. Francis Bay",
       "link": "https://9ty9.co.za/events/esc-launch-of-escape-wines-new-pinot-noir/",
       "guid": "https://9ty9.co.za/events/esc-launch-of-escape-wines-new-pinot-noir/",
@@ -1586,6 +1619,17 @@
       "month": "NOV",
       "description": "Sat, 7 November 2026 - 19:00 - 23:59",
       "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Car Boot Sale at  Methodist Church of Jeffreys Bay in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/car-boot-sale/",
+      "guid": "https://9ty9.co.za/events/car-boot-sale/",
+      "pubDate": "Sat, 07 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-07",
+      "day": "07",
+      "month": "NOV",
+      "description": "Sat, 7 November 2026 - 08:00 - 13:00",
+      "image": "images/events/Car-Boot-7Nov2026.jfif"
     },
     {
       "title": "The Gorge Artisans Market at  The Gorge Market in Gqeberha",
