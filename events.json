@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-11-02T15:25:35.108Z",
+  "lastUpdated": "2026-11-03T00:50:06.733Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 160,
+  "count": 166,
   "events": [
-    {
-      "title": "Oktoberfest Special – Joe Fish at  Joe Fish Restaurant and Bar in Cape St. Francis",
-      "link": "https://9ty9.co.za/events/oktoberfest-special-joe-fish/",
-      "guid": "https://9ty9.co.za/events/oktoberfest-special-joe-fish/",
-      "pubDate": "Sat, 03 Oct 2026 05:00:00 +0000",
-      "dateStr": "2026-10-03",
-      "day": "03",
-      "month": "OCT",
-      "description": "Sat, 3 October 2026 - Sat, 31 October 2026 - 07:00 - 21:30",
-      "image": "images/events/Joe-Fish-30Oct2026.jpg"
-    },
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/magic-wok-lunch-special/",
@@ -1269,6 +1258,28 @@
       "image": "images/events/St-Francis-Links-8Dec2026.jfif"
     },
     {
+      "title": "Die Kospot Tuesday Special - Chicken Lasagna, Lamsribbetjie and Chips and Soet-Suur Varknek at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-tuesday-special-chicken-lasagna-lamsribbetjie-and-chips-and-soet-suur-varknek/",
+      "guid": "https://9ty9.co.za/events/die-kospot-tuesday-special-chicken-lasagna-lamsribbetjie-and-chips-and-soet-suur-varknek/",
+      "pubDate": "Tue, 03 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-03",
+      "day": "03",
+      "month": "NOV",
+      "description": "Tue, 3 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-3Nov2026.jfif"
+    },
+    {
+      "title": "Karaoke with Deevine Entertainment at The J Bar at  The J-Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-with-deevine-entertainment-at-the-j-bar/",
+      "guid": "https://9ty9.co.za/events/karaoke-with-deevine-entertainment-at-the-j-bar/",
+      "pubDate": "Tue, 03 Nov 2026 17:00:00 +0000",
+      "dateStr": "2026-11-03",
+      "day": "03",
+      "month": "NOV",
+      "description": "Tue, 3 November 2026 - 19:00 - 21:00",
+      "image": "images/events/JBar-3Nov2026.jfif"
+    },
+    {
       "title": "2026 Local Government Elections at  Kouga in Kouga",
       "link": "https://9ty9.co.za/events/2026-local-government-elections/",
       "guid": "https://9ty9.co.za/events/2026-local-government-elections/",
@@ -1289,6 +1300,17 @@
       "month": "NOV",
       "description": "Wed, 4 November 2026 - 09:00 - 12:00",
       "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Live Music with Lizelle at Savoy Pub and Grill at  Savoy Hotel Pub &amp; Grill Jeffrey’s Bay in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/live-music-with-lizelle-at-savoy-pub-and-grill/",
+      "guid": "https://9ty9.co.za/events/live-music-with-lizelle-at-savoy-pub-and-grill/",
+      "pubDate": "Wed, 04 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-04",
+      "day": "04",
+      "month": "NOV",
+      "description": "Wed, 4 November 2026 - 18:00 - 20:00",
+      "image": "images/events/Savoy-4Nov2026.jfif"
     },
     {
       "title": "esc — Launch of Escape Wines&#039; New Pinot Noir at  St. Francis Links Clubhouse in St. Francis Bay",
@@ -1366,6 +1388,28 @@
       "month": "NOV",
       "description": "Fri, 6 November 2026 - 18:30 - 19:30",
       "image": "images/events/Quayside-Friday-Happy-Hour.jpg"
+    },
+    {
+      "title": "Dee DeWald Live at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/dee-dewald-live-at-fergos-rhythm-bar/",
+      "guid": "https://9ty9.co.za/events/dee-dewald-live-at-fergos-rhythm-bar/",
+      "pubDate": "Fri, 06 Nov 2026 18:00:00 +0000",
+      "dateStr": "2026-11-06",
+      "day": "06",
+      "month": "NOV",
+      "description": "Fri, 6 November 2026 - 20:00 - 22:00",
+      "image": "images/events/Fergos-6Nov2026.jfif"
+    },
+    {
+      "title": "Kerry Hiles Live at Quayside Pub at  Quayside Pub in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/kerry-hiles-live-at-quayside-pub/",
+      "guid": "https://9ty9.co.za/events/kerry-hiles-live-at-quayside-pub/",
+      "pubDate": "Fri, 06 Nov 2026 18:00:00 +0000",
+      "dateStr": "2026-11-06",
+      "day": "06",
+      "month": "NOV",
+      "description": "Fri, 6 November 2026 - 20:00 - 23:00",
+      "image": "images/events/Quayside-6Nov2026-e1793656396208.jpg"
     },
     {
       "title": "Jeffreys Bay Car Boot Sale at  Methodist Church of Jeffreys Bay in Jeffreys Bay",
@@ -1586,6 +1630,28 @@
       "month": "NOV",
       "description": "Sun, 8 November 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Spekboomlapa Sunday Lunch at  Spekboomlapa in Loerieheuwel",
+      "link": "https://9ty9.co.za/events/spekboomlapa-sunday-lunch/",
+      "guid": "https://9ty9.co.za/events/spekboomlapa-sunday-lunch/",
+      "pubDate": "Sun, 08 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-08",
+      "day": "08",
+      "month": "NOV",
+      "description": "Sun, 8 November 2026 - 12:00 - 15:00",
+      "image": "images/events/Spekboom-8Nov2026.jpg"
+    },
+    {
+      "title": "Quintes Live at The J-Bar at  The J-Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/quintes-live-at-the-j-bar-2/",
+      "guid": "https://9ty9.co.za/events/quintes-live-at-the-j-bar-2/",
+      "pubDate": "Sun, 08 Nov 2026 11:00:00 +0000",
+      "dateStr": "2026-11-08",
+      "day": "08",
+      "month": "NOV",
+      "description": "Sun, 8 November 2026 - 13:00 - 16:00",
+      "image": "images/events/JBar-8Nov2026.jfif"
     },
     {
       "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
