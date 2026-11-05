@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-11-05T14:04:59.335Z",
-  "count": 2,
+  "lastUpdated": "2026-11-05T23:18:53.717Z",
+  "count": 3,
   "events": [
+    {
+      "summary": "Kouga Business Forum AGM",
+      "description": "<p>The AGM will now take place on <strong>Tuesday, 10 November 2026, at 18h00</strong>, at <strong>The Arthur Fennell Hall, Marina Martinique, Aston Bay</strong>.</p><p>Kindly RSVP by <strong>3 November 2026</strong>.</p>",
+      "descriptionClean": "The AGM will now take place on Tuesday, 10 November 2026, at 18h00, at The Arthur Fennell Hall, Marina Martinique, Aston Bay.Kindly RSVP by 3 November 2026.",
+      "location": "Marina Martinique, Jeffreys Bay, 6332, South Africa",
+      "link": "https://www.google.com/calendar/render?action=TEMPLATE&text=Kouga%20Business%20Forum%20AGM&dates=20261110T160000Z/20261110T190000Z&details=%3Cp%3EThe%20AGM%20will%20now%20take%20place%20on%C2%A0%3Cstrong%3ETuesday%2C%2010%20November%202026%2C%20at%2018h00%3C%2Fstrong%3E%2C%20at%20%3Cstrong%3EThe%20Arthur%20Fennell%20Hall%2C%20Marina%20Martinique%2C%20Aston%20Bay%3C%2Fstrong%3E.%3C%2Fp%3E%3Cp%3EKindly%20RSVP%20by%20%3Cstrong%3E3%20November%202026%3C%2Fstrong%3E.%3C%2Fp%3E&location=Marina%20Martinique%2C%20Jeffreys%20Bay%2C%206332%2C%20South%20Africa",
+      "start": "2026-11-10T16:00:00.000Z",
+      "end": "2026-11-10T19:00:00.000Z",
+      "dateStr": "2026-11-10",
+      "day": "10",
+      "monthAbbr": "NOV",
+      "monthFull": "November",
+      "year": "2026"
+    },
     {
       "summary": "2027 Strategic Planning",
       "description": "Official KBF Event. Time and details TBA.",
