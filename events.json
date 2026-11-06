@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-05T19:47:47.202Z",
+  "lastUpdated": "2026-11-06T06:04:46.155Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 173,
+  "count": 174,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -1817,6 +1817,17 @@
       "month": "NOV",
       "description": "Fri, 13 November 2026 - 19:30 - 22:00",
       "image": "images/events/0961516_0.jpg"
+    },
+    {
+      "title": "Fragments – Walmer School of Dance Year-End Showcase at  Mandela Bay Theatre Complex in Gqeberha",
+      "link": "https://9ty9.co.za/events/fragments-walmer-school-of-dance-year-end-showcase/",
+      "guid": "https://9ty9.co.za/events/fragments-walmer-school-of-dance-year-end-showcase/",
+      "pubDate": "Fri, 13 Nov 2026 16:30:00 +0000",
+      "dateStr": "2026-11-13",
+      "day": "13",
+      "month": "NOV",
+      "description": "Fri, 13 November 2026 - 18:30 - 20:30",
+      "image": "images/events/Walmer-School-of-Dance-14Nov2026.jpg"
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
