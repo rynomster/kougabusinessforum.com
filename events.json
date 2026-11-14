@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-14T05:55:28.317Z",
+  "lastUpdated": "2026-11-14T13:19:53.815Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 212,
+  "count": 224,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -2105,6 +2105,17 @@
       "image": "images/events/Go-Baviaans-14Dec2026.jpg"
     },
     {
+      "title": "Die Kospot Saturday Special - Lamskerrie, Beeskerrie, Lasagne and Curry Bunny at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-saturday-special-lamskerrie-beeskerrie-lasagne-and-curry-bunny/",
+      "guid": "https://9ty9.co.za/events/die-kospot-saturday-special-lamskerrie-beeskerrie-lasagne-and-curry-bunny/",
+      "pubDate": "Sat, 14 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-14",
+      "day": "14",
+      "month": "NOV",
+      "description": "Sat, 14 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-14Nov2026.jpeg"
+    },
+    {
       "title": "Boplaas Market at  Boplaas Padstal in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/boplaas-market/",
       "guid": "https://9ty9.co.za/events/boplaas-market/",
@@ -2237,6 +2248,17 @@
       "image": "images/events/PropOnShowEvent.jpg"
     },
     {
+      "title": "Die Kospot Sunday Special - Lamsboud, Roast Beef, Gebakte Hoender and Spesiale Etes at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-sunday-special-lamsboud-roast-beef-gebakte-hoender-and-spesiale-etes/",
+      "guid": "https://9ty9.co.za/events/die-kospot-sunday-special-lamsboud-roast-beef-gebakte-hoender-and-spesiale-etes/",
+      "pubDate": "Sun, 15 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-15",
+      "day": "15",
+      "month": "NOV",
+      "description": "Sun, 15 November 2026 - 12:00 - 15:00",
+      "image": "images/events/Kospot-15Nov2026.jpeg"
+    },
+    {
       "title": "Wacky Water Park Grand Opening at  Wacky Waterpark in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/wacky-water-park-grand-opening/",
       "guid": "https://9ty9.co.za/events/wacky-water-park-grand-opening/",
@@ -2334,6 +2356,116 @@
       "month": "NOV",
       "description": "Tue, 17 November 2026 - 17:00 - 21:00",
       "image": "images/events/DFV-Tue-Deal.jpeg"
+    },
+    {
+      "title": "Pizza Tuesday at J-Bay Bru Co. at  J-Bay Bru Co. in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/pizza-tuesday-at-j-bay-bru-co/",
+      "guid": "https://9ty9.co.za/events/pizza-tuesday-at-j-bay-bru-co/",
+      "pubDate": "Tue, 17 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-17",
+      "day": "17",
+      "month": "NOV",
+      "description": "Tue, 17 November 2026 - 17:00 - 21:00",
+      "image": "images/events/J-Bay-Bru-Co-Pizza-Special.jpg"
+    },
+    {
+      "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-14/",
+      "guid": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-14/",
+      "pubDate": "Tue, 17 Nov 2026 15:15:00 +0000",
+      "dateStr": "2026-11-17",
+      "day": "17",
+      "month": "NOV",
+      "description": "Tue, 17 November 2026 - 17:15 - 18:15",
+      "image": "images/events/Voortrekkers.jfif"
+    },
+    {
+      "title": "Quiz Night at St. Francis Links at  St. Francis Links Clubhouse in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/quiz-night-at-st-francis-links-2/",
+      "guid": "https://9ty9.co.za/events/quiz-night-at-st-francis-links-2/",
+      "pubDate": "Tue, 17 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-17",
+      "day": "17",
+      "month": "NOV",
+      "description": "Tue, 17 November 2026 - 18:00 - 20:00",
+      "image": "images/events/St-Francis-Links-8Dec2026.jfif"
+    },
+    {
+      "title": "Tuesday Darts at Ferreira Post Distilleries at  Ferreira Post Distilleries in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/tuesday-darts-at-ferreira-post-distilleries/",
+      "guid": "https://9ty9.co.za/events/tuesday-darts-at-ferreira-post-distilleries/",
+      "pubDate": "Tue, 17 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-17",
+      "day": "17",
+      "month": "NOV",
+      "description": "Tue, 17 November 2026 - 18:00 - 21:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/11/Ferreira-Post-Tuesday-Darts.jfif"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-13-2026-11-18/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-13-2026-11-18/",
+      "pubDate": "Wed, 18 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-18",
+      "day": "18",
+      "month": "NOV",
+      "description": "Wed, 18 November 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Suikerbossie Curry and Rice - Wednesday Special at  Suikerbossie in Kabeljous",
+      "link": "https://9ty9.co.za/events/suikerbossie-curry-and-rice-wednesday-special/",
+      "guid": "https://9ty9.co.za/events/suikerbossie-curry-and-rice-wednesday-special/",
+      "pubDate": "Wed, 18 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-18",
+      "day": "18",
+      "month": "NOV",
+      "description": "Wed, 18 November 2026 - 09:00 - 16:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Suikerbossie-Wednesday-Food-Specials.jfif"
+    },
+    {
+      "title": "Phat Joe&#039;s Wednesday Burger Special at  Phat Joe&#039;s Burgers in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/phat-joes-wednesday-burger-special/",
+      "guid": "https://9ty9.co.za/events/phat-joes-wednesday-burger-special/",
+      "pubDate": "Wed, 18 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-18",
+      "day": "18",
+      "month": "NOV",
+      "description": "Wed, 18 November 2026 - 11:00 - 20:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Phat-Joes-Wednesday-Special.jfif"
+    },
+    {
+      "title": "Wednesday Meal of the Day at Oppi Spektrum at  Oppi Spektrum Coffee Shop in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/wednesday-meal-of-the-day-at-oppi-spektrum/",
+      "guid": "https://9ty9.co.za/events/wednesday-meal-of-the-day-at-oppi-spektrum/",
+      "pubDate": "Wed, 18 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-18",
+      "day": "18",
+      "month": "NOV",
+      "description": "Wed, 18 November 2026 - 11:00 - 15:00",
+      "image": "images/events/Oppi-Wednesday-Specials.jfif"
+    },
+    {
+      "title": "Black Sheep Bistro - Wednesday Specials at  Black Sheep Bistro in Aston Bay",
+      "link": "https://9ty9.co.za/events/black-sheep-bistro-wednesday-specials/",
+      "guid": "https://9ty9.co.za/events/black-sheep-bistro-wednesday-specials/",
+      "pubDate": "Wed, 18 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-18",
+      "day": "18",
+      "month": "NOV",
+      "description": "Wed, 18 November 2026 - 12:00 - 21:00",
+      "image": "images/events/Blach-Sheep-Bistro-Wednesday-Specials.jpeg"
+    },
+    {
+      "title": "Oase Gemeente Woensdag Gebeds Tyd at  Oase Gemeente in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/oase-gemeente-woensdag-gebeds-tyd/",
+      "guid": "https://9ty9.co.za/events/oase-gemeente-woensdag-gebeds-tyd/",
+      "pubDate": "Wed, 18 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-18",
+      "day": "18",
+      "month": "NOV",
+      "description": "Wed, 18 November 2026 - 12:00 - 14:00",
+      "image": "images/events/Oase-Woensdag-Gebeds.jpeg"
     }
   ]
 }
