@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-13T19:28:59.915Z",
+  "lastUpdated": "2026-11-14T05:55:28.317Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 208,
+  "count": 212,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -2290,6 +2290,50 @@
       "month": "NOV",
       "description": "Mon, 16 November 2026 - 17:30 - 18:30",
       "image": "https://9ty9.co.za/wp-content/uploads/2026/11/St-Francis-Brewery-Mondays.jfif"
+    },
+    {
+      "title": "Fergo&#039;s Rhythm Bar: 500g Spare Ribs and Chips - Tuesday Special at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/fergos-rhythm-bar-500g-spare-ribs-and-chips-tuesday-special/",
+      "guid": "https://9ty9.co.za/events/fergos-rhythm-bar-500g-spare-ribs-and-chips-tuesday-special/",
+      "pubDate": "Tue, 17 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-17",
+      "day": "17",
+      "month": "NOV",
+      "description": "Tue, 17 November 2026 - 11:00 - 20:30",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/09/Fergos-Tuesday-Special-1.jfif"
+    },
+    {
+      "title": "Black Sheep Bistro - Tuesday Specials at  Black Sheep Bistro in Aston Bay",
+      "link": "https://9ty9.co.za/events/black-sheep-bistro-tuesday-specials/",
+      "guid": "https://9ty9.co.za/events/black-sheep-bistro-tuesday-specials/",
+      "pubDate": "Tue, 17 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-17",
+      "day": "17",
+      "month": "NOV",
+      "description": "Tue, 17 November 2026 - 12:00 - 21:00",
+      "image": "images/events/Blach-Sheep-Bistro-Tuesday-Specials.jpeg"
+    },
+    {
+      "title": "Cocktails and Tacos at The Mexican - Tuesdays and Thursdays at  The Mexican in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican-tuesdays-and-thursdays/",
+      "guid": "https://9ty9.co.za/events/cocktails-and-tacos-at-the-mexican-tuesdays-and-thursdays/",
+      "pubDate": "Tue, 17 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-17",
+      "day": "17",
+      "month": "NOV",
+      "description": "Tue, 17 November 2026 - 12:00 - 18:00",
+      "image": "images/events/Mexican-Taco-Special.jfif"
+    },
+    {
+      "title": "Eisbein Tuesdays Dinner Deal - De Viswijf Seafront Restaurant at  De Viswijf in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/eisbein-tuesdays-dinner-deal-de-viswijf-seafront-restaurant/",
+      "guid": "https://9ty9.co.za/events/eisbein-tuesdays-dinner-deal-de-viswijf-seafront-restaurant/",
+      "pubDate": "Tue, 17 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-17",
+      "day": "17",
+      "month": "NOV",
+      "description": "Tue, 17 November 2026 - 17:00 - 21:00",
+      "image": "images/events/DFV-Tue-Deal.jpeg"
     }
   ]
 }
