@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-15T05:56:40.882Z",
+  "lastUpdated": "2026-11-15T13:50:10.789Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 234,
+  "count": 249,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -2576,6 +2576,171 @@
       "month": "NOV",
       "description": "Fri, 20 November 2026 - 17:00 - 20:00",
       "image": "images/events/PiliPili-27Nov2026.jfif"
+    },
+    {
+      "title": "Hops and Hearts Speed Dating Night at JBay Craft Brewery at  Jeffreys Bay Craft Brewery (JBCB) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/hops-and-hearts-speed-dating-night-at-jbay-craft-brewery/",
+      "guid": "https://9ty9.co.za/events/hops-and-hearts-speed-dating-night-at-jbay-craft-brewery/",
+      "pubDate": "Fri, 20 Nov 2026 17:00:00 +0000",
+      "dateStr": "2026-11-20",
+      "day": "20",
+      "month": "NOV",
+      "description": "Fri, 20 November 2026 - 19:00 - 22:00",
+      "image": "images/events/JBCB-20Nov2026.jpg"
+    },
+    {
+      "title": "ABBA-solutely Fabulous! ft Aaron McIlroy, Lisa Bobbert and Marion Loudon – Friday Evening Show at  Centrestage in Gqeberha",
+      "link": "https://9ty9.co.za/events/abba-solutely-fabulous-ft-aaron-mcilroy-lisa-bobbert-and-marion-loudon-friday-evening-show/",
+      "guid": "https://9ty9.co.za/events/abba-solutely-fabulous-ft-aaron-mcilroy-lisa-bobbert-and-marion-loudon-friday-evening-show/",
+      "pubDate": "Fri, 20 Nov 2026 17:30:00 +0000",
+      "dateStr": "2026-11-20",
+      "day": "20",
+      "month": "NOV",
+      "description": "Fri, 20 November 2026 - 19:30 - 22:00",
+      "image": "images/events/Centrestage-20Nov2026.webp"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate Parkrun in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-11-21/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-11-21/",
+      "pubDate": "Sat, 21 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-21",
+      "day": "21",
+      "month": "NOV",
+      "description": "Sat, 21 November 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-11-21/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-11-21/",
+      "pubDate": "Sat, 21 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-21",
+      "day": "21",
+      "month": "NOV",
+      "description": "Sat, 21 November 2026 - 08:00 - 09:00",
+      "image": "images/events/img_3_1786246960707.jpg"
+    },
+    {
+      "title": "Christmas Craft Market at  Old Grey Sports Club in Gqeberha",
+      "link": "https://9ty9.co.za/events/christmas-craft-market-2/",
+      "guid": "https://9ty9.co.za/events/christmas-craft-market-2/",
+      "pubDate": "Sat, 21 Nov 2026 06:30:00 +0000",
+      "dateStr": "2026-11-21",
+      "day": "21",
+      "month": "NOV",
+      "description": "Sat, 21 November 2026 - 08:30 - 17:00",
+      "image": "images/events/Christmas-Craft-Market-21Nov2026.jpg"
+    },
+    {
+      "title": "dōTERRA Essential Oils Morning – You&#039;re Invited! at  Infood Coffee Roastery in Jeffrey’s Bay",
+      "link": "https://9ty9.co.za/events/doterra-essential-oils-morning-youre-invited/",
+      "guid": "https://9ty9.co.za/events/doterra-essential-oils-morning-youre-invited/",
+      "pubDate": "Sat, 21 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-21",
+      "day": "21",
+      "month": "NOV",
+      "description": "Sat, 21 November 2026 - 09:00 - 11:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/11/Infood-21Nov2026.jfif"
+    },
+    {
+      "title": "Just Jane and JJ Live Music with Ribs and Braai at Jeffreys Bay Craft Brewery at  Jeffreys Bay Craft Brewery (JBCB) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/just-jane-and-jj-live-music-with-ribs-and-braai-at-jeffreys-bay-craft-brewery/",
+      "guid": "https://9ty9.co.za/events/just-jane-and-jj-live-music-with-ribs-and-braai-at-jeffreys-bay-craft-brewery/",
+      "pubDate": "Sat, 21 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-21",
+      "day": "21",
+      "month": "NOV",
+      "description": "Sat, 21 November 2026 - 12:00 - 16:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/11/JBCB-21Nov2026.jfif"
+    },
+    {
+      "title": "Neil Grundlingh Live at Quayside Pub at  Quayside Pub in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/neil-grundlingh-live-at-quayside-pub/",
+      "guid": "https://9ty9.co.za/events/neil-grundlingh-live-at-quayside-pub/",
+      "pubDate": "Sat, 21 Nov 2026 13:30:00 +0000",
+      "dateStr": "2026-11-21",
+      "day": "21",
+      "month": "NOV",
+      "description": "Sat, 21 November 2026 - 15:30 - 23:00",
+      "image": "images/events/Quayside-21Nov2026.jpeg"
+    },
+    {
+      "title": "Aaron McIlroy&#039;s Rugby Mad – Followed by the Springboks vs Ireland Rugby Clash at  Centrestage in Gqeberha",
+      "link": "https://9ty9.co.za/events/aaron-mcilroys-rugby-mad-followed-by-the-springboks-vs-ireland-rugby-clash/",
+      "guid": "https://9ty9.co.za/events/aaron-mcilroys-rugby-mad-followed-by-the-springboks-vs-ireland-rugby-clash/",
+      "pubDate": "Sat, 21 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-21",
+      "day": "21",
+      "month": "NOV",
+      "description": "Sat, 21 November 2026 - 17:00 - 21:00",
+      "image": "images/events/0996350_0.jpg"
+    },
+    {
+      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-14-2026-11-21/",
+      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-14-2026-11-21/",
+      "pubDate": "Sat, 21 Nov 2026 17:00:00 +0000",
+      "dateStr": "2026-11-21",
+      "day": "21",
+      "month": "NOV",
+      "description": "Sat, 21 November 2026 - 19:00 - 23:59",
+      "image": "images/events/Karaoke-Dec2026.jpeg"
+    },
+    {
+      "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
+      "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-15-2026-11-22/",
+      "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-15-2026-11-22/",
+      "pubDate": "Sun, 22 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-22",
+      "day": "22",
+      "month": "NOV",
+      "description": "Sun, 22 November 2026 - 11:00 - 15:00",
+      "image": "images/events/Vernon-Thornhill2.jpg"
+    },
+    {
+      "title": "Just Humph Live at PiliPili at  PiliPili in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/just-humph-live-at-pilipili/",
+      "guid": "https://9ty9.co.za/events/just-humph-live-at-pilipili/",
+      "pubDate": "Sun, 22 Nov 2026 12:00:00 +0000",
+      "dateStr": "2026-11-22",
+      "day": "22",
+      "month": "NOV",
+      "description": "Sun, 22 November 2026 - 14:00 - 17:00",
+      "image": "images/events/PiliPili-27Nov2026.jfif"
+    },
+    {
+      "title": "Properties on Show in Jeffreys Bay and Surrounds at   in",
+      "link": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-11-22/",
+      "guid": "https://9ty9.co.za/events/properties-on-show-in-jeffreys-bay-and-surrounds-2026-11-22/",
+      "pubDate": "Sun, 22 Nov 2026 13:00:00 +0000",
+      "dateStr": "2026-11-22",
+      "day": "22",
+      "month": "NOV",
+      "description": "Sun, 22 November 2026 - 15:00 - 17:00",
+      "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-15/",
+      "guid": "https://9ty9.co.za/events/die-voortrekkers-jeffreysbaai-15/",
+      "pubDate": "Tue, 24 Nov 2026 15:15:00 +0000",
+      "dateStr": "2026-11-24",
+      "day": "24",
+      "month": "NOV",
+      "description": "Tue, 24 November 2026 - 17:15 - 18:15",
+      "image": "images/events/Voortrekkers.jfif"
+    },
+    {
+      "title": "Lizelle Live at Savoy Pub and Grill: Steak Braai Special at  Savoy Hotel Pub &amp; Grill Jeffrey’s Bay in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/lizelle-live-at-savoy-pub-and-grill-steak-braai-special/",
+      "guid": "https://9ty9.co.za/events/lizelle-live-at-savoy-pub-and-grill-steak-braai-special/",
+      "pubDate": "Tue, 24 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-24",
+      "day": "24",
+      "month": "NOV",
+      "description": "Tue, 24 November 2026 - 18:00 - 21:00",
+      "image": "images/events/Savoy-24Nov2026.jpg"
     }
   ]
 }
