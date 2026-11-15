@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-15T13:50:10.789Z",
+  "lastUpdated": "2026-11-15T22:41:42.574Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 249,
+  "count": 251,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -2741,6 +2741,28 @@
       "month": "NOV",
       "description": "Tue, 24 November 2026 - 18:00 - 21:00",
       "image": "images/events/Savoy-24Nov2026.jpg"
+    },
+    {
+      "title": "Quiz Night at St. Francis Links at  St. Francis Links Clubhouse in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/quiz-night-at-st-francis-links-3/",
+      "guid": "https://9ty9.co.za/events/quiz-night-at-st-francis-links-3/",
+      "pubDate": "Tue, 24 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-24",
+      "day": "24",
+      "month": "NOV",
+      "description": "Tue, 24 November 2026 - 18:00 - 20:00",
+      "image": "images/events/St-Francis-Links-8Dec2026.jfif"
+    },
+    {
+      "title": "Friends of the Library Bookstore at  Newton Community Hall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-20-2026-11-25/",
+      "guid": "https://9ty9.co.za/events/friends-of-the-library-bookstore-2026-02-04-2026-02-06-2026-02-11-2026-02-13-2026-02-18-2026-02-20-2026-02-25-2026-02-27-2026-03-04-2026-03-06-2026-03-11-2026-03-13-2026-03-18-2026-03-20-20-2026-11-25/",
+      "pubDate": "Wed, 25 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-25",
+      "day": "25",
+      "month": "NOV",
+      "description": "Wed, 25 November 2026 - 09:00 - 12:00",
+      "image": "images/events/Friends-of-the-Library.jpg"
     }
   ]
 }
