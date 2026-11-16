@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-15T22:41:42.574Z",
+  "lastUpdated": "2026-11-16T05:56:24.135Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 251,
+  "count": 253,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -2314,6 +2314,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/11/St-Francis-Brewery-Mondays.jfif"
     },
     {
+      "title": "Die Kospot Monday Special - Chicken Schnitzel, Lamspastei and Tamatie Bredie at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-monday-special-chicken-schnitzel-lamspastei-and-tamatie-bredie/",
+      "guid": "https://9ty9.co.za/events/die-kospot-monday-special-chicken-schnitzel-lamspastei-and-tamatie-bredie/",
+      "pubDate": "Mon, 16 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-16",
+      "day": "16",
+      "month": "NOV",
+      "description": "Mon, 16 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-16Nov2026.jpeg"
+    },
+    {
       "title": "Fergo&#039;s Rhythm Bar: 500g Spare Ribs and Chips - Tuesday Special at  Fergo’s Rhythm Bar in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/fergos-rhythm-bar-500g-spare-ribs-and-chips-tuesday-special/",
       "guid": "https://9ty9.co.za/events/fergos-rhythm-bar-500g-spare-ribs-and-chips-tuesday-special/",
@@ -2719,6 +2730,17 @@
       "month": "NOV",
       "description": "Sun, 22 November 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "Georgie&#039;s Pre-Loved Clothing Thrift Shop at St. Francis Brewing Company at  St. Francis Brewing Co. in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/georgies-pre-loved-clothing-thrift-shop-at-st-francis-brewing-company/",
+      "guid": "https://9ty9.co.za/events/georgies-pre-loved-clothing-thrift-shop-at-st-francis-brewing-company/",
+      "pubDate": "Sun, 22 Nov 2026 07:30:00 +0000",
+      "dateStr": "2026-11-22",
+      "day": "22",
+      "month": "NOV",
+      "description": "Sun, 22 November 2026 - 09:30 - 13:30",
+      "image": "images/events/St-Francis-Brewery-29Nov2026.jpg"
     },
     {
       "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
