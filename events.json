@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-16T15:30:52.304Z",
+  "lastUpdated": "2026-11-17T01:48:13.741Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 260,
+  "count": 261,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -2818,6 +2818,17 @@
       "month": "NOV",
       "description": "Sun, 22 November 2026 - 09:30 - 13:30",
       "image": "images/events/St-Francis-Brewery-29Nov2026.jpg"
+    },
+    {
+      "title": "Crossways Village Market at  Crossways Village Market in Thornhill",
+      "link": "https://9ty9.co.za/events/crossways-village-market-2026-11-29/",
+      "guid": "https://9ty9.co.za/events/crossways-village-market-2026-11-29/",
+      "pubDate": "Sun, 22 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-22",
+      "day": "22",
+      "month": "NOV",
+      "description": "Sun, 22 November 2026 - 09:00 - 14:00",
+      "image": "images/events/Crossways-22Nov2026.jfif"
     },
     {
       "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
