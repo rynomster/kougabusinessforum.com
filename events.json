@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-17T01:48:13.741Z",
+  "lastUpdated": "2026-11-17T15:49:53.548Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 261,
+  "count": 263,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -2556,6 +2556,17 @@
       "image": "https://9ty9.co.za/wp-content/uploads/2026/08/Irish-Bingo-Wednesday.jfif"
     },
     {
+      "title": "Kids Night at Guru Indian Kitchen at  Guru St. Francis Bay in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/kids-night-at-guru-indian-kitchen/",
+      "guid": "https://9ty9.co.za/events/kids-night-at-guru-indian-kitchen/",
+      "pubDate": "Wed, 18 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-18",
+      "day": "18",
+      "month": "NOV",
+      "description": "Wed, 18 November 2026 - 17:00 - 20:00",
+      "image": "images/events/Guru-Kids-Wednesdays.jpg"
+    },
+    {
       "title": "Christmas Craft Market at  Old Grey Sports Club in Gqeberha",
       "link": "https://9ty9.co.za/events/christmas-craft-market/",
       "guid": "https://9ty9.co.za/events/christmas-craft-market/",
@@ -2829,6 +2840,17 @@
       "month": "NOV",
       "description": "Sun, 22 November 2026 - 09:00 - 14:00",
       "image": "images/events/Crossways-22Nov2026.jfif"
+    },
+    {
+      "title": "Kerssangdiens 2026 at NG Kerk Loerie at  NG Kerk Loerie in Loerie",
+      "link": "https://9ty9.co.za/events/kerssangdiens-2026-at-ng-kerk-loerie/",
+      "guid": "https://9ty9.co.za/events/kerssangdiens-2026-at-ng-kerk-loerie/",
+      "pubDate": "Sun, 22 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-22",
+      "day": "22",
+      "month": "NOV",
+      "description": "Sun, 22 November 2026 - 18:00 - 20:00",
+      "image": "images/events/NG-Lorie-22Nov2026.jpeg"
     },
     {
       "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
