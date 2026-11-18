@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-18T00:51:04.425Z",
+  "lastUpdated": "2026-11-18T15:28:50.389Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 267,
+  "count": 272,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -2939,6 +2939,61 @@
       "month": "NOV",
       "description": "Wed, 25 November 2026 - 09:00 - 12:00",
       "image": "images/events/Friends-of-the-Library.jpg"
+    },
+    {
+      "title": "Faithful Femininity: Ladies Bible Study at Jeffreys Bay Bible Church at  Jeffreys Bay Bible Church in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/faithful-femininity-ladies-bible-study-at-jeffreys-bay-bible-church/",
+      "guid": "https://9ty9.co.za/events/faithful-femininity-ladies-bible-study-at-jeffreys-bay-bible-church/",
+      "pubDate": "Wed, 25 Nov 2026 08:00:00 +0000",
+      "dateStr": "2026-11-25",
+      "day": "25",
+      "month": "NOV",
+      "description": "Wed, 25 November 2026 - 10:00 - 12:30",
+      "image": "images/events/JBay-Bible-Church-25Nov2026.jpeg"
+    },
+    {
+      "title": "Marktfees 2026 – Almost Heaven at  Tramways Building in Gqeberha",
+      "link": "https://9ty9.co.za/events/marktfees-2026-almost-heaven/",
+      "guid": "https://9ty9.co.za/events/marktfees-2026-almost-heaven/",
+      "pubDate": "Thu, 26 Nov 2026 14:00:00 +0000",
+      "dateStr": "2026-11-26",
+      "day": "26",
+      "month": "NOV",
+      "description": "Thu, 26 November 2026 - Sun, 29 November 2026 - 16:00 - 14:00",
+      "image": "images/events/Marktfees-29Nov2026.jpg"
+    },
+    {
+      "title": "Village Voice: Story Night at St. Francis Brewery at  St. Francis Brewing Co. in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/village-voice-story-night-at-st-francis-brewery/",
+      "guid": "https://9ty9.co.za/events/village-voice-story-night-at-st-francis-brewery/",
+      "pubDate": "Thu, 26 Nov 2026 16:30:00 +0000",
+      "dateStr": "2026-11-26",
+      "day": "26",
+      "month": "NOV",
+      "description": "Thu, 26 November 2026 - 18:30 - 20:00",
+      "image": "images/events/1013017_0.jpeg"
+    },
+    {
+      "title": "Transmute: Teknical Difficult&#039;s Wacky Woods at  Wacky Woods in Gamtoos Valley",
+      "link": "https://9ty9.co.za/events/transmute-teknical-difficults-wacky-woods/",
+      "guid": "https://9ty9.co.za/events/transmute-teknical-difficults-wacky-woods/",
+      "pubDate": "Thu, 26 Nov 2026 22:00:00 +0000",
+      "dateStr": "2026-11-26",
+      "day": "26",
+      "month": "NOV",
+      "description": "Fri, 27 November 2026 - Sun, 29 November 2026 - All Day",
+      "image": "images/events/Wacky-Woods-29Nov2026.jfif"
+    },
+    {
+      "title": "Besigheidfokus: Tema – Wees at  Infood Coffee Roastery in Jeffrey’s Bay",
+      "link": "https://9ty9.co.za/events/besigheidfokus-tema-wees/",
+      "guid": "https://9ty9.co.za/events/besigheidfokus-tema-wees/",
+      "pubDate": "Fri, 27 Nov 2026 05:00:00 +0000",
+      "dateStr": "2026-11-27",
+      "day": "27",
+      "month": "NOV",
+      "description": "Fri, 27 November 2026 - 07:00 - 08:00",
+      "image": "images/events/Oase-27Nov2026.jfif"
     }
   ]
 }
