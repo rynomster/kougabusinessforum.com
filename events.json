@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-17T15:49:53.548Z",
+  "lastUpdated": "2026-11-18T00:51:04.425Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 263,
+  "count": 267,
   "events": [
     {
       "title": "Magic Wok Lunch Special at  Magic Wok in Jeffreys Bay",
@@ -2567,6 +2567,17 @@
       "image": "images/events/Guru-Kids-Wednesdays.jpg"
     },
     {
+      "title": "Die Kospot Wednesday Special - Hoender Lasagna, Beef Stroganoff and Lamsribbetjie en Chips at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-wednesday-special-hoender-lasagna-beef-stroganoff-and-lamsribbetjie-en-chips/",
+      "guid": "https://9ty9.co.za/events/die-kospot-wednesday-special-hoender-lasagna-beef-stroganoff-and-lamsribbetjie-en-chips/",
+      "pubDate": "Wed, 18 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-18",
+      "day": "18",
+      "month": "NOV",
+      "description": "Wed, 18 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-18Nov2026.jpeg"
+    },
+    {
       "title": "Christmas Craft Market at  Old Grey Sports Club in Gqeberha",
       "link": "https://9ty9.co.za/events/christmas-craft-market/",
       "guid": "https://9ty9.co.za/events/christmas-craft-market/",
@@ -2686,6 +2697,17 @@
       "month": "NOV",
       "description": "Fri, 20 November 2026 - 19:30 - 22:00",
       "image": "images/events/Centrestage-20Nov2026.webp"
+    },
+    {
+      "title": "Rob Thompson Live at Fergos Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/rob-thompson-live-at-fergos-rhythm-bar/",
+      "guid": "https://9ty9.co.za/events/rob-thompson-live-at-fergos-rhythm-bar/",
+      "pubDate": "Fri, 20 Nov 2026 17:00:00 +0000",
+      "dateStr": "2026-11-20",
+      "day": "20",
+      "month": "NOV",
+      "description": "Fri, 20 November 2026 - 19:00 - 22:00",
+      "image": "images/events/Fergos-20Nov2026.jpeg"
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate Parkrun in Jeffreys Bay",
@@ -2851,6 +2873,28 @@
       "month": "NOV",
       "description": "Sun, 22 November 2026 - 18:00 - 20:00",
       "image": "images/events/NG-Lorie-22Nov2026.jpeg"
+    },
+    {
+      "title": "Sunday Lunch at The Gamtoos Ferry Hotel at  Gamtoos Ferry Hotel in Gamtoos",
+      "link": "https://9ty9.co.za/events/sunday-lunch-at-the-gamtoos-ferry-hotel/",
+      "guid": "https://9ty9.co.za/events/sunday-lunch-at-the-gamtoos-ferry-hotel/",
+      "pubDate": "Sun, 22 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-22",
+      "day": "22",
+      "month": "NOV",
+      "description": "Sun, 22 November 2026 - 12:00 - 15:00",
+      "image": "images/events/Gamtoos-Ferry-22Nov2026.jfif"
+    },
+    {
+      "title": "Live Music with Black River Gypsy at Joe Fish Restaurant and Bar at  Joe Fish Restaurant and Bar in Cape St. Francis",
+      "link": "https://9ty9.co.za/events/live-music-with-black-river-gypsy-at-joe-fish-restaurant-and-bar/",
+      "guid": "https://9ty9.co.za/events/live-music-with-black-river-gypsy-at-joe-fish-restaurant-and-bar/",
+      "pubDate": "Sun, 22 Nov 2026 10:30:00 +0000",
+      "dateStr": "2026-11-22",
+      "day": "22",
+      "month": "NOV",
+      "description": "Sun, 22 November 2026 - 12:30 - 15:30",
+      "image": "images/events/Joe-Fish-22Nov2026.jpg"
     },
     {
       "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
