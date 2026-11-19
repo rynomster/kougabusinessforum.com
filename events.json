@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-19T00:09:25.498Z",
+  "lastUpdated": "2026-11-19T15:34:52.992Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 279,
+  "count": 280,
   "events": [
     {
       "title": "Light Lunch Menu at JBay Bru Co at  J-Bay Bru Co. in Jeffreys Bay",
@@ -2686,6 +2686,17 @@
       "month": "NOV",
       "description": "Fri, 20 November 2026 - 19:00 - 22:00",
       "image": "images/events/Fergos-20Nov2026.jpeg"
+    },
+    {
+      "title": "Die Kospot Friday Special - Hoenderpastei and Beesvleisbredie at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-friday-special-hoenderpastei-and-beesvleisbredie/",
+      "guid": "https://9ty9.co.za/events/die-kospot-friday-special-hoenderpastei-and-beesvleisbredie/",
+      "pubDate": "Fri, 20 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-20",
+      "day": "20",
+      "month": "NOV",
+      "description": "Fri, 20 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-20Nov2026.jpeg"
     },
     {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate Parkrun in Jeffreys Bay",
