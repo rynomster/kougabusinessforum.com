@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-20T00:31:21.647Z",
+  "lastUpdated": "2026-11-20T15:14:12.812Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 283,
+  "count": 287,
   "events": [
     {
       "title": "Thursday Burger Special at JBay Bru Co. at  J-Bay Bru Co. in Jeffreys Bay",
@@ -2798,6 +2798,17 @@
       "image": "images/events/River-Club-Weekly-Yoga.jpg"
     },
     {
+      "title": "Die Kospot Saturday Special - Lamskerrie, Beeskerrie, Lasagne, Macaroni and Cheese and Spare Ribs at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-saturday-special-lamskerrie-beeskerrie-lasagne-macaroni-and-cheese-and-spare-ribs/",
+      "guid": "https://9ty9.co.za/events/die-kospot-saturday-special-lamskerrie-beeskerrie-lasagne-macaroni-and-cheese-and-spare-ribs/",
+      "pubDate": "Sat, 21 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-21",
+      "day": "21",
+      "month": "NOV",
+      "description": "Sat, 21 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-21Nov2026.jpeg"
+    },
+    {
       "title": "Vernon Live at Thornhill Hotel at  Thornhill Hotel in Thornhill",
       "link": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-15-2026-11-22/",
       "guid": "https://9ty9.co.za/events/vernon-live-at-thornhill-hotel-2-2026-04-19-2026-04-26-2026-05-03-2026-05-10-2026-05-17-2026-05-24-2026-05-31-2026-06-07-2026-06-14-2026-06-21-2026-06-28-2026-07-05-2026-07-12-2026-07-19-15-2026-11-22/",
@@ -2884,6 +2895,17 @@
       "month": "NOV",
       "description": "Sun, 22 November 2026 - 12:30 - 15:30",
       "image": "images/events/Joe-Fish-22Nov2026.jpg"
+    },
+    {
+      "title": "De Viswijf Sunday Lunch at  De Viswijf in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/de-viswijf-sunday-lunch/",
+      "guid": "https://9ty9.co.za/events/de-viswijf-sunday-lunch/",
+      "pubDate": "Sun, 22 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-22",
+      "day": "22",
+      "month": "NOV",
+      "description": "Sun, 22 November 2026 - 12:00 - 15:00",
+      "image": "images/events/DVF-22Nov2026.jpeg"
     },
     {
       "title": "Die Voortrekkers - Jeffreysbaai at  Evangeliese Gereformeerde (EG) Kerk Jeffreysbaai in Jeffreys Bay",
@@ -3071,6 +3093,28 @@
       "month": "NOV",
       "description": "Fri, 27 November 2026 - 18:30 - 20:30",
       "image": "images/events/Palette2-27Nov2026.jpg"
+    },
+    {
+      "title": "Come Dance with Miz Minx Le Pointe: A Beginner Burlesque Workshop at  The Studio in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/come-dance-with-miz-minx-le-pointe-a-beginner-burlesque-workshop/",
+      "guid": "https://9ty9.co.za/events/come-dance-with-miz-minx-le-pointe-a-beginner-burlesque-workshop/",
+      "pubDate": "Fri, 27 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-27",
+      "day": "27",
+      "month": "NOV",
+      "description": "Fri, 27 November 2026 - 17:00 - 19:00",
+      "image": "images/events/The-Studio-27Nov2026.jpg"
+    },
+    {
+      "title": "Dune Ridge Weltevrede Wine Pairing Dinner at  Dune Ridge Country House in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/dune-ridge-weltevrede-wine-pairing-dinner/",
+      "guid": "https://9ty9.co.za/events/dune-ridge-weltevrede-wine-pairing-dinner/",
+      "pubDate": "Fri, 27 Nov 2026 16:00:00 +0000",
+      "dateStr": "2026-11-27",
+      "day": "27",
+      "month": "NOV",
+      "description": "Fri, 27 November 2026 - 18:00 - 21:00",
+      "image": "images/events/Dune-RIdge-27Nov2026.jpg"
     },
     {
       "title": "Aspen 10km &amp; 5km at  Protea Child &amp; Youth Care Centre; Forest Hill in Gqeberha",
