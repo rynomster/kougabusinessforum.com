@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-11-19T15:34:52.992Z",
+  "lastUpdated": "2026-11-20T00:31:21.647Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 280,
+  "count": 283,
   "events": [
-    {
-      "title": "Light Lunch Menu at JBay Bru Co at  J-Bay Bru Co. in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/light-lunch-menu-at-jbay-bru-co/",
-      "guid": "https://9ty9.co.za/events/light-lunch-menu-at-jbay-bru-co/",
-      "pubDate": "Tue, 20 Oct 2026 09:00:00 +0000",
-      "dateStr": "2026-10-20",
-      "day": "20",
-      "month": "OCT",
-      "description": "Tue, 20 October 2026 - Fri, 23 October 2026 - 11:00 - 15:00",
-      "image": "images/events/Bru-Co-Lite-Lunch-Menu.jpeg"
-    },
     {
       "title": "Thursday Burger Special at JBay Bru Co. at  J-Bay Bru Co. in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/thursday-burger-special-at-jbay-bru-co/",
@@ -2699,6 +2688,17 @@
       "image": "images/events/Kospot-20Nov2026.jpeg"
     },
     {
+      "title": "Just Jane Live at The Irish Pub at  Irish Pub and Grill in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/just-jane-live-at-the-irish-pub/",
+      "guid": "https://9ty9.co.za/events/just-jane-live-at-the-irish-pub/",
+      "pubDate": "Fri, 20 Nov 2026 17:00:00 +0000",
+      "dateStr": "2026-11-20",
+      "day": "20",
+      "month": "NOV",
+      "description": "Fri, 20 November 2026 - 19:00 - 22:00",
+      "image": "images/events/Irish-Pub-20Nov2026.jpeg"
+    },
+    {
       "title": "Mentors Country Estate Parkrun at  Mentors Country Estate Parkrun in Jeffreys Bay",
       "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-11-21/",
       "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-11-21/",
@@ -2941,6 +2941,17 @@
       "image": "images/events/JBay-Bible-Church-25Nov2026.jpeg"
     },
     {
+      "title": "Quiz Night at Ferreira&#039;s Post at  Ferreira Post Distilleries in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/quiz-night-at-ferreiras-post/",
+      "guid": "https://9ty9.co.za/events/quiz-night-at-ferreiras-post/",
+      "pubDate": "Wed, 25 Nov 2026 16:30:00 +0000",
+      "dateStr": "2026-11-25",
+      "day": "25",
+      "month": "NOV",
+      "description": "Wed, 25 November 2026 - 18:30 - 20:30",
+      "image": "images/events/Ferreira-Post-25Nov2026.jpeg"
+    },
+    {
       "title": "Marktfees 2026 – Almost Heaven at  Tramways Building in Gqeberha",
       "link": "https://9ty9.co.za/events/marktfees-2026-almost-heaven/",
       "guid": "https://9ty9.co.za/events/marktfees-2026-almost-heaven/",
@@ -3082,6 +3093,28 @@
       "month": "NOV",
       "description": "Sat, 28 November 2026 - 08:00 - 14:00",
       "image": "images/events/Lombardini-28Nov2026.jfif"
+    },
+    {
+      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate Parkrun in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-11-28/",
+      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-11-28/",
+      "pubDate": "Sat, 28 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-28",
+      "day": "28",
+      "month": "NOV",
+      "description": "Sat, 28 November 2026 - 08:00 - 09:00",
+      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
+    },
+    {
+      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-11-28/",
+      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-11-28/",
+      "pubDate": "Sat, 28 Nov 2026 06:00:00 +0000",
+      "dateStr": "2026-11-28",
+      "day": "28",
+      "month": "NOV",
+      "description": "Sat, 28 November 2026 - 08:00 - 09:00",
+      "image": "images/events/img_3_1786246960707.jpg"
     }
   ]
 }
