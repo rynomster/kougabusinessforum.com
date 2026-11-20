@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-20T15:14:12.812Z",
+  "lastUpdated": "2026-11-20T23:54:11.239Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 287,
+  "count": 293,
   "events": [
     {
       "title": "Thursday Burger Special at JBay Bru Co. at  J-Bay Bru Co. in Jeffreys Bay",
@@ -3159,6 +3159,72 @@
       "month": "NOV",
       "description": "Sat, 28 November 2026 - 08:00 - 09:00",
       "image": "images/events/img_3_1786246960707.jpg"
+    },
+    {
+      "title": "Sourdough Workshop @ Dune Ridge at  Dune Ridge Country House in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/sourdough-workshop-dune-ridge/",
+      "guid": "https://9ty9.co.za/events/sourdough-workshop-dune-ridge/",
+      "pubDate": "Sat, 28 Nov 2026 06:10:00 +0000",
+      "dateStr": "2026-11-28",
+      "day": "28",
+      "month": "NOV",
+      "description": "Sat, 28 November 2026 - 08:10 - 15:30",
+      "image": "images/events/Dune-Ridge-Country-House.jpg"
+    },
+    {
+      "title": "Aston Beach Market at Aston Community Hall at  Aston Bay Community Hall in Aston Bay",
+      "link": "https://9ty9.co.za/events/aston-beach-market-at-aston-community-hall/",
+      "guid": "https://9ty9.co.za/events/aston-beach-market-at-aston-community-hall/",
+      "pubDate": "Sat, 28 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-28",
+      "day": "28",
+      "month": "NOV",
+      "description": "Sat, 28 November 2026 - 09:00 - 14:00",
+      "image": "images/events/Aston-Market-28Nov2026.jpeg"
+    },
+    {
+      "title": "Inner City Enduro at Baakens Valley at  Baakens Valley in Gqeberha",
+      "link": "https://9ty9.co.za/events/inner-city-enduro-at-baakens-valley/",
+      "guid": "https://9ty9.co.za/events/inner-city-enduro-at-baakens-valley/",
+      "pubDate": "Sat, 28 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-28",
+      "day": "28",
+      "month": "NOV",
+      "description": "Sat, 28 November 2026 - Sun, 29 November 2026 - 09:00 - 16:30",
+      "image": "images/events/ICE-29Nov2026.jpg"
+    },
+    {
+      "title": "Milkwood Farmers Market at  Milkwood Mark \\ Market in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/milkwood-farmers-market-2026-11-28/",
+      "guid": "https://9ty9.co.za/events/milkwood-farmers-market-2026-11-28/",
+      "pubDate": "Sat, 28 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-28",
+      "day": "28",
+      "month": "NOV",
+      "description": "Sat, 28 November 2026 - 09:00 - 13:00",
+      "image": "images/events/Milkwood-Market-2-26Dec2026.jpg"
+    },
+    {
+      "title": "Spin 4 Charity Spinathon at Fountains Mall at  Fountains Mall in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/spin-4-charity-spinathon-at-fountains-mall/",
+      "guid": "https://9ty9.co.za/events/spin-4-charity-spinathon-at-fountains-mall/",
+      "pubDate": "Sat, 28 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-28",
+      "day": "28",
+      "month": "NOV",
+      "description": "Sat, 28 November 2026 - 09:00 - 12:00",
+      "image": "images/events/Edge-28Nov2026.jfif"
+    },
+    {
+      "title": "St. Francis Market at  St. Francis Market in St. Francis Bay",
+      "link": "https://9ty9.co.za/events/st-francis-market-2026-11-28/",
+      "guid": "https://9ty9.co.za/events/st-francis-market-2026-11-28/",
+      "pubDate": "Sat, 28 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-28",
+      "day": "28",
+      "month": "NOV",
+      "description": "Sat, 28 November 2026 - 09:00 - 13:00",
+      "image": "images/events/St-Francis-Market-26Dec2026.jpg"
     }
   ]
 }
