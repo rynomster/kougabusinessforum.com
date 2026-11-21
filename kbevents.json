@@ -1,21 +1,7 @@
 {
-  "lastUpdated": "2026-11-20T23:42:57.492Z",
-  "count": 2,
+  "lastUpdated": "2026-11-21T05:51:02.648Z",
+  "count": 1,
   "events": [
-    {
-      "summary": "2027 Strategic Planning",
-      "description": "Official KBF Event. Time and details TBA.",
-      "descriptionClean": "Official KBF Event. Time and details TBA.",
-      "location": "",
-      "link": "https://www.google.com/calendar/render?action=TEMPLATE&text=2027%20Strategic%20Planning&dates=20261119T000000Z/20261120T000000Z&details=Official%20KBF%20Event.%20Time%20and%20details%20TBA.&location=",
-      "start": "2026-11-19T00:00:00.000Z",
-      "end": "2026-11-20T00:00:00.000Z",
-      "dateStr": "2026-11-19",
-      "day": "19",
-      "monthAbbr": "NOV",
-      "monthFull": "November",
-      "year": "2026"
-    },
     {
       "summary": "Committee Meeting (TBC)",
       "description": "Official KBF Event. Time and details TBA.",
