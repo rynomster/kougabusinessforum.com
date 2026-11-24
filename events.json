@@ -1,140 +1,8 @@
 {
-  "lastUpdated": "2026-11-23T23:42:44.771Z",
+  "lastUpdated": "2026-11-24T09:30:49.461Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 298,
+  "count": 290,
   "events": [
-    {
-      "title": "Mentors Country Estate Parkrun at  Mentors Country Estate in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-17-2026-10-24/",
-      "guid": "https://9ty9.co.za/events/mentors-country-estate-parkrun-2-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-17-2026-10-24/",
-      "pubDate": "Sat, 24 Oct 2026 06:00:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 08:00 - 09:00",
-      "image": "images/events/Mentors-Country-Estate-Parkrun.jpg"
-    },
-    {
-      "title": "St. Francis Parkrun at  St. Francis Links in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-10-24/",
-      "guid": "https://9ty9.co.za/events/st-francis-parkrun-2-2026-10-24/",
-      "pubDate": "Sat, 24 Oct 2026 06:00:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 08:00 - 09:00",
-      "image": "images/events/img_3_1786246960707.jpg"
-    },
-    {
-      "title": "Milkwood Farmers Market at  Milkwood Mark \\ Market in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/milkwood-farmers-market/",
-      "guid": "https://9ty9.co.za/events/milkwood-farmers-market/",
-      "pubDate": "Sat, 24 Oct 2026 07:00:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 09:00 - 13:00",
-      "image": "images/events/Milkwood-24Oct2026-1.jpeg"
-    },
-    {
-      "title": "Eco-Kids: Sea, Sand and Shells at Cape St. Francis Beach at  Cape St. Francis Main Beach in Cape St. Francis",
-      "link": "https://9ty9.co.za/events/eco-kids-sea-sand-and-shells-at-cape-st-francis-beach/",
-      "guid": "https://9ty9.co.za/events/eco-kids-sea-sand-and-shells-at-cape-st-francis-beach/",
-      "pubDate": "Sat, 24 Oct 2026 07:30:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 09:30 - 11:00",
-      "image": "images/events/Eco-Kids-24Oct2026.jpeg"
-    },
-    {
-      "title": "The Great Gatsby Damestee at AP Kerk Jeffreysbaai at  Afrikaanse Protestantse Kerk Jefferysbaai (AP Kerk) in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/the-great-gatsby-damestee-at-ap-kerk-jeffreysbaai/",
-      "guid": "https://9ty9.co.za/events/the-great-gatsby-damestee-at-ap-kerk-jeffreysbaai/",
-      "pubDate": "Sat, 24 Oct 2026 08:00:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 10:00 - 13:00",
-      "image": "images/events/APK-24Oct2026.jpeg"
-    },
-    {
-      "title": "Your Saturday Sushi Fix at PiliPili at  PiliPili in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/your-saturday-sushi-fix-at-pilipili/",
-      "guid": "https://9ty9.co.za/events/your-saturday-sushi-fix-at-pilipili/",
-      "pubDate": "Sat, 24 Oct 2026 09:00:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 11:00 - 21:00",
-      "image": "images/events/img_2_1787359189364.jpg"
-    },
-    {
-      "title": "Black Sheep Bistro - Saturday Specials at  Black Sheep Bistro in Aston Bay",
-      "link": "https://9ty9.co.za/events/black-sheep-bistro-saturday-specials/",
-      "guid": "https://9ty9.co.za/events/black-sheep-bistro-saturday-specials/",
-      "pubDate": "Sat, 24 Oct 2026 10:00:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 12:00 - 21:00",
-      "image": "images/events/Blach-Sheep-Bistro-Saturday-Specials2.jfif"
-    },
-    {
-      "title": "St. Francis Bubbles Festival at The Quays Restaurant at  The Quays Restaurant in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/st-francis-bubbles-festival-2026/",
-      "guid": "https://9ty9.co.za/events/st-francis-bubbles-festival-2026/",
-      "pubDate": "Sat, 24 Oct 2026 10:30:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 12:30 - 17:00",
-      "image": "images/events/Bubbles-24Oct2026.webp"
-    },
-    {
-      "title": "Paint and Sip - Nina&#039;s Marina Martinique Restaurant at  Nina’s Marina Martinique Restaurant in Aston Bay",
-      "link": "https://9ty9.co.za/events/paint-and-sip-ninas-marina-martinique-restaurant/",
-      "guid": "https://9ty9.co.za/events/paint-and-sip-ninas-marina-martinique-restaurant/",
-      "pubDate": "Sat, 24 Oct 2026 14:00:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 16:00 - 19:00",
-      "image": "images/events/Marina-M-24Oct2026.jpeg"
-    },
-    {
-      "title": "Live Music with Attie – PiliPili at  PiliPili in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/live-music-with-attie-pilipili/",
-      "guid": "https://9ty9.co.za/events/live-music-with-attie-pilipili/",
-      "pubDate": "Sat, 24 Oct 2026 15:00:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 17:00 - 20:00",
-      "image": "images/events/PiliPili-31Oct2026.jpg"
-    },
-    {
-      "title": "Karaoke at Fergo&#039;s Rhythm Bar at  Fergo’s Rhythm Bar in Jeffreys Bay",
-      "link": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-17-2026-10-24/",
-      "guid": "https://9ty9.co.za/events/karaoke-at-fergos-rhythm-bar-2026-02-14-2026-02-21-2026-02-28-2026-03-07-2026-03-14-2026-03-21-2026-03-28-2026-04-04-2026-04-11-2026-04-18-2026-04-25-2026-05-02-2026-05-09-2026-05-16-202-17-2026-10-24/",
-      "pubDate": "Sat, 24 Oct 2026 17:00:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 19:00 - 23:59",
-      "image": "images/events/Karaoke-Dec2026.jpeg"
-    },
-    {
-      "title": "Live Music with Kerry Hiles at Legends at  Legends Sports Bar, Pizzeria and Grill in St. Francis Bay",
-      "link": "https://9ty9.co.za/events/live-music-with-kerry-hiles-at-legends/",
-      "guid": "https://9ty9.co.za/events/live-music-with-kerry-hiles-at-legends/",
-      "pubDate": "Sat, 24 Oct 2026 18:00:00 +0000",
-      "dateStr": "2026-10-24",
-      "day": "24",
-      "month": "OCT",
-      "description": "Sat, 24 October 2026 - 20:00 - 23:00",
-      "image": "images/events/Legands-24Oct2026.jpeg"
-    },
     {
       "title": "People&#039;s Triathlon Jeffreys Bay at  Marina Martinique Beach in Aston Bay",
       "link": "https://9ty9.co.za/events/peoples-triathlon-jeffreys-bay/",
@@ -2754,6 +2622,17 @@
       "image": "images/events/Legends-29Nov2026.jpeg"
     },
     {
+      "title": "Wavey Wednesday at JBay Craft Brewery at  Jeffreys Bay Craft Brewery (JBCB) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/wavey-wednesday-at-jbay-craft-brewery/",
+      "guid": "https://9ty9.co.za/events/wavey-wednesday-at-jbay-craft-brewery/",
+      "pubDate": "Wed, 25 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-25",
+      "day": "25",
+      "month": "NOV",
+      "description": "Wed, 25 November 2026 - 11:00 - 21:00",
+      "image": "images/events/JBCB-29Nov2026.jpeg"
+    },
+    {
       "title": "Marktfees 2026 – Almost Heaven at  Tramways Building in Gqeberha",
       "link": "https://9ty9.co.za/events/marktfees-2026-almost-heaven/",
       "guid": "https://9ty9.co.za/events/marktfees-2026-almost-heaven/",
@@ -2807,6 +2686,17 @@
       "month": "NOV",
       "description": "Thu, 26 November 2026 - 18:30 - 20:30",
       "image": "images/events/Legends-29Nov2026.jpeg"
+    },
+    {
+      "title": "Thursday Pizza Special at JBay Craft Brewery at  Jeffreys Bay Craft Brewery (JBCB) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/thursday-pizza-special-at-jbay-craft-brewery/",
+      "guid": "https://9ty9.co.za/events/thursday-pizza-special-at-jbay-craft-brewery/",
+      "pubDate": "Thu, 26 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-26",
+      "day": "26",
+      "month": "NOV",
+      "description": "Thu, 26 November 2026 - 11:00 - 21:00",
+      "image": "images/events/JBCB-29Nov2026.jpeg"
     },
     {
       "title": "Besigheidfokus: Tema – Wees at  Infood Coffee Roastery in Jeffrey’s Bay",
@@ -2939,6 +2829,28 @@
       "month": "NOV",
       "description": "Fri, 27 November 2026 - 20:00 - 22:00",
       "image": "images/events/Legends-29Nov2026.jpeg"
+    },
+    {
+      "title": "Friday Basket for 2 at JBay Craft Brewery at  Jeffreys Bay Craft Brewery (JBCB) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/friday-basket-for-2-at-jbay-craft-brewery/",
+      "guid": "https://9ty9.co.za/events/friday-basket-for-2-at-jbay-craft-brewery/",
+      "pubDate": "Fri, 27 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-27",
+      "day": "27",
+      "month": "NOV",
+      "description": "Fri, 27 November 2026 - 11:00 - 21:00",
+      "image": "images/events/JBCB-29Nov2026.jpeg"
+    },
+    {
+      "title": "BOGO Cocktails – J-Bay Bru Co at  J-Bay Bru Co. in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/bogo-cocktails-j-bay-bru-co/",
+      "guid": "https://9ty9.co.za/events/bogo-cocktails-j-bay-bru-co/",
+      "pubDate": "Fri, 27 Nov 2026 15:00:00 +0000",
+      "dateStr": "2026-11-27",
+      "day": "27",
+      "month": "NOV",
+      "description": "Fri, 27 November 2026 - 17:00 - 18:00",
+      "image": "images/events/BruCo-27Nov2027.jpg"
     },
     {
       "title": "Aspen 10km &amp; 5km at  Protea Child &amp; Youth Care Centre; Forest Hill in Gqeberha",
