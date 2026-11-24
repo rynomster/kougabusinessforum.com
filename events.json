@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-24T09:30:49.461Z",
+  "lastUpdated": "2026-11-24T22:14:15.633Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 290,
+  "count": 294,
   "events": [
     {
       "title": "People&#039;s Triathlon Jeffreys Bay at  Marina Martinique Beach in Aston Bay",
@@ -2633,6 +2633,17 @@
       "image": "images/events/JBCB-29Nov2026.jpeg"
     },
     {
+      "title": "Die Kospot Wednesday Special - Hong Kong Hoender, Frikkadelle met Mash, Spare Ribs and Chips and Lamsnek at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-wednesday-special-hong-kong-hoender-frikkadelle-met-mash-spare-ribs-and-chips-and-lamsnek/",
+      "guid": "https://9ty9.co.za/events/die-kospot-wednesday-special-hong-kong-hoender-frikkadelle-met-mash-spare-ribs-and-chips-and-lamsnek/",
+      "pubDate": "Wed, 25 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-25",
+      "day": "25",
+      "month": "NOV",
+      "description": "Wed, 25 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-25Nov2026.jpeg"
+    },
+    {
       "title": "Marktfees 2026 – Almost Heaven at  Tramways Building in Gqeberha",
       "link": "https://9ty9.co.za/events/marktfees-2026-almost-heaven/",
       "guid": "https://9ty9.co.za/events/marktfees-2026-almost-heaven/",
@@ -2853,6 +2864,28 @@
       "image": "images/events/BruCo-27Nov2027.jpg"
     },
     {
+      "title": "Let&#039;s Get Winecentric – Stellenzicht Wine Pairing Dinner at  De Viswijf in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/lets-get-winecentric-stellenzicht-wine-pairing-dinner/",
+      "guid": "https://9ty9.co.za/events/lets-get-winecentric-stellenzicht-wine-pairing-dinner/",
+      "pubDate": "Fri, 27 Nov 2026 15:30:00 +0000",
+      "dateStr": "2026-11-27",
+      "day": "27",
+      "month": "NOV",
+      "description": "Fri, 27 November 2026 - 17:30 - 19:30",
+      "image": "images/events/DVF-27Nov2026.jpeg"
+    },
+    {
+      "title": "Chaos Quinn and Friends Live at Fergo&#039;s at  Fergo’s Rhythm Bar in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/chaos-quinn-and-friends-live-at-fergos/",
+      "guid": "https://9ty9.co.za/events/chaos-quinn-and-friends-live-at-fergos/",
+      "pubDate": "Fri, 27 Nov 2026 18:00:00 +0000",
+      "dateStr": "2026-11-27",
+      "day": "27",
+      "month": "NOV",
+      "description": "Fri, 27 November 2026 - 20:00 - 23:00",
+      "image": "images/events/Fergos-27Nov2026.jpeg"
+    },
+    {
       "title": "Aspen 10km &amp; 5km at  Protea Child &amp; Youth Care Centre; Forest Hill in Gqeberha",
       "link": "https://9ty9.co.za/events/aspen-10km-5km/",
       "guid": "https://9ty9.co.za/events/aspen-10km-5km/",
@@ -3071,6 +3104,17 @@
       "month": "NOV",
       "description": "Sat, 28 November 2026 - Sun, 29 November 2026 - 18:00 - 02:00",
       "image": "images/events/Je-Vista-29Nov2026.jpg"
+    },
+    {
+      "title": "Garage Clearance Sale at  Elaine in Paradise Beach",
+      "link": "https://9ty9.co.za/events/garage-clearance-sale/",
+      "guid": "https://9ty9.co.za/events/garage-clearance-sale/",
+      "pubDate": "Sat, 28 Nov 2026 08:00:00 +0000",
+      "dateStr": "2026-11-28",
+      "day": "28",
+      "month": "NOV",
+      "description": "Sat, 28 November 2026 - 10:00 - 14:00",
+      "image": "images/events/Garage-Sale-28Nov2026.jpeg"
     },
     {
       "title": "Wild Botanicals: Forage, Extract and Create @ Dune Ridge at  Dune Ridge Country House in St. Francis Bay",
