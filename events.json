@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-25T08:00:56.209Z",
+  "lastUpdated": "2026-11-25T21:30:25.803Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 286,
+  "count": 288,
   "events": [
     {
       "title": "Youth Development Innovation Hub at  Tokyo Sexwale Sports Stadium in Jeffreys Bay",
@@ -2611,6 +2611,17 @@
       "image": "images/events/Blach-Sheep-Bistro-Thursday-Specials4.jfif"
     },
     {
+      "title": "Die Kospot Thursday Special - Hoenderpastei, Varktjops and Lamsbredie at  Die Kospot in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/die-kospot-thursday-special-hoenderpastei-varktjops-and-lamsbredie/",
+      "guid": "https://9ty9.co.za/events/die-kospot-thursday-special-hoenderpastei-varktjops-and-lamsbredie/",
+      "pubDate": "Thu, 26 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-26",
+      "day": "26",
+      "month": "NOV",
+      "description": "Thu, 26 November 2026 - 11:00 - 13:00",
+      "image": "images/events/Kospot-26Nov2026.jpeg"
+    },
+    {
       "title": "Besigheidfokus: Tema – Wees at  Infood Coffee Roastery in Jeffrey’s Bay",
       "link": "https://9ty9.co.za/events/besigheidfokus-tema-wees/",
       "guid": "https://9ty9.co.za/events/besigheidfokus-tema-wees/",
@@ -3027,6 +3038,17 @@
       "month": "NOV",
       "description": "Sat, 28 November 2026 - 10:00 - 14:00",
       "image": "images/events/Garage-Sale-28Nov2026.jpeg"
+    },
+    {
+      "title": "Saturday Special at JBay Craft Brewery at  Jeffreys Bay Craft Brewery (JBCB) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/saturday-special-at-jbay-craft-brewery/",
+      "guid": "https://9ty9.co.za/events/saturday-special-at-jbay-craft-brewery/",
+      "pubDate": "Sat, 28 Nov 2026 17:00:00 +0000",
+      "dateStr": "2026-11-28",
+      "day": "28",
+      "month": "NOV",
+      "description": "Sat, 28 November 2026 - 19:00 - 21:00",
+      "image": "images/events/JBCB-29Nov2026.jpeg"
     },
     {
       "title": "Wild Botanicals: Forage, Extract and Create @ Dune Ridge at  Dune Ridge Country House in St. Francis Bay",
