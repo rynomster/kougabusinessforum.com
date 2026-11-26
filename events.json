@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-26T07:52:38.932Z",
+  "lastUpdated": "2026-11-26T21:17:58.873Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 286,
+  "count": 289,
   "events": [
     {
       "title": "A Travel Through Times: Solo Exhibition by Annette Kamfer at  Art on Target in Gqeberha",
@@ -3093,6 +3093,39 @@
       "month": "NOV",
       "description": "Sun, 29 November 2026 - 15:00 - 17:00",
       "image": "images/events/PropOnShowEvent.jpg"
+    },
+    {
+      "title": "The Trail Market at Norm Hudlin Trails at  Norm Hudlin Trails in Kragga Kamma Rd",
+      "link": "https://9ty9.co.za/events/the-trail-market-at-norm-hudlin-trails/",
+      "guid": "https://9ty9.co.za/events/the-trail-market-at-norm-hudlin-trails/",
+      "pubDate": "Sun, 29 Nov 2026 07:00:00 +0000",
+      "dateStr": "2026-11-29",
+      "day": "29",
+      "month": "NOV",
+      "description": "Sun, 29 November 2026 - 09:00 - 14:00",
+      "image": "https://9ty9.co.za/wp-content/uploads/2026/11/Trail-Market-29Nov2026.jfif"
+    },
+    {
+      "title": "Lee-V&#039;s Coffee &amp; Eatery Sunday Lunch at  Lee-V&#039;s Coffee &amp; Eatery in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/lee-vs-coffee-eatery-sunday-lunch/",
+      "guid": "https://9ty9.co.za/events/lee-vs-coffee-eatery-sunday-lunch/",
+      "pubDate": "Sun, 29 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-29",
+      "day": "29",
+      "month": "NOV",
+      "description": "Sun, 29 November 2026 - 11:00 - 14:00",
+      "image": "images/events/Lee-V-Sunday-Lunch.jpg"
+    },
+    {
+      "title": "Sunday Lunch at Joe Fish Restaurant &amp; Bar at  Joe Fish Restaurant and Bar in Cape St. Francis",
+      "link": "https://9ty9.co.za/events/sunday-lunch-at-joe-fish-restaurant-bar/",
+      "guid": "https://9ty9.co.za/events/sunday-lunch-at-joe-fish-restaurant-bar/",
+      "pubDate": "Sun, 29 Nov 2026 09:00:00 +0000",
+      "dateStr": "2026-11-29",
+      "day": "29",
+      "month": "NOV",
+      "description": "Sun, 29 November 2026 - 11:00 - 14:00",
+      "image": "images/events/Joe-Fish-Sunday-Lunch.jpg"
     },
     {
       "title": "Woman&#039;s Nature Experience - Baviaanskloof: 1 - 4 December at  Baviaanskloof in Baviaanskloof",
