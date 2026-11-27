@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-26T21:17:58.873Z",
+  "lastUpdated": "2026-11-27T07:52:52.800Z",
   "source": "https://kougabusinessforum.com/rss",
-  "count": 289,
+  "count": 291,
   "events": [
     {
       "title": "A Travel Through Times: Solo Exhibition by Annette Kamfer at  Art on Target in Gqeberha",
@@ -3126,6 +3126,28 @@
       "month": "NOV",
       "description": "Sun, 29 November 2026 - 11:00 - 14:00",
       "image": "images/events/Joe-Fish-Sunday-Lunch.jpg"
+    },
+    {
+      "title": "Gamtoos River Adventures: Scenic and Sunday Lunch Cruises at  Gamtoos River Adventures in Gamtoos",
+      "link": "https://9ty9.co.za/events/gamtoos-river-adventures-scenic-and-sunday-lunch-cruises/",
+      "guid": "https://9ty9.co.za/events/gamtoos-river-adventures-scenic-and-sunday-lunch-cruises/",
+      "pubDate": "Sun, 29 Nov 2026 09:30:00 +0000",
+      "dateStr": "2026-11-29",
+      "day": "29",
+      "month": "NOV",
+      "description": "Sun, 29 November 2026 - 11:30 - 13:30",
+      "image": "images/events/Gamtoos-River-Adventures-Sunday-Lunch.jpeg"
+    },
+    {
+      "title": "Sunday Beef Potjie at JBay Craft Brewery at  Jeffreys Bay Craft Brewery (JBCB) in Jeffreys Bay",
+      "link": "https://9ty9.co.za/events/sunday-beef-potjie-at-jbay-craft-brewery/",
+      "guid": "https://9ty9.co.za/events/sunday-beef-potjie-at-jbay-craft-brewery/",
+      "pubDate": "Sun, 29 Nov 2026 10:00:00 +0000",
+      "dateStr": "2026-11-29",
+      "day": "29",
+      "month": "NOV",
+      "description": "Sun, 29 November 2026 - 12:00 - 15:00",
+      "image": "images/events/JBCB-29Nov2026.jpeg"
     },
     {
       "title": "Woman&#039;s Nature Experience - Baviaanskloof: 1 - 4 December at  Baviaanskloof in Baviaanskloof",
